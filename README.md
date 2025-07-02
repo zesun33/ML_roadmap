@@ -2,6 +2,12 @@
 
 A comprehensive 20-week learning management system for ML researchers transitioning to FAANG software engineering roles, featuring an interactive web application with AI integration.
 
+## 🌐 **Live Demo**
+
+🎯 **Try the Interactive Roadmap:**
+- **GitHub Pages**: [https://zesun33.github.io/ML_roadmap/](https://zesun33.github.io/ML_roadmap/)
+- **Netlify**: [https://ml-roadmap.netlify.app/](https://ml-roadmap.netlify.app/)
+
 ## 📁 Project Structure
 
 ```
@@ -21,6 +27,14 @@ ML_roadmap/
 │   └── roadmap_parser.py  # Converts markdown to JSON
 └── README.md             # This file
 ```
+
+## 🤖 **Auto-Deployment Status**
+
+✅ **GitHub Actions Workflow**: Automatically deploys to both platforms  
+✅ **Multi-Platform Sync**: GitHub Pages + Netlify stay in sync  
+✅ **Clean Deployment**: Only app files deployed (no development clutter)  
+
+**Deployment Trigger**: Every push to `main` branch → Auto-deploys in ~30 seconds
 
 ## 🎯 Quick Start
 
