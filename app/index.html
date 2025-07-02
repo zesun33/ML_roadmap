@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Enhanced ML-FAANG Mastery Plan - Interactive Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .loading-spinner {
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen" x-data="roadmapApp()">
+    <!-- Loading State -->
+    <div x-show="loading" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+        <div class="text-center">
+            <div class="loading-spinner w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full mb-4"></div>
+            <p class="text-gray-600">Loading your roadmap...</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div x-show="!loading && !error">
+        <!-- Header -->
+        <header class="gradient-bg text-white shadow-lg">
+            <div class="container mx-auto px-4 py-6">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h1 class="text-3xl font-bold flex items-center">
+                            <i class="fas fa-robot mr-3"></i>
+                            <span x-text="roadmapData?.metadata?.title || 'AI-Enhanced ML-FAANG Mastery Plan'"></span>
+                        </h1>
+                        <p class="text-blue-100 mt-2" x-text="roadmapData?.metadata?.description || '20-Week Transformation Journey'"></p>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold" x-text="Math.round(overallProgress) + '%'"></div>
+                        <div class="text-blue-100">Overall Progress</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Progress Overview -->
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
+                <!-- Phase Progress Cards -->
+                <template x-for="(phase, index) in phases" :key="index">
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="font-semibold text-gray-800" x-text="phase.name"></h3>
+                            <div class="relative w-16 h-16">
+                                <svg class="w-16 h-16 progress-ring" viewBox="0 0 36 36">
+                                    <path class="text-gray-300" stroke="currentColor" stroke-width="3" fill="transparent"
+                                          d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"/>
+                                    <path class="text-blue-600" stroke="currentColor" stroke-width="3" fill="transparent"
+                                          :stroke-dasharray="getPhaseProgress(phase.number) + ', 100'"
+                                          d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"/>
+                                </svg>
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <span class="text-sm font-bold" x-text="Math.round(getPhaseProgress(phase.number)) + '%'"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600" x-text="phase.description"></p>
+                        <div class="mt-3 flex items-center text-sm">
+                            <i class="fas fa-calendar-alt mr-2 text-blue-500"></i>
+                            <span x-text="phase.weeks"></span>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Current Week Focus -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <h2 class="text-2xl font-bold mb-4 flex items-center">
+                    <i class="fas fa-bullseye mr-3 text-blue-600"></i>
+                    Current Week Focus
+                </h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold text-lg mb-3" x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
+                        <div class="space-y-2">
+                            <template x-for="objective in getCurrentWeekObjectives()" :key="objective">
+                                <div class="flex items-center p-3 bg-blue-50 rounded-lg">
+                                    <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                    <span x-text="objective"></span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-3">Today's Sessions</h3>
+                        <div class="space-y-3">
+                            <template x-for="session in getTodaySessions()" :key="session.id">
+                                <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
+                                     @click="toggleSession(session.id)"
+                                     :class="isSessionCompleted(session.id) ? 'bg-green-50 border-green-200' : 'bg-white'">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center">
+                                            <input type="checkbox" :checked="isSessionCompleted(session.id)" 
+                                                   @change="toggleSession(session.id)" class="mr-3">
+                                            <div>
+                                                <h4 class="font-medium" x-text="session.title"></h4>
+                                                <p class="text-sm text-gray-600" x-text="session.time"></p>
+                                            </div>
+                                        </div>
+                                        <button class="text-blue-600 hover:text-blue-800" @click.stop="startTimer(session)">
+                                            <i class="fas fa-play"></i>
+                                        </button>
+                                    </div>
+                                    <div class="mt-2">
+                                        <p class="text-sm text-gray-700" x-text="session.description"></p>
+                                        <div class="mt-2 flex flex-wrap gap-2">
+                                            <template x-for="tag in session.tags || []" :key="tag">
+                                                <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full" x-text="tag"></span>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timer Modal -->
+            <div x-show="showTimer" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                 x-transition:enter="transition ease-out duration-300"
+                 x-transition:enter-start="opacity-0"
+                 x-transition:enter-end="opacity-100">
+                <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold mb-4" x-text="activeSession?.title"></h3>
+                        <div class="text-6xl font-mono font-bold text-blue-600 mb-6" x-text="formatTime(timeRemaining)"></div>
+                        <div class="flex justify-center space-x-4">
+                            <button @click="toggleTimer()" 
+                                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                                <span x-text="timerRunning ? 'Pause' : 'Start'"></span>
+                            </button>
+                            <button @click="resetTimer()" 
+                                    class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                Reset
+                            </button>
+                            <button @click="closeTimer()" 
+                                    class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+                                Close
+                            </button>
+                        </div>
+                        <div class="mt-4 text-sm text-gray-600">
+                            <span x-text="activeSession?.description"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Coaching Integration -->
+            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <h2 class="text-2xl font-bold mb-4 flex items-center">
+                    <i class="fas fa-brain mr-3 text-purple-600"></i>
+                    AI Coaching Assistant
+                </h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="font-semibold mb-3">Week-Specific AI Prompts</h3>
+                        <div class="space-y-3">
+                            <template x-for="prompt in getCurrentWeekAIPrompts()" :key="prompt.category">
+                                <div class="p-4 bg-purple-50 rounded-lg border border-purple-200">
+                                    <h4 class="font-medium text-purple-800" x-text="prompt.category"></h4>
+                                    <p class="text-sm text-purple-700 mt-1" x-text="prompt.text"></p>
+                                    <button class="mt-2 text-xs bg-purple-600 text-white px-3 py-1 rounded hover:bg-purple-700"
+                                            @click="copyToClipboard(prompt.text)">
+                                        Copy Prompt
+                                    </button>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-3">Progress Analytics</h3>
+                        <div class="space-y-4">
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="text-sm font-medium">Sessions Completed</span>
+                                    <span class="text-lg font-bold text-blue-600" x-text="getCompletedSessionsCount() + '/' + getTotalSessionsCount()"></span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-600 h-2 rounded-full" :style="'width: ' + (getCompletedSessionsCount()/getTotalSessionsCount()*100) + '%'"></div>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="text-sm font-medium">Weeks Completed</span>
+                                    <span class="text-lg font-bold text-green-600" x-text="getCompletedWeeksCount() + '/' + totalWeeks"></span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full" :style="'width: ' + (getCompletedWeeksCount()/totalWeeks*100) + '%'"></div>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-gray-50 rounded-lg">
+                                <div class="flex justify-between items-center mb-2">
+                                    <span class="text-sm font-medium">Study Hours</span>
+                                    <span class="text-lg font-bold text-purple-600" x-text="getTotalStudyHours() + 'h'"></span>
+                                </div>
+                                <div class="text-xs text-gray-600 mt-1">
+                                    <span x-text="'This week: ' + getWeekStudyHours() + 'h'"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="flex justify-between items-center bg-white rounded-lg shadow-md p-6">
+                <button @click="previousWeek()" :disabled="currentWeek <= 1"
+                        class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+                    <i class="fas fa-chevron-left mr-2"></i>Previous Week
+                </button>
+                <div class="text-center">
+                    <div class="text-lg font-semibold">Week <span x-text="currentWeek"></span> of <span x-text="totalWeeks"></span></div>
+                    <div class="text-sm text-gray-600">Phase <span x-text="getCurrentPhase()"></span></div>
+                </div>
+                <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
+                        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+                    Next Week<i class="fas fa-chevron-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Error State -->
+    <div x-show="error" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+        <div class="text-center max-w-md">
+            <div class="text-red-500 text-6xl mb-4">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Unable to Load Roadmap</h2>
+            <p class="text-gray-600 mb-6" x-text="errorMessage"></p>
+            <button @click="loadRoadmapData()" 
+                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                Try Again
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function roadmapApp() {
+            return {
+                // State variables
+                loading: true,
+                error: false,
+                errorMessage: '',
+                roadmapData: null,
+                phases: [],
+                totalWeeks: 20,
+                currentWeek: 1,
+                showTimer: false,
+                activeSession: null,
+                timerRunning: false,
+                timeRemaining: 0,
+                timerInterval: null,
+                sessionCompletions: {},
+                timerHistory: {},
+
+                // Computed properties
+                get overallProgress() {
+                    if (!this.phases.length) return 0;
+                    const totalProgress = this.phases.reduce((sum, phase) => sum + this.getPhaseProgress(phase.number), 0);
+                    return totalProgress / this.phases.length;
+                },
+
+                // Initialization
+                async init() {
+                    await this.loadRoadmapData();
+                    this.loadProgress();
+                    this.loadTimerHistory();
+                    
+                    // Auto-save progress and current week
+                    this.$watch('currentWeek', (value) => {
+                        localStorage.setItem('currentWeek', value);
+                    });
+                    
+                    this.$watch('sessionCompletions', (value) => {
+                        localStorage.setItem('sessionCompletions', JSON.stringify(value));
+                    }, { deep: true });
+                },
+
+                // Data loading
+                async loadRoadmapData() {
+                    try {
+                        this.loading = true;
+                        this.error = false;
+                        
+                        const response = await fetch('./roadmap_data.json');
+                        if (!response.ok) {
+                            throw new Error(`Failed to load roadmap data: ${response.status} ${response.statusText}`);
+                        }
+                        
+                        this.roadmapData = await response.json();
+                        this.phases = this.roadmapData.phases || [];
+                        this.totalWeeks = this.roadmapData.metadata?.total_weeks || 20;
+                        
+                        console.log('Roadmap data loaded successfully:', this.roadmapData);
+                        
+                    } catch (error) {
+                        console.error('Error loading roadmap data:', error);
+                        this.error = true;
+                        this.errorMessage = `Could not load roadmap_data.json: ${error.message}. Make sure the file exists in the same directory as this HTML file.`;
+                    } finally {
+                        this.loading = false;
+                    }
+                },
+
+                // Progress management
+                loadProgress() {
+                    const savedWeek = localStorage.getItem('currentWeek');
+                    if (savedWeek) {
+                        this.currentWeek = parseInt(savedWeek);
+                    }
+                    
+                    const savedCompletions = localStorage.getItem('sessionCompletions');
+                    if (savedCompletions) {
+                        this.sessionCompletions = JSON.parse(savedCompletions);
+                    }
+                },
+
+                loadTimerHistory() {
+                    const savedHistory = localStorage.getItem('timerHistory');
+                    if (savedHistory) {
+                        this.timerHistory = JSON.parse(savedHistory);
+                    }
+                },
+
+                saveTimerSession(sessionId, duration) {
+                    const today = new Date().toISOString().split('T')[0];
+                    if (!this.timerHistory[today]) {
+                        this.timerHistory[today] = {};
+                    }
+                    if (!this.timerHistory[today][sessionId]) {
+                        this.timerHistory[today][sessionId] = 0;
+                    }
+                    this.timerHistory[today][sessionId] += duration;
+                    localStorage.setItem('timerHistory', JSON.stringify(this.timerHistory));
+                },
+
+                // Week data access
+                getCurrentWeekData() {
+                    if (!this.roadmapData?.weeks) return null;
+                    return this.roadmapData.weeks[this.currentWeek.toString()];
+                },
+
+                getCurrentWeekTitle() {
+                    const weekData = this.getCurrentWeekData();
+                    return weekData?.title || `Week ${this.currentWeek} Advanced Training`;
+                },
+
+                getCurrentWeekObjectives() {
+                    const weekData = this.getCurrentWeekData();
+                    return weekData?.objectives || [
+                        "Advanced learning objectives with AI enhancement",
+                        "Company-specific interview preparation", 
+                        "Portfolio project development and optimization",
+                        "Mock interview practice with AI feedback"
+                    ];
+                },
+
+                getTodaySessions() {
+                    const weekData = this.getCurrentWeekData();
+                    return weekData?.sessions || [
+                        {
+                            id: `${this.currentWeek}-morning`,
+                            title: "Morning Session: Core Concepts",
+                            time: "6:00-7:30 AM",
+                            description: "Theory learning with AI-enhanced explanations",
+                            tags: ["Theory", "AI-Coaching", "Foundation"],
+                            duration: 90
+                        },
+                        {
+                            id: `${this.currentWeek}-evening`,
+                            title: "Evening Session: Practical Implementation",
+                            time: "8:00-9:30 PM", 
+                            description: "Hands-on coding with AI feedback",
+                            tags: ["Coding", "Practice", "AI-Review"],
+                            duration: 90
+                        }
+                    ];
+                },
+
+                getCurrentWeekAIPrompts() {
+                    const weekData = this.getCurrentWeekData();
+                    return weekData?.ai_prompts || [
+                        {
+                            category: "Problem Solving",
+                            text: `Help me with Week ${this.currentWeek} problem solving. Explain patterns, optimal approaches, and time complexity. Provide code review feedback.`
+                        },
+                        {
+                            category: "Interview Practice", 
+                            text: `Simulate a technical interview for Week ${this.currentWeek} topics. Ask me algorithm questions and evaluate my problem-solving approach.`
+                        },
+                        {
+                            category: "Learning Strategy",
+                            text: `Based on my Week ${this.currentWeek} progress, provide personalized study recommendations and identify areas that need more focus.`
+                        }
+                    ];
+                },
+
+                getCurrentPhase() {
+                    if (this.currentWeek <= 4) return 1;
+                    if (this.currentWeek <= 8) return 2;
+                    if (this.currentWeek <= 12) return 3;
+                    if (this.currentWeek <= 16) return 4;
+                    return 5;
+                },
+
+                // Session management
+                isSessionCompleted(sessionId) {
+                    return this.sessionCompletions[sessionId] || false;
+                },
+
+                toggleSession(sessionId) {
+                    this.sessionCompletions[sessionId] = !this.sessionCompletions[sessionId];
+                    
+                    // Trigger reactivity
+                    this.sessionCompletions = { ...this.sessionCompletions };
+                },
+
+                // Progress calculations
+                getPhaseProgress(phaseNumber) {
+                    const phaseWeeks = this.getWeeksForPhase(phaseNumber);
+                    const completedWeeks = phaseWeeks.filter(week => this.isWeekCompleted(week));
+                    return phaseWeeks.length > 0 ? (completedWeeks.length / phaseWeeks.length) * 100 : 0;
+                },
+
+                getWeeksForPhase(phaseNumber) {
+                    const ranges = {
+                        1: [1, 2, 3, 4],
+                        2: [5, 6, 7, 8], 
+                        3: [9, 10, 11, 12],
+                        4: [13, 14, 15, 16],
+                        5: [17, 18, 19, 20]
+                    };
+                    return ranges[phaseNumber] || [];
+                },
+
+                isWeekCompleted(weekNumber) {
+                    const weekData = this.roadmapData?.weeks?.[weekNumber.toString()];
+                    if (!weekData?.sessions) return false;
+                    
+                    return weekData.sessions.every(session => 
+                        this.sessionCompletions[session.id] || false
+                    );
+                },
+
+                getCompletedSessionsCount() {
+                    return Object.values(this.sessionCompletions).filter(completed => completed).length;
+                },
+
+                getTotalSessionsCount() {
+                    if (!this.roadmapData?.weeks) return 0;
+                    
+                    let total = 0;
+                    for (let week = 1; week <= this.totalWeeks; week++) {
+                        const weekData = this.roadmapData.weeks[week.toString()];
+                        if (weekData?.sessions) {
+                            total += weekData.sessions.length;
+                        }
+                    }
+                    return total;
+                },
+
+                getCompletedWeeksCount() {
+                    let completed = 0;
+                    for (let week = 1; week <= this.totalWeeks; week++) {
+                        if (this.isWeekCompleted(week)) {
+                            completed++;
+                        }
+                    }
+                    return completed;
+                },
+
+                getTotalStudyHours() {
+                    let total = 0;
+                    Object.values(this.timerHistory).forEach(day => {
+                        Object.values(day).forEach(duration => {
+                            total += duration;
+                        });
+                    });
+                    return Math.round(total / 60); // Convert minutes to hours
+                },
+
+                getWeekStudyHours() {
+                    const today = new Date().toISOString().split('T')[0];
+                    const thisWeek = this.timerHistory[today] || {};
+                    let total = 0;
+                    Object.values(thisWeek).forEach(duration => {
+                        total += duration;
+                    });
+                    return Math.round(total / 60); // Convert minutes to hours
+                },
+
+                // Timer functions
+                startTimer(session) {
+                    this.activeSession = session;
+                    this.timeRemaining = session.duration * 60; // Convert to seconds
+                    this.showTimer = true;
+                },
+
+                toggleTimer() {
+                    this.timerRunning = !this.timerRunning;
+                    if (this.timerRunning) {
+                        this.timerInterval = setInterval(() => {
+                            if (this.timeRemaining > 0) {
+                                this.timeRemaining--;
+                            } else {
+                                this.completeTimer();
+                            }
+                        }, 1000);
+                    } else {
+                        clearInterval(this.timerInterval);
+                    }
+                },
+
+                resetTimer() {
+                    this.timerRunning = false;
+                    clearInterval(this.timerInterval);
+                    this.timeRemaining = this.activeSession?.duration * 60 || 0;
+                },
+
+                closeTimer() {
+                    if (this.timerRunning) {
+                        const studiedMinutes = Math.floor((this.activeSession.duration * 60 - this.timeRemaining) / 60);
+                        if (studiedMinutes > 0) {
+                            this.saveTimerSession(this.activeSession.id, studiedMinutes);
+                        }
+                    }
+                    
+                    this.showTimer = false;
+                    this.timerRunning = false;
+                    clearInterval(this.timerInterval);
+                    this.activeSession = null;
+                },
+
+                completeTimer() {
+                    this.timerRunning = false;
+                    clearInterval(this.timerInterval);
+                    
+                    // Save the completed session
+                    this.saveTimerSession(this.activeSession.id, this.activeSession.duration);
+                    
+                    // Mark session as completed
+                    this.sessionCompletions[this.activeSession.id] = true;
+                    this.sessionCompletions = { ...this.sessionCompletions };
+                    
+                    this.showNotification(`🎉 Great job! You completed your ${this.activeSession.title}!`);
+                },
+
+                formatTime(seconds) {
+                    const mins = Math.floor(seconds / 60);
+                    const secs = seconds % 60;
+                    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+                },
+
+                // Navigation
+                nextWeek() {
+                    if (this.currentWeek < this.totalWeeks) {
+                        this.currentWeek++;
+                    }
+                },
+
+                previousWeek() {
+                    if (this.currentWeek > 1) {
+                        this.currentWeek--;
+                    }
+                },
+
+                // Utilities
+                copyToClipboard(text) {
+                    navigator.clipboard.writeText(text).then(() => {
+                        this.showNotification("✅ Prompt copied to clipboard! Paste it into your AI tool.");
+                    }).catch(() => {
+                        // Fallback for older browsers
+                        const textArea = document.createElement('textarea');
+                        textArea.value = text;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                        this.showNotification("✅ Prompt copied to clipboard!");
+                    });
+                },
+
+                showNotification(message) {
+                    // Create a temporary notification
+                    const notification = document.createElement('div');
+                    notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transform transition-transform duration-300';
+                    notification.textContent = message;
+                    
+                    document.body.appendChild(notification);
+                    
+                    // Animate in
+                    setTimeout(() => {
+                        notification.style.transform = 'translateX(0)';
+                    }, 100);
+                    
+                    // Remove after 3 seconds
+                    setTimeout(() => {
+                        notification.style.transform = 'translateX(100%)';
+                        setTimeout(() => {
+                            document.body.removeChild(notification);
+                        }, 300);
+                    }, 3000);
+                }
+            }
+        }
+    </script>
+</body>
+</html> 

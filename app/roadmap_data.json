@@ -1,0 +1,1003 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-Week Transformation Journey",
+    "version": "1.0",
+    "last_updated": "2025-07-01T18:14:23.691466",
+    "total_weeks": 20,
+    "total_phases": 5
+  },
+  "phases": [
+    {
+      "number": 1,
+      "name": "Foundation & Setup",
+      "description": "Environment setup, Python mastery, basic DSA",
+      "weeks": "1-4",
+      "color": "#3b82f6",
+      "progress": 0.0
+    },
+    {
+      "number": 2,
+      "name": "Core DSA Patterns",
+      "description": "Essential patterns with AI coaching",
+      "weeks": "5-8",
+      "color": "#10b981",
+      "progress": 0.0
+    },
+    {
+      "number": 3,
+      "name": "Advanced Algorithms + ML",
+      "description": "Complex patterns, ML system integration",
+      "weeks": "9-12",
+      "color": "#8b5cf6",
+      "progress": 0.0
+    },
+    {
+      "number": 4,
+      "name": "System Design & MLOps",
+      "description": "Scalable systems, production deployment",
+      "weeks": "13-16",
+      "color": "#f59e0b",
+      "progress": 0.0
+    },
+    {
+      "number": 5,
+      "name": "AI Enhancement & Specialization",
+      "description": "Company-specific prep, advanced portfolio",
+      "weeks": "17-20",
+      "color": "#ef4444",
+      "progress": 0.0
+    }
+  ],
+  "weeks": {
+    "1": {
+      "title": "Foundation & Environment Setup",
+      "objectives": [
+        "Set up complete development environment with AI tools",
+        "Install VS Code, Python, Git, and configure Cursor AI",
+        "Create Learning Ledger and initialize GitHub repository",
+        "Solve first 10 LeetCode easy problems with AI coaching"
+      ],
+      "sessions": [
+        {
+          "id": "1-morning",
+          "title": "Environment Setup & Python Basics",
+          "time": "6:00-7:30 AM",
+          "description": "Configure development environment, Python fundamentals with AI assistance",
+          "duration": 90,
+          "tags": [
+            "Setup",
+            "Python",
+            "AI-Tools"
+          ],
+          "completed": false
+        },
+        {
+          "id": "1-evening",
+          "title": "Git, GitHub & First LeetCode Problems",
+          "time": "8:00-9:30 PM",
+          "description": "Version control mastery and algorithmic problem solving introduction",
+          "duration": 90,
+          "tags": [
+            "Git",
+            "LeetCode",
+            "Algorithms"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Environment Setup",
+          "text": "Help me configure the optimal development environment for ML engineering interviews. Include VS Code extensions, Python setup, and AI coding assistants."
+        },
+        {
+          "category": "Learning Strategy",
+          "text": "Create a personalized study plan based on my ML background. Identify knowledge gaps and suggest optimal learning sequence for FAANG interviews."
+        }
+      ]
+    },
+    "2": {
+      "title": "Week 2 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "2-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "2-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "3": {
+      "title": "Week 3 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "3-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "3-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "4": {
+      "title": "Week 4 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "4-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "4-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "5": {
+      "title": "Arrays & Hashing Patterns",
+      "objectives": [
+        "Master Arrays & Hashing patterns with AI optimization",
+        "Solve 12+ problems with real-time AI feedback",
+        "Implement custom hash table with performance analysis",
+        "Complete first AI-enhanced mock interview"
+      ],
+      "sessions": [
+        {
+          "id": "5-morning",
+          "title": "Array Patterns & Two Pointers",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced array manipulation techniques with AI pattern recognition",
+          "duration": 90,
+          "tags": [
+            "Arrays",
+            "Two-Pointers",
+            "AI-Patterns"
+          ],
+          "completed": false
+        },
+        {
+          "id": "5-evening",
+          "title": "Hash Tables & Implementation",
+          "time": "8:00-9:30 PM",
+          "description": "Hash table design, collision handling, and performance optimization",
+          "duration": 90,
+          "tags": [
+            "Hashing",
+            "Implementation",
+            "Performance"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Array & Hashing",
+          "text": "Explain the optimal approach for this array/hashing problem. Focus on time complexity, space optimization, and common pitfalls to avoid."
+        },
+        {
+          "category": "Pattern Recognition",
+          "text": "Help me identify the underlying pattern in this problem set. Generate similar problems for practice and explain when to apply this pattern."
+        }
+      ]
+    },
+    "6": {
+      "title": "Week 6 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "6-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "6-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "7": {
+      "title": "Week 7 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "7-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "7-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "8": {
+      "title": "Week 8 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "8-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "8-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "9": {
+      "title": "Week 9 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "9-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "9-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "10": {
+      "title": "Week 10 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "10-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "10-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "11": {
+      "title": "Week 11 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "11-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "11-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "12": {
+      "title": "Week 12 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "12-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "12-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "13": {
+      "title": "Week 13 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "13-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "13-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "14": {
+      "title": "Week 14 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "14-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "14-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "15": {
+      "title": "Week 15 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "15-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "15-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "16": {
+      "title": "Week 16 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "16-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "16-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "17": {
+      "title": "Week 17 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "17-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "17-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "18": {
+      "title": "Week 18 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "18-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "18-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "19": {
+      "title": "Week 19 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "19-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "19-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    },
+    "20": {
+      "title": "Week 20 Advanced Training",
+      "objectives": [
+        "Advanced learning objectives with AI enhancement",
+        "Company-specific interview preparation",
+        "Portfolio project development and optimization",
+        "Mock interview practice with AI feedback"
+      ],
+      "sessions": [
+        {
+          "id": "20-morning",
+          "title": "Morning Session: Advanced Concepts",
+          "time": "6:00-7:30 AM",
+          "description": "Advanced theoretical learning with AI enhancement",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Theory",
+            "AI"
+          ],
+          "completed": false
+        },
+        {
+          "id": "20-evening",
+          "title": "Evening Session: Implementation Practice",
+          "time": "8:00-9:30 PM",
+          "description": "Advanced practical implementation with AI feedback",
+          "duration": 90,
+          "tags": [
+            "Advanced",
+            "Practice",
+            "AI"
+          ],
+          "completed": false
+        }
+      ],
+      "ai_prompts": [
+        {
+          "category": "Advanced Problem Solving",
+          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+        },
+        {
+          "category": "Interview Preparation",
+          "text": "Provide advanced interview coaching and company-specific guidance."
+        }
+      ]
+    }
+  },
+  "progress_tracking": {
+    "completed_sessions": {},
+    "metrics": {
+      "leetcode_solved": 0,
+      "mock_interviews": 0,
+      "portfolio_projects": 0,
+      "study_hours": 0
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+	"folders": [
+		{
+			"name": "ML Roadmap",
+			"path": "."
+		},
+		{
+			"name": "📱 App (Deployable)",
+			"path": "./app"
+		},
+		{
+			"name": "📚 Documentation",
+			"path": "./docs"
+		},
+		{
+			"name": "🔬 Research",
+			"path": "./research"
+		},
+		{
+			"name": "🛠️ Tools",
+			"path": "./tools"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": false,
+			"**/.DS_Store": true,
+			"**/node_modules": true,
+			"**/__pycache__": true,
+			"**/*.pyc": true
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/__pycache__": true
+		},
+		"editor.tabSize": 4,
+		"editor.insertSpaces": true,
+		"editor.formatOnSave": true,
+		"python.defaultInterpreterPath": "/usr/bin/python3",
+		"python.formatting.provider": "black",
+		"html.format.enable": true,
+		"html.format.indentInnerHtml": true,
+		"markdown.preview.breaks": true,
+		"markdown.preview.linkify": true,
+		"liveServer.settings.root": "/app",
+		"liveServer.settings.CustomBrowser": "default",
+		"liveServer.settings.port": 8000
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-python.python",
+			"ms-python.black-formatter",
+			"ritwickdey.liveserver",
+			"yzhang.markdown-all-in-one",
+			"formulahendry.auto-rename-tag",
+			"bradlc.vscode-tailwindcss",
+			"ms-vscode.vscode-json",
+			"streetsidesoftware.code-spell-checker"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "Start Local Server",
+				"type": "shell",
+				"command": "python3",
+				"args": ["-m", "http.server", "8000"],
+				"options": {
+					"cwd": "${workspaceFolder}/app"
+				},
+				"group": "build",
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "new"
+				},
+				"problemMatcher": []
+			},
+			{
+				"label": "Regenerate JSON Data",
+				"type": "shell",
+				"command": "python3",
+				"args": ["roadmap_parser.py"],
+				"options": {
+					"cwd": "${workspaceFolder}/tools"
+				},
+				"group": "build",
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false
+				},
+				"problemMatcher": []
+			},
+			{
+				"label": "Open App in Browser",
+				"type": "shell",
+				"command": "xdg-open",
+				"args": ["http://localhost:8000"],
+				"dependsOn": "Start Local Server",
+				"group": "test"
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal",
+				"cwd": "${fileDirname}"
+			},
+			{
+				"name": "Debug Roadmap Parser",
+				"type": "python",
+				"request": "launch",
+				"program": "${workspaceFolder}/tools/roadmap_parser.py",
+				"console": "integratedTerminal",
+				"cwd": "${workspaceFolder}/tools"
+			}
+		]
+	}
+} 
