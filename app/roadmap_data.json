@@ -1620,6 +1620,56 @@
             "Apple",
             "Microsoft"
           ],
+          "problems": [
+            {
+              "name": "Word Ladder II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder-ii",
+              "description": "Advanced BFS with path reconstruction for Google-style optimization",
+              "ai_prompt": "How does word transformation relate to Google's search query optimization and knowledge graph traversal algorithms?"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/alien-dictionary",
+              "description": "Topological sorting for Meta-style graph problems",
+              "ai_prompt": "How does topological ordering relate to Meta's social graph ranking and content dependency resolution?"
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Trie-based real-time system for Amazon-style infrastructure",
+              "ai_prompt": "How does autocomplete design relate to Amazon's product search and real-time recommendation systems?"
+            },
+            {
+              "name": "Median of Two Sorted Arrays",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+              "neetcode_url": "https://neetcode.io/problems/median-of-two-sorted-arrays",
+              "description": "Apple-style mathematical optimization and efficiency",
+              "ai_prompt": "How does binary search optimization relate to Apple's on-device ML efficiency and Core ML optimization techniques?"
+            },
+            {
+              "name": "Regular Expression Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+              "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+              "description": "Microsoft-style dynamic programming complexity",
+              "ai_prompt": "How does pattern matching relate to Microsoft's Azure ML text processing and intelligent document understanding?"
+            },
+            {
+              "name": "First Missing Positive",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/first-missing-positive/",
+              "neetcode_url": "https://neetcode.io/problems/first-missing-positive",
+              "description": "Google-style constant space optimization challenge",
+              "ai_prompt": "How does space-efficient algorithm design relate to Google's large-scale distributed ML system constraints?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1633,6 +1683,32 @@
             "Behavioral",
             "Technical-Storytelling",
             "Pressure"
+          ],
+          "problems": [
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+              "description": "Tree design pattern commonly asked in FAANG interviews",
+              "ai_prompt": "How does tree serialization relate to model checkpointing and distributed ML state management?"
+            },
+            {
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+              "description": "Advanced data structure optimization for time-critical scenarios",
+              "ai_prompt": "How does sliding window optimization relate to real-time ML feature extraction and streaming analytics?"
+            },
+            {
+              "name": "Course Schedule II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule-ii",
+              "description": "Dependency resolution pattern for system design interviews",
+              "ai_prompt": "How does dependency resolution relate to ML pipeline orchestration and model training sequencing?"
+            }
           ],
           "completed": false
         }
@@ -1675,6 +1751,56 @@
             "Performance",
             "Communication"
           ],
+          "problems": [
+            {
+              "name": "Word Search II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Complex trie + DFS problem for comprehensive interview simulation",
+              "ai_prompt": "How does word search optimization relate to NLP preprocessing and efficient text indexing in ML systems?"
+            },
+            {
+              "name": "Minimum Window Substring",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+              "description": "Advanced sliding window pattern with optimal time complexity",
+              "ai_prompt": "How does sliding window optimization relate to feature extraction windows in time series ML models?"
+            },
+            {
+              "name": "Merge k Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+              "description": "Heap-based optimization for multi-source data processing",
+              "ai_prompt": "How does k-way merging relate to distributed ML training aggregation and model ensemble techniques?"
+            },
+            {
+              "name": "Trapping Rain Water",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+              "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+              "description": "Two-pointer/stack optimization demonstrating multiple solution approaches",
+              "ai_prompt": "How does area optimization relate to loss function minimization and gradient optimization in ML training?"
+            },
+            {
+              "name": "Edit Distance",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+              "neetcode_url": "https://neetcode.io/problems/edit-distance",
+              "description": "Classic dynamic programming for string similarity and optimization",
+              "ai_prompt": "How does edit distance relate to similarity metrics and sequence alignment in NLP and bioinformatics ML?"
+            },
+            {
+              "name": "Largest Rectangle in Histogram",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+              "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+              "description": "Stack-based optimization for area maximization problems",
+              "ai_prompt": "How does rectangle optimization relate to convolution kernel optimization and feature map analysis in CNNs?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1688,6 +1814,32 @@
             "Presentation",
             "Communication",
             "Stress-Management"
+          ],
+          "problems": [
+            {
+              "name": "Longest Increasing Path in a Matrix",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-matrix",
+              "description": "DFS with memoization for optimal path finding under pressure",
+              "ai_prompt": "How does path optimization relate to neural network architecture search and gradient flow optimization?"
+            },
+            {
+              "name": "Number of Islands II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands-ii/",
+              "neetcode_url": "https://neetcode.io/problems/number-of-islands-ii",
+              "description": "Union-Find optimization for dynamic connectivity problems",
+              "ai_prompt": "How does dynamic connectivity relate to distributed ML training and dynamic graph neural networks?"
+            },
+            {
+              "name": "Sudoku Solver",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sudoku-solver/",
+              "neetcode_url": "https://neetcode.io/problems/sudoku-solver",
+              "description": "Backtracking with constraint satisfaction for complex problem solving",
+              "ai_prompt": "How does constraint satisfaction relate to hyperparameter optimization and neural architecture constraints?"
+            }
           ],
           "completed": false
         }
@@ -1731,6 +1883,56 @@
             "Monitoring",
             "Scaling"
           ],
+          "problems": [
+            {
+              "name": "Design Twitter",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+              "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+              "description": "Large-scale social media system design with real-time feeds",
+              "ai_prompt": "How does Twitter's feed architecture relate to real-time ML inference and personalized content delivery systems?"
+            },
+            {
+              "name": "Design LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "neetcode_url": "https://neetcode.io/problems/lru-cache",
+              "description": "Production-level caching system with O(1) operations",
+              "ai_prompt": "How does LRU caching relate to model serving optimization and feature store design in production ML systems?"
+            },
+            {
+              "name": "Design Rate Limiter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-rate-limiter/",
+              "neetcode_url": "https://neetcode.io/problems/design-rate-limiter",
+              "description": "Production API protection with distributed rate limiting",
+              "ai_prompt": "How does rate limiting design relate to ML inference throttling and resource management in production deployments?"
+            },
+            {
+              "name": "Design URL Shortener",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-tinyurl/",
+              "neetcode_url": "https://neetcode.io/problems/encode-and-decode-tinyurl",
+              "description": "Distributed system design with sharding and load balancing",
+              "ai_prompt": "How does URL shortening architecture relate to model endpoint management and service discovery in ML deployments?"
+            },
+            {
+              "name": "Design Chat System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-chat-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-chat-system",
+              "description": "Real-time messaging system with WebSocket and scaling",
+              "ai_prompt": "How does real-time chat design relate to streaming ML inference and event-driven ML pipeline architectures?"
+            },
+            {
+              "name": "Design Distributed Cache",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-distributed-cache/",
+              "neetcode_url": "https://neetcode.io/problems/design-distributed-cache",
+              "description": "Consistent hashing and fault-tolerant distributed systems",
+              "ai_prompt": "How does distributed caching relate to distributed ML model serving and parameter server architectures?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1744,6 +1946,40 @@
             "Testing",
             "Validation",
             "Documentation"
+          ],
+          "problems": [
+            {
+              "name": "Design Log Storage System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-log-storage-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-log-storage-system",
+              "description": "Time-series data storage and retrieval optimization",
+              "ai_prompt": "How does log storage design relate to ML experiment tracking and model performance monitoring at scale?"
+            },
+            {
+              "name": "Design Hit Counter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Real-time analytics and metrics aggregation",
+              "ai_prompt": "How does hit counting relate to ML inference metrics collection and real-time performance dashboards?"
+            },
+            {
+              "name": "Design File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-file-system",
+              "description": "Hierarchical storage system with path-based operations",
+              "ai_prompt": "How does file system design relate to ML artifact storage and model versioning in production environments?"
+            },
+            {
+              "name": "Design Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+              "description": "In-memory data structures for high-performance file operations",
+              "ai_prompt": "How does in-memory file system design relate to model checkpoint management and fast model loading in production?"
+            }
           ],
           "completed": false
         }
@@ -1786,6 +2022,56 @@
             "Certification",
             "Extreme-Pressure"
           ],
+          "problems": [
+            {
+              "name": "N-Queens",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/n-queens/",
+              "neetcode_url": "https://neetcode.io/problems/n-queens",
+              "description": "Classic backtracking problem demonstrating complete problem-solving mastery",
+              "ai_prompt": "How does constraint satisfaction in N-Queens relate to hyperparameter optimization and neural architecture search constraints?"
+            },
+            {
+              "name": "Palindrome Partitioning II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+              "neetcode_url": "https://neetcode.io/problems/palindrome-partitioning-ii",
+              "description": "Complex dynamic programming with optimization for final assessment",
+              "ai_prompt": "How does palindrome partitioning relate to sequence modeling and optimal tokenization in NLP systems?"
+            },
+            {
+              "name": "Valid Number",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/valid-number/",
+              "neetcode_url": "https://neetcode.io/problems/valid-number",
+              "description": "String parsing with finite state machine implementation",
+              "ai_prompt": "How does finite state machine design relate to model state management and sequential decision making in ML systems?"
+            },
+            {
+              "name": "Expression Add Operators",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/expression-add-operators/",
+              "neetcode_url": "https://neetcode.io/problems/expression-add-operators",
+              "description": "Complex backtracking with mathematical expression evaluation",
+              "ai_prompt": "How does expression evaluation relate to computational graph construction and automatic differentiation in ML frameworks?"
+            },
+            {
+              "name": "Recover Binary Search Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/recover-binary-search-tree",
+              "description": "Tree traversal with space optimization and error correction",
+              "ai_prompt": "How does tree recovery relate to model repair techniques and self-correcting systems in production ML?"
+            },
+            {
+              "name": "Shortest Palindrome",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/shortest-palindrome/",
+              "neetcode_url": "https://neetcode.io/problems/shortest-palindrome",
+              "description": "Advanced string algorithm with KMP optimization",
+              "ai_prompt": "How does string matching optimization relate to sequence alignment and similarity search in bioinformatics ML?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1797,8 +2083,35 @@
           "tags": [
             "Career-Transition",
             "Negotiation",
-            "Branding",
-            "Networking"
+            "Personal-Branding",
+            "Networking",
+            "Success-Optimization"
+          ],
+          "problems": [
+            {
+              "name": "Word Break II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-break-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-break-ii",
+              "description": "Advanced DP with backtracking for optimal solution enumeration",
+              "ai_prompt": "How does word segmentation relate to tokenization strategies and vocabulary optimization in large language models?"
+            },
+            {
+              "name": "Reverse Nodes in k-Group",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-nodes-in-k-group",
+              "description": "Complex linked list manipulation with edge case handling",
+              "ai_prompt": "How does group-wise processing relate to batch processing and mini-batch optimization in ML training?"
+            },
+            {
+              "name": "Text Justification",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/text-justification/",
+              "neetcode_url": "https://neetcode.io/problems/text-justification",
+              "description": "String formatting with complex rules and edge cases",
+              "ai_prompt": "How does text formatting relate to output generation and template-based response systems in conversational AI?"
+            }
           ],
           "completed": false
         }
@@ -1841,6 +2154,56 @@
             "Behavioral",
             "Real-time"
           ],
+          "problems": [
+            {
+              "name": "Minimum Window Substring",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+              "description": "Advanced sliding window with complex state tracking",
+              "ai_prompt": "How does window-based processing relate to streaming data analysis and real-time feature engineering in ML systems?"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/alien-dictionary",
+              "description": "Topological sorting with constraint handling",
+              "ai_prompt": "How does topological ordering relate to dependency resolution in ML pipelines and model training workflows?"
+            },
+            {
+              "name": "Bus Routes",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/bus-routes/",
+              "neetcode_url": "https://neetcode.io/problems/bus-routes",
+              "description": "Complex BFS with multi-level graph traversal",
+              "ai_prompt": "How does multi-level traversal relate to hierarchical feature learning and nested model architectures?"
+            },
+            {
+              "name": "Freedom Trail",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/freedom-trail/",
+              "neetcode_url": "https://neetcode.io/problems/freedom-trail",
+              "description": "Dynamic programming with circular optimization",
+              "ai_prompt": "How does circular optimization relate to cyclical patterns in time series and recurrent neural network architectures?"
+            },
+            {
+              "name": "Split Array Largest Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/",
+              "neetcode_url": "https://neetcode.io/problems/split-array-largest-sum",
+              "description": "Binary search with constraint optimization",
+              "ai_prompt": "How does partitioning with constraints relate to data sharding and distributed training strategies in large-scale ML?"
+            },
+            {
+              "name": "Count of Smaller Numbers After Self",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+              "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
+              "description": "Advanced data structures with merge sort optimization",
+              "ai_prompt": "How does relative ordering tracking relate to ranking algorithms and preference learning in recommendation systems?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1854,6 +2217,32 @@
             "Performance-Analysis",
             "Optimization",
             "Confidence"
+          ],
+          "problems": [
+            {
+              "name": "Cherry Pickup",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/cherry-pickup/",
+              "neetcode_url": "https://neetcode.io/problems/cherry-pickup",
+              "description": "3D dynamic programming with path optimization",
+              "ai_prompt": "How does multi-dimensional path optimization relate to hyperparameter search and neural architecture optimization?"
+            },
+            {
+              "name": "Palindrome Pairs",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/palindrome-pairs/",
+              "neetcode_url": "https://neetcode.io/problems/palindrome-pairs",
+              "description": "String processing with Trie optimization",
+              "ai_prompt": "How does pattern matching across pairs relate to similarity search and document matching in information retrieval?"
+            },
+            {
+              "name": "Burst Balloons",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+              "neetcode_url": "https://neetcode.io/problems/burst-balloons",
+              "description": "Interval dynamic programming with order optimization",
+              "ai_prompt": "How does order-dependent optimization relate to sequence modeling and attention mechanisms in transformers?"
+            }
           ],
           "completed": false
         }
@@ -1896,6 +2285,48 @@
             "Project-Narratives",
             "Expertise"
           ],
+          "problems": [
+            {
+              "name": "Design Phone Directory",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+              "neetcode_url": "https://neetcode.io/problems/design-phone-directory",
+              "description": "System design with efficient resource management",
+              "ai_prompt": "How does resource allocation design relate to computational resource management in distributed ML training systems?"
+            },
+            {
+              "name": "Find Median from Data Stream",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+              "description": "Real-time statistics with balanced data structures",
+              "ai_prompt": "How does streaming statistics relate to online learning and real-time model performance monitoring?"
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Real-time search with ranking and caching",
+              "ai_prompt": "How does autocomplete design relate to sequence prediction and next-token generation in language models?"
+            },
+            {
+              "name": "Skyline Problem",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+              "neetcode_url": "https://neetcode.io/problems/the-skyline-problem",
+              "description": "Complex geometric problem with sweep line algorithm",
+              "ai_prompt": "How does event-based processing relate to temporal pattern recognition and time-series analysis in ML?"
+            },
+            {
+              "name": "Design In-Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+              "description": "Complex system design with hierarchical structure",
+              "ai_prompt": "How does hierarchical storage design relate to model versioning and artifact management in MLOps?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1909,6 +2340,32 @@
             "Communication",
             "Narratives",
             "Practice"
+          ],
+          "problems": [
+            {
+              "name": "Smallest Range Covering Elements from K Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+              "description": "Multi-source optimization with sliding window",
+              "ai_prompt": "How does multi-source range optimization relate to ensemble model selection and multi-objective optimization?"
+            },
+            {
+              "name": "Basic Calculator III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+              "neetcode_url": "https://neetcode.io/problems/basic-calculator-iii",
+              "description": "Expression parsing with operator precedence",
+              "ai_prompt": "How does expression evaluation relate to computational graph construction and automatic differentiation?"
+            },
+            {
+              "name": "Remove Invalid Parentheses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/remove-invalid-parentheses",
+              "description": "BFS with state pruning and optimization",
+              "ai_prompt": "How does constraint satisfaction relate to hyperparameter validation and model architecture search?"
+            }
           ],
           "completed": false
         }
@@ -1951,6 +2408,40 @@
             "Fine-tuning",
             "Excellence"
           ],
+          "problems": [
+            {
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+              "description": "Advanced sliding window with deque optimization",
+              "ai_prompt": "How does sliding window optimization relate to temporal feature extraction and real-time ML inference?"
+            },
+            {
+              "name": "Shortest Distance from All Buildings",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+              "neetcode_url": "https://neetcode.io/problems/shortest-distance-from-all-buildings",
+              "description": "Multi-source BFS with optimization",
+              "ai_prompt": "How does multi-source optimization relate to distributed computing and federated learning architectures?"
+            },
+            {
+              "name": "Data Stream as Disjoint Intervals",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+              "neetcode_url": "https://neetcode.io/problems/data-stream-as-disjoint-intervals",
+              "description": "Real-time interval merging with efficient updates",
+              "ai_prompt": "How does interval management relate to time-series segmentation and anomaly detection in streaming data?"
+            },
+            {
+              "name": "Maximum Gap",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximum-gap/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-gap",
+              "description": "Linear time sorting with bucket sort optimization",
+              "ai_prompt": "How does linear time optimization relate to efficient data processing and scalable ML pipeline design?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1964,6 +2455,24 @@
             "Certification",
             "Strategy",
             "Confidence"
+          ],
+          "problems": [
+            {
+              "name": "Longest Substring with At Most K Distinct Characters",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-with-at-most-k-distinct-characters",
+              "description": "Advanced sliding window with constraint tracking",
+              "ai_prompt": "How does constrained optimization relate to regularization and controlled model complexity in ML?"
+            },
+            {
+              "name": "Paint House III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+              "neetcode_url": "https://neetcode.io/problems/paint-house-iii",
+              "description": "3D dynamic programming with cost optimization",
+              "ai_prompt": "How does multi-dimensional cost optimization relate to resource allocation and efficiency in ML training?"
+            }
           ],
           "completed": false
         }
@@ -2006,6 +2515,32 @@
             "Timing",
             "Confidence"
           ],
+          "problems": [
+            {
+              "name": "Student Attendance Record II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/student-attendance-record-ii/",
+              "neetcode_url": "https://neetcode.io/problems/student-attendance-record-ii",
+              "description": "Complex dynamic programming with state machines",
+              "ai_prompt": "How does state machine modeling relate to behavior prediction and sequential decision making in ML systems?"
+            },
+            {
+              "name": "Strobogrammatic Number III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number-iii/",
+              "neetcode_url": "https://neetcode.io/problems/strobogrammatic-number-iii",
+              "description": "Mathematical pattern generation with constraints",
+              "ai_prompt": "How does pattern generation relate to synthetic data creation and data augmentation in ML?"
+            },
+            {
+              "name": "Smallest Rectangle Enclosing Black Pixels",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-rectangle-enclosing-black-pixels",
+              "description": "Binary search on 2D space with optimization",
+              "ai_prompt": "How does spatial optimization relate to computer vision and object detection bounding box optimization?"
+            }
+          ],
           "completed": false
         },
         {
@@ -2019,6 +2554,24 @@
             "Negotiation",
             "Decision-Making",
             "Success-Planning"
+          ],
+          "problems": [
+            {
+              "name": "Valid Number",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/valid-number/",
+              "neetcode_url": "https://neetcode.io/problems/valid-number",
+              "description": "Complex string validation with finite state automaton",
+              "ai_prompt": "How does input validation relate to data quality assurance and robust ML pipeline design?"
+            },
+            {
+              "name": "Best Time to Buy and Sell Stock IV",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+              "neetcode_url": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock-iv",
+              "description": "Advanced DP with transaction limits and optimization",
+              "ai_prompt": "How does constrained optimization relate to resource-limited learning and efficient model training strategies?"
+            }
           ],
           "completed": false
         }
