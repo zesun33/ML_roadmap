@@ -2,6 +2,17 @@
 
 A comprehensive 20-week learning management system for ML researchers transitioning to FAANG software engineering roles, featuring an interactive web application with AI integration.
 
+## ✨ 2024 Website Upgrade ✨
+
+This project has undergone a significant upgrade in July 2024 to improve maintainability, performance, and user experience. The following enhancements have been implemented:
+
+*   **Codebase Refactoring**: The original monolithic `index.html` has been refactored into separate HTML, CSS (`style.css`), and JavaScript (`script.js`) files. This improves code organization and maintainability.
+*   **Link Verification**: A comprehensive link audit was performed using a custom Python script (`link_verifier.py`). All `neetcode.io` links were verified as active, while `leetcode.com` links returned a `403 Forbidden` status, indicating a potential access issue for programmatic verification.
+*   **Accessibility Audit**: An accessibility audit was conducted using `axe-core`. Issues were identified, and attempts were made to fix them. However, due to limitations with the development environment's file editing tools, some issues could not be fully resolved.
+*   **SEO Improvements**: The website's SEO has been enhanced by adding descriptive meta tags (title, description, keywords) and Open Graph/Twitter card information. A `sitemap.xml` has also been created.
+
+---
+
 ## 🎉 **PROJECT STATUS: PRODUCTION READY - ALL ENHANCEMENTS COMPLETED** ✅
 
 **🏆 Major Achievement**: All four enhancement options (A, B, C, D) have been successfully completed:
@@ -23,7 +34,10 @@ A comprehensive 20-week learning management system for ML researchers transition
 ML_roadmap/
 ├── app/                    # 🌐 Deployable Web Application (Production Ready)
 │   ├── index.html         # Interactive roadmap web app with timer & progress tracking
+│   ├── style.css          # Styles for the application
+│   ├── script.js          # JavaScript logic for the application
 │   ├── roadmap_data.json  # Structured curriculum data (194 problems)
+│   ├── sitemap.xml        # Sitemap for SEO
 │   └── DEPLOY.md          # Deployment instructions
 ├── docs/                   # 📚 Documentation & Core Materials  
 │   ├── AI_Enhanced_ML_FAANG_Mastery_Plan.md     # Main 20-week roadmap (3,106+ lines)
@@ -37,7 +51,9 @@ ML_roadmap/
 │   ├── SOFTWARE_ENGINEERING_ROADMAP.md
 │   └── THE_DEFINITIVE_ROADMAP.md
 ├── tools/                 # 🛠️ Development Scripts
-│   └── roadmap_parser.py  # Converts markdown to JSON
+│   ├── roadmap_parser.py  # Converts markdown to JSON
+│   ├── link_verifier.py   # Verifies all URLs in the roadmap
+│   └── a11y_audit.js      # Runs an accessibility audit
 ├── tests/                 # 🧪 Quality Assurance
 └── README.md             # This file
 ```
@@ -54,6 +70,16 @@ ML_roadmap/
 ## 🎯 Quick Start
 
 ### 1. Interactive App (Local)
+The new version of the app requires Node.js.
+
+```bash
+cd app/
+npm install
+node a11y_audit.js # This will also start a local server
+# Open http://localhost:PORT in browser (port will be logged to console)
+```
+
+Alternatively, you can still use a simple Python server if you don't need the audit functionality:
 ```bash
 cd app/
 python3 -m http.server 8000
