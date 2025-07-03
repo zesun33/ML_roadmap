@@ -36,8 +36,8 @@
   - 🎥 Watch NeetCode "Arrays and Hashing" intro (30 min)
   - 📝 Review Python list operations and time complexity
 - **Coding Session (7:00-8:30)**:
-  - 💻 Two Sum (Easy) - Connect to embedding lookups
-  - 💻 Best Time to Buy and Sell Stock (Easy)
+  - 💻 **[Two Sum](https://leetcode.com/problems/two-sum/)** | **[NeetCode](https://neetcode.io/problems/two-sum)** (Easy) - Connect to embedding lookups
+  - 💻 **[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)** (Easy)
   - 🤖 **AI Coaching**: *"How does this relate to tensor indexing in PyTorch?"*
 - **Evening (8:00-9:00)**:
   - Review solutions and optimize
@@ -46,17 +46,17 @@
 #### **Tuesday - Hash Maps Deep Dive**
 - **Morning**: Hash table theory, Python dict internals
 - **Coding Session**:
-  - 💻 Contains Duplicate (Easy)
-  - 💻 Valid Anagram (Easy)
-  - 💻 Group Anagrams (Medium)
+  - 💻 **[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)** (Easy)
+  - 💻 **[Valid Anagram](https://leetcode.com/problems/valid-anagram/)** (Easy)
+  - 💻 **[Group Anagrams](https://leetcode.com/problems/group-anagrams/)** (Medium)
 - **🔬 ML Connection**: Hash maps like vocabulary in tokenizers
 - **Evening**: Implement custom hash table class
 
 #### **Wednesday - Advanced Array Operations**
 - **Coding Session**:
-  - 💻 Top K Frequent Elements (Medium)
-  - 💻 Product of Array Except Self (Medium)
-  - 📊 **HackerRank**: Complete "Arrays" domain (5 problems)
+  - 💻 **[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)** (Medium)
+  - 💻 **[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)** (Medium)
+  - 📊 **[HackerRank](https://www.hackerrank.com/domains/algorithms)**: Complete "Arrays" domain (5 problems)
 - **Evening**: Two-pointer technique practice
 
 #### **Thursday - Company Focus**
@@ -216,30 +216,30 @@
 #### **Monday - Binary Tree Basics**
 - **Morning**: 🎥 NeetCode Tree videos
 - **Coding Session**:
-  - 💻 Invert Binary Tree (Easy)
-  - 💻 Maximum Depth of Binary Tree (Easy)
-  - 💻 Same Tree (Easy)
+  - 💻 **[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)** (Easy)
+  - 💻 **[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)** (Easy)
+  - 💻 **[Same Tree](https://leetcode.com/problems/same-tree/)** (Easy)
   - 🔧 **Custom Implementation**: Binary Tree with Python classes
 
 #### **Tuesday - Tree Relationships**
 - **Coding Session**:
-  - 💻 Subtree of Another Tree (Easy)
-  - 💻 Lowest Common Ancestor of BST (Medium)
-  - 💻 Binary Tree Level Order Traversal (Medium)
+  - 💻 **[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)** (Easy)
+  - 💻 **[Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)** (Medium)
+  - 💻 **[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)** (Medium)
 - **🔬 ML Connection**: Decision trees, hierarchical models
 
 #### **Wednesday - Tree Traversal Mastery**
 - **Coding Session**:
-  - 💻 Binary Tree Right Side View (Medium)
-  - 💻 Count Good Nodes in Binary Tree (Medium)
-  - 💻 Validate Binary Search Tree (Medium)
+  - 💻 **[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)** (Medium)
+  - 💻 **[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)** (Medium)
+  - 💻 **[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)** (Medium)
 
 #### **Thursday - Advanced Tree Problems**
 - **Coding Session**:
-  - 💻 Kth Smallest Element in BST (Medium)
-  - 💻 Construct Binary Tree from Preorder and Inorder (Medium)
-  - 🏢 **Amazon Focus**: Tree problems from Amazon interviews
-  - 📊 **LeetCode Explore**: Binary Tree card completion
+  - 💻 **[Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)** (Medium)
+  - 💻 **[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)** (Medium)
+  - 🏢 **[Amazon Focus](https://leetcode.com/company/amazon/)**: Tree problems from Amazon interviews
+  - 📊 **[LeetCode Explore](https://leetcode.com/explore/)**: Binary Tree card completion
 
 #### **Friday - Tree Contest**
 - **Morning**: 🎯 **Tree-focused contest**: AtCoder problems
@@ -258,27 +258,27 @@
 #### **Monday - Heap Fundamentals**
 - **Morning**: 🎥 NeetCode Heap videos
 - **Coding Session**:
-  - 💻 Kth Largest Element in Array (Medium)
-  - 💻 Last Stone Weight (Easy)
+  - 💻 **[Kth Largest Element in Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)** (Medium)
+  - 💻 **[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)** (Easy)
   - 🔧 **Implementation**: Custom heap in Python
 
 #### **Tuesday - Heap Applications**
 - **Coding Session**:
-  - 💻 K Closest Points to Origin (Medium)
-  - 💻 Task Scheduler (Medium)
+  - 💻 **[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)** (Medium)
+  - 💻 **[Task Scheduler](https://leetcode.com/problems/task-scheduler/)** (Medium)
 - **🔬 ML Connection**: Priority sampling, beam search
 
 #### **Wednesday - Complex Heap Problems**
 - **Coding Session**:
-  - 💻 Design Twitter (Medium)
-  - 💻 Find Median from Data Stream (Hard)
-  - 🏢 **Google Focus**: Heap problems from Google interviews
+  - 💻 **[Design Twitter](https://leetcode.com/problems/design-twitter/)** (Medium)
+  - 💻 **[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)** (Hard)
+  - 🏢 **[Google Focus](https://leetcode.com/company/google/)**: Heap problems from Google interviews
 
 #### **Thursday-Friday - Heap Mastery**
 - **Problems**:
-  - 💻 Merge k Sorted Lists (Hard)
-  - 💻 Top K Frequent Words (Medium)
-  - 📊 **HackerRank**: Heap domain completion
+  - 💻 **[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)** (Hard)
+  - 💻 **[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)** (Medium)
+  - 📊 **[HackerRank](https://www.hackerrank.com/domains/data-structures/heaps)**: Heap domain completion
   - 🎯 **Mock Contest**: Priority queue challenges
 
 #### **Weekend**
@@ -293,22 +293,22 @@
 
 #### **Monday-Tuesday - Basic Backtracking**
 - **Problems**:
-  - 💻 Subsets (Medium)
-  - 💻 Subsets II (Medium)
-  - 💻 Permutations (Medium)
-  - 💻 Permutations II (Medium)
+  - 💻 **[Subsets](https://leetcode.com/problems/subsets/)** (Medium)
+  - 💻 **[Subsets II](https://leetcode.com/problems/subsets-ii/)** (Medium)
+  - 💻 **[Permutations](https://leetcode.com/problems/permutations/)** (Medium)
+  - 💻 **[Permutations II](https://leetcode.com/problems/permutations-ii/)** (Medium)
 
 #### **Wednesday - Advanced Backtracking**
 - **Problems**:
-  - 💻 N-Queens (Hard)
-  - 💻 Sudoku Solver (Hard)
-  - 💻 Word Search (Medium)
+  - 💻 **[N-Queens](https://leetcode.com/problems/n-queens/)** (Hard)
+  - 💻 **[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)** (Hard)
+  - 💻 **[Word Search](https://leetcode.com/problems/word-search/)** (Medium)
 
 #### **Thursday - Optimization Techniques**
 - **Focus**: Recursion optimization (memoization, pruning)
 - **Problems**:
-  - 💻 Combination Sum (Medium)
-  - 💻 Palindrome Partitioning (Medium)
+  - 💻 **[Combination Sum](https://leetcode.com/problems/combination-sum/)** (Medium)
+  - 💻 **[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)** (Medium)
 
 #### **Friday - Contest Practice**
 - **Morning**: 🎯 Backtracking contest problems
@@ -326,25 +326,25 @@
 
 #### **Monday - 1D DP**
 - **Problems**:
-  - 💻 Climbing Stairs (Easy)
-  - 💻 House Robber (Medium)
-  - 💻 House Robber II (Medium)
+  - 💻 **[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)** (Easy)
+  - 💻 **[House Robber](https://leetcode.com/problems/house-robber/)** (Medium)
+  - 💻 **[House Robber II](https://leetcode.com/problems/house-robber-ii/)** (Medium)
 
 #### **Tuesday - 2D DP**
 - **Problems**:
-  - 💻 Unique Paths (Medium)
-  - 💻 Coin Change (Medium)
-  - 💻 Longest Increasing Subsequence (Medium)
+  - 💻 **[Unique Paths](https://leetcode.com/problems/unique-paths/)** (Medium)
+  - 💻 **[Coin Change](https://leetcode.com/problems/coin-change/)** (Medium)
+  - 💻 **[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)** (Medium)
 
 #### **Wednesday - String DP**
 - **Problems**:
-  - 💻 Longest Common Subsequence (Medium)
-  - 💻 Word Break (Medium)
+  - 💻 **[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)** (Medium)
+  - 💻 **[Word Break](https://leetcode.com/problems/word-break/)** (Medium)
 
 #### **Thursday - Advanced DP**
 - **Problems**:
-  - 💻 Edit Distance (Hard)
-  - 💻 Regular Expression Matching (Hard)
+  - 💻 **[Edit Distance](https://leetcode.com/problems/edit-distance/)** (Hard)
+  - 💻 **[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)** (Hard)
 
 #### **Friday - DP Contest**
 - **Morning**: 🎯 DP-focused contest
@@ -374,15 +374,15 @@
 - **Morning**: Graph representation theory
 - **Coding Session**:
   - 💻 Graph implementation (adjacency list/matrix)
-  - 💻 Number of Islands (Medium)
-  - 💻 Clone Graph (Medium)
+  - 💻 **[Number of Islands](https://leetcode.com/problems/number-of-islands/)** (Medium)
+  - 💻 **[Clone Graph](https://leetcode.com/problems/clone-graph/)** (Medium)
 
 **Tuesday-Thursday - Traversal Algorithms**
 - **Problems**:
-  - 💻 Course Schedule (Medium) - Topological Sort
-  - 💻 Course Schedule II (Medium)
-  - 💻 Pacific Atlantic Water Flow (Medium)
-  - 💻 Surrounded Regions (Medium)
+  - 💻 **[Course Schedule](https://leetcode.com/problems/course-schedule/)** (Medium) - Topological Sort
+  - 💻 **[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)** (Medium)
+  - 💻 **[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)** (Medium)
+  - 💻 **[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)** (Medium)
 
 **Friday - Graph Contest**
 - **Morning**: 🎯 Graph contest participation
@@ -393,8 +393,8 @@
 **Monday-Tuesday - Shortest Path**
 - **Implementation**: Dijkstra's Algorithm
 - **Problems**:
-  - 💻 Network Delay Time (Medium)
-  - 💻 Cheapest Flights Within K Stops (Medium)
+  - 💻 **[Network Delay Time](https://leetcode.com/problems/network-delay-time/)** (Medium)
+  - 💻 **[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)** (Medium)
 
 **Wednesday-Thursday - Union Find & MST**
 - **Problems**:

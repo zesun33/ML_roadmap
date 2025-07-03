@@ -1,87 +1,137 @@
 {
   "metadata": {
     "title": "AI-Enhanced ML-FAANG Mastery Plan",
-    "description": "20-Week Transformation Journey",
-    "version": "1.0",
-    "last_updated": "2025-07-01T18:14:23.691466",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
     "total_weeks": 20,
-    "total_phases": 5
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28"
   },
   "phases": [
     {
       "number": 1,
-      "name": "Foundation & Setup",
-      "description": "Environment setup, Python mastery, basic DSA",
-      "weeks": "1-4",
-      "color": "#3b82f6",
-      "progress": 0.0
+      "name": "Foundation & Basic Patterns",
+      "description": "Master fundamental data structures and algorithms with AI coaching",
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "focus_areas": [
+        "Arrays & Hashing",
+        "Two Pointers",
+        "Sliding Window",
+        "Stack & Queue",
+        "Binary Search"
+      ]
     },
     {
       "number": 2,
-      "name": "Core DSA Patterns",
-      "description": "Essential patterns with AI coaching",
-      "weeks": "5-8",
-      "color": "#10b981",
-      "progress": 0.0
+      "name": "Advanced Data Structures",
+      "description": "Deep dive into complex data structures and tree algorithms",
+      "weeks": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "focus_areas": [
+        "Heaps & Priority Queues",
+        "Trees & Graphs",
+        "Dynamic Programming",
+        "Advanced Algorithms"
+      ]
     },
     {
       "number": 3,
-      "name": "Advanced Algorithms + ML",
-      "description": "Complex patterns, ML system integration",
-      "weeks": "9-12",
-      "color": "#8b5cf6",
-      "progress": 0.0
+      "name": "Advanced Algorithms & System Design",
+      "description": "Master complex algorithmic concepts and ML system design",
+      "weeks": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "focus_areas": [
+        "Advanced Graphs",
+        "Advanced Trees",
+        "ML System Design",
+        "Production Deployment"
+      ]
     },
     {
       "number": 4,
-      "name": "System Design & MLOps",
-      "description": "Scalable systems, production deployment",
-      "weeks": "13-16",
-      "color": "#f59e0b",
-      "progress": 0.0
+      "name": "Company-Specific Preparation",
+      "description": "Company-focused preparation and advanced interview techniques",
+      "weeks": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "focus_areas": [
+        "Company Systems",
+        "Interview Simulation",
+        "Production ML",
+        "Career Transition"
+      ]
     },
     {
       "number": 5,
-      "name": "AI Enhancement & Specialization",
-      "description": "Company-specific prep, advanced portfolio",
-      "weeks": "17-20",
-      "color": "#ef4444",
-      "progress": 0.0
+      "name": "Interview Mastery & Specialization",
+      "description": "Final preparation with mock interviews and specialization",
+      "weeks": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "focus_areas": [
+        "Mock Interviews",
+        "Final Projects",
+        "Optimization",
+        "Mastery Assessment"
+      ]
     }
   ],
   "weeks": {
     "1": {
-      "title": "Foundation & Environment Setup",
+      "title": "AI Environment Setup + Arrays & Hashing + Real ML System Integration",
       "objectives": [
-        "Set up complete development environment with AI tools",
-        "Install VS Code, Python, Git, and configure Cursor AI",
-        "Create Learning Ledger and initialize GitHub repository",
-        "Solve first 10 LeetCode easy problems with AI coaching"
+        "Set up complete AI-enhanced development environment with advanced tools",
+        "Master Arrays & Hashing patterns with 25+ problems and 90%+ accuracy",
+        "Connect hash tables to ML embeddings and recommendation systems",
+        "Implement custom hash table with ML-inspired optimizations",
+        "Study YouTube Recommendation System architecture with hash tables",
+        "Establish AI coaching system with personalized prompts"
       ],
       "sessions": [
         {
-          "id": "1-morning",
-          "title": "Environment Setup & Python Basics",
-          "time": "6:00-7:30 AM",
-          "description": "Configure development environment, Python fundamentals with AI assistance",
-          "duration": 90,
+          "id": "1-ai_setup_arrays",
+          "title": "AI Ecosystem Bootstrap + Core Array Problems",
+          "time": "6:00-8:30 AM",
+          "description": "Set up AI learning environment, solve Two Sum, Best Time to Buy/Sell Stock, and Contains Duplicate with AI coaching connecting to ML systems",
+          "duration": 150,
           "tags": [
             "Setup",
-            "Python",
-            "AI-Tools"
+            "Arrays",
+            "AI-Tools",
+            "ML-Connection"
           ],
           "completed": false
         },
         {
-          "id": "1-evening",
-          "title": "Git, GitHub & First LeetCode Problems",
-          "time": "8:00-9:30 PM",
-          "description": "Version control mastery and algorithmic problem solving introduction",
-          "duration": 90,
+          "id": "1-hashmaps_ml",
+          "title": "Hash Maps Deep Dive + ML System Applications",
+          "time": "8:00-9:00 PM",
+          "description": "Hash table theory with AI explanations, solve Valid Anagram and Group Anagrams connecting to NLP and clustering, study Instagram Feed Ranking",
+          "duration": 60,
           "tags": [
-            "Git",
-            "LeetCode",
-            "Algorithms"
+            "Hashing",
+            "ML-Systems",
+            "NLP",
+            "Theory"
           ],
           "completed": false
         }
@@ -89,93 +139,109 @@
       "ai_prompts": [
         {
           "category": "Environment Setup",
-          "text": "Help me configure the optimal development environment for ML engineering interviews. Include VS Code extensions, Python setup, and AI coding assistants."
+          "text": "Help me configure the optimal AI-enhanced development environment for ML engineering interviews. Include VS Code extensions, AI tools (Claude, GPT-4, Copilot), and custom prompt templates for connecting DS&A to ML systems."
+        },
+        {
+          "category": "ML Connections",
+          "text": "Explain how hash tables relate to my ML background - embedding lookups, attention mechanisms, vocabulary mappings in transformers. Provide coding examples connecting Two Sum to transformer operations."
         },
         {
           "category": "Learning Strategy",
-          "text": "Create a personalized study plan based on my ML background. Identify knowledge gaps and suggest optimal learning sequence for FAANG interviews."
+          "text": "Create a personalized study plan based on my ML research background. Identify knowledge gaps in DS&A and suggest optimal learning sequence for FAANG interviews with AI assistance."
         }
       ]
     },
     "2": {
-      "title": "Week 2 Advanced Training",
+      "title": "Two Pointers & Sliding Window + Meta ML Infrastructure",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master Two Pointers patterns with AI optimization for 30+ problems",
+        "Implement sliding window algorithms connecting to convolution operations",
+        "Study Meta's Deep Learning Recommendation Model (DLRM)",
+        "Build AI-Enhanced Sliding Window Algorithm Visualizer project",
+        "Complete advanced AI mock interview with Meta focus",
+        "Connect sliding windows to time series analysis and CNNs"
       ],
       "sessions": [
         {
-          "id": "2-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "2-two_pointers_meta",
+          "title": "Two Pointers Foundation + Meta ML Study",
+          "time": "6:00-8:30 AM",
+          "description": "Two pointers theory with AI connections to parallel processing, solve Valid Palindrome, Two Sum II, 3Sum with AI coaching, study Meta's DLRM architecture",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Two-Pointers",
+            "Meta",
+            "DLRM",
+            "AI-Optimization"
           ],
           "completed": false
         },
         {
-          "id": "2-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "2-sliding_window_cnn",
+          "title": "Sliding Window Fundamentals + Time Series Applications",
+          "time": "8:00-9:00 PM",
+          "description": "Sliding window patterns with AI analogies to convolution operations, solve Longest Substring Without Repeating, connect to attention mechanisms and time series analysis",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Sliding-Window",
+            "CNN",
+            "Time-Series",
+            "Attention"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Pattern Recognition",
+          "text": "Help me master two-pointer and sliding window techniques for Week 2. Connect these patterns to parallel processing in distributed ML and gradient descent convergence. Provide optimization strategies."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Meta Interview Prep",
+          "text": "Simulate a Meta-style technical interview focusing on sliding window problems. Evaluate my coding speed, pattern recognition, and ability to connect algorithms to ML infrastructure like DLRM."
+        },
+        {
+          "category": "ML System Integration",
+          "text": "Explain how sliding window algorithms apply to time series analysis, CNN operations, and real-time inference systems. Help me build connections between these patterns and Meta's ML infrastructure."
         }
       ]
     },
     "3": {
-      "title": "Week 3 Advanced Training",
+      "title": "Stack & Queue Patterns + Production ML Systems",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master Stack & Queue patterns with 28+ problems and AI coaching",
+        "Implement monotonic stack algorithms with performance optimization",
+        "Study Amazon SageMaker and production ML pipeline architecture",
+        "Build AI-Powered Expression Evaluator & Computational Graph Parser",
+        "Connect stack operations to computational graphs and parsing",
+        "Complete advanced AI mock interview with behavioral components"
       ],
       "sessions": [
         {
-          "id": "3-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "3-stack_fundamentals",
+          "title": "Stack Fundamentals + Computational Graph Connections",
+          "time": "6:00-8:30 AM",
+          "description": "Stack theory with AI connections to function calls and parsing, solve Valid Parentheses, Min Stack, Evaluate RPN connecting to computational graphs and expression parsing",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Stack",
+            "Parsing",
+            "Computational-Graphs",
+            "Expression-Eval"
           ],
           "completed": false
         },
         {
-          "id": "3-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "3-queues_ml_systems",
+          "title": "Queue Patterns + Production ML Pipeline Study",
+          "time": "8:00-9:00 PM",
+          "description": "Queue theory for BFS and scheduling, solve Design Circular Queue and Moving Average, study Amazon SageMaker pipeline architecture and ML production systems",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Queue",
+            "BFS",
+            "SageMaker",
+            "ML-Pipelines"
           ],
           "completed": false
         }
@@ -183,810 +249,952 @@
       "ai_prompts": [
         {
           "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "text": "Help me master stack and queue patterns for Week 3. Focus on monotonic stack techniques, expression parsing, and connections to computational graph construction in ML frameworks like PyTorch."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Production Systems",
+          "text": "Explain how stack and queue patterns apply to production ML systems, job scheduling, and pipeline processing. Connect these concepts to Amazon SageMaker and real-time inference systems."
+        },
+        {
+          "category": "Interview Communication",
+          "text": "Conduct a technical interview focusing on stack/queue problems with behavioral components. Evaluate my technical communication, code quality, and ability to explain complex algorithms clearly."
         }
       ]
     },
     "4": {
-      "title": "Week 4 Advanced Training",
+      "title": "Binary Search Mastery + AI Problem Generation + Microsoft ML Systems",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master binary search patterns with 25+ problems and mathematical analysis",
+        "Implement binary search on answers with optimization theory connections",
+        "Study Microsoft's ML infrastructure and Azure ML services",
+        "Connect binary search to hyperparameter optimization and neural architecture search",
+        "Complete Phase 1 capstone project with AI optimization library",
+        "Achieve 70%+ AI assessment score for Phase 2 readiness"
       ],
       "sessions": [
         {
-          "id": "4-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "4-binary_search_math",
+          "title": "Binary Search Foundation + Mathematical Analysis",
+          "time": "6:00-8:30 AM",
+          "description": "Binary search theory with AI mathematical proofs, solve Binary Search, Search in Rotated Array, Find First/Last Position connecting to optimization algorithms and grid search",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Binary-Search",
+            "Math",
+            "Optimization",
+            "Grid-Search"
           ],
           "completed": false
         },
         {
-          "id": "4-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "4-microsoft_systems",
+          "title": "Advanced Binary Search + Microsoft ML Integration",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced binary search applications, solve Median of Two Sorted Arrays and Koko Eating Bananas with AI coaching, study Microsoft's ML infrastructure and Azure ML",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Advanced-Search",
+            "Microsoft",
+            "Azure-ML",
+            "Hard-Problems"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Mathematical Optimization",
+          "text": "Help me master binary search patterns for Week 4 with focus on mathematical intuition. Connect these algorithms to hyperparameter optimization, neural architecture search, and optimization theory in ML."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Microsoft Preparation",
+          "text": "Simulate a Microsoft-style technical interview focusing on binary search problems. Emphasize mathematical reasoning, optimization approaches, and connections to Azure ML infrastructure."
+        },
+        {
+          "category": "Phase 1 Assessment",
+          "text": "Evaluate my Phase 1 readiness across arrays, hashing, two pointers, sliding window, stack/queue, and binary search patterns. Provide comprehensive feedback and Phase 2 preparation recommendations."
         }
       ]
     },
     "5": {
-      "title": "Arrays & Hashing Patterns",
+      "title": "Heaps & Priority Queues + Netflix ML Infrastructure",
       "objectives": [
-        "Master Arrays & Hashing patterns with AI optimization",
-        "Solve 12+ problems with real-time AI feedback",
-        "Implement custom hash table with performance analysis",
-        "Complete first AI-enhanced mock interview"
+        "Master heap data structures with 20+ problems and AI optimization",
+        "Implement custom heap with ML-inspired performance monitoring",
+        "Study Netflix's recommendation system and real-time ML architecture",
+        "Connect priority queues to ML task scheduling and resource allocation",
+        "Build advanced heap-based algorithms for streaming data processing",
+        "Complete advanced system design mock interview"
       ],
       "sessions": [
         {
-          "id": "5-morning",
-          "title": "Array Patterns & Two Pointers",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced array manipulation techniques with AI pattern recognition",
-          "duration": 90,
+          "id": "5-heaps_fundamentals",
+          "title": "Heap Fundamentals + Netflix ML Architecture",
+          "time": "6:00-8:30 AM",
+          "description": "Heap theory and implementation, solve Kth Largest Element, Top K Frequent Elements, Merge K Sorted Lists connecting to recommendation systems and priority scheduling",
+          "duration": 150,
           "tags": [
-            "Arrays",
-            "Two-Pointers",
-            "AI-Patterns"
+            "Heaps",
+            "Priority-Queue",
+            "Netflix",
+            "Recommendations"
           ],
           "completed": false
         },
         {
-          "id": "5-evening",
-          "title": "Hash Tables & Implementation",
-          "time": "8:00-9:30 PM",
-          "description": "Hash table design, collision handling, and performance optimization",
-          "duration": 90,
+          "id": "5-streaming_processing",
+          "title": "Advanced Heaps + Streaming Data Processing",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced heap applications for streaming data, solve Find Median from Data Stream and Sliding Window Maximum, study real-time ML inference and data processing pipelines",
+          "duration": 60,
           "tags": [
-            "Hashing",
-            "Implementation",
-            "Performance"
+            "Streaming",
+            "Real-time",
+            "Data-Processing",
+            "Advanced-Heaps"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Array & Hashing",
-          "text": "Explain the optimal approach for this array/hashing problem. Focus on time complexity, space optimization, and common pitfalls to avoid."
+          "category": "Heap Optimization",
+          "text": "Help me master heap and priority queue patterns for Week 5. Focus on streaming data applications, real-time processing, and connections to Netflix's recommendation system architecture."
         },
         {
-          "category": "Pattern Recognition",
-          "text": "Help me identify the underlying pattern in this problem set. Generate similar problems for practice and explain when to apply this pattern."
+          "category": "System Design",
+          "text": "Explain how heaps and priority queues are used in large-scale ML systems for task scheduling, resource allocation, and real-time recommendation serving. Connect to Netflix's ML infrastructure."
+        },
+        {
+          "category": "Performance Analysis",
+          "text": "Guide me through heap performance optimization techniques and complexity analysis. Provide insights on when to use heaps vs other data structures in ML production systems."
         }
       ]
     },
     "6": {
-      "title": "Week 6 Advanced Training",
+      "title": "Trees & Graph Foundations + Tesla ML Systems",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master binary tree algorithms with 25+ problems and AI visualization",
+        "Implement tree traversal algorithms connecting to neural network architectures",
+        "Study Tesla's Autopilot ML system and computer vision pipeline",
+        "Build AI-powered tree algorithm visualizer with ML connections",
+        "Connect tree structures to decision trees and ensemble methods",
+        "Complete advanced behavioral interview with technical components"
       ],
       "sessions": [
         {
-          "id": "6-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "6-trees_neural_nets",
+          "title": "Tree Fundamentals + Neural Network Connections",
+          "time": "6:00-8:30 AM",
+          "description": "Binary tree theory and traversals, solve Invert Binary Tree, Maximum Depth, Same Tree connecting to neural network architectures and decision tree algorithms",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Trees",
+            "Neural-Networks",
+            "Decision-Trees",
+            "Traversal"
           ],
           "completed": false
         },
         {
-          "id": "6-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "6-tesla_vision",
+          "title": "Advanced Trees + Tesla ML Computer Vision",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced tree algorithms, solve Binary Tree Level Order, Validate BST, study Tesla's Autopilot computer vision pipeline and tree-based ML algorithms",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Advanced-Trees",
+            "Tesla",
+            "Computer-Vision",
+            "BST"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Tree Algorithms",
+          "text": "Help me master tree algorithms for Week 6. Connect tree traversals to neural network forward/backward passes, and tree structures to decision trees and random forests in ML."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Tesla Systems",
+          "text": "Explain how tree structures are used in Tesla's Autopilot system for scene understanding, decision making, and computer vision processing. Simulate a Tesla-style technical interview."
+        },
+        {
+          "category": "ML Algorithm Connections",
+          "text": "Connect tree data structures to ML algorithms like decision trees, random forests, and hierarchical clustering. Explain tree-based ensemble methods and their implementations."
         }
       ]
     },
     "7": {
-      "title": "Week 7 Advanced Training",
+      "title": "Dynamic Programming Mastery + Apple ML Infrastructure",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master dynamic programming patterns with 30+ problems and AI optimization",
+        "Implement memoization and tabulation with performance analysis",
+        "Study Apple's on-device ML and Core ML framework architecture",
+        "Connect DP to ML optimization and training algorithms",
+        "Build advanced DP problem solver with AI pattern recognition",
+        "Complete comprehensive DP mock interview with Apple focus"
       ],
       "sessions": [
         {
-          "id": "7-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "7-dp_fundamentals",
+          "title": "DP Fundamentals + Optimization Theory",
+          "time": "6:00-8:30 AM",
+          "description": "Dynamic programming theory and memoization, solve Climbing Stairs, House Robber, Longest Common Subsequence connecting to ML optimization and Bellman equations",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Dynamic-Programming",
+            "Memoization",
+            "Optimization",
+            "Bellman"
           ],
           "completed": false
         },
         {
-          "id": "7-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "7-apple_coreml",
+          "title": "Advanced DP + Apple Core ML Study",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced DP patterns, solve Coin Change, Edit Distance, study Apple's Core ML framework and on-device inference optimization techniques",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Advanced-DP",
+            "Apple",
+            "Core-ML",
+            "On-Device"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "DP Mastery",
+          "text": "Help me master dynamic programming patterns for Week 7. Connect DP concepts to ML optimization, Bellman equations in reinforcement learning, and gradient-based optimization techniques."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Apple Interview Prep",
+          "text": "Simulate an Apple-style technical interview focusing on DP problems and optimization. Emphasize clean code, performance analysis, and connections to on-device ML processing."
+        },
+        {
+          "category": "Optimization Theory",
+          "text": "Explain how dynamic programming principles apply to ML training optimization, curriculum learning, and efficient inference. Connect to Apple's Core ML framework and edge computing."
         }
       ]
     },
     "8": {
-      "title": "Week 8 Advanced Training",
+      "title": "Advanced Algorithms + Comprehensive Pattern Mastery",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master advanced algorithmic patterns with comprehensive review",
+        "Implement complex algorithms with AI-guided optimization",
+        "Complete comprehensive mock interview gauntlet with all patterns",
+        "Build advanced algorithm library with ML integrations",
+        "Achieve 85%+ accuracy across all Phase 2 patterns",
+        "Prepare for Phase 3 system design and advanced topics"
       ],
       "sessions": [
         {
-          "id": "8-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "8-advanced_patterns",
+          "title": "Advanced Algorithm Patterns + Comprehensive Review",
+          "time": "6:00-8:30 AM",
+          "description": "Advanced algorithmic techniques, solve complex problems from all patterns, implement advanced data structures with AI optimization and performance monitoring",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Advanced-Algorithms",
+            "Pattern-Review",
+            "Performance",
+            "Optimization"
           ],
           "completed": false
         },
         {
-          "id": "8-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "8-mock_gauntlet",
+          "title": "Comprehensive Mock Interview Gauntlet",
+          "time": "8:00-9:00 PM",
+          "description": "Multiple AI mock interviews covering all patterns from Phase 1-2, advanced problem solving with real-time feedback, comprehensive performance assessment",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Mock-Interview",
+            "All-Patterns",
+            "Assessment",
+            "Real-time"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Comprehensive Mastery",
+          "text": "Evaluate my mastery across all algorithm patterns from Weeks 1-8. Identify weak areas and provide intensive practice recommendations with focus on advanced optimization techniques."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Advanced Interview Prep",
+          "text": "Conduct a comprehensive technical interview covering multiple patterns in sequence. Evaluate pattern recognition speed, code quality, and ability to optimize solutions under pressure."
+        },
+        {
+          "category": "Phase 3 Preparation",
+          "text": "Assess my readiness for Phase 3 system design and advanced topics. Recommend focus areas and provide personalized study plan for scaling to system-level thinking."
         }
       ]
     },
     "9": {
-      "title": "Week 9 Advanced Training",
+      "title": "Advanced Graph Algorithms + Google ML Infrastructure",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master advanced graph algorithms with 25+ problems and AI optimization",
+        "Implement graph neural networks and advanced traversal algorithms",
+        "Study Google's TensorFlow Extended (TFX) and ML infrastructure",
+        "Connect graph algorithms to ML applications and network analysis",
+        "Build advanced graph processing system with ML integrations",
+        "Complete Google-style system design interview"
       ],
       "sessions": [
         {
-          "id": "9-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "9-graphs_gnn",
+          "title": "Advanced Graphs + Graph Neural Networks",
+          "time": "6:00-8:30 AM",
+          "description": "Advanced graph theory and algorithms, solve Network Delay Time, Course Schedule II, Alien Dictionary connecting to graph neural networks and ML graph processing",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Advanced-Graphs",
+            "GNN",
+            "Network-Analysis",
+            "ML-Graphs"
           ],
           "completed": false
         },
         {
-          "id": "9-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "9-google_tfx",
+          "title": "Graph Processing + Google TFX Study",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced graph processing techniques, solve Union Find and Minimum Spanning Tree problems, study Google's TensorFlow Extended pipeline and ML infrastructure",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Graph-Processing",
+            "Google",
+            "TFX",
+            "ML-Infrastructure"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Advanced Graph Theory",
+          "text": "Help me master advanced graph algorithms for Week 9. Connect graph theory to graph neural networks, social network analysis, and large-scale ML graph processing systems."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Google System Design",
+          "text": "Simulate a Google-style system design interview focusing on graph processing at scale. Discuss TensorFlow Extended, distributed graph algorithms, and ML pipeline architecture."
+        },
+        {
+          "category": "ML Graph Applications",
+          "text": "Explain how advanced graph algorithms are used in recommendation systems, knowledge graphs, and ML feature engineering. Connect to Google's search and ML infrastructure."
         }
       ]
     },
     "10": {
-      "title": "Week 10 Advanced Training",
+      "title": "Advanced Tree Algorithms + Meta ML Infrastructure",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master advanced tree algorithms with segment trees and fenwick trees",
+        "Implement advanced tree data structures with ML-inspired optimizations",
+        "Study Meta's PyTorch ecosystem and distributed training infrastructure",
+        "Connect advanced trees to ML model architectures and indexing",
+        "Build advanced tree processing library with AI optimizations",
+        "Complete Meta-style system design interview with ML focus"
       ],
       "sessions": [
         {
-          "id": "10-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "10-advanced_trees",
+          "title": "Advanced Tree Structures + ML Model Architecture",
+          "time": "6:00-8:30 AM",
+          "description": "Advanced tree algorithms including segment trees and Fenwick trees, solve Range Sum Query, Lowest Common Ancestor connecting to hierarchical ML models and indexing",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Advanced-Trees",
+            "Segment-Trees",
+            "ML-Models",
+            "Hierarchical"
           ],
           "completed": false
         },
         {
-          "id": "10-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "10-meta_pytorch",
+          "title": "Tree Optimization + Meta PyTorch Infrastructure",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced tree optimization techniques, solve Binary Indexed Tree problems, study Meta's PyTorch ecosystem and distributed training infrastructure",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Tree-Optimization",
+            "Meta",
+            "PyTorch",
+            "Distributed-Training"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Advanced Tree Mastery",
+          "text": "Help me master advanced tree algorithms for Week 10. Focus on segment trees, Fenwick trees, and their applications in ML indexing, hierarchical models, and efficient range queries."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Meta Infrastructure",
+          "text": "Simulate a Meta-style system design interview focusing on distributed ML training and PyTorch infrastructure. Discuss tree-based indexing and hierarchical model architectures."
+        },
+        {
+          "category": "ML Tree Applications",
+          "text": "Explain how advanced tree structures are used in ML systems for efficient indexing, hierarchical clustering, and model architecture design. Connect to Meta's ML infrastructure."
         }
       ]
     },
     "11": {
-      "title": "Week 11 Advanced Training",
+      "title": "ML System Design Fundamentals + Amazon Infrastructure",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master ML system design principles with real-world case studies",
+        "Design scalable ML pipelines with AI-guided architecture decisions",
+        "Study Amazon's ML infrastructure including SageMaker and Bedrock",
+        "Implement end-to-end ML system with monitoring and optimization",
+        "Complete comprehensive ML system design interviews",
+        "Connect algorithmic knowledge to system-level design decisions"
       ],
       "sessions": [
         {
-          "id": "11-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "11-ml_system_design",
+          "title": "ML System Design Fundamentals + Architecture Patterns",
+          "time": "6:00-8:30 AM",
+          "description": "ML system design principles, design recommendation systems, search ranking, and real-time inference systems with scalability and performance considerations",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "ML-System-Design",
+            "Architecture",
+            "Scalability",
+            "Real-time"
           ],
           "completed": false
         },
         {
-          "id": "11-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "11-amazon_ml",
+          "title": "Advanced ML Systems + Amazon Infrastructure",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced ML system design patterns, study Amazon's SageMaker, Bedrock, and AWS ML services, design production ML pipelines with monitoring",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Amazon",
+            "SageMaker",
+            "Bedrock",
+            "Production-ML"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "System Design Mastery",
+          "text": "Help me master ML system design for Week 11. Guide me through designing scalable recommendation systems, search ranking, and real-time inference with proper trade-off analysis."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Amazon Interview Prep",
+          "text": "Simulate an Amazon-style ML system design interview. Focus on AWS ML services, SageMaker pipelines, and large-scale distributed ML system architecture with cost optimization."
+        },
+        {
+          "category": "Production ML",
+          "text": "Explain best practices for production ML systems including monitoring, A/B testing, model versioning, and continuous deployment. Connect to Amazon's ML infrastructure and services."
         }
       ]
     },
     "12": {
-      "title": "Week 12 Advanced Training",
+      "title": "Advanced ML System Design + Production Deployment",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master advanced ML system design with complex multi-service architectures",
+        "Implement advanced ML deployment patterns with monitoring and optimization",
+        "Design real-time ML systems with low-latency and high-throughput requirements",
+        "Complete comprehensive end-to-end ML system projects",
+        "Master production ML best practices and MLOps principles",
+        "Achieve readiness for company-specific preparation phase"
       ],
       "sessions": [
         {
-          "id": "12-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "12-advanced_systems",
+          "title": "Advanced ML Architecture + Multi-Service Design",
+          "time": "6:00-8:30 AM",
+          "description": "Advanced ML system architecture, design complex multi-service ML systems, implement advanced deployment patterns with microservices and containerization",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Advanced-Architecture",
+            "Multi-Service",
+            "Microservices",
+            "Containerization"
           ],
           "completed": false
         },
         {
-          "id": "12-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "12-production_mlops",
+          "title": "Production Deployment + MLOps Best Practices",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced production deployment techniques, MLOps best practices, monitoring and optimization of ML systems, A/B testing and experimentation frameworks",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Production",
+            "MLOps",
+            "Monitoring",
+            "AB-Testing"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Advanced System Design",
+          "text": "Help me master advanced ML system design for Week 12. Focus on complex multi-service architectures, real-time inference, and production deployment at scale with proper monitoring."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "MLOps Excellence",
+          "text": "Guide me through MLOps best practices including CI/CD for ML, model versioning, monitoring, and A/B testing frameworks. Provide hands-on implementation guidance."
+        },
+        {
+          "category": "Interview Excellence",
+          "text": "Conduct comprehensive ML system design interviews covering advanced topics. Evaluate my ability to design, implement, and optimize complex production ML systems."
         }
       ]
     },
     "13": {
-      "title": "Week 13 Advanced Training",
+      "title": "Company-Specific ML Systems + Advanced Interview Preparation",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Master company-specific ML system architectures and interview styles",
+        "Study detailed ML infrastructures of Google, Meta, Amazon, Apple, and Microsoft",
+        "Complete advanced mock interviews tailored to each company's style",
+        "Implement company-specific ML system design challenges",
+        "Master behavioral interviews with technical storytelling",
+        "Achieve 90%+ readiness score for target companies"
       ],
       "sessions": [
         {
-          "id": "13-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "13-company_systems",
+          "title": "Company-Specific ML Architecture Deep Dive",
+          "time": "6:00-8:30 AM",
+          "description": "Deep study of ML systems at Google (TFX), Meta (PyTorch), Amazon (SageMaker), Apple (Core ML), Microsoft (Azure ML) with hands-on system design challenges",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Google",
+            "Meta",
+            "Amazon",
+            "Apple",
+            "Microsoft"
           ],
           "completed": false
         },
         {
-          "id": "13-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "13-advanced_interviews",
+          "title": "Advanced Company-Specific Interview Preparation",
+          "time": "8:00-9:00 PM",
+          "description": "Company-specific mock interviews with tailored question styles, behavioral interviews with technical storytelling, advanced problem-solving under pressure",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Mock-Interviews",
+            "Behavioral",
+            "Technical-Storytelling",
+            "Pressure"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Company Specialization",
+          "text": "Help me prepare for Week 13 company-specific interviews. Tailor my preparation for [GOOGLE/META/AMAZON/APPLE/MICROSOFT] focusing on their ML infrastructure, interview style, and technical expectations."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Technical Storytelling",
+          "text": "Guide me through technical storytelling for behavioral interviews. Help me craft compelling narratives from my ML research background that demonstrate leadership, problem-solving, and impact."
+        },
+        {
+          "category": "Interview Simulation",
+          "text": "Conduct company-specific mock interviews with realistic problem difficulty and time pressure. Evaluate my performance and provide detailed feedback for improvement."
         }
       ]
     },
     "14": {
-      "title": "Week 14 Advanced Training",
+      "title": "Advanced Interview Simulation + AI-Powered Performance Optimization",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Complete intensive mock interview training with AI-powered feedback",
+        "Optimize interview performance using AI analysis and recommendations",
+        "Master advanced problem-solving under time pressure",
+        "Implement AI-driven interview preparation system",
+        "Achieve consistent high performance across all interview types",
+        "Fine-tune communication and technical presentation skills"
       ],
       "sessions": [
         {
-          "id": "14-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "14-interview_intensive",
+          "title": "Intensive Mock Interview Training + AI Analysis",
+          "time": "6:00-8:30 AM",
+          "description": "Multiple intensive mock interviews with AI-powered performance analysis, real-time feedback on communication, problem-solving approach, and optimization opportunities",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Intensive-Training",
+            "AI-Analysis",
+            "Performance",
+            "Communication"
           ],
           "completed": false
         },
         {
-          "id": "14-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "14-optimization",
+          "title": "Performance Optimization + Presentation Skills",
+          "time": "8:00-9:00 PM",
+          "description": "AI-driven performance optimization based on mock interview analysis, advanced presentation and communication skills training, stress management techniques",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Optimization",
+            "Presentation",
+            "Communication",
+            "Stress-Management"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Performance Optimization",
+          "text": "Analyze my Week 14 mock interview performance and provide detailed optimization recommendations. Focus on areas where I can improve speed, accuracy, and communication clarity."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "AI-Powered Coaching",
+          "text": "Use AI analysis to identify my interview performance patterns and provide personalized coaching strategies. Help me optimize my problem-solving approach and communication style."
+        },
+        {
+          "category": "Stress Management",
+          "text": "Guide me through advanced stress management and performance optimization techniques for high-pressure interview situations. Provide real-time coaching during mock interviews."
         }
       ]
     },
     "15": {
-      "title": "Week 15 Advanced Training",
+      "title": "Production ML Deployment + Real-World Application",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Deploy complete end-to-end ML systems to production environments",
+        "Implement advanced monitoring, scaling, and optimization techniques",
+        "Master real-world ML deployment challenges and solutions",
+        "Build comprehensive ML portfolio with production-ready systems",
+        "Complete advanced system design challenges with implementation",
+        "Achieve production-level ML engineering competency"
       ],
       "sessions": [
         {
-          "id": "15-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "15-production_deployment",
+          "title": "End-to-End Production ML Deployment",
+          "time": "6:00-8:30 AM",
+          "description": "Deploy complete ML systems to cloud platforms, implement advanced monitoring and scaling, handle real-world deployment challenges with containerization and orchestration",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Production",
+            "Deployment",
+            "Cloud",
+            "Monitoring",
+            "Scaling"
           ],
           "completed": false
         },
         {
-          "id": "15-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "15-portfolio_optimization",
+          "title": "ML Portfolio Optimization + Real-World Testing",
+          "time": "8:00-9:00 PM",
+          "description": "Optimize ML portfolio projects for production readiness, implement advanced testing and validation, create comprehensive documentation and presentation materials",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Portfolio",
+            "Testing",
+            "Validation",
+            "Documentation"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Production Excellence",
+          "text": "Guide me through Week 15 production ML deployment best practices. Help me implement robust monitoring, scaling, and optimization for real-world ML systems."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Portfolio Development",
+          "text": "Help me optimize my ML portfolio for maximum impact. Provide guidance on showcasing production-ready ML systems and demonstrating technical leadership and innovation."
+        },
+        {
+          "category": "Real-World Application",
+          "text": "Assist me in applying theoretical knowledge to real-world ML deployment challenges. Provide practical solutions for common production issues and optimization strategies."
         }
       ]
     },
     "16": {
-      "title": "Week 16 Advanced Training",
+      "title": "Interview Mastery + Career Transition Excellence",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Achieve complete interview mastery across all technical and behavioral areas",
+        "Complete final comprehensive assessment and certification",
+        "Master career transition strategies and negotiation techniques",
+        "Implement advanced personal branding and networking strategies",
+        "Achieve 95%+ interview readiness score across all target companies",
+        "Successfully transition from ML research to FAANG software engineering"
       ],
       "sessions": [
         {
-          "id": "16-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "16-final_mastery",
+          "title": "Final Interview Mastery + Comprehensive Assessment",
+          "time": "6:00-8:30 AM",
+          "description": "Final comprehensive technical assessment, complete interview mastery evaluation, advanced problem-solving under extreme pressure, certification of interview readiness",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Final-Assessment",
+            "Mastery",
+            "Certification",
+            "Extreme-Pressure"
           ],
           "completed": false
         },
         {
-          "id": "16-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "16-career_transition",
+          "title": "Career Transition Excellence + Success Optimization",
+          "time": "8:00-9:00 PM",
+          "description": "Career transition strategies, negotiation techniques, personal branding optimization, networking mastery, long-term career planning and success optimization",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Career-Transition",
+            "Negotiation",
+            "Branding",
+            "Networking"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Interview Mastery",
+          "text": "Conduct final comprehensive interview assessment for Week 16. Evaluate my complete readiness across all technical, behavioral, and system design areas with certification-level rigor."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Career Transition",
+          "text": "Guide me through advanced career transition strategies from ML research to FAANG software engineering. Provide negotiation tactics, personal branding optimization, and long-term career planning."
+        },
+        {
+          "category": "Success Optimization",
+          "text": "Help me optimize for maximum success in my FAANG transition. Provide strategic guidance on interview scheduling, performance optimization, and post-interview follow-up strategies."
         }
       ]
     },
     "17": {
-      "title": "Week 17 Advanced Training",
+      "title": "Advanced Mock Interview Mastery + Company Deep Dive",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Complete 15+ advanced mock interviews across all target companies",
+        "Master company-specific interview styles and technical expectations",
+        "Achieve consistent 9/10+ performance scores in mock interviews",
+        "Implement advanced interview strategy optimization",
+        "Master edge case handling and optimization under pressure",
+        "Achieve interview confidence and consistent high performance"
       ],
       "sessions": [
         {
-          "id": "17-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "17-mock_mastery",
+          "title": "Advanced Mock Interview Intensive Training",
+          "time": "6:00-8:30 AM",
+          "description": "Multiple advanced mock interviews simulating real FAANG conditions, company-specific technical challenges, behavioral storytelling mastery, real-time performance optimization",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Mock-Intensive",
+            "FAANG-Simulation",
+            "Behavioral",
+            "Real-time"
           ],
           "completed": false
         },
         {
-          "id": "17-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "17-strategy_optimization",
+          "title": "Interview Strategy Optimization + Performance Analysis",
+          "time": "8:00-9:00 PM",
+          "description": "Advanced interview strategy development, performance pattern analysis, optimization of problem-solving approach, stress management and confidence building",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Strategy",
+            "Performance-Analysis",
+            "Optimization",
+            "Confidence"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Mock Interview Excellence",
+          "text": "Conduct intensive Week 17 mock interviews with maximum realism and difficulty. Evaluate my performance across all dimensions and provide detailed optimization strategies."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Company Specialization",
+          "text": "Help me specialize my interview approach for each target company's specific style, technical focus, and cultural expectations. Provide tailored preparation strategies."
+        },
+        {
+          "category": "Performance Consistency",
+          "text": "Analyze my interview performance patterns and help me achieve consistent high performance. Focus on eliminating variability and optimizing for peak performance."
         }
       ]
     },
     "18": {
-      "title": "Week 18 Advanced Training",
+      "title": "Portfolio Showcase + Technical Leadership Demonstration",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Complete comprehensive technical portfolio showcasing ML and software engineering expertise",
+        "Demonstrate technical leadership through advanced project implementations",
+        "Master technical presentation and communication skills",
+        "Implement advanced portfolio optimization and presentation strategies",
+        "Achieve portfolio excellence for maximum interview impact",
+        "Demonstrate innovation and technical depth in software engineering"
       ],
       "sessions": [
         {
-          "id": "18-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "18-portfolio_showcase",
+          "title": "Comprehensive Portfolio Development + Technical Leadership",
+          "time": "6:00-8:30 AM",
+          "description": "Complete advanced portfolio projects demonstrating ML and software engineering expertise, implement technical leadership examples, create compelling project narratives",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Portfolio",
+            "Technical-Leadership",
+            "Project-Narratives",
+            "Expertise"
           ],
           "completed": false
         },
         {
-          "id": "18-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "18-presentation_mastery",
+          "title": "Technical Presentation Mastery + Communication Excellence",
+          "time": "8:00-9:00 PM",
+          "description": "Master technical presentation skills, optimize communication for different audiences, create compelling technical narratives, practice portfolio presentation",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Presentation",
+            "Communication",
+            "Narratives",
+            "Practice"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Portfolio Excellence",
+          "text": "Help me optimize my Week 18 technical portfolio for maximum impact. Guide me in showcasing both ML expertise and software engineering skills effectively."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Technical Leadership",
+          "text": "Assist me in demonstrating technical leadership through my portfolio projects. Help me craft compelling narratives that show innovation, problem-solving, and impact."
+        },
+        {
+          "category": "Presentation Optimization",
+          "text": "Guide me through advanced technical presentation skills. Help me communicate complex technical concepts clearly and persuasively to different audiences."
         }
       ]
     },
     "19": {
-      "title": "Week 19 Advanced Training",
+      "title": "Final Optimization + Interview Excellence",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Complete final optimization of all interview and technical skills",
+        "Achieve peak performance across all evaluation dimensions",
+        "Master advanced interview tactics and optimization strategies",
+        "Complete final readiness assessment and certification",
+        "Implement last-minute optimization and fine-tuning",
+        "Achieve 98%+ interview readiness score"
       ],
       "sessions": [
         {
-          "id": "19-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "19-final_optimization",
+          "title": "Final Performance Optimization + Excellence Achievement",
+          "time": "6:00-8:30 AM",
+          "description": "Final optimization of technical skills, interview performance, and communication abilities. Peak performance training and last-minute fine-tuning",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Final-Optimization",
+            "Peak-Performance",
+            "Fine-tuning",
+            "Excellence"
           ],
           "completed": false
         },
         {
-          "id": "19-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "19-readiness_certification",
+          "title": "Final Readiness Assessment + Certification",
+          "time": "8:00-9:00 PM",
+          "description": "Comprehensive final assessment of interview readiness, certification of technical competency, final strategy optimization and confidence building",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Final-Assessment",
+            "Certification",
+            "Strategy",
+            "Confidence"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Final Excellence",
+          "text": "Conduct final Week 19 optimization of my interview performance. Help me achieve peak performance and eliminate any remaining weaknesses or inconsistencies."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Readiness Certification",
+          "text": "Provide comprehensive final assessment of my interview readiness across all dimensions. Certify my competency and provide final optimization recommendations."
+        },
+        {
+          "category": "Peak Performance",
+          "text": "Guide me through final peak performance optimization. Help me achieve maximum confidence and consistent excellence in all interview scenarios."
         }
       ]
     },
     "20": {
-      "title": "Week 20 Advanced Training",
+      "title": "Interview Success + Career Launch Excellence",
       "objectives": [
-        "Advanced learning objectives with AI enhancement",
-        "Company-specific interview preparation",
-        "Portfolio project development and optimization",
-        "Mock interview practice with AI feedback"
+        "Execute successful interviews with target companies",
+        "Achieve optimal interview scheduling and performance timing",
+        "Master final interview preparation and execution strategies",
+        "Successfully navigate offer negotiations and decision-making",
+        "Launch successful FAANG software engineering career",
+        "Achieve complete transition from ML research to software engineering"
       ],
       "sessions": [
         {
-          "id": "20-morning",
-          "title": "Morning Session: Advanced Concepts",
-          "time": "6:00-7:30 AM",
-          "description": "Advanced theoretical learning with AI enhancement",
-          "duration": 90,
+          "id": "20-interview_execution",
+          "title": "Interview Execution + Success Optimization",
+          "time": "6:00-8:30 AM",
+          "description": "Final interview preparation and execution strategies, optimal performance timing, last-minute preparation and confidence optimization",
+          "duration": 150,
           "tags": [
-            "Advanced",
-            "Theory",
-            "AI"
+            "Interview-Execution",
+            "Success",
+            "Timing",
+            "Confidence"
           ],
           "completed": false
         },
         {
-          "id": "20-evening",
-          "title": "Evening Session: Implementation Practice",
-          "time": "8:00-9:30 PM",
-          "description": "Advanced practical implementation with AI feedback",
-          "duration": 90,
+          "id": "20-career_launch",
+          "title": "Career Launch Excellence + Future Success",
+          "time": "8:00-9:00 PM",
+          "description": "Career launch strategies, offer negotiation mastery, decision-making optimization, long-term career success planning and continuous improvement",
+          "duration": 60,
           "tags": [
-            "Advanced",
-            "Practice",
-            "AI"
+            "Career-Launch",
+            "Negotiation",
+            "Decision-Making",
+            "Success-Planning"
           ],
           "completed": false
         }
       ],
       "ai_prompts": [
         {
-          "category": "Advanced Problem Solving",
-          "text": "Help me solve advanced problems with optimal approaches and detailed analysis."
+          "category": "Interview Success",
+          "text": "Provide final Week 20 interview execution guidance. Help me optimize my performance timing, preparation strategies, and execution for maximum success."
         },
         {
-          "category": "Interview Preparation",
-          "text": "Provide advanced interview coaching and company-specific guidance."
+          "category": "Career Launch",
+          "text": "Guide me through successful career launch strategies including offer negotiation, decision-making, and long-term career planning for FAANG software engineering."
+        },
+        {
+          "category": "Future Excellence",
+          "text": "Help me plan for continued success and growth in my new FAANG software engineering role. Provide strategies for ongoing skill development and career advancement."
         }
       ]
     }

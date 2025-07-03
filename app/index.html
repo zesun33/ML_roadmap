@@ -1,630 +1,1689 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Enhanced ML-FAANG Mastery Plan - Interactive Roadmap</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .progress-ring {
-            transform: rotate(-90deg);
-        }
-        .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .loading-spinner {
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-    </style>
-</head>
-<body class="bg-gray-50 min-h-screen" x-data="roadmapApp()">
-    <!-- Loading State -->
-    <div x-show="loading" class="fixed inset-0 bg-white flex items-center justify-center z-50">
-        <div class="text-center">
-            <div class="loading-spinner w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full mb-4"></div>
-            <p class="text-gray-600">Loading your roadmap...</p>
-        </div>
-    </div>
 
-    <!-- Main Content -->
-    <div x-show="!loading && !error">
-        <!-- Header -->
-        <header class="gradient-bg text-white shadow-lg">
-            <div class="container mx-auto px-4 py-6">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <h1 class="text-3xl font-bold flex items-center">
-                            <i class="fas fa-robot mr-3"></i>
-                            <span x-text="roadmapData?.metadata?.title || 'AI-Enhanced ML-FAANG Mastery Plan'"></span>
-                        </h1>
-                        <p class="text-blue-100 mt-2" x-text="roadmapData?.metadata?.description || '20-Week Transformation Journey'"></p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AI-Enhanced ML-FAANG Mastery Plan - Interactive Roadmap</title>
+
+        <!-- PWA Meta Tags -->
+        <meta name="description" content="Interactive 20-week ML-FAANG preparation roadmap with AI integration">
+        <meta name="theme-color" content="#667eea">
+        <link rel="manifest"
+            href="data:application/json;base64,eyJuYW1lIjoiTUwtRkFBTkcgUm9hZG1hcCIsInNob3J0X25hbWUiOiJNTC1GQUFORSISINN0YXJ0X3VybCI6Ii8iLCJkaXNwbGF5Ijoic3RhbmRhbG9uZSIsImJhY2tncm91bmRfY29sb3IiOiIjZjhmOWZhIiwidGhlbWVfY29sb3IiOiIjNjY3ZWVhIiwiaWNvbnMiOlt7InNyYyI6ImRhdGE6aW1hZ2Uvc3ZnK3htbDtiYXNlNjQsUEQ5NGJXd2dkbVZ5YzJsdmJqMGlNUzR3SWlCbGJtTnZaR2x1WnowaWRYUm1MVGdpUHo0S1BITjJaeUIzYVdSMGFEMGlNVEkySWlCb1pXbG5hSFE5SWpFeU5pSWdlRzFzYm5NOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6SXdNREF2YzNabklpQjJhV1YzUW05NE9URWFjSE5xY0d0YjZPMTNCNUhDWWxtSUFHNVpwVEJOL1hVYjhlVVRJN3hkQjZQaDJjU1V0ZGNTSmc0Z2dGTUE1VzZNK21FdVptWWhUME5aN0pxQ0I4V0k1cTFTckJqVkl6ZUZTWlN3MjNMcW5lNzRjTFI1TlJNZml3eU5wVUh1SjhFN3B4S2NVWFcwZnZSb3psUldCdml6dmJ6c0xOOEs1Q0puJmJydGNUemJhQmt3cHVMcnFkU0lEREE9PSIsInNpemVzIjoiMTI4eDEyOCIsInR5cGUiOiJpbWFnZS9zdmcreG1sIn1dfQ==">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <style>
+            .progress-ring {
+                transform: rotate(-90deg);
+            }
+
+            .gradient-bg {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+
+            .loading-spinner {
+                animation: spin 1s linear infinite;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            /* Enhanced UI utilities */
+            .line-clamp-3 {
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            /* Smooth transitions for all interactive elements */
+            .transition-all {
+                transition: all 0.2s ease;
+            }
+
+            /* Enhanced hover effects */
+            .hover-scale:hover {
+                transform: scale(1.02);
+            }
+
+            /* Custom scrollbar */
+            .overflow-y-auto::-webkit-scrollbar {
+                width: 6px;
+            }
+
+            .overflow-y-auto::-webkit-scrollbar-track {
+                background: #f1f1f1;
+                border-radius: 3px;
+            }
+
+            .overflow-y-auto::-webkit-scrollbar-thumb {
+                background: #888;
+                border-radius: 3px;
+            }
+
+            .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+                background: #555;
+            }
+
+            /* Improved focus states */
+            button:focus {
+                outline: 2px solid #3b82f6;
+                outline-offset: 2px;
+            }
+
+            /* Analytics chart container */
+            .chart-container {
+                position: relative;
+                height: 300px;
+                width: 100%;
+            }
+
+            /* Mobile optimizations */
+            @media (max-width: 768px) {
+                .chart-container {
+                    height: 250px;
+                }
+
+                .weekly-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+
+            /* PWA app-like styling */
+            @media (display-mode: standalone) {
+                body {
+                    padding-top: env(safe-area-inset-top);
+                    padding-bottom: env(safe-area-inset-bottom);
+                }
+            }
+
+            /* Enhanced animations */
+            .fade-in {
+                animation: fadeIn 0.5s ease-in;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            /* Calendar styles */
+            .calendar-grid {
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                gap: 1px;
+                background: #e5e7eb;
+                border: 1px solid #e5e7eb;
+            }
+
+            .calendar-day {
+                background: white;
+                min-height: 80px;
+                padding: 4px;
+                position: relative;
+            }
+
+            .calendar-day.today {
+                background: #dbeafe;
+                border: 2px solid #3b82f6;
+            }
+
+            .calendar-day.has-session {
+                background: #fef3c7;
+            }
+
+            .calendar-day.completed {
+                background: #d1fae5;
+            }
+        </style>
+    </head>
+
+    <body class="bg-gray-50 min-h-screen" x-data="roadmapApp()">
+        <!-- Loading State -->
+        <div x-show="loading" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+            <div class="text-center">
+                <div class="loading-spinner w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full mb-4">
+                </div>
+                <p class="text-gray-600">Loading your roadmap...</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div x-show="!loading && !error" class="fade-in">
+            <!-- Enhanced Header with Navigation -->
+            <header class="gradient-bg text-white shadow-lg">
+                <div class="container mx-auto px-4 py-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h1 class="text-3xl font-bold flex items-center">
+                                <i class="fas fa-robot mr-3"></i>
+                                <span
+                                    x-text="roadmapData?.metadata?.title || 'AI-Enhanced ML-FAANG Mastery Plan'"></span>
+                            </h1>
+                            <p class="text-blue-100 mt-2"
+                                x-text="roadmapData?.metadata?.description || '20-Week Transformation Journey'"></p>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-2xl font-bold" x-text="Math.round(overallProgress) + '%'"></div>
+                            <div class="text-blue-100">Overall Progress</div>
+                            <!-- Export/Import buttons -->
+                            <div class="flex gap-2 mt-2">
+                                <button @click="exportProgress()"
+                                    class="text-xs bg-white/20 hover:bg-white/30 px-3 py-1 rounded transition-colors">
+                                    <i class="fas fa-download mr-1"></i>Export
+                                </button>
+                                <button @click="triggerImport()"
+                                    class="text-xs bg-white/20 hover:bg-white/30 px-3 py-1 rounded transition-colors">
+                                    <i class="fas fa-upload mr-1"></i>Import
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-right">
-                        <div class="text-2xl font-bold" x-text="Math.round(overallProgress) + '%'"></div>
-                        <div class="text-blue-100">Overall Progress</div>
+
+                    <!-- Navigation Tabs -->
+                    <div class="flex flex-wrap gap-2 mt-6">
+                        <button @click="activeTab = 'overview'"
+                            :class="activeTab === 'overview' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-home mr-2"></i>Overview
+                        </button>
+                        <button @click="activeTab = 'analytics'"
+                            :class="activeTab === 'analytics' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-chart-line mr-2"></i>Analytics
+                        </button>
+                        <button @click="activeTab = 'calendar'"
+                            :class="activeTab === 'calendar' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-calendar mr-2"></i>Calendar
+                        </button>
+                        <button @click="activeTab = 'roadmap'"
+                            :class="activeTab === 'roadmap' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-route mr-2"></i>Weekly Plan
+                        </button>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
-        <!-- Progress Overview -->
-        <div class="container mx-auto px-4 py-8">
-            <div class="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
-                <!-- Phase Progress Cards -->
-                <template x-for="(phase, index) in phases" :key="index">
-                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                        <div class="flex items-center justify-between mb-4">
-                            <h3 class="font-semibold text-gray-800" x-text="phase.name"></h3>
-                            <div class="relative w-16 h-16">
-                                <svg class="w-16 h-16 progress-ring" viewBox="0 0 36 36">
-                                    <path class="text-gray-300" stroke="currentColor" stroke-width="3" fill="transparent"
-                                          d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"/>
-                                    <path class="text-blue-600" stroke="currentColor" stroke-width="3" fill="transparent"
-                                          :stroke-dasharray="getPhaseProgress(phase.number) + ', 100'"
-                                          d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831"/>
-                                </svg>
-                                <div class="absolute inset-0 flex items-center justify-center">
-                                    <span class="text-sm font-bold" x-text="Math.round(getPhaseProgress(phase.number)) + '%'"></span>
+            <div class="container mx-auto px-4 py-8">
+
+                <!-- Analytics Tab -->
+                <div x-show="activeTab === 'analytics'" class="space-y-8">
+                    <h2 class="text-3xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-chart-line mr-3 text-blue-600"></i>
+                        Learning Analytics Dashboard
+                    </h2>
+
+                    <!-- Key Metrics Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-center">
+                                <div class="p-3 bg-blue-100 rounded-full">
+                                    <i class="fas fa-calendar-check text-blue-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-500">Study Days</h4>
+                                    <p class="text-2xl font-bold text-gray-900" x-text="getStudyDaysCount()"></p>
                                 </div>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-600" x-text="phase.description"></p>
-                        <div class="mt-3 flex items-center text-sm">
-                            <i class="fas fa-calendar-alt mr-2 text-blue-500"></i>
-                            <span x-text="phase.weeks"></span>
+
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-center">
+                                <div class="p-3 bg-green-100 rounded-full">
+                                    <i class="fas fa-clock text-green-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-500">Total Hours</h4>
+                                    <p class="text-2xl font-bold text-gray-900" x-text="getTotalStudyHours() + 'h'"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-center">
+                                <div class="p-3 bg-purple-100 rounded-full">
+                                    <i class="fas fa-tasks text-purple-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-500">Completed Sessions</h4>
+                                    <p class="text-2xl font-bold text-gray-900"
+                                        x-text="Object.keys(sessionCompletions).length"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <div class="flex items-center">
+                                <div class="p-3 bg-yellow-100 rounded-full">
+                                    <i class="fas fa-trophy text-yellow-600"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-sm font-medium text-gray-500">Current Streak</h4>
+                                    <p class="text-2xl font-bold text-gray-900" x-text="getCurrentStreak() + ' days'">
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </template>
-            </div>
 
-            <!-- Current Week Focus -->
-            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h2 class="text-2xl font-bold mb-4 flex items-center">
-                    <i class="fas fa-bullseye mr-3 text-blue-600"></i>
-                    Current Week Focus
-                </h2>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div>
-                        <h3 class="font-semibold text-lg mb-3" x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
-                        <div class="space-y-2">
-                            <template x-for="objective in getCurrentWeekObjectives()" :key="objective">
-                                <div class="flex items-center p-3 bg-blue-50 rounded-lg">
-                                    <i class="fas fa-check-circle text-blue-600 mr-3"></i>
-                                    <span x-text="objective"></span>
+                    <!-- Charts Row -->
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <!-- Progress Over Time Chart -->
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-semibold mb-4">Progress Over Time</h3>
+                            <div class="chart-container">
+                                <canvas id="progressChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Study Time Distribution -->
+                        <div class="bg-white rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-semibold mb-4">Study Time by Phase</h3>
+                            <div class="chart-container">
+                                <canvas id="timeChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Completion Heatmap -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-4">Weekly Completion Status</h3>
+                        <div class="grid weekly-grid grid-cols-4 md:grid-cols-10 gap-2">
+                            <template x-for="week in Array.from({length: totalWeeks}, (_, i) => i + 1)" :key="week">
+                                <div class="aspect-square rounded-lg border-2 transition-all cursor-pointer"
+                                    :class="getWeekCompletionClass(week)"
+                                    @click="currentWeek = week; activeTab = 'roadmap'"
+                                    :title="'Week ' + week + ': ' + getWeekCompletionStatus(week)">
+                                    <div class="w-full h-full flex items-center justify-center text-xs font-medium">
+                                        <span x-text="week"></span>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="flex items-center justify-center gap-4 mt-4 text-sm">
+                            <div class="flex items-center gap-2">
+                                <div class="w-4 h-4 bg-gray-100 border-2 border-gray-300 rounded"></div>
+                                <span>Not Started</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-4 h-4 bg-yellow-100 border-2 border-yellow-300 rounded"></div>
+                                <span>In Progress</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <div class="w-4 h-4 bg-green-100 border-2 border-green-500 rounded"></div>
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calendar Tab -->
+                <div x-show="activeTab === 'calendar'" class="space-y-8">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-3xl font-bold flex items-center">
+                            <i class="fas fa-calendar mr-3 text-blue-600"></i>
+                            Study Calendar
+                        </h2>
+                        <div class="flex items-center gap-4">
+                            <button @click="navigateMonth(-1)"
+                                class="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <h3 class="text-xl font-semibold" x-text="getCurrentMonthYear()"></h3>
+                            <button @click="navigateMonth(1)"
+                                class="p-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Calendar Grid -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <div class="calendar-grid">
+                            <!-- Weekday headers -->
+                            <template x-for="day in ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']">
+                                <div class="p-4 bg-gray-100 text-center font-semibold text-gray-700" x-text="day"></div>
+                            </template>
+
+                            <!-- Calendar days -->
+                            <template x-for="day in getCalendarDays()" :key="day.date">
+                                <div class="calendar-day" :class="getCalendarDayClass(day)"
+                                    @click="selectCalendarDay(day)">
+                                    <div class="text-sm font-medium" x-text="day.day"></div>
+                                    <div class="text-xs mt-1">
+                                        <template x-for="session in day.sessions" :key="session.id">
+                                            <div class="w-2 h-2 rounded-full bg-blue-500 mb-1"
+                                                :class="isSessionCompleted(session.id) ? 'bg-green-500' : 'bg-blue-500'">
+                                            </div>
+                                        </template>
+                                    </div>
                                 </div>
                             </template>
                         </div>
                     </div>
-                    <div>
-                        <h3 class="font-semibold text-lg mb-3">Today's Sessions</h3>
+
+                    <!-- Selected Day Details -->
+                    <div x-show="selectedCalendarDay" class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-xl font-semibold mb-4" x-text="formatSelectedDate()"></h3>
                         <div class="space-y-3">
-                            <template x-for="session in getTodaySessions()" :key="session.id">
+                            <template x-for="session in selectedCalendarDay?.sessions || []" :key="session.id">
                                 <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
-                                     @click="toggleSession(session.id)"
-                                     :class="isSessionCompleted(session.id) ? 'bg-green-50 border-green-200' : 'bg-white'">
+                                    @click="toggleSession(session.id)"
+                                    :class="isSessionCompleted(session.id) ? 'bg-green-50 border-green-200' : 'bg-white'">
                                     <div class="flex items-center justify-between">
                                         <div class="flex items-center">
-                                            <input type="checkbox" :checked="isSessionCompleted(session.id)" 
-                                                   @change="toggleSession(session.id)" class="mr-3">
+                                            <input type="checkbox" :checked="isSessionCompleted(session.id)"
+                                                @change="toggleSession(session.id)" class="mr-3">
                                             <div>
                                                 <h4 class="font-medium" x-text="session.title"></h4>
                                                 <p class="text-sm text-gray-600" x-text="session.time"></p>
                                             </div>
                                         </div>
-                                        <button class="text-blue-600 hover:text-blue-800" @click.stop="startTimer(session)">
+                                        <button class="text-blue-600 hover:text-blue-800"
+                                            @click.stop="startTimer(session)">
                                             <i class="fas fa-play"></i>
                                         </button>
                                     </div>
-                                    <div class="mt-2">
-                                        <p class="text-sm text-gray-700" x-text="session.description"></p>
-                                        <div class="mt-2 flex flex-wrap gap-2">
-                                            <template x-for="tag in session.tags || []" :key="tag">
-                                                <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full" x-text="tag"></span>
-                                            </template>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roadmap Tab -->
+                <div x-show="activeTab === 'roadmap'" class="space-y-8">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-3xl font-bold flex items-center">
+                            <i class="fas fa-route mr-3 text-blue-600"></i>
+                            Weekly Roadmap
+                        </h2>
+                        <div class="flex items-center gap-4">
+                            <button @click="previousWeek()" :disabled="currentWeek <= 1"
+                                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
+                                <i class="fas fa-chevron-left mr-1"></i>Previous
+                            </button>
+                            <span class="text-lg font-semibold">Week <span x-text="currentWeek"></span> of <span
+                                    x-text="totalWeeks"></span></span>
+                            <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
+                                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
+                                Next<i class="fas fa-chevron-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Current Week Details -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h3 class="text-2xl font-bold mb-4"
+                            x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
+
+                        <!-- Week Objectives -->
+                        <div class="mb-6">
+                            <h4 class="text-lg font-semibold mb-3">Learning Objectives</h4>
+                            <div class="space-y-2">
+                                <template x-for="objective in getCurrentWeekObjectives()" :key="objective">
+                                    <div class="flex items-center p-3 bg-blue-50 rounded-lg">
+                                        <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                        <span x-text="objective"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Study Sessions -->
+                        <div class="mb-6">
+                            <h4 class="text-lg font-semibold mb-3">Study Sessions</h4>
+                            <div class="space-y-3">
+                                <template x-for="session in getTodaySessions()" :key="session.id">
+                                    <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
+                                        @click="toggleSession(session.id)"
+                                        :class="isSessionCompleted(session.id) ? 'bg-green-50 border-green-200' : 'bg-white'">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <input type="checkbox" :checked="isSessionCompleted(session.id)"
+                                                    @change="toggleSession(session.id)" class="mr-3">
+                                                <div>
+                                                    <h4 class="font-medium" x-text="session.title"></h4>
+                                                    <p class="text-sm text-gray-600" x-text="session.time"></p>
+                                                </div>
+                                            </div>
+                                            <button class="text-blue-600 hover:text-blue-800"
+                                                @click.stop="startTimer(session)">
+                                                <i class="fas fa-play"></i>
+                                            </button>
+                                        </div>
+                                        <div class="mt-2">
+                                            <p class="text-sm text-gray-700" x-text="session.description"></p>
+                                            <div class="mt-2 flex flex-wrap gap-2">
+                                                <template x-for="tag in session.tags || []" :key="tag">
+                                                    <span
+                                                        class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full"
+                                                        x-text="tag"></span>
+                                                </template>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- AI Prompts for Current Week -->
+                        <div class="mb-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-lg font-semibold">AI Coaching Prompts</h4>
+                                <div class="flex gap-2">
+                                    <button @click="copyAllPrompts()"
+                                        class="px-3 py-1 text-sm bg-purple-100 text-purple-700 rounded-lg hover:bg-purple-200 transition-colors">
+                                        <i class="fas fa-copy mr-1"></i>Copy All
+                                    </button>
+                                    <button @click="generateCustomPrompt()"
+                                        class="px-3 py-1 text-sm bg-green-100 text-green-700 rounded-lg hover:bg-green-200 transition-colors">
+                                        <i class="fas fa-magic mr-1"></i>Generate Custom
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                <template x-for="prompt in getCurrentWeekAIPrompts()" :key="prompt.category">
+                                    <div
+                                        class="bg-gradient-to-br from-purple-50 to-blue-50 rounded-lg p-4 border border-purple-200">
+                                        <h5 class="font-medium text-purple-800 mb-2" x-text="prompt.category"></h5>
+                                        <p class="text-sm text-gray-700 mb-3 line-clamp-3" x-text="prompt.text"></p>
+                                        <div class="flex gap-2">
+                                            <button @click="copyToClipboard(prompt.text)"
+                                                class="flex-1 px-3 py-1 text-xs bg-purple-600 text-white rounded hover:bg-purple-700 transition-colors">
+                                                <i class="fas fa-copy mr-1"></i>Copy
+                                            </button>
+                                            <button @click="showPromptModalDialog(prompt)"
+                                                class="flex-1 px-3 py-1 text-xs bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
+                                                <i class="fas fa-expand mr-1"></i>View
+                                            </button>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Overview Tab -->
+                <div x-show="activeTab === 'overview'" class="space-y-8">
+                    <!-- Progress Overview -->
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-6 mb-8">
+                        <!-- Phase Progress Cards -->
+                        <template x-for="(phase, index) in phases" :key="index">
+                            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h3 class="font-semibold text-gray-800" x-text="phase.name"></h3>
+                                    <div class="relative w-16 h-16">
+                                        <svg class="w-16 h-16 progress-ring" viewBox="0 0 36 36">
+                                            <path class="text-gray-300" stroke="currentColor" stroke-width="3"
+                                                fill="transparent"
+                                                d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831" />
+                                            <path class="text-blue-600" stroke="currentColor" stroke-width="3"
+                                                fill="transparent"
+                                                :stroke-dasharray="getPhaseProgress(phase.number) + ', 100'"
+                                                d="m18,2.0845 a 15.9155,15.9155 0 0,1 0,31.831 a 15.9155,15.9155 0 0,1 0,-31.831" />
+                                        </svg>
+                                        <div class="absolute inset-0 flex items-center justify-center">
+                                            <span class="text-sm font-bold"
+                                                x-text="Math.round(getPhaseProgress(phase.number)) + '%'"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="text-sm text-gray-600" x-text="phase.description"></p>
+                                <div class="mt-3 flex items-center text-sm">
+                                    <i class="fas fa-calendar-alt mr-2 text-blue-500"></i>
+                                    <span x-text="phase.weeks"></span>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <!-- Current Week Focus -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center">
+                            <i class="fas fa-bullseye mr-3 text-blue-600"></i>
+                            Current Week Focus
+                        </h2>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div>
+                                <h3 class="font-semibold text-lg mb-3"
+                                    x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
+                                <div class="space-y-2">
+                                    <template x-for="objective in getCurrentWeekObjectives()" :key="objective">
+                                        <div class="flex items-center p-3 bg-blue-50 rounded-lg">
+                                            <i class="fas fa-check-circle text-blue-600 mr-3"></i>
+                                            <span x-text="objective"></span>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-lg mb-3">Today's Sessions</h3>
+                                <div class="space-y-3">
+                                    <template x-for="session in getTodaySessions()" :key="session.id">
+                                        <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
+                                            @click="toggleSession(session.id)"
+                                            :class="isSessionCompleted(session.id) ? 'bg-green-50 border-green-200' : 'bg-white'">
+                                            <div class="flex items-center justify-between">
+                                                <div class="flex items-center">
+                                                    <input type="checkbox" :checked="isSessionCompleted(session.id)"
+                                                        @change="toggleSession(session.id)" class="mr-3">
+                                                    <div>
+                                                        <h4 class="font-medium" x-text="session.title"></h4>
+                                                        <p class="text-sm text-gray-600" x-text="session.time"></p>
+                                                    </div>
+                                                </div>
+                                                <button class="text-blue-600 hover:text-blue-800"
+                                                    @click.stop="startTimer(session)">
+                                                    <i class="fas fa-play"></i>
+                                                </button>
+                                            </div>
+                                            <div class="mt-2">
+                                                <p class="text-sm text-gray-700" x-text="session.description"></p>
+                                                <div class="mt-2 flex flex-wrap gap-2">
+                                                    <template x-for="tag in session.tags || []" :key="tag">
+                                                        <span
+                                                            class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full"
+                                                            x-text="tag"></span>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timer Modal -->
+                    <div x-show="showTimer"
+                        class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+                        x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0"
+                        x-transition:enter-end="opacity-100">
+                        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+                            <div class="text-center">
+                                <h3 class="text-2xl font-bold mb-4" x-text="activeSession?.title"></h3>
+                                <div class="text-6xl font-mono font-bold text-blue-600 mb-6"
+                                    x-text="formatTime(timeRemaining)"></div>
+                                <div class="flex justify-center space-x-4">
+                                    <button @click="toggleTimer()"
+                                        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                                        <span x-text="timerRunning ? 'Pause' : 'Start'"></span>
+                                    </button>
+                                    <button @click="resetTimer()"
+                                        class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors">
+                                        Reset
+                                    </button>
+                                    <button @click="closeTimer()"
+                                        class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+                                        Close
+                                    </button>
+                                </div>
+                                <div class="mt-4 text-sm text-gray-600">
+                                    <span x-text="activeSession?.description"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI Coaching Integration -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h2 class="text-2xl font-bold mb-4 flex items-center">
+                            <i class="fas fa-brain mr-3 text-purple-600"></i>
+                            AI Coaching Assistant
+                        </h2>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div>
+                                <h3 class="font-semibold mb-3">Week-Specific AI Prompts</h3>
+                                <div class="space-y-3">
+                                    <template x-for="prompt in getCurrentWeekAIPrompts()" :key="prompt.category">
+                                        <div
+                                            class="p-4 bg-purple-50 rounded-lg border border-purple-200 hover:border-purple-300 transition-colors">
+                                            <div class="flex justify-between items-start mb-2">
+                                                <h4 class="font-medium text-purple-800" x-text="prompt.category"></h4>
+                                                <div class="flex space-x-2">
+                                                    <button
+                                                        class="text-xs bg-purple-600 text-white px-2 py-1 rounded hover:bg-purple-700 transition-colors"
+                                                        @click="copyToClipboard(prompt.text)">
+                                                        <i class="fas fa-copy mr-1"></i>Copy
+                                                    </button>
+                                                    <button
+                                                        class="text-xs bg-blue-600 text-white px-2 py-1 rounded hover:bg-blue-700 transition-colors"
+                                                        @click="showPromptModal(prompt)">
+                                                        <i class="fas fa-expand mr-1"></i>Expand
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <p class="text-sm text-purple-700 line-clamp-3" x-text="prompt.text"></p>
+                                            <div class="mt-2 flex items-center text-xs text-purple-600">
+                                                <i class="fas fa-lightbulb mr-1"></i>
+                                                <span>Optimized for Week <span x-text="currentWeek"></span>
+                                                    objectives</span>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+
+                                <!-- Quick AI Actions -->
+                                <div
+                                    class="mt-4 p-3 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg text-white">
+                                    <h4 class="font-medium mb-2 flex items-center">
+                                        <i class="fas fa-magic mr-2"></i>Quick AI Actions
+                                    </h4>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <button @click="copyAllPrompts()"
+                                            class="bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-2 rounded text-sm transition-colors">
+                                            Copy All Prompts
+                                        </button>
+                                        <button @click="generateCustomPrompt()"
+                                            class="bg-white bg-opacity-20 hover:bg-opacity-30 px-3 py-2 rounded text-sm transition-colors">
+                                            Generate Custom
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold mb-3">Progress Analytics</h3>
+                                <div class="space-y-4">
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex justify-between items-center mb-2">
+                                            <span class="text-sm font-medium">Sessions Completed</span>
+                                            <span class="text-lg font-bold text-blue-600"
+                                                x-text="getCompletedSessionsCount() + '/' + getTotalSessionsCount()"></span>
+                                        </div>
+                                        <div class="w-full bg-gray-200 rounded-full h-2">
+                                            <div class="bg-blue-600 h-2 rounded-full"
+                                                :style="'width: ' + (getCompletedSessionsCount()/getTotalSessionsCount()*100) + '%'">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex justify-between items-center mb-2">
+                                            <span class="text-sm font-medium">Weeks Completed</span>
+                                            <span class="text-lg font-bold text-green-600"
+                                                x-text="getCompletedWeeksCount() + '/' + totalWeeks"></span>
+                                        </div>
+                                        <div class="w-full bg-gray-200 rounded-full h-2">
+                                            <div class="bg-green-600 h-2 rounded-full"
+                                                :style="'width: ' + (getCompletedWeeksCount()/totalWeeks*100) + '%'">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex justify-between items-center mb-2">
+                                            <span class="text-sm font-medium">Study Hours</span>
+                                            <span class="text-lg font-bold text-purple-600"
+                                                x-text="getTotalStudyHours() + 'h'"></span>
+                                        </div>
+                                        <div class="text-xs text-gray-600 mt-1">
+                                            <span x-text="'This week: ' + getWeekStudyHours() + 'h'"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Roadmap Overview -->
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h2 class="text-2xl font-bold mb-6 flex items-center">
+                            <i class="fas fa-calendar-alt mr-3 text-blue-600"></i>
+                            Weekly Roadmap Overview
+                        </h2>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                            <template x-for="week in Array.from({length: totalWeeks}, (_, i) => i + 1)" :key="week">
+                                <div @click="currentWeek = week"
+                                    class="cursor-pointer p-3 rounded-lg border-2 transition-all duration-200 hover:shadow-md"
+                                    :class="getWeekCardStyle(week)">
+                                    <div class="text-center">
+                                        <div class="font-bold text-sm" x-text="'Week ' + week"></div>
+                                        <div class="text-xs text-gray-600 mt-1" x-text="getWeekPhaseInfo(week)"></div>
+                                        <div class="mt-2">
+                                            <div class="w-full bg-gray-200 rounded-full h-1">
+                                                <div class="bg-current h-1 rounded-full transition-all"
+                                                    :style="'width: ' + getWeekProgress(week) + '%'"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </template>
                         </div>
                     </div>
+
+                    <!-- Navigation -->
+                    <div class="flex justify-between items-center bg-white rounded-lg shadow-md p-6">
+                        <button @click="previousWeek()" :disabled="currentWeek <= 1"
+                            class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+                            <i class="fas fa-chevron-left mr-2"></i>Previous Week
+                        </button>
+                        <div class="text-center">
+                            <div class="text-lg font-semibold">Week <span x-text="currentWeek"></span> of <span
+                                    x-text="totalWeeks"></span></div>
+                            <div class="text-sm text-gray-600">Phase <span x-text="getCurrentPhase()"></span> - <span
+                                    x-text="getCurrentPhaseName()"></span></div>
+                        </div>
+                        <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
+                            class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
+                            Next Week<i class="fas fa-chevron-right ml-2"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <!-- Timer Modal -->
-            <div x-show="showTimer" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-                 x-transition:enter="transition ease-out duration-300"
-                 x-transition:enter-start="opacity-0"
-                 x-transition:enter-end="opacity-100">
-                <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
-                    <div class="text-center">
-                        <h3 class="text-2xl font-bold mb-4" x-text="activeSession?.title"></h3>
-                        <div class="text-6xl font-mono font-bold text-blue-600 mb-6" x-text="formatTime(timeRemaining)"></div>
-                        <div class="flex justify-center space-x-4">
-                            <button @click="toggleTimer()" 
-                                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                                <span x-text="timerRunning ? 'Pause' : 'Start'"></span>
+            <!-- Error State -->
+            <div x-show="error" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+                <div class="text-center max-w-md">
+                    <div class="text-red-500 text-6xl mb-4">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Unable to Load Roadmap</h2>
+                    <p class="text-gray-600 mb-6" x-text="errorMessage"></p>
+                    <button @click="loadRoadmapData()"
+                        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                        Try Again
+                    </button>
+                </div>
+            </div>
+
+            <!-- AI Prompt Modal -->
+            <div x-show="showPromptModal"
+                class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+                x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100">
+                <div class="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-hidden">
+                    <div class="flex justify-between items-center p-6 border-b">
+                        <h3 class="text-xl font-bold text-gray-800"
+                            x-text="selectedPrompt?.category + ' - Week ' + currentWeek"></h3>
+                        <button @click="showPromptModal = false" class="text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+                    <div class="p-6 overflow-y-auto">
+                        <div class="mb-4">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Full AI Prompt:</label>
+                            <textarea x-model="selectedPrompt?.text"
+                                class="w-full h-32 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent resize-none"
+                                readonly></textarea>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button @click="copyToClipboard(selectedPrompt?.text)"
+                                class="flex-1 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
+                                <i class="fas fa-copy mr-2"></i>Copy to Clipboard
                             </button>
-                            <button @click="resetTimer()" 
-                                    class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors">
-                                Reset
-                            </button>
-                            <button @click="closeTimer()" 
-                                    class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
-                                Close
+                            <button @click="openAITool(selectedPrompt?.text)"
+                                class="flex-1 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                                <i class="fas fa-external-link-alt mr-2"></i>Open ChatGPT
                             </button>
                         </div>
-                        <div class="mt-4 text-sm text-gray-600">
-                            <span x-text="activeSession?.description"></span>
+                        <div class="mt-4 p-3 bg-gray-50 rounded-lg">
+                            <p class="text-sm text-gray-600">
+                                <i class="fas fa-info-circle mr-1 text-blue-500"></i>
+                                This prompt is specifically tailored for Week <span x-text="currentWeek"></span>
+                                objectives
+                                and your current learning phase.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- AI Coaching Integration -->
-            <div class="bg-white rounded-lg shadow-md p-6 mb-8">
-                <h2 class="text-2xl font-bold mb-4 flex items-center">
-                    <i class="fas fa-brain mr-3 text-purple-600"></i>
-                    AI Coaching Assistant
-                </h2>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div>
-                        <h3 class="font-semibold mb-3">Week-Specific AI Prompts</h3>
-                        <div class="space-y-3">
-                            <template x-for="prompt in getCurrentWeekAIPrompts()" :key="prompt.category">
-                                <div class="p-4 bg-purple-50 rounded-lg border border-purple-200">
-                                    <h4 class="font-medium text-purple-800" x-text="prompt.category"></h4>
-                                    <p class="text-sm text-purple-700 mt-1" x-text="prompt.text"></p>
-                                    <button class="mt-2 text-xs bg-purple-600 text-white px-3 py-1 rounded hover:bg-purple-700"
-                                            @click="copyToClipboard(prompt.text)">
-                                        Copy Prompt
-                                    </button>
-                                </div>
-                            </template>
-                        </div>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold mb-3">Progress Analytics</h3>
-                        <div class="space-y-4">
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm font-medium">Sessions Completed</span>
-                                    <span class="text-lg font-bold text-blue-600" x-text="getCompletedSessionsCount() + '/' + getTotalSessionsCount()"></span>
-                                </div>
-                                <div class="w-full bg-gray-200 rounded-full h-2">
-                                    <div class="bg-blue-600 h-2 rounded-full" :style="'width: ' + (getCompletedSessionsCount()/getTotalSessionsCount()*100) + '%'"></div>
-                                </div>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm font-medium">Weeks Completed</span>
-                                    <span class="text-lg font-bold text-green-600" x-text="getCompletedWeeksCount() + '/' + totalWeeks"></span>
-                                </div>
-                                <div class="w-full bg-gray-200 rounded-full h-2">
-                                    <div class="bg-green-600 h-2 rounded-full" :style="'width: ' + (getCompletedWeeksCount()/totalWeeks*100) + '%'"></div>
-                                </div>
-                            </div>
-                            <div class="p-4 bg-gray-50 rounded-lg">
-                                <div class="flex justify-between items-center mb-2">
-                                    <span class="text-sm font-medium">Study Hours</span>
-                                    <span class="text-lg font-bold text-purple-600" x-text="getTotalStudyHours() + 'h'"></span>
-                                </div>
-                                <div class="text-xs text-gray-600 mt-1">
-                                    <span x-text="'This week: ' + getWeekStudyHours() + 'h'"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <script>
+                function roadmapApp() {
+                    return {
+                        // State variables
+                        loading: true,
+                        error: false,
+                        errorMessage: '',
+                        roadmapData: null,
+                        phases: [],
+                        totalWeeks: 20,
+                        currentWeek: 1,
+                        showTimer: false,
+                        activeSession: null,
+                        timerRunning: false,
+                        timeRemaining: 0,
+                        timerInterval: null,
+                        sessionCompletions: {},
+                        timerHistory: {},
+                        showPromptModal: false,
+                        selectedPrompt: null,
+                        activeTab: 'overview',
 
-            <!-- Navigation -->
-            <div class="flex justify-between items-center bg-white rounded-lg shadow-md p-6">
-                <button @click="previousWeek()" :disabled="currentWeek <= 1"
-                        class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
-                    <i class="fas fa-chevron-left mr-2"></i>Previous Week
-                </button>
-                <div class="text-center">
-                    <div class="text-lg font-semibold">Week <span x-text="currentWeek"></span> of <span x-text="totalWeeks"></span></div>
-                    <div class="text-sm text-gray-600">Phase <span x-text="getCurrentPhase()"></span></div>
-                </div>
-                <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
-                        class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors">
-                    Next Week<i class="fas fa-chevron-right ml-2"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Error State -->
-    <div x-show="error" class="fixed inset-0 bg-white flex items-center justify-center z-50">
-        <div class="text-center max-w-md">
-            <div class="text-red-500 text-6xl mb-4">
-                <i class="fas fa-exclamation-triangle"></i>
-            </div>
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">Unable to Load Roadmap</h2>
-            <p class="text-gray-600 mb-6" x-text="errorMessage"></p>
-            <button @click="loadRoadmapData()" 
-                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                Try Again
-            </button>
-        </div>
-    </div>
-
-    <script>
-        function roadmapApp() {
-            return {
-                // State variables
-                loading: true,
-                error: false,
-                errorMessage: '',
-                roadmapData: null,
-                phases: [],
-                totalWeeks: 20,
-                currentWeek: 1,
-                showTimer: false,
-                activeSession: null,
-                timerRunning: false,
-                timeRemaining: 0,
-                timerInterval: null,
-                sessionCompletions: {},
-                timerHistory: {},
-
-                // Computed properties
-                get overallProgress() {
-                    if (!this.phases.length) return 0;
-                    const totalProgress = this.phases.reduce((sum, phase) => sum + this.getPhaseProgress(phase.number), 0);
-                    return totalProgress / this.phases.length;
-                },
-
-                // Initialization
-                async init() {
-                    await this.loadRoadmapData();
-                    this.loadProgress();
-                    this.loadTimerHistory();
-                    
-                    // Auto-save progress and current week
-                    this.$watch('currentWeek', (value) => {
-                        localStorage.setItem('currentWeek', value);
-                    });
-                    
-                    this.$watch('sessionCompletions', (value) => {
-                        localStorage.setItem('sessionCompletions', JSON.stringify(value));
-                    }, { deep: true });
-                },
-
-                // Data loading
-                async loadRoadmapData() {
-                    try {
-                        this.loading = true;
-                        this.error = false;
-                        
-                        const response = await fetch('./roadmap_data.json');
-                        if (!response.ok) {
-                            throw new Error(`Failed to load roadmap data: ${response.status} ${response.statusText}`);
-                        }
-                        
-                        this.roadmapData = await response.json();
-                        this.phases = this.roadmapData.phases || [];
-                        this.totalWeeks = this.roadmapData.metadata?.total_weeks || 20;
-                        
-                        console.log('Roadmap data loaded successfully:', this.roadmapData);
-                        
-                    } catch (error) {
-                        console.error('Error loading roadmap data:', error);
-                        this.error = true;
-                        this.errorMessage = `Could not load roadmap_data.json: ${error.message}. Make sure the file exists in the same directory as this HTML file.`;
-                    } finally {
-                        this.loading = false;
-                    }
-                },
-
-                // Progress management
-                loadProgress() {
-                    const savedWeek = localStorage.getItem('currentWeek');
-                    if (savedWeek) {
-                        this.currentWeek = parseInt(savedWeek);
-                    }
-                    
-                    const savedCompletions = localStorage.getItem('sessionCompletions');
-                    if (savedCompletions) {
-                        this.sessionCompletions = JSON.parse(savedCompletions);
-                    }
-                },
-
-                loadTimerHistory() {
-                    const savedHistory = localStorage.getItem('timerHistory');
-                    if (savedHistory) {
-                        this.timerHistory = JSON.parse(savedHistory);
-                    }
-                },
-
-                saveTimerSession(sessionId, duration) {
-                    const today = new Date().toISOString().split('T')[0];
-                    if (!this.timerHistory[today]) {
-                        this.timerHistory[today] = {};
-                    }
-                    if (!this.timerHistory[today][sessionId]) {
-                        this.timerHistory[today][sessionId] = 0;
-                    }
-                    this.timerHistory[today][sessionId] += duration;
-                    localStorage.setItem('timerHistory', JSON.stringify(this.timerHistory));
-                },
-
-                // Week data access
-                getCurrentWeekData() {
-                    if (!this.roadmapData?.weeks) return null;
-                    return this.roadmapData.weeks[this.currentWeek.toString()];
-                },
-
-                getCurrentWeekTitle() {
-                    const weekData = this.getCurrentWeekData();
-                    return weekData?.title || `Week ${this.currentWeek} Advanced Training`;
-                },
-
-                getCurrentWeekObjectives() {
-                    const weekData = this.getCurrentWeekData();
-                    return weekData?.objectives || [
-                        "Advanced learning objectives with AI enhancement",
-                        "Company-specific interview preparation", 
-                        "Portfolio project development and optimization",
-                        "Mock interview practice with AI feedback"
-                    ];
-                },
-
-                getTodaySessions() {
-                    const weekData = this.getCurrentWeekData();
-                    return weekData?.sessions || [
-                        {
-                            id: `${this.currentWeek}-morning`,
-                            title: "Morning Session: Core Concepts",
-                            time: "6:00-7:30 AM",
-                            description: "Theory learning with AI-enhanced explanations",
-                            tags: ["Theory", "AI-Coaching", "Foundation"],
-                            duration: 90
+                        // Computed properties
+                        get overallProgress() {
+                            if (!this.phases.length) return 0;
+                            const totalProgress = this.phases.reduce((sum, phase) => sum + this.getPhaseProgress(phase.number), 0);
+                            return totalProgress / this.phases.length;
                         },
-                        {
-                            id: `${this.currentWeek}-evening`,
-                            title: "Evening Session: Practical Implementation",
-                            time: "8:00-9:30 PM", 
-                            description: "Hands-on coding with AI feedback",
-                            tags: ["Coding", "Practice", "AI-Review"],
-                            duration: 90
-                        }
-                    ];
-                },
 
-                getCurrentWeekAIPrompts() {
-                    const weekData = this.getCurrentWeekData();
-                    return weekData?.ai_prompts || [
-                        {
-                            category: "Problem Solving",
-                            text: `Help me with Week ${this.currentWeek} problem solving. Explain patterns, optimal approaches, and time complexity. Provide code review feedback.`
+                        // Initialization
+                        async init() {
+                            await this.loadRoadmapData();
+                            this.loadProgress();
+                            this.loadTimerHistory();
+
+                            // Initialize charts after data is loaded
+                            this.$nextTick(() => {
+                                if (this.activeTab === 'analytics') {
+                                    this.initializeCharts();
+                                }
+                            });
+
+                            // Auto-save progress and current week
+                            this.$watch('currentWeek', (value) => {
+                                localStorage.setItem('currentWeek', value);
+                            });
+
+                            this.$watch('sessionCompletions', (value) => {
+                                localStorage.setItem('sessionCompletions', JSON.stringify(value));
+                            }, { deep: true });
+
+                            // Watch for tab changes to initialize charts
+                            this.$watch('activeTab', (value) => {
+                                if (value === 'analytics') {
+                                    this.$nextTick(() => {
+                                        this.initializeCharts();
+                                    });
+                                }
+                            });
                         },
-                        {
-                            category: "Interview Practice", 
-                            text: `Simulate a technical interview for Week ${this.currentWeek} topics. Ask me algorithm questions and evaluate my problem-solving approach.`
-                        },
-                        {
-                            category: "Learning Strategy",
-                            text: `Based on my Week ${this.currentWeek} progress, provide personalized study recommendations and identify areas that need more focus.`
-                        }
-                    ];
-                },
 
-                getCurrentPhase() {
-                    if (this.currentWeek <= 4) return 1;
-                    if (this.currentWeek <= 8) return 2;
-                    if (this.currentWeek <= 12) return 3;
-                    if (this.currentWeek <= 16) return 4;
-                    return 5;
-                },
+                        // Data loading
+                        async loadRoadmapData() {
+                            try {
+                                this.loading = true;
+                                this.error = false;
 
-                // Session management
-                isSessionCompleted(sessionId) {
-                    return this.sessionCompletions[sessionId] || false;
-                },
+                                const response = await fetch('./roadmap_data.json');
+                                if (!response.ok) {
+                                    throw new Error(`Failed to load roadmap data: ${response.status} ${response.statusText}`);
+                                }
 
-                toggleSession(sessionId) {
-                    this.sessionCompletions[sessionId] = !this.sessionCompletions[sessionId];
-                    
-                    // Trigger reactivity
-                    this.sessionCompletions = { ...this.sessionCompletions };
-                },
+                                this.roadmapData = await response.json();
+                                this.phases = this.roadmapData.phases || [];
+                                this.totalWeeks = this.roadmapData.metadata?.total_weeks || 20;
 
-                // Progress calculations
-                getPhaseProgress(phaseNumber) {
-                    const phaseWeeks = this.getWeeksForPhase(phaseNumber);
-                    const completedWeeks = phaseWeeks.filter(week => this.isWeekCompleted(week));
-                    return phaseWeeks.length > 0 ? (completedWeeks.length / phaseWeeks.length) * 100 : 0;
-                },
+                                console.log('Roadmap data loaded successfully:', this.roadmapData);
 
-                getWeeksForPhase(phaseNumber) {
-                    const ranges = {
-                        1: [1, 2, 3, 4],
-                        2: [5, 6, 7, 8], 
-                        3: [9, 10, 11, 12],
-                        4: [13, 14, 15, 16],
-                        5: [17, 18, 19, 20]
-                    };
-                    return ranges[phaseNumber] || [];
-                },
-
-                isWeekCompleted(weekNumber) {
-                    const weekData = this.roadmapData?.weeks?.[weekNumber.toString()];
-                    if (!weekData?.sessions) return false;
-                    
-                    return weekData.sessions.every(session => 
-                        this.sessionCompletions[session.id] || false
-                    );
-                },
-
-                getCompletedSessionsCount() {
-                    return Object.values(this.sessionCompletions).filter(completed => completed).length;
-                },
-
-                getTotalSessionsCount() {
-                    if (!this.roadmapData?.weeks) return 0;
-                    
-                    let total = 0;
-                    for (let week = 1; week <= this.totalWeeks; week++) {
-                        const weekData = this.roadmapData.weeks[week.toString()];
-                        if (weekData?.sessions) {
-                            total += weekData.sessions.length;
-                        }
-                    }
-                    return total;
-                },
-
-                getCompletedWeeksCount() {
-                    let completed = 0;
-                    for (let week = 1; week <= this.totalWeeks; week++) {
-                        if (this.isWeekCompleted(week)) {
-                            completed++;
-                        }
-                    }
-                    return completed;
-                },
-
-                getTotalStudyHours() {
-                    let total = 0;
-                    Object.values(this.timerHistory).forEach(day => {
-                        Object.values(day).forEach(duration => {
-                            total += duration;
-                        });
-                    });
-                    return Math.round(total / 60); // Convert minutes to hours
-                },
-
-                getWeekStudyHours() {
-                    const today = new Date().toISOString().split('T')[0];
-                    const thisWeek = this.timerHistory[today] || {};
-                    let total = 0;
-                    Object.values(thisWeek).forEach(duration => {
-                        total += duration;
-                    });
-                    return Math.round(total / 60); // Convert minutes to hours
-                },
-
-                // Timer functions
-                startTimer(session) {
-                    this.activeSession = session;
-                    this.timeRemaining = session.duration * 60; // Convert to seconds
-                    this.showTimer = true;
-                },
-
-                toggleTimer() {
-                    this.timerRunning = !this.timerRunning;
-                    if (this.timerRunning) {
-                        this.timerInterval = setInterval(() => {
-                            if (this.timeRemaining > 0) {
-                                this.timeRemaining--;
-                            } else {
-                                this.completeTimer();
+                            } catch (error) {
+                                console.error('Error loading roadmap data:', error);
+                                this.error = true;
+                                this.errorMessage = `Could not load roadmap_data.json: ${error.message}. Make sure the file exists in the same directory as this HTML file.`;
+                            } finally {
+                                this.loading = false;
                             }
-                        }, 1000);
-                    } else {
-                        clearInterval(this.timerInterval);
-                    }
-                },
+                        },
 
-                resetTimer() {
-                    this.timerRunning = false;
-                    clearInterval(this.timerInterval);
-                    this.timeRemaining = this.activeSession?.duration * 60 || 0;
-                },
+                        // Progress management
+                        loadProgress() {
+                            const savedWeek = localStorage.getItem('currentWeek');
+                            if (savedWeek) {
+                                this.currentWeek = parseInt(savedWeek);
+                            }
 
-                closeTimer() {
-                    if (this.timerRunning) {
-                        const studiedMinutes = Math.floor((this.activeSession.duration * 60 - this.timeRemaining) / 60);
-                        if (studiedMinutes > 0) {
-                            this.saveTimerSession(this.activeSession.id, studiedMinutes);
+                            const savedCompletions = localStorage.getItem('sessionCompletions');
+                            if (savedCompletions) {
+                                this.sessionCompletions = JSON.parse(savedCompletions);
+                            }
+                        },
+
+                        loadTimerHistory() {
+                            const savedHistory = localStorage.getItem('timerHistory');
+                            if (savedHistory) {
+                                this.timerHistory = JSON.parse(savedHistory);
+                            }
+                        },
+
+                        saveTimerSession(sessionId, duration) {
+                            const today = new Date().toISOString().split('T')[0];
+                            if (!this.timerHistory[today]) {
+                                this.timerHistory[today] = {};
+                            }
+                            if (!this.timerHistory[today][sessionId]) {
+                                this.timerHistory[today][sessionId] = 0;
+                            }
+                            this.timerHistory[today][sessionId] += duration;
+                            localStorage.setItem('timerHistory', JSON.stringify(this.timerHistory));
+                        },
+
+                        // Week data access
+                        getCurrentWeekData() {
+                            if (!this.roadmapData?.weeks) return null;
+                            return this.roadmapData.weeks[this.currentWeek.toString()];
+                        },
+
+                        getCurrentWeekTitle() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.title || `Week ${this.currentWeek} Advanced Training`;
+                        },
+
+                        getCurrentWeekObjectives() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.objectives || [
+                                "Advanced learning objectives with AI enhancement",
+                                "Company-specific interview preparation",
+                                "Portfolio project development and optimization",
+                                "Mock interview practice with AI feedback"
+                            ];
+                        },
+
+                        getTodaySessions() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.sessions || [
+                                {
+                                    id: `${this.currentWeek}-morning`,
+                                    title: "Morning Session: Core Concepts",
+                                    time: "6:00-7:30 AM",
+                                    description: "Theory learning with AI-enhanced explanations",
+                                    tags: ["Theory", "AI-Coaching", "Foundation"],
+                                    duration: 90
+                                },
+                                {
+                                    id: `${this.currentWeek}-evening`,
+                                    title: "Evening Session: Practical Implementation",
+                                    time: "8:00-9:30 PM",
+                                    description: "Hands-on coding with AI feedback",
+                                    tags: ["Coding", "Practice", "AI-Review"],
+                                    duration: 90
+                                }
+                            ];
+                        },
+
+                        getCurrentWeekAIPrompts() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.ai_prompts || [
+                                {
+                                    category: "Problem Solving",
+                                    text: `Help me with Week ${this.currentWeek} problem solving. Explain patterns, optimal approaches, and time complexity. Provide code review feedback.`
+                                },
+                                {
+                                    category: "Interview Practice",
+                                    text: `Simulate a technical interview for Week ${this.currentWeek} topics. Ask me algorithm questions and evaluate my problem-solving approach.`
+                                },
+                                {
+                                    category: "Learning Strategy",
+                                    text: `Based on my Week ${this.currentWeek} progress, provide personalized study recommendations and identify areas that need more focus.`
+                                }
+                            ];
+                        },
+
+                        getCurrentPhase() {
+                            if (this.currentWeek <= 4) return 1;
+                            if (this.currentWeek <= 8) return 2;
+                            if (this.currentWeek <= 12) return 3;
+                            if (this.currentWeek <= 16) return 4;
+                            return 5;
+                        },
+
+                        getCurrentPhaseName() {
+                            const phaseNames = {
+                                1: "Foundation & Basic Patterns",
+                                2: "Advanced Data Structures",
+                                3: "Advanced Algorithms & System Design",
+                                4: "Company-Specific Preparation",
+                                5: "Interview Mastery & Specialization"
+                            };
+                            return phaseNames[this.getCurrentPhase()] || "Advanced Training";
+                        },
+
+                        getWeekPhaseInfo(week) {
+                            const phase = week <= 4 ? 1 : week <= 8 ? 2 : week <= 12 ? 3 : week <= 16 ? 4 : 5;
+                            return `Phase ${phase}`;
+                        },
+
+                        getWeekProgress(week) {
+                            const weekData = this.roadmapData?.weeks?.[week.toString()];
+                            if (!weekData?.sessions) return 0;
+
+                            const completedSessions = weekData.sessions.filter(session =>
+                                this.sessionCompletions[session.id] || false
+                            );
+                            return weekData.sessions.length > 0 ? (completedSessions.length / weekData.sessions.length) * 100 : 0;
+                        },
+
+                        getWeekCardStyle(week) {
+                            const isCurrentWeek = week === this.currentWeek;
+                            const isCompleted = this.isWeekCompleted(week);
+                            const phase = week <= 4 ? 1 : week <= 8 ? 2 : week <= 12 ? 3 : week <= 16 ? 4 : 5;
+
+                            const phaseColors = {
+                                1: 'border-blue-500 text-blue-600',
+                                2: 'border-green-500 text-green-600',
+                                3: 'border-purple-500 text-purple-600',
+                                4: 'border-yellow-500 text-yellow-600',
+                                5: 'border-red-500 text-red-600'
+                            };
+
+                            if (isCurrentWeek) {
+                                return `${phaseColors[phase]} bg-blue-50 border-blue-400 text-blue-700 shadow-md`;
+                            } else if (isCompleted) {
+                                return `${phaseColors[phase]} bg-green-50 border-green-400 text-green-700`;
+                            } else {
+                                return `border-gray-300 text-gray-600 hover:${phaseColors[phase]} hover:bg-gray-50`;
+                            }
+                        },
+
+                        // Session management
+                        isSessionCompleted(sessionId) {
+                            return this.sessionCompletions[sessionId] || false;
+                        },
+
+                        toggleSession(sessionId) {
+                            this.sessionCompletions[sessionId] = !this.sessionCompletions[sessionId];
+
+                            // Trigger reactivity
+                            this.sessionCompletions = { ...this.sessionCompletions };
+                        },
+
+                        // Progress calculations
+                        getPhaseProgress(phaseNumber) {
+                            const phaseWeeks = this.getWeeksForPhase(phaseNumber);
+                            const completedWeeks = phaseWeeks.filter(week => this.isWeekCompleted(week));
+                            return phaseWeeks.length > 0 ? (completedWeeks.length / phaseWeeks.length) * 100 : 0;
+                        },
+
+                        getWeeksForPhase(phaseNumber) {
+                            const ranges = {
+                                1: [1, 2, 3, 4],
+                                2: [5, 6, 7, 8],
+                                3: [9, 10, 11, 12],
+                                4: [13, 14, 15, 16],
+                                5: [17, 18, 19, 20]
+                            };
+                            return ranges[phaseNumber] || [];
+                        },
+
+                        isWeekCompleted(weekNumber) {
+                            const weekData = this.roadmapData?.weeks?.[weekNumber.toString()];
+                            if (!weekData?.sessions) return false;
+
+                            return weekData.sessions.every(session =>
+                                this.sessionCompletions[session.id] || false
+                            );
+                        },
+
+                        getCompletedSessionsCount() {
+                            return Object.values(this.sessionCompletions).filter(completed => completed).length;
+                        },
+
+                        getTotalSessionsCount() {
+                            if (!this.roadmapData?.weeks) return 0;
+
+                            let total = 0;
+                            for (let week = 1; week <= this.totalWeeks; week++) {
+                                const weekData = this.roadmapData.weeks[week.toString()];
+                                if (weekData?.sessions) {
+                                    total += weekData.sessions.length;
+                                }
+                            }
+                            return total;
+                        },
+
+                        getCompletedWeeksCount() {
+                            let completed = 0;
+                            for (let week = 1; week <= this.totalWeeks; week++) {
+                                if (this.isWeekCompleted(week)) {
+                                    completed++;
+                                }
+                            }
+                            return completed;
+                        },
+
+                        getTotalStudyHours() {
+                            let total = 0;
+                            Object.values(this.timerHistory).forEach(day => {
+                                Object.values(day).forEach(duration => {
+                                    total += duration;
+                                });
+                            });
+                            return Math.round(total / 60); // Convert minutes to hours
+                        },
+
+                        getWeekStudyHours() {
+                            const today = new Date().toISOString().split('T')[0];
+                            const thisWeek = this.timerHistory[today] || {};
+                            let total = 0;
+                            Object.values(thisWeek).forEach(duration => {
+                                total += duration;
+                            });
+                            return Math.round(total / 60); // Convert minutes to hours
+                        },
+
+                        // Timer functions
+                        startTimer(session) {
+                            this.activeSession = session;
+                            this.timeRemaining = session.duration * 60; // Convert to seconds
+                            this.showTimer = true;
+                        },
+
+                        toggleTimer() {
+                            this.timerRunning = !this.timerRunning;
+                            if (this.timerRunning) {
+                                this.timerInterval = setInterval(() => {
+                                    if (this.timeRemaining > 0) {
+                                        this.timeRemaining--;
+                                    } else {
+                                        this.completeTimer();
+                                    }
+                                }, 1000);
+                            } else {
+                                clearInterval(this.timerInterval);
+                            }
+                        },
+
+                        resetTimer() {
+                            this.timerRunning = false;
+                            clearInterval(this.timerInterval);
+                            this.timeRemaining = this.activeSession?.duration * 60 || 0;
+                        },
+
+                        closeTimer() {
+                            if (this.timerRunning) {
+                                const studiedMinutes = Math.floor((this.activeSession.duration * 60 - this.timeRemaining) / 60);
+                                if (studiedMinutes > 0) {
+                                    this.saveTimerSession(this.activeSession.id, studiedMinutes);
+                                }
+                            }
+
+                            this.showTimer = false;
+                            this.timerRunning = false;
+                            clearInterval(this.timerInterval);
+                            this.activeSession = null;
+                        },
+
+                        completeTimer() {
+                            this.timerRunning = false;
+                            clearInterval(this.timerInterval);
+
+                            // Save the completed session
+                            this.saveTimerSession(this.activeSession.id, this.activeSession.duration);
+
+                            // Mark session as completed
+                            this.sessionCompletions[this.activeSession.id] = true;
+                            this.sessionCompletions = { ...this.sessionCompletions };
+
+                            this.showNotification(`🎉 Great job! You completed your ${this.activeSession.title}!`);
+                        },
+
+                        formatTime(seconds) {
+                            const mins = Math.floor(seconds / 60);
+                            const secs = seconds % 60;
+                            return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+                        },
+
+                        // Navigation
+                        nextWeek() {
+                            if (this.currentWeek < this.totalWeeks) {
+                                this.currentWeek++;
+                            }
+                        },
+
+                        previousWeek() {
+                            if (this.currentWeek > 1) {
+                                this.currentWeek--;
+                            }
+                        },
+
+                        // Utilities
+                        copyToClipboard(text) {
+                            navigator.clipboard.writeText(text).then(() => {
+                                this.showNotification("✅ Prompt copied to clipboard! Paste it into your AI tool.");
+                            }).catch(() => {
+                                // Fallback for older browsers
+                                const textArea = document.createElement('textarea');
+                                textArea.value = text;
+                                document.body.appendChild(textArea);
+                                textArea.select();
+                                document.execCommand('copy');
+                                document.body.removeChild(textArea);
+                                this.showNotification("✅ Prompt copied to clipboard!");
+                            });
+                        },
+
+                        showNotification(message) {
+                            // Create a temporary notification
+                            const notification = document.createElement('div');
+                            notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transform transition-transform duration-300';
+                            notification.textContent = message;
+
+                            document.body.appendChild(notification);
+
+                            // Animate in
+                            setTimeout(() => {
+                                notification.style.transform = 'translateX(0)';
+                            }, 100);
+
+                            // Remove after 3 seconds
+                            setTimeout(() => {
+                                notification.style.transform = 'translateX(100%)';
+                                setTimeout(() => {
+                                    document.body.removeChild(notification);
+                                }, 300);
+                            }, 3000);
+                        },
+
+                        // Enhanced AI functionality
+                        showPromptModalDialog(prompt) {
+                            this.selectedPrompt = prompt;
+                            this.showPromptModal = true;
+                        },
+
+                        copyAllPrompts() {
+                            const prompts = this.getCurrentWeekAIPrompts();
+                            const allPromptsText = prompts.map(p => `${p.category}:\n${p.text}`).join('\n\n---\n\n');
+                            this.copyToClipboard(allPromptsText);
+                            this.showNotification("✅ All AI prompts copied! Ready to paste into your AI assistant.");
+                        },
+
+                        generateCustomPrompt() {
+                            const weekData = this.getCurrentWeekData();
+                            const objectives = this.getCurrentWeekObjectives();
+                            const phase = this.getCurrentPhase();
+
+                            const customPrompt = `I'm on Week ${this.currentWeek} of my ML-FAANG preparation (Phase ${phase}). 
+                    
+Current week objectives:
+${objectives.map(obj => `• ${obj}`).join('\n')}
+
+Please provide:
+1. Personalized study recommendations for this week
+2. Practice problems specific to these objectives  
+3. Mock interview questions for Week ${this.currentWeek} topics
+4. Areas I should focus on based on typical FAANG interview patterns
+
+Context: I'm an ML researcher transitioning to software engineering roles at FAANG companies.`;
+
+                            this.copyToClipboard(customPrompt);
+                            this.showNotification("✅ Custom AI prompt generated and copied!");
+                        },
+
+                        openAITool(promptText) {
+                            // Try to open ChatGPT with the prompt (this will depend on browser support)
+                            const chatGPTUrl = `https://chat.openai.com/?prompt=${encodeURIComponent(promptText)}`;
+                            window.open(chatGPTUrl, '_blank');
+                        },
+
+                        // Export/Import functionality
+                        exportProgress() {
+                            const exportData = {
+                                version: '1.0',
+                                exportDate: new Date().toISOString(),
+                                currentWeek: this.currentWeek,
+                                sessionCompletions: this.sessionCompletions,
+                                timerHistory: this.timerHistory,
+                                metadata: {
+                                    totalWeeks: this.totalWeeks,
+                                    exportedSessions: Object.keys(this.sessionCompletions).length,
+                                    totalStudyHours: this.getTotalStudyHours()
+                                }
+                            };
+
+                            const dataStr = JSON.stringify(exportData, null, 2);
+                            const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
+
+                            const exportFileDefaultName = `ml-roadmap-backup-${new Date().toISOString().split('T')[0]}.json`;
+
+                            const linkElement = document.createElement('a');
+                            linkElement.setAttribute('href', dataUri);
+                            linkElement.setAttribute('download', exportFileDefaultName);
+                            linkElement.click();
+
+                            this.showNotification("✅ Progress data exported successfully!");
+                        },
+
+                        triggerImport() {
+                            const input = document.createElement('input');
+                            input.type = 'file';
+                            input.accept = '.json';
+                            input.onchange = (e) => {
+                                const file = e.target.files[0];
+                                if (file) {
+                                    const reader = new FileReader();
+                                    reader.onload = (e) => {
+                                        try {
+                                            const importData = JSON.parse(e.target.result);
+                                            this.importProgress(importData);
+                                        } catch (error) {
+                                            this.showNotification("❌ Invalid backup file format");
+                                        }
+                                    };
+                                    reader.readAsText(file);
+                                }
+                            };
+                            input.click();
+                        },
+
+                        importProgress(data) {
+                            if (data.version && data.sessionCompletions) {
+                                this.currentWeek = data.currentWeek || 1;
+                                this.sessionCompletions = data.sessionCompletions || {};
+                                this.timerHistory = data.timerHistory || {};
+
+                                // Save to localStorage
+                                localStorage.setItem('currentWeek', this.currentWeek);
+                                localStorage.setItem('sessionCompletions', JSON.stringify(this.sessionCompletions));
+                                localStorage.setItem('timerHistory', JSON.stringify(this.timerHistory));
+
+                                this.showNotification("✅ Progress data imported successfully!");
+                            } else {
+                                this.showNotification("❌ Invalid backup file structure");
+                            }
+                        },
+
+                        // Analytics functions
+                        getStudyDaysCount() {
+                            const uniqueDays = new Set();
+                            Object.keys(this.timerHistory).forEach(date => {
+                                const dayTotal = Object.values(this.timerHistory[date]).reduce((sum, time) => sum + time, 0);
+                                if (dayTotal > 0) {
+                                    uniqueDays.add(date);
+                                }
+                            });
+                            return uniqueDays.size;
+                        },
+
+                        getCurrentStreak() {
+                            const today = new Date();
+                            let streak = 0;
+                            let checkDate = new Date(today);
+
+                            while (true) {
+                                const dateStr = checkDate.toISOString().split('T')[0];
+                                const dayHistory = this.timerHistory[dateStr];
+
+                                if (dayHistory) {
+                                    const dayTotal = Object.values(dayHistory).reduce((sum, time) => sum + time, 0);
+                                    if (dayTotal > 0) {
+                                        streak++;
+                                        checkDate.setDate(checkDate.getDate() - 1);
+                                        continue;
+                                    }
+                                }
+                                break;
+                            }
+
+                            return streak;
+                        },
+
+                        getWeekCompletionClass(week) {
+                            const weekData = this.roadmapData?.weeks?.[week.toString()];
+                            if (!weekData?.sessions) return 'bg-gray-100 border-gray-300';
+
+                            const completedSessions = weekData.sessions.filter(session =>
+                                this.sessionCompletions[session.id]
+                            ).length;
+
+                            if (completedSessions === 0) return 'bg-gray-100 border-gray-300';
+                            if (completedSessions === weekData.sessions.length) return 'bg-green-100 border-green-500';
+                            return 'bg-yellow-100 border-yellow-300';
+                        },
+
+                        getWeekCompletionStatus(week) {
+                            const weekData = this.roadmapData?.weeks?.[week.toString()];
+                            if (!weekData?.sessions) return 'No data';
+
+                            const completedSessions = weekData.sessions.filter(session =>
+                                this.sessionCompletions[session.id]
+                            ).length;
+
+                            return `${completedSessions}/${weekData.sessions.length} sessions completed`;
+                        },
+
+                        // Calendar functionality
+                        calendarDate: new Date(),
+                        selectedCalendarDay: null,
+
+                        getCurrentMonthYear() {
+                            const months = ['January', 'February', 'March', 'April', 'May', 'June',
+                                'July', 'August', 'September', 'October', 'November', 'December'];
+                            return `${months[this.calendarDate.getMonth()]} ${this.calendarDate.getFullYear()}`;
+                        },
+
+                        navigateMonth(direction) {
+                            this.calendarDate = new Date(this.calendarDate.getFullYear(), this.calendarDate.getMonth() + direction, 1);
+                        },
+
+                        getCalendarDays() {
+                            const year = this.calendarDate.getFullYear();
+                            const month = this.calendarDate.getMonth();
+                            const firstDay = new Date(year, month, 1);
+                            const lastDay = new Date(year, month + 1, 0);
+                            const firstDayOfWeek = firstDay.getDay();
+
+                            const days = [];
+
+                            // Add padding days from previous month
+                            for (let i = firstDayOfWeek - 1; i >= 0; i--) {
+                                const date = new Date(year, month, -i);
+                                days.push({
+                                    day: date.getDate(),
+                                    date: date.toISOString().split('T')[0],
+                                    isCurrentMonth: false,
+                                    sessions: []
+                                });
+                            }
+
+                            // Add current month days
+                            for (let day = 1; day <= lastDay.getDate(); day++) {
+                                const date = new Date(year, month, day);
+                                const dateStr = date.toISOString().split('T')[0];
+                                days.push({
+                                    day: day,
+                                    date: dateStr,
+                                    isCurrentMonth: true,
+                                    sessions: this.getSessionsForDate(dateStr)
+                                });
+                            }
+
+                            // Add padding days from next month
+                            const remainingDays = 42 - days.length; // 6 weeks * 7 days
+                            for (let day = 1; day <= remainingDays; day++) {
+                                const date = new Date(year, month + 1, day);
+                                days.push({
+                                    day: date.getDate(),
+                                    date: date.toISOString().split('T')[0],
+                                    isCurrentMonth: false,
+                                    sessions: []
+                                });
+                            }
+
+                            return days;
+                        },
+
+                        getSessionsForDate(dateStr) {
+                            // Simple implementation - could be enhanced to show actual scheduled sessions
+                            const date = new Date(dateStr);
+                            const dayOfWeek = date.getDay();
+
+                            // For demo purposes, show sessions on weekdays
+                            if (dayOfWeek >= 1 && dayOfWeek <= 5) {
+                                return [
+                                    {
+                                        id: `${dateStr}-morning`,
+                                        title: "Morning Session",
+                                        time: "6:00-7:30 AM"
+                                    },
+                                    {
+                                        id: `${dateStr}-evening`,
+                                        title: "Evening Session",
+                                        time: "8:00-9:30 PM"
+                                    }
+                                ];
+                            }
+                            return [];
+                        },
+
+                        getCalendarDayClass(day) {
+                            const today = new Date().toISOString().split('T')[0];
+                            let classes = 'calendar-day';
+
+                            if (day.date === today) classes += ' today';
+                            if (!day.isCurrentMonth) classes += ' text-gray-400';
+                            if (day.sessions.length > 0) classes += ' has-session';
+
+                            const completedSessions = day.sessions.filter(session =>
+                                this.sessionCompletions[session.id]
+                            ).length;
+
+                            if (completedSessions === day.sessions.length && day.sessions.length > 0) {
+                                classes += ' completed';
+                            }
+
+                            return classes;
+                        },
+
+                        selectCalendarDay(day) {
+                            this.selectedCalendarDay = day;
+                        },
+
+                        formatSelectedDate() {
+                            if (!this.selectedCalendarDay) return '';
+                            const date = new Date(this.selectedCalendarDay.date);
+                            return date.toLocaleDateString('en-US', {
+                                weekday: 'long',
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric'
+                            });
+                        },
+
+                        // Chart initialization
+                        initializeCharts() {
+                            this.$nextTick(() => {
+                                this.initProgressChart();
+                                this.initTimeChart();
+                            });
+                        },
+
+                        initProgressChart() {
+                            const ctx = document.getElementById('progressChart');
+                            if (!ctx) return;
+
+                            const weeks = Array.from({ length: this.totalWeeks }, (_, i) => i + 1);
+                            const progressData = weeks.map(week => {
+                                const weekData = this.roadmapData?.weeks?.[week.toString()];
+                                if (!weekData?.sessions) return 0;
+
+                                const completedSessions = weekData.sessions.filter(session =>
+                                    this.sessionCompletions[session.id]
+                                ).length;
+
+                                return Math.round((completedSessions / weekData.sessions.length) * 100);
+                            });
+
+                            new Chart(ctx, {
+                                type: 'line',
+                                data: {
+                                    labels: weeks.map(w => `Week ${w}`),
+                                    datasets: [{
+                                        label: 'Completion %',
+                                        data: progressData,
+                                        borderColor: '#3b82f6',
+                                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                                        fill: true,
+                                        tension: 0.4
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    scales: {
+                                        y: {
+                                            beginAtZero: true,
+                                            max: 100,
+                                            ticks: {
+                                                callback: function (value) {
+                                                    return value + '%';
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            });
+                        },
+
+                        initTimeChart() {
+                            const ctx = document.getElementById('timeChart');
+                            if (!ctx) return;
+
+                            const phaseNames = ['Foundation', 'Patterns', 'Advanced', 'Systems', 'Integration'];
+                            const phaseHours = phaseNames.map((_, index) => {
+                                let total = 0;
+                                Object.entries(this.timerHistory).forEach(([date, sessions]) => {
+                                    Object.entries(sessions).forEach(([sessionId, minutes]) => {
+                                        const weekNum = this.getWeekFromSessionId(sessionId);
+                                        const phase = this.getPhaseFromWeek(weekNum);
+                                        if (phase === index + 1) {
+                                            total += minutes;
+                                        }
+                                    });
+                                });
+                                return Math.round(total / 60); // Convert to hours
+                            });
+
+                            new Chart(ctx, {
+                                type: 'doughnut',
+                                data: {
+                                    labels: phaseNames,
+                                    datasets: [{
+                                        data: phaseHours,
+                                        backgroundColor: [
+                                            '#3b82f6',
+                                            '#10b981',
+                                            '#f59e0b',
+                                            '#ef4444',
+                                            '#8b5cf6'
+                                        ]
+                                    }]
+                                },
+                                options: {
+                                    responsive: true,
+                                    maintainAspectRatio: false,
+                                    plugins: {
+                                        legend: {
+                                            position: 'bottom'
+                                        }
+                                    }
+                                }
+                            });
+                        },
+
+                        getWeekFromSessionId(sessionId) {
+                            const match = sessionId.match(/^(\d+)-/);
+                            return match ? parseInt(match[1]) : 1;
+                        },
+
+                        getPhaseFromWeek(week) {
+                            if (week <= 4) return 1;
+                            if (week <= 8) return 2;
+                            if (week <= 12) return 3;
+                            if (week <= 16) return 4;
+                            return 5;
                         }
                     }
-                    
-                    this.showTimer = false;
-                    this.timerRunning = false;
-                    clearInterval(this.timerInterval);
-                    this.activeSession = null;
-                },
-
-                completeTimer() {
-                    this.timerRunning = false;
-                    clearInterval(this.timerInterval);
-                    
-                    // Save the completed session
-                    this.saveTimerSession(this.activeSession.id, this.activeSession.duration);
-                    
-                    // Mark session as completed
-                    this.sessionCompletions[this.activeSession.id] = true;
-                    this.sessionCompletions = { ...this.sessionCompletions };
-                    
-                    this.showNotification(`🎉 Great job! You completed your ${this.activeSession.title}!`);
-                },
-
-                formatTime(seconds) {
-                    const mins = Math.floor(seconds / 60);
-                    const secs = seconds % 60;
-                    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-                },
-
-                // Navigation
-                nextWeek() {
-                    if (this.currentWeek < this.totalWeeks) {
-                        this.currentWeek++;
-                    }
-                },
-
-                previousWeek() {
-                    if (this.currentWeek > 1) {
-                        this.currentWeek--;
-                    }
-                },
-
-                // Utilities
-                copyToClipboard(text) {
-                    navigator.clipboard.writeText(text).then(() => {
-                        this.showNotification("✅ Prompt copied to clipboard! Paste it into your AI tool.");
-                    }).catch(() => {
-                        // Fallback for older browsers
-                        const textArea = document.createElement('textarea');
-                        textArea.value = text;
-                        document.body.appendChild(textArea);
-                        textArea.select();
-                        document.execCommand('copy');
-                        document.body.removeChild(textArea);
-                        this.showNotification("✅ Prompt copied to clipboard!");
-                    });
-                },
-
-                showNotification(message) {
-                    // Create a temporary notification
-                    const notification = document.createElement('div');
-                    notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50 transform transition-transform duration-300';
-                    notification.textContent = message;
-                    
-                    document.body.appendChild(notification);
-                    
-                    // Animate in
-                    setTimeout(() => {
-                        notification.style.transform = 'translateX(0)';
-                    }, 100);
-                    
-                    // Remove after 3 seconds
-                    setTimeout(() => {
-                        notification.style.transform = 'translateX(100%)';
-                        setTimeout(() => {
-                            document.body.removeChild(notification);
-                        }, 300);
-                    }, 3000);
                 }
-            }
-        }
-    </script>
-</body>
-</html> 
+            </script>
+    </body>
+
+</html>
