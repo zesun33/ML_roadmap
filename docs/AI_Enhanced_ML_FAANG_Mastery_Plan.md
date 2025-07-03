@@ -11,9 +11,9 @@
 - Research methodology and systematic thinking skills
 
 ### **16-Week Enhanced Targets**
-- **Total Problems**: 500+ across all platforms with AI optimization
-- **NeetCode 150**: Complete mastery with AI-guided implementations
-- **LeetCode**: 400+ problems (120 Easy, 200 Medium, 80+ Hard)
+- **Total Problems**: 194 in core roadmap (expanding to 400+ with additional practice)
+- **NeetCode 150**: Complete coverage achieved with all 150 problems integrated
+- **LeetCode**: 194 problems (current roadmap) expanding to 400+ with supplementary practice
 - **Mock Interviews**: 50+ AI-powered sessions with real-time feedback
 - **Portfolio Projects**: 6 major AI-enhanced DS&A showcase projects
 - **Contest Participation**: 20+ coding contests with AI performance analysis

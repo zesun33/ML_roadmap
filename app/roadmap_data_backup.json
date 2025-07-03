@@ -143,14 +143,6 @@
               "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
               "description": "AI coaching on set operations vs hash tables",
               "ai_prompt": "Compare set-based and hash table solutions. How does this relate to efficient data deduplication in ML pipelines?"
-            },
-            {
-              "name": "Product of Array Except Self",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
-              "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
-              "description": "Array manipulation without division, connecting to element-wise operations",
-              "ai_prompt": "How does this array transformation technique relate to element-wise operations in NumPy and vectorized computations in ML frameworks like PyTorch?"
             }
           ],
           "completed": false
@@ -413,14 +405,6 @@
               "neetcode_url": "https://neetcode.io/problems/basic-calculator",
               "description": "Advanced expression parsing with precedence and associativity",
               "ai_prompt": "How does expression parsing relate to symbolic differentiation and automatic differentiation in ML?"
-            },
-            {
-              "name": "Valid Sudoku",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
-              "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
-              "description": "Constraint validation using systematic checking patterns",
-              "ai_prompt": "How does this systematic validation approach relate to constraint satisfaction in ML optimization and hyperparameter validation?"
             }
           ],
           "completed": false
@@ -822,30 +806,6 @@
               "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree",
               "description": "AI coaching on DFS patterns and recursive thinking",
               "ai_prompt": "Connect tree depth calculation to neural network depth and gradient flow analysis."
-            },
-            {
-              "name": "Binary Tree Right Side View",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
-              "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
-              "description": "Level-order traversal with position tracking",
-              "ai_prompt": "How does this positional awareness relate to attention mechanisms and spatial understanding in computer vision models?"
-            },
-            {
-              "name": "Construct Binary Tree from Preorder and Inorder Traversal",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-              "neetcode_url": "https://neetcode.io/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
-              "description": "Tree reconstruction from traversal sequences",
-              "ai_prompt": "How does this reconstruction technique relate to neural architecture search and model structure optimization?"
-            },
-            {
-              "name": "Count Good Nodes in Binary Tree",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
-              "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
-              "description": "Path-based validation with running maximum tracking",
-              "ai_prompt": "How does this path tracking relate to gradient flow analysis and activation propagation in neural networks?"
             }
           ],
           "completed": false
@@ -902,22 +862,6 @@
               "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree",
               "description": "AI optimization and multiple solution approaches",
               "ai_prompt": "How does tree transformation relate to data augmentation and feature transformation in ML preprocessing?"
-            },
-            {
-              "name": "Kth Smallest Element in a BST",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-              "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-bst",
-              "description": "In-order traversal with order statistics",
-              "ai_prompt": "How does this order statistic approach relate to ranking and selection algorithms in recommendation systems?"
-            },
-            {
-              "name": "Subtree of Another Tree",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/subtree-of-another-tree/",
-              "neetcode_url": "https://neetcode.io/problems/subtree-of-another-tree",
-              "description": "Tree pattern matching and structure comparison",
-              "ai_prompt": "How does this pattern matching relate to feature detection and subgraph matching in graph neural networks?"
             }
           ],
           "completed": false
@@ -993,38 +937,6 @@
               "neetcode_url": "https://neetcode.io/problems/coin-change",
               "description": "AI optimization for unbounded knapsack pattern",
               "ai_prompt": "Connect this optimization problem to hyperparameter search and resource allocation in ML training."
-            },
-            {
-              "name": "Longest Common Subsequence",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
-              "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
-              "description": "2D DP for sequence alignment problems",
-              "ai_prompt": "How does this sequence alignment relate to text similarity measures and sequence-to-sequence models in NLP?"
-            },
-            {
-              "name": "Longest Increasing Subsequence",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
-              "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
-              "description": "Advanced DP with binary search optimization",
-              "ai_prompt": "How does this monotonic sequence finding relate to gradient flow analysis and training convergence patterns?"
-            },
-            {
-              "name": "Word Break",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/word-break/",
-              "neetcode_url": "https://neetcode.io/problems/word-break",
-              "description": "String DP with dictionary-based segmentation",
-              "ai_prompt": "How does this segmentation approach relate to tokenization in NLP and word boundary detection?"
-            },
-            {
-              "name": "Longest Consecutive Sequence",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
-              "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
-              "description": "Optimal sequence finding with hash set optimization",
-              "ai_prompt": "How does this sequence detection relate to time series pattern recognition and anomaly detection in ML?"
             }
           ],
           "completed": false
@@ -1073,38 +985,6 @@
               "neetcode_url": "https://neetcode.io/problems/count-paths",
               "description": "Grid DP with combinatorial optimization",
               "ai_prompt": "Connect path counting to gradient flow paths and optimization trajectory analysis in neural networks."
-            },
-            {
-              "name": "Longest Palindromic Subsequence",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-              "neetcode_url": "https://neetcode.io/problems/longest-palindromic-subsequence",
-              "description": "Advanced 2D DP for palindromic patterns",
-              "ai_prompt": "How does palindromic pattern detection relate to symmetry detection in computer vision and sequence modeling?"
-            },
-            {
-              "name": "Distinct Subsequences",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
-              "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
-              "description": "Complex DP with subsequence counting",
-              "ai_prompt": "How does this counting approach relate to probability calculations and language modeling in NLP?"
-            },
-            {
-              "name": "Interleaving String",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/interleaving-string/",
-              "neetcode_url": "https://neetcode.io/problems/interleaving-string",
-              "description": "2D DP for string interleaving validation",
-              "ai_prompt": "How does this string composition relate to sequence generation and text synthesis in language models?"
-            },
-            {
-              "name": "Dungeon Game",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/dungeon-game/",
-              "neetcode_url": "https://neetcode.io/problems/dungeon-game",
-              "description": "Reverse DP with constraint optimization",
-              "ai_prompt": "How does this reverse optimization relate to backward pass algorithms and gradient backpropagation in neural networks?"
             }
           ],
           "completed": false
@@ -1180,46 +1060,6 @@
               "neetcode_url": "https://neetcode.io/problems/lru-cache",
               "description": "AI coaching on production-level implementation",
               "ai_prompt": "How does LRU cache design relate to memory management in ML model serving and feature caching systems?"
-            },
-            {
-              "name": "Combination Sum",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/combination-sum/",
-              "neetcode_url": "https://neetcode.io/problems/combination-target-sum",
-              "description": "Backtracking with AI optimization for duplicate handling",
-              "ai_prompt": "How does this combinatorial search relate to hyperparameter optimization and neural architecture search?"
-            },
-            {
-              "name": "Permutations",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/permutations/",
-              "neetcode_url": "https://neetcode.io/problems/permutations",
-              "description": "Backtracking for permutation generation",
-              "ai_prompt": "How does permutation generation relate to data augmentation strategies and sequence modeling in ML?"
-            },
-            {
-              "name": "Subsets",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/subsets/",
-              "neetcode_url": "https://neetcode.io/problems/subsets",
-              "description": "Power set generation with backtracking",
-              "ai_prompt": "How does subset generation relate to feature selection and ensemble method combination in ML?"
-            },
-            {
-              "name": "Word Search",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/word-search/",
-              "neetcode_url": "https://neetcode.io/problems/search-for-word",
-              "description": "2D grid backtracking with path validation",
-              "ai_prompt": "How does this grid search relate to spatial pattern recognition and CNN feature detection?"
-            },
-            {
-              "name": "Palindrome Partitioning",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning/",
-              "neetcode_url": "https://neetcode.io/problems/palindrome-partitioning",
-              "description": "String partitioning with backtracking",
-              "ai_prompt": "How does this segmentation approach relate to text parsing and natural language processing tasks?"
             }
           ],
           "completed": false
@@ -1268,62 +1108,6 @@
               "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
               "description": "Advanced sliding window with AI complexity proof",
               "ai_prompt": "How does this sliding window optimization relate to attention window mechanisms and sequence processing in transformers?"
-            },
-            {
-              "name": "Permutations II",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/permutations-ii/",
-              "neetcode_url": "https://neetcode.io/problems/permutations-ii",
-              "description": "Backtracking with duplicate handling optimization",
-              "ai_prompt": "How does duplicate elimination relate to data deduplication and unique sample selection in ML training?"
-            },
-            {
-              "name": "Subsets II",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/subsets-ii/",
-              "neetcode_url": "https://neetcode.io/problems/subsets-ii",
-              "description": "Advanced subset generation with duplicate handling",
-              "ai_prompt": "How does this unique subset generation relate to feature combination and ensemble diversity in ML?"
-            },
-            {
-              "name": "Target Sum",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/target-sum/",
-              "neetcode_url": "https://neetcode.io/problems/target-sum",
-              "description": "DP optimization for combinatorial counting",
-              "ai_prompt": "How does this counting approach relate to probability calculations and decision making in ML models?"
-            },
-            {
-              "name": "Cheapest Flights Within K Stops",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
-              "neetcode_url": "https://neetcode.io/problems/cheapest-flights-within-k-stops",
-              "description": "Graph algorithms with constraint optimization",
-              "ai_prompt": "How does this constrained optimization relate to resource allocation and efficiency in distributed ML training?"
-            },
-            {
-              "name": "Encode and Decode Strings",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings/",
-              "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
-              "description": "String serialization with delimiter handling",
-              "ai_prompt": "How does this encoding technique relate to data serialization and tokenization in ML pipelines?"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Advanced 2D optimization with stack techniques",
-              "ai_prompt": "How does this 2D optimization relate to convolution operations and receptive field analysis in CNNs?"
-            },
-            {
-              "name": "Top K Frequent Words",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/top-k-frequent-words/",
-              "neetcode_url": "https://neetcode.io/problems/top-k-frequent-words",
-              "description": "Heap-based frequency analysis with lexicographic ordering",
-              "ai_prompt": "How does this frequency-based ranking relate to term frequency analysis and vocabulary selection in NLP?"
             }
           ],
           "completed": false
@@ -1407,30 +1191,6 @@
               "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
               "description": "Advanced topological sorting",
               "ai_prompt": "How does lexicographic ordering relate to vocabulary construction and tokenization in NLP systems?"
-            },
-            {
-              "name": "Accounts Merge",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/accounts-merge/",
-              "neetcode_url": "https://neetcode.io/problems/accounts-merge",
-              "description": "Union-Find for merging connected components",
-              "ai_prompt": "How does this merging strategy relate to entity resolution and data deduplication in ML data preprocessing?"
-            },
-            {
-              "name": "Pacific Atlantic Water Flow",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
-              "neetcode_url": "https://neetcode.io/problems/pacific-atlantic-water-flow",
-              "description": "Multi-source BFS with constraint satisfaction",
-              "ai_prompt": "How does this reachability analysis relate to gradient flow and activation propagation in neural networks?"
-            },
-            {
-              "name": "Surrounded Regions",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/surrounded-regions/",
-              "neetcode_url": "https://neetcode.io/problems/surrounded-regions",
-              "description": "Boundary-based DFS for region identification",
-              "ai_prompt": "How does this region identification relate to image segmentation and boundary detection in computer vision?"
             }
           ],
           "completed": false
