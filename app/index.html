@@ -416,26 +416,49 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-3xl font-bold flex items-center">
                             <i class="fas fa-route mr-3 text-blue-600"></i>
-                            Weekly Roadmap
+                            Daily Study Plan
                         </h2>
-                        <div class="flex items-center gap-4">
-                            <button @click="previousWeek()" :disabled="currentWeek <= 1"
-                                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
-                                <i class="fas fa-chevron-left mr-1"></i>Previous
-                            </button>
-                            <span class="text-lg font-semibold">Week <span x-text="currentWeek"></span> of <span
-                                    x-text="totalWeeks"></span></span>
-                            <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
-                                class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
-                                Next<i class="fas fa-chevron-right ml-1"></i>
-                            </button>
+                        <div class="flex items-center gap-6">
+                            <!-- Week Navigation -->
+                            <div class="flex items-center gap-2">
+                                <button @click="previousWeek()" :disabled="currentWeek <= 1"
+                                    class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm">
+                                    <i class="fas fa-chevron-left mr-1"></i>Prev Week
+                                </button>
+                                <span class="text-sm font-semibold bg-blue-50 px-3 py-2 rounded-lg">Week <span
+                                        x-text="currentWeek"></span>/<span x-text="totalWeeks"></span></span>
+                                <button @click="nextWeek()" :disabled="currentWeek >= totalWeeks"
+                                    class="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm">
+                                    Next Week<i class="fas fa-chevron-right ml-1"></i>
+                                </button>
+                            </div>
+
+                            <!-- Day Navigation -->
+                            <div class="flex items-center gap-2">
+                                <button @click="previousDay()" :disabled="currentDay <= 1"
+                                    class="px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm">
+                                    <i class="fas fa-chevron-left mr-1"></i>Prev Day
+                                </button>
+                                <span class="text-sm font-semibold bg-green-50 px-3 py-2 rounded-lg">Day <span
+                                        x-text="currentDay"></span>/<span x-text="getTotalDaysInWeek()"></span></span>
+                                <button @click="nextDay()" :disabled="currentDay >= getTotalDaysInWeek()"
+                                    class="px-3 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed text-sm">
+                                    Next Day<i class="fas fa-chevron-right ml-1"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Current Week Details -->
                     <div class="bg-white rounded-lg shadow-md p-6">
-                        <h3 class="text-2xl font-bold mb-4"
-                            x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold"
+                                x-text="'Week ' + currentWeek + ': ' + getCurrentWeekTitle()"></h3>
+                            <div class="bg-green-100 text-green-800 px-4 py-2 rounded-lg">
+                                <span class="text-sm font-medium">Day <span x-text="currentDay"></span> of <span
+                                        x-text="getTotalDaysInWeek()"></span></span>
+                            </div>
+                        </div>
 
                         <!-- Week Objectives -->
                         <div class="mb-6">
@@ -452,7 +475,10 @@
 
                         <!-- Study Sessions -->
                         <div class="mb-6">
-                            <h4 class="text-lg font-semibold mb-3">Study Sessions</h4>
+                            <h4 class="text-lg font-semibold mb-3 flex items-center">
+                                <i class="fas fa-calendar-day mr-2 text-green-600"></i>
+                                Today's Study Session
+                            </h4>
                             <div class="space-y-3">
                                 <template x-for="session in getTodaySessions()" :key="session.id">
                                     <div class="p-4 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer"
@@ -955,6 +981,7 @@
                         phases: [],
                         totalWeeks: 20,
                         currentWeek: 1,
+                        currentDay: 1, // Day 1-7 within the current week
                         showTimer: false,
                         activeSession: null,
                         timerRunning: false,
@@ -986,9 +1013,13 @@
                                 }
                             });
 
-                            // Auto-save progress and current week
+                            // Auto-save progress and current week/day
                             this.$watch('currentWeek', (value) => {
                                 localStorage.setItem('currentWeek', value);
+                            });
+
+                            this.$watch('currentDay', (value) => {
+                                localStorage.setItem('currentDay', value);
                             });
 
                             this.$watch('sessionCompletions', (value) => {
@@ -1036,6 +1067,11 @@
                             const savedWeek = localStorage.getItem('currentWeek');
                             if (savedWeek) {
                                 this.currentWeek = parseInt(savedWeek);
+                            }
+
+                            const savedDay = localStorage.getItem('currentDay');
+                            if (savedDay) {
+                                this.currentDay = parseInt(savedDay);
                             }
 
                             const savedCompletions = localStorage.getItem('sessionCompletions');
@@ -1086,7 +1122,7 @@
 
                         getTodaySessions() {
                             const weekData = this.getCurrentWeekData();
-                            return weekData?.sessions || [
+                            const allSessions = weekData?.sessions || [
                                 {
                                     id: `${this.currentWeek}-morning`,
                                     title: "Morning Session: Core Concepts",
@@ -1104,6 +1140,20 @@
                                     duration: 90
                                 }
                             ];
+
+                            // Filter sessions by current day (show one session per day)
+                            const sessionIndex = this.currentDay - 1;
+                            return allSessions[sessionIndex] ? [allSessions[sessionIndex]] : [];
+                        },
+
+                        getAllWeekSessions() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.sessions || [];
+                        },
+
+                        getTotalDaysInWeek() {
+                            const weekData = this.getCurrentWeekData();
+                            return weekData?.sessions ? weekData.sessions.length : 2;
                         },
 
                         getCurrentWeekAIPrompts() {
@@ -1332,12 +1382,26 @@
                         nextWeek() {
                             if (this.currentWeek < this.totalWeeks) {
                                 this.currentWeek++;
+                                this.currentDay = 1; // Reset to day 1 when changing weeks
                             }
                         },
 
                         previousWeek() {
                             if (this.currentWeek > 1) {
                                 this.currentWeek--;
+                                this.currentDay = 1; // Reset to day 1 when changing weeks
+                            }
+                        },
+
+                        nextDay() {
+                            if (this.currentDay < this.getTotalDaysInWeek()) {
+                                this.currentDay++;
+                            }
+                        },
+
+                        previousDay() {
+                            if (this.currentDay > 1) {
+                                this.currentDay--;
                             }
                         },
 

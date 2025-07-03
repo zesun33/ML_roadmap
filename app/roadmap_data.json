@@ -1151,6 +1151,48 @@
             "Network-Analysis",
             "ML-Graphs"
           ],
+          "problems": [
+            {
+              "name": "Clone Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+              "neetcode_url": "https://neetcode.io/problems/clone-graph",
+              "description": "Connect to knowledge graph construction",
+              "ai_prompt": "How does graph cloning relate to distributed knowledge graph replication in Google's search systems?"
+            },
+            {
+              "name": "Course Schedule",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule",
+              "description": "Relate to ML pipeline dependency resolution",
+              "ai_prompt": "How does topological sorting in course scheduling relate to ML training pipeline orchestration?"
+            },
+            {
+              "name": "Network Delay Time",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/network-delay-time/",
+              "neetcode_url": "https://neetcode.io/problems/network-delay-time",
+              "description": "Dijkstra's algorithm for shortest paths",
+              "ai_prompt": "How does shortest path computation relate to gradient propagation and optimization paths in neural networks?"
+            },
+            {
+              "name": "Course Schedule II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule-ii",
+              "description": "Topological sorting with ordering",
+              "ai_prompt": "How does dependency ordering relate to model training pipeline sequencing and distributed ML workflows?"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+              "description": "Advanced topological sorting",
+              "ai_prompt": "How does lexicographic ordering relate to vocabulary construction and tokenization in NLP systems?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1164,6 +1206,32 @@
             "Google",
             "TFX",
             "ML-Infrastructure"
+          ],
+          "problems": [
+            {
+              "name": "Number of Connected Components in Undirected Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+              "neetcode_url": "https://neetcode.io/problems/count-connected-components",
+              "description": "Union-Find data structure implementation",
+              "ai_prompt": "How does connected components analysis relate to clustering algorithms and graph-based ML methods?"
+            },
+            {
+              "name": "Graph Valid Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/graph-valid-tree/",
+              "neetcode_url": "https://neetcode.io/problems/valid-tree",
+              "description": "Tree validation using Union-Find",
+              "ai_prompt": "How does tree validation relate to dependency graph verification in ML pipelines?"
+            },
+            {
+              "name": "Redundant Connection",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/redundant-connection/",
+              "neetcode_url": "https://neetcode.io/problems/redundant-connection",
+              "description": "Advanced Union-Find with cycle detection",
+              "ai_prompt": "How does cycle detection relate to feedback loops and regularization in neural network architectures?"
+            }
           ],
           "completed": false
         }
@@ -1206,6 +1274,40 @@
             "ML-Models",
             "Hierarchical"
           ],
+          "problems": [
+            {
+              "name": "Range Sum Query - Mutable",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+              "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+              "description": "Segment tree construction and updates",
+              "ai_prompt": "How does segment tree range querying relate to efficient batch processing in neural networks?"
+            },
+            {
+              "name": "Range Minimum Query",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/range-minimum-query-immutable/",
+              "neetcode_url": "https://neetcode.io/problems/range-minimum-query-immutable",
+              "description": "Connect to feature aggregation in ML",
+              "ai_prompt": "How does range minimum querying relate to pooling operations and feature extraction in CNNs?"
+            },
+            {
+              "name": "Count of Smaller Numbers After Self",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+              "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
+              "description": "Advanced segment tree applications",
+              "ai_prompt": "How does this counting problem relate to ranking and sorting mechanisms in recommendation systems?"
+            },
+            {
+              "name": "Word Search II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Trie + DFS optimization with pruning",
+              "ai_prompt": "How does Trie-based search relate to vocabulary management and efficient text processing in NLP?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1219,6 +1321,32 @@
             "Meta",
             "PyTorch",
             "Distributed-Training"
+          ],
+          "problems": [
+            {
+              "name": "Count of Range Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-of-range-sum/",
+              "neetcode_url": "https://neetcode.io/problems/count-of-range-sum",
+              "description": "Advanced BIT applications with coordinate compression",
+              "ai_prompt": "How does coordinate compression in BIT relate to feature bucketing and discretization in ML preprocessing?"
+            },
+            {
+              "name": "Reverse Pairs",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/reverse-pairs/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-pairs",
+              "description": "Merge sort + BIT optimization",
+              "ai_prompt": "How does counting inversions relate to ranking consistency and preference learning in recommendation systems?"
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Production Trie implementation",
+              "ai_prompt": "How does autocomplete system design relate to real-time inference and suggestion systems in ML applications?"
+            }
           ],
           "completed": false
         }
@@ -1261,6 +1389,40 @@
             "Scalability",
             "Real-time"
           ],
+          "problems": [
+            {
+              "name": "Design LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "neetcode_url": "https://neetcode.io/problems/lru-cache",
+              "description": "Production-level implementation with AI optimization",
+              "ai_prompt": "How does LRU cache design apply to model serving and feature caching in ML systems?"
+            },
+            {
+              "name": "Design Hit Counter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Real-time analytics with AI scalability analysis",
+              "ai_prompt": "How does hit counting relate to real-time metrics collection and monitoring in ML inference systems?"
+            },
+            {
+              "name": "Design Log Storage System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-log-storage-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-log-storage-system",
+              "description": "Distributed logging with AI architecture guidance",
+              "ai_prompt": "How does distributed logging design relate to ML experiment tracking and model performance monitoring?"
+            },
+            {
+              "name": "Design URL Shortener",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-tinyurl/",
+              "neetcode_url": "https://neetcode.io/problems/encode-and-decode-tinyurl",
+              "description": "Distributed hash table with AI optimization",
+              "ai_prompt": "How does URL shortening architecture relate to feature hashing and model serving endpoint design?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1274,6 +1436,32 @@
             "SageMaker",
             "Bedrock",
             "Production-ML"
+          ],
+          "problems": [
+            {
+              "name": "Design Chat System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-chat-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-chat-system",
+              "description": "Real-time messaging with AI scalability analysis",
+              "ai_prompt": "How does real-time chat system design relate to streaming ML inference and real-time recommendation systems?"
+            },
+            {
+              "name": "Design Rate Limiter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-rate-limiter/",
+              "neetcode_url": "https://neetcode.io/problems/design-rate-limiter",
+              "description": "API protection with AI algorithm selection",
+              "ai_prompt": "How does rate limiting design relate to load balancing and resource management in ML model serving?"
+            },
+            {
+              "name": "Design Search Autocomplete",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Trie-based search with AI optimization",
+              "ai_prompt": "How does autocomplete system architecture relate to real-time query suggestion and search ranking in ML systems?"
+            }
           ],
           "completed": false
         }
@@ -1316,6 +1504,40 @@
             "Microservices",
             "Containerization"
           ],
+          "problems": [
+            {
+              "name": "Design Twitter",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+              "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+              "description": "Social media platform with AI scalability focus",
+              "ai_prompt": "How does Twitter's timeline design relate to real-time content ranking and personalized feed generation in ML systems?"
+            },
+            {
+              "name": "Design Netflix",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-netflix/",
+              "neetcode_url": "https://neetcode.io/problems/design-video-streaming",
+              "description": "Video streaming with AI content delivery optimization",
+              "ai_prompt": "How does Netflix's architecture relate to recommendation systems, content delivery optimization, and personalized ML inference?"
+            },
+            {
+              "name": "Design Distributed Cache",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-distributed-cache/",
+              "neetcode_url": "https://neetcode.io/problems/design-distributed-cache",
+              "description": "Consistent hashing with AI optimization",
+              "ai_prompt": "How does distributed caching design relate to model parameter sharing and distributed ML training coordination?"
+            },
+            {
+              "name": "Design Payment System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-payment-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-payment-system",
+              "description": "Financial system with AI security analysis",
+              "ai_prompt": "How does payment system design relate to fraud detection ML models and real-time transaction processing?"
+            }
+          ],
           "completed": false
         },
         {
@@ -1329,6 +1551,32 @@
             "MLOps",
             "Monitoring",
             "AB-Testing"
+          ],
+          "problems": [
+            {
+              "name": "Design ML Monitoring System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-ml-monitoring-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-ml-monitoring-system",
+              "description": "Drift detection with AI analytics",
+              "ai_prompt": "How does ML model monitoring relate to data drift detection, model performance tracking, and automated retraining triggers?"
+            },
+            {
+              "name": "Design Auto-scaling ML Service",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-auto-scaling-service/",
+              "neetcode_url": "https://neetcode.io/problems/design-auto-scaling-service",
+              "description": "Dynamic resource management",
+              "ai_prompt": "How does auto-scaling design relate to dynamic resource allocation and load balancing in ML inference services?"
+            },
+            {
+              "name": "Design A/B Testing Framework",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-ab-testing-framework/",
+              "neetcode_url": "https://neetcode.io/problems/design-ab-testing-framework",
+              "description": "Experimentation with statistical analysis",
+              "ai_prompt": "How does A/B testing framework design relate to ML model evaluation, statistical significance testing, and experiment management?"
+            }
           ],
           "completed": false
         }
