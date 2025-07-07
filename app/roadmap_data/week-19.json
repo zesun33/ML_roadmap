@@ -9,256 +9,225 @@
     "current_week": 19
   },
   "week": {
-    "title": "Final Optimization + Interview Excellence",
+    "title": "Final Mastery & Interview Simulation",
     "objectives": [
-      "Complete 12 problems + final optimization + interview excellence",
-      "Achieve peak performance across all evaluation dimensions",
-      "Master advanced interview tactics and optimization strategies",
-      "Complete final readiness assessment and certification",
-      "Implement last-minute optimization and fine-tuning",
-      "Focus on interview simulation and peak performance"
+      "Validate mastery across all key data structures and algorithms",
+      "Perform successfully in full-length, back-to-back mock interview loops",
+      "Solidify company-specific knowledge and cultural alignment",
+      "Master advanced communication and problem-framing techniques",
+      "Achieve a state of calm confidence and readiness for real interviews"
     ],
     "daily_schedule": {
       "monday": {
-        "title": "Final Performance Optimization + Excellence Achievement",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Comprehensive DS&A Review: Part 1",
           "activities": [
-            "Final optimization techniques with AI-guided peak performance coaching",
-            "AI explanation of interview excellence and consistency optimization",
-            "Performance calibration with AI comprehensive assessment"
+            "Use AI to generate a rapid-fire quiz on Arrays, Hashing, Two Pointers, and Sliding Window.",
+            "Review 3 of your previously solved 'Hard' problems from these topics.",
+            "Explain the optimal solution and trade-offs for each to an AI coach."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Mock Interview: Google-Style Coding",
           "problems": [
-            {
-              "name": "Sliding Window Maximum",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
-              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
-              "description": "Advanced sliding window with deque optimization",
-              "ai_prompt": "How does sliding window optimization relate to temporal feature extraction and real-time ML inference?"
-            },
             {
               "name": "Shortest Distance from All Buildings",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
-              "neetcode_url": "https://neetcode.io/problems/shortest-distance-from-all-buildings",
-              "description": "Multi-source BFS with optimization",
-              "ai_prompt": "How does multi-source optimization relate to distributed computing and federated learning architectures?"
-            },
-            {
-              "name": "Data Stream as Disjoint Intervals",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
-              "neetcode_url": "https://neetcode.io/problems/data-stream-as-disjoint-intervals",
-              "description": "Real-time interval merging with efficient updates",
-              "ai_prompt": "How does interval management relate to time-series segmentation and anomaly detection in streaming data?"
+              "description": "A challenging graph problem requiring optimized BFS from multiple sources."
             }
-          ],
-          "ai_activities": [
-            "AI Final Optimization: Peak performance calibration with comprehensive assessment"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Mock Interview Analysis",
           "activities": [
-            "Final optimization assessment with AI comprehensive evaluation",
-            "Interview confidence building with AI peak performance coaching",
-            "Last-minute strategy refinement with AI tactical guidance"
+            "Review your mock interview performance, focusing on communication and clarity.",
+            "Identify one specific weakness to work on this week.",
+            "Update your 'brag document' with key accomplishments from the roadmap."
           ]
         }
       },
       "tuesday": {
-        "title": "Interview Excellence + Final Readiness",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Comprehensive DS&A Review: Part 2",
           "activities": [
-            "Interview excellence mastery with AI final preparation",
-            "AI explanation of peak performance maintenance and consistency",
-            "Final readiness assessment with AI comprehensive evaluation"
+            "Use AI for a rapid-fire quiz on Stacks, Queues, Trees, and Heaps.",
+            "Review 3 'Hard' problems from these topics, focusing on time/space complexity.",
+            "Whiteboard the solution for one problem, explaining it as you go."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Mock Interview: Meta-Style System Design",
           "problems": [
             {
-              "name": "Maximum Gap",
+              "name": "Design a Proximity Service (like Yelp or 'Near Me')",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximum-gap/",
-              "neetcode_url": "https://neetcode.io/problems/maximum-gap",
-              "description": "Linear time sorting with bucket sort optimization",
-              "ai_prompt": "How does linear time optimization relate to efficient data processing and scalable ML pipeline design?"
-            },
-            {
-              "name": "Longest Substring with At Most K Distinct Characters",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
-              "neetcode_url": "https://neetcode.io/problems/longest-substring-with-at-most-k-distinct-characters",
-              "description": "Advanced sliding window with constraint tracking",
-              "ai_prompt": "How does constrained optimization relate to regularization and controlled model complexity in ML?"
-            },
-            {
-              "name": "Paint House III",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
-              "neetcode_url": "https://neetcode.io/problems/paint-house-iii",
-              "description": "3D dynamic programming with cost optimization",
-              "ai_prompt": "How does multi-dimensional cost optimization relate to resource allocation and efficiency in ML training?"
+              "description": "System design question that requires knowledge of quadtrees, geohashing, and database scaling."
             }
-          ],
-          "ai_activities": [
-            "Final readiness validation with AI comprehensive certification"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "System Design Deep Dive",
           "activities": [
-            "Final readiness certification with AI comprehensive assessment",
-            "Interview confidence validation with AI peak performance confirmation",
-            "Week 19 completion with AI strategic transition planning"
+            "Read an engineering blog post about a real-world proximity service.",
+            "Use an AI partner to debate the trade-offs of your mock interview design.",
+            "Refine your system design diagram and explanation."
           ]
         }
       },
       "wednesday": {
-        "title": "Final Mock Interview Simulation",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Comprehensive DS&A Review: Part 3",
           "activities": [
-            "Final mock interview preparation with AI readiness check"
+            "Use AI for a rapid-fire quiz on Graphs, DP, and Advanced Algorithms.",
+            "Review 3 'Hard' problems, focusing on identifying the underlying pattern.",
+            "Practice explaining a complex DP solution in simple, intuitive terms."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "AI Mock Interview: Full-length simulation with FAANG-level difficulty and real-time feedback"
+          "title": "Mock Interview: Amazon-Style Behavioral & Coding",
+          "problems": [
+            {
+              "name": "Data Stream as Disjoint Intervals",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+              "description": "Tests ability to handle streaming data and merge intervals efficiently. Requires tree/BST knowledge."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Leadership Principle Alignment",
           "activities": [
-            "Performance analysis and final strategy tweaks with AI coach"
+            "Review your STAR stories against Amazon's Leadership Principles.",
+            "Use AI to strengthen your stories and make the connection to the principles more explicit.",
+            "Practice telling one story in under 2 minutes."
           ]
         }
       },
       "thursday": {
-        "title": "Advanced System Design Review",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Final Weakness Remediation",
           "activities": [
-            "Review of advanced system design principles with AI-powered concept clarification"
+            "Revisit the #1 weakness you identified on Monday.",
+            "Solve 2-3 new problems in that area without assistance.",
+            "Write a concise explanation of the key pattern to confirm mastery."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "System Design Mock Interview: Design a large-scale ML system with AI interviewer"
+          "title": "Full Mock Interview Loop (AI-Powered)",
+          "problems": [
+            {
+              "name": "Paint House III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+              "description": "A complex 3D DP problem that tests careful state management."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Final Strategy & Confidence",
           "activities": [
-            "Review design performance and identify optimization areas with AI feedback"
+            "Create your 'day of interview' game plan (e.g., warm-up routine).",
+            "Read positive feedback you've received during the program.",
+            "Use AI for a guided meditation or visualization exercise for success."
           ]
         }
       },
       "friday": {
-        "title": "Final Readiness and Confidence Building",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Light Review & Warm-up",
           "activities": [
-            "Mindset and confidence preparation with AI-guided visualization"
+            "Quickly review your notes on the 2-3 most challenging topics for you.",
+            "Solve one 'Easy' and one 'Medium' problem to get your mind warm.",
+            "Review your list of questions to ask the interviewer."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "Final review of all key concepts and problem patterns with AI Q&A session"
+          "title": "Light Problem Solving",
+          "problems": [
+            {
+              "name": "Validate Binary Search Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/validate-binary-search-tree/",
+              "description": "A fundamental tree problem to build confidence."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Total Recharge",
           "activities": [
-            "Relax and plan for weekend of light review and rest. Final AI pep talk."
+            "Completely unplug from all interview prep.",
+            "Watch a movie, go for a walk, or do a hobby.",
+            "Get a full night of sleep."
           ]
         }
-      }
-    },
-    "weekend_sessions": {
+      },
       "saturday": {
-        "title": "Final Excellence Validation + Complete Readiness",
-        "duration": 360,
-        "sessions": [
-          {
-            "time": "9:00-12:00 PM",
-            "title": "Final Excellence Marathon",
-            "activities": [
-              "Complete final validation of all interview skills with AI comprehensive testing",
-              "Peak performance demonstration across all technical areas",
-              "Final confidence and readiness certification with AI approval"
-            ]
-          },
-          {
-            "time": "1:00-3:00 PM",
-            "title": "Complete Preparation",
-            "activities": [
-              "Final preparation completion with AI comprehensive validation"
-            ]
-          }
-        ]
+        "title": "Full FAANG On-site Simulation",
+        "duration": 240,
+        "description": "A final, full-length simulation of a 4-round FAANG on-site interview loop. This should be done with peers or a professional service to maximize realism. The goal is peak performance and stamina.",
+        "focus_areas": [
+          "Endurance",
+          "Mental Agility",
+          "Consistent Communication",
+          "Peak Performance"
+        ],
+        "tasks": [
+          "Round 1 (45 min): Coding, Hard (e.g., Advanced DP/Graphs).",
+          "Round 2 (45 min): Behavioral Deep Dive.",
+          "Round 3 (45 min): System Design (e.g., Design a distributed cache).",
+          "Round 4 (45 min): Coding, Hard (e.g., Advanced Trees/Heaps)."
+        ],
+        "deliverable": "A final self-assessment score (1-10) for your perceived performance and a one-paragraph summary of your readiness."
       },
       "sunday": {
-        "title": "Readiness Confirmation + Week 20 Transition",
-        "duration": 240,
-        "sessions": [
-          {
-            "time": "9:00-12:00 PM",
-            "title": "Final Readiness Confirmation",
-            "activities": [
-              "Complete readiness confirmation with AI final certification",
-              "Peak performance validation across all dimensions",
-              "Transition to Week 20 with AI strategic guidance"
-            ]
-          },
-          {
-            "time": "1:00-2:00 PM",
-            "title": "Week 20 Preparation",
-            "activities": [
-              "Week 19 completion and Week 20 strategic preparation"
-            ]
-          }
-        ]
+        "title": "Rest, Reflect, and Look Ahead",
+        "duration": 120,
+        "description": "The hard work is done. This day is for rest, reflection on the incredible journey, and looking ahead to the next steps. No coding required.",
+        "focus_areas": [
+          "Mental Recovery",
+          "Confidence Solidification",
+          "Career Planning",
+          "Acknowledging Progress"
+        ],
+        "tasks": [
+          "Review your progress from Week 1 to Week 19.",
+          "Write down 5 key strengths you've developed.",
+          "Update your LinkedIn profile and resume with your new projects and skills.",
+          "Begin lightly researching teams and roles at your target companies."
+        ],
+        "deliverable": "An updated, polished resume and a one-page summary of your key projects and skills."
       }
-    },
-    "ai_prompts": [
-      {
-        "category": "Final Excellence",
-        "text": "Conduct final Week 19 optimization of my interview performance. Help me achieve peak performance and eliminate any remaining weaknesses or inconsistencies."
-      },
-      {
-        "category": "Readiness Certification",
-        "text": "Provide comprehensive final assessment of my interview readiness across all dimensions. Certify my competency and provide final optimization recommendations."
-      },
-      {
-        "category": "Peak Performance",
-        "text": "Guide me through final peak performance optimization. Help me achieve maximum confidence and consistent excellence in all interview scenarios."
-      }
-    ]
+    }
   }
 }

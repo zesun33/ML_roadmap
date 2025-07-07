@@ -9,239 +9,255 @@
     "current_week": 17
   },
   "week": {
-    "title": "Advanced Mock Interview Mastery + Company Deep Dive",
+    "title": "Mock Interview Mastery & Company Deep Dives",
     "objectives": [
-      "Complete 18 problems + 10 mock interviews + company research",
-      "Master company-specific interview styles and technical expectations",
-      "Achieve consistent 9/10+ performance scores in mock interviews",
-      "Implement advanced interview strategy optimization",
-      "Master edge case handling and optimization under pressure",
-      "Connect to real-time ML systems and interview simulation"
+      "Complete 10+ high-fidelity mock interviews (coding, system design, behavioral)",
+      "Achieve a consistent 9/10+ performance score in mock interviews",
+      "Deeply research and understand the culture and tech stack of 2 target companies",
+      "Master company-specific interview question patterns and leadership principles",
+      "Optimize communication and problem-solving strategies under pressure"
     ],
     "daily_schedule": {
       "monday": {
-        "title": "Advanced Mock Interview Intensive Training",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Google Interview Prep",
           "activities": [
-            "Advanced interview techniques with AI-enhanced performance coaching",
-            "AI explanation of peak interview performance optimization and confidence building",
-            "Company-specific interview preparation with AI strategic guidance"
+            "Research Google's interview process and key technologies (e.g., Spanner, Borg)",
+            "Use AI to identify common Google coding question patterns (Graphs, DP)",
+            "Prepare STAR stories aligned with Google's values (e.g., focus on the user)"
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Google-Style Problems",
           "problems": [
             {
-              "name": "Minimum Window Substring",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
-              "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
-              "description": "Connect to real-time data processing in ML pipelines",
-              "ai_prompt": "How does sliding window optimization relate to streaming data analysis and real-time feature extraction in production ML systems?"
+              "name": "Number of Islands",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+              "description": "Classic graph traversal, frequently asked."
             },
             {
-              "name": "Alien Dictionary",
+              "name": "Word Ladder",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
-              "neetcode_url": "https://neetcode.io/problems/alien-dictionary",
-              "description": "Topological sorting for dependency resolution",
-              "ai_prompt": "Connect topological sorting to dependency resolution in ML model pipelines and build systems."
-            },
-            {
-              "name": "Bus Routes",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/bus-routes/",
-              "neetcode_url": "https://neetcode.io/problems/bus-routes",
-              "description": "Graph BFS optimization for routing problems",
-              "ai_prompt": "How does optimal routing relate to distributed ML training job scheduling and resource allocation?"
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "description": "Tests BFS and graph transformation skills."
             }
-          ],
-          "ai_activities": [
-            "AI Mock Interview Coach: Simulate a Google-style technical interview with real-time feedback"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Mock Interview: Google Coding",
           "activities": [
-            "AI Mock Interview #1: Google-style with AI real-time optimization feedback",
-            "Company Study: Google's ML infrastructure - TensorFlow, TPUs, and distributed systems",
-            "Plan advanced interview strategy with AI comprehensive guidance"
+            "Conduct a full 45-minute mock coding interview with an AI or peer, focusing on a hard graph problem.",
+            "Record the session and review for communication clarity and problem-solving process.",
+            "Identify 3 areas for improvement."
           ]
         }
       },
       "tuesday": {
-        "title": "Interview Strategy Optimization + Performance Analysis",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Meta (Facebook) Interview Prep",
           "activities": [
-            "Interview strategy optimization with AI-guided performance analysis",
-            "AI explanation of communication excellence and technical clarity optimization",
-            "Behavioral interview integration with AI coaching for leadership scenarios"
+            "Research Meta's interview process, focusing on product-sense in system design.",
+            "Use AI to find common Meta questions (Two Pointers, Heaps, System Design).",
+            "Prepare STAR stories aligned with Meta's values (e.g., move fast, be bold)."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Meta-Style Problems",
           "problems": [
             {
-              "name": "Freedom Trail",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/freedom-trail/",
-              "neetcode_url": "https://neetcode.io/problems/freedom-trail",
-              "description": "Dynamic programming with state optimization",
-              "ai_prompt": "How does state optimization in DP relate to memory-efficient ML model training and gradient checkpointing?"
+              "name": "Subarray Sum Equals K",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+              "description": "Often asked, tests hash map and prefix sum skills."
             },
             {
-              "name": "Split Array Largest Sum",
+              "name": "Merge K Sorted Lists",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/",
-              "neetcode_url": "https://neetcode.io/problems/split-array-largest-sum",
-              "description": "Binary search on answer with optimization",
-              "ai_prompt": "Connect binary search optimization to hyperparameter tuning and distributed data partitioning in ML systems."
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "description": "Classic heap problem, essential for infra roles."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview: Meta System Design",
+          "activities": [
+            "Conduct a 45-minute system design interview (e.g., 'Design News Feed').",
+            "Focus on product requirements, API design, and scaling.",
+            "Use AI to evaluate your design against best practices."
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Amazon Interview Prep",
+          "activities": [
+            "Deep dive into Amazon's 16 Leadership Principles.",
+            "Map each of your STAR stories to 1-2 leadership principles.",
+            "Use AI to practice answering behavioral questions using your stories."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Amazon-Style Problems",
+          "problems": [
+            {
+              "name": "Top K Frequent Elements",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+              "description": "Tests heaps/sorting, common in data processing questions."
+            },
+            {
+              "name": "LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "description": "Classic design problem, tests data structure fundamentals."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview: Amazon Behavioral",
+          "activities": [
+            "Conduct a 45-minute behavioral mock interview with an AI or peer.",
+            "Practice weaving leadership principles into your answers naturally.",
+            "Get feedback on the clarity and impact of your stories."
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Handling Edge Cases & Ambiguity",
+          "activities": [
+            "Practice clarifying ambiguous problem statements with an AI interviewer.",
+            "Brainstorm edge cases for common algorithm types (e.g., empty arrays, single nodes).",
+            "Develop a mental checklist for testing your solutions."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Tricky & Edge-Case Problems",
+          "problems": [
+            {
+              "name": "Integer to English Words",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/integer-to-english-words/",
+              "description": "Lots of edge cases and requires careful coding."
+            },
+            {
+              "name": "Minimum Window Substring",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+              "description": "Sliding window problem with tricky edge cases."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Full Loop Mock Interview",
+          "activities": [
+            "Conduct a full 60-minute interview loop (20 min behavioral, 40 min coding).",
+            "Focus on smooth transitions and maintaining high energy.",
+            "Self-assess your performance on all dimensions."
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Optimizing Under Pressure",
+          "activities": [
+            "Practice coding with a timer to simulate interview pressure.",
+            "Develop strategies for getting 'unstuck' during a difficult problem.",
+            "Use AI to identify your most common mistakes under pressure."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Speed & Optimization Drills",
+          "problems": [
+            {
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "description": "Requires an optimal O(n) solution."
             },
             {
               "name": "Count of Smaller Numbers After Self",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
-              "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
-              "description": "Advanced tree optimization",
-              "ai_prompt": "How does efficient counting relate to metric computation and real-time analytics in ML monitoring systems?"
+              "description": "Requires advanced data structures (Fenwick/Segment Tree)."
             }
-          ],
-          "ai_activities": [
-            "AI generates advanced interview scenarios with company-specific challenges"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Week 18 Prep & Mental Recharge",
           "activities": [
-            "AI Mock Interview #2: Meta-style with system design integration",
-            "Study advanced communication techniques and technical presentation optimization",
-            "Advanced SQL: Complex queries for ML system analytics and performance monitoring"
+            "Review performance from all mock interviews this week.",
+            "Create a list of 3 key areas to focus on next week.",
+            "Disconnect and recharge for the weekend."
           ]
         }
       },
-      "wednesday": {
-        "title": "Company-Specific Deep Dive + Advanced Patterns",
-        "morning_session": {
-          "time": "6:00-7:00 AM",
-          "duration": 60,
-          "activities": [
-            "Company-specific interview patterns with AI analysis of success strategies",
-            "AI explanation of company culture alignment and technical fit optimization",
-            "Advanced algorithmic thinking with AI pattern recognition enhancement"
-          ]
-        },
-        "coding_session": {
-          "time": "7:00-8:30 AM",
-          "duration": 90,
-          "problems": [
-            {
-              "name": "Cherry Pickup",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/cherry-pickup/",
-              "neetcode_url": "https://neetcode.io/problems/cherry-pickup",
-              "description": "3D DP with path optimization",
-              "ai_prompt": "How does multi-dimensional optimization relate to neural architecture search and automated ML pipeline design?"
-            },
-            {
-              "name": "Palindrome Pairs",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/palindrome-pairs/",
-              "neetcode_url": "https://neetcode.io/problems/palindrome-pairs",
-              "description": "String processing with hash optimization",
-              "ai_prompt": "Connect string pattern matching to text processing in NLP and efficient sequence analysis in transformers."
-            },
-            {
-              "name": "Burst Balloons",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
-              "neetcode_url": "https://neetcode.io/problems/burst-balloons",
-              "description": "Advanced interval DP optimization",
-              "ai_prompt": "How does interval optimization relate to resource scheduling and efficient batch processing in ML training?"
-            }
-          ],
-          "ai_activities": [
-            "ML Connection: Advanced optimization patterns in production ML systems"
-          ]
-        },
-        "evening_session": {
-          "time": "8:00-9:00 PM",
-          "duration": 60,
-          "activities": [
-            "AI Mock Interview #3: Amazon-style with leadership principles integration",
-            "Company Study: Meta's ML infrastructure - PyTorch, distributed training, and personalization",
-            "Advanced pattern practice with AI real-time optimization"
-          ]
-        }
+      "saturday": {
+        "title": "Full Mock Interview Loop (Peer/Professional)",
+        "duration": 180,
+        "description": "Simulate a real on-site loop by doing back-to-back interviews with a peer, mentor, or professional service. The goal is to build stamina and test your performance under realistic conditions. If possible, have different interviewers for each session.",
+        "focus_areas": [
+          "Interview Stamina",
+          "Consistent Performance",
+          "Real-time Feedback",
+          "Multi-faceted Evaluation"
+        ],
+        "tasks": [
+          "Session 1: 45-min Coding Interview (e.g., Graphs/DP).",
+          "Session 2: 45-min System Design Interview (e.g., Design a real-time analytics system).",
+          "Session 3: 45-min Behavioral Interview focused on leadership and project ownership.",
+          "Gather comprehensive feedback from all interviewers and synthesize key themes."
+        ],
+        "deliverable": "A summary of feedback from the interview loop and a personal action plan for the next week."
       },
-      "thursday": {
-        "title": "Technical Leadership + Advanced System Design",
-        "morning_session": {
-          "time": "6:00-7:00 AM",
-          "duration": 60,
-          "activities": [
-            "Technical leadership demonstration with AI guidance on influence and impact",
-            "AI explanation of system design excellence and scalability optimization",
-            "Cross-functional collaboration with AI coaching for technical communication"
-          ]
-        },
-        "coding_session": {
-          "time": "7:00-8:30 AM",
-          "duration": 90,
-          "activities": [
-            "Advanced System Design: Design distributed ML training system with AI guidance",
-            "Scalability Analysis: Performance optimization across different scales",
-            "Architecture Communication: Explain complex systems with AI clarity coaching",
-            "AI assessment of system design maturity and interview readiness"
-          ]
-        },
-        "evening_session": {
-          "time": "8:00-9:00 PM",
-          "duration": 60,
-          "activities": [
-            "AI Mock Interview #4: Apple-style with design excellence and privacy focus",
-            "Study advanced system design patterns and AI optimization techniques",
-            "Plan final interview preparation with AI comprehensive strategy"
-          ]
-        }
-      },
-      "friday": {
-        "title": "Interview Excellence + AI Performance Validation",
-        "morning_session": {
-          "time": "6:00-7:00 AM",
-          "duration": 60,
-          "activities": [
-            "Interview excellence optimization with AI final preparation guidance",
-            "AI explanation of peak performance techniques and confidence optimization",
-            "Final preparation checklist with AI comprehensive readiness assessment"
-          ]
-        },
-        "coding_session": {
-          "time": "7:00-8:30 AM",
-          "duration": 90,
-          "activities": [
-            "Excellence Challenge: Multiple patterns with AI real-time optimization",
-            "Speed Optimization: Contest-level performance with AI timing guidance",
-            "Code Quality: Production-level implementation with AI standards validation",
-            "AI comprehensive review of Week 17 interview preparation and performance"
-          ]
-        },
-        "evening_session": {
-          "time": "8:00-9:00 PM",
-          "duration": 60,
-          "activities": [
-            "AI Mock Interview #5: Netflix-style with comprehensive evaluation",
-            "AI analysis of interview readiness and final optimization recommendations",
-            "Weekend planning for comprehensive interview simulation marathon"
-          ]
-        }
+      "sunday": {
+        "title": "Deep Dive & Weakness Remediation",
+        "duration": 120,
+        "description": "Based on the feedback from the week's mock interviews, spend dedicated time on your weakest area. Whether it's a specific algorithm pattern, system design concept, or behavioral storytelling, this is your chance to turn a weakness into a strength.",
+        "focus_areas": [
+          "Targeted Practice",
+          "Conceptual Understanding",
+          "Pattern Recognition",
+          "Confidence Building"
+        ],
+        "tasks": [
+          "Analyze all mock interview feedback to identify your #1 weak spot.",
+          "Watch 2-3 in-depth videos or read articles on that specific topic.",
+          "Solve 3-5 LeetCode problems related to that topic, starting from medium and working to hard.",
+          "Write a short document explaining the concept in your own words to solidify your understanding."
+        ],
+        "deliverable": "A write-up explaining your former weak-spot topic, proving your new understanding."
       }
     },
     "weekend_sessions": {

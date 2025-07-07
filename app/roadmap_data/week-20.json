@@ -9,226 +9,220 @@
     "current_week": 20
   },
   "week": {
-    "title": "Interview Success + Career Launch Excellence",
+    "title": "Interview Execution & Career Launch",
     "objectives": [
-      "Execute successful interviews with target companies",
-      "Achieve optimal interview scheduling and performance timing",
-      "Master final interview preparation and execution strategies",
-      "Successfully navigate offer negotiations and decision-making",
-      "Launch successful FAANG software engineering career",
-      "Focus on interview execution and career launch"
+      "Execute live interviews with calm confidence and peak performance",
+      "Effectively manage multi-stage interview loops and communication",
+      "Master the art of offer evaluation and negotiation",
+      "Develop a strategic 30-60-90 day plan for a new role",
+      "Celebrate the successful completion of the mastery plan and career transition"
     ],
     "daily_schedule": {
       "monday": {
-        "title": "Interview Execution + Success Optimization",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Interview Day Warm-up",
           "activities": [
-            "Final interview execution strategy with AI guidance",
-            "AI explanation of optimal performance timing and confidence",
-            "Last-minute preparation with AI readiness validation"
+            "Execute your pre-interview warm-up routine.",
+            "Solve one 'Easy' LeetCode problem (e.g., Two Sum) to get in the zone.",
+            "Use AI for a 5-minute confidence-building visualization exercise."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Live Interview Execution",
           "problems": [
             {
-              "name": "Student Attendance Record II",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/student-attendance-record-ii/",
-              "neetcode_url": "https://neetcode.io/problems/student-attendance-record-ii",
-              "description": "Complex dynamic programming with state machines",
-              "ai_prompt": "How does state machine modeling relate to behavior prediction and sequential decision making in ML systems?"
-            },
-            {
-              "name": "Strobogrammatic Number III",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number-iii/",
-              "neetcode_url": "https://neetcode.io/problems/strobogrammatic-number-iii",
-              "description": "Mathematical pattern generation with constraints",
-              "ai_prompt": "How does pattern generation relate to synthetic data creation and data augmentation in ML?"
-            },
-            {
-              "name": "Smallest Rectangle Enclosing Black Pixels",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/",
-              "neetcode_url": "https://neetcode.io/problems/smallest-rectangle-enclosing-black-pixels",
-              "description": "Binary search on 2D space with optimization",
-              "ai_prompt": "How does spatial optimization relate to computer vision and object detection bounding box optimization?"
+              "name": "Live Interview Slot 1",
+              "difficulty": "Varies",
+              "description": "Focus on clear communication, thinking out loud, and asking clarifying questions. The goal is a strong, positive interaction."
             }
-          ],
-          "ai_activities": [
-            "AI Interview Success: Final execution strategy and confidence optimization"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Post-Interview Debrief",
           "activities": [
-            "Final interview preparation with AI readiness assessment",
-            "Confidence optimization with AI peak performance coaching",
-            "Strategic planning for upcoming interviews with AI guidance"
+            "Write down notes from the interview: questions asked, your performance, things you learned.",
+            "Send a concise, professional thank-you note to your interviewers.",
+            "Use AI to analyze your performance and identify any patterns."
           ]
         }
       },
       "tuesday": {
-        "title": "Career Launch Excellence + Future Success",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "System Design Review",
           "activities": [
-            "Career launch strategy with AI guidance on long-term success",
-            "AI explanation of offer negotiation and decision-making",
-            "Continuous improvement planning with AI career coaching"
+            "Quickly review 3 common system design patterns (e.g., Caching, Load Balancing, Sharding).",
+            "Whiteboard a high-level design for a service like Instagram.",
+            "Practice explaining the trade-offs of your design choices."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Live Interview Execution",
           "problems": [
             {
-              "name": "Valid Number",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/valid-number/",
-              "neetcode_url": "https://neetcode.io/problems/valid-number",
-              "description": "Complex string validation with finite state automaton",
-              "ai_prompt": "How does input validation relate to data quality assurance and robust ML pipeline design?"
-            },
-            {
-              "name": "Best Time to Buy and Sell Stock IV",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
-              "neetcode_url": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock-iv",
-              "description": "DP with transaction optimization",
-              "ai_prompt": "How does transaction optimization relate to resource management and budget allocation in ML projects?"
-            },
-            {
-              "name": "Integer to English Words",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/integer-to-english-words/",
-              "neetcode_url": "https://neetcode.io/problems/integer-to-english-words",
-              "description": "Complex number to text conversion",
-              "ai_prompt": "How does structured data conversion relate to feature engineering and data preprocessing in ML?"
+              "name": "Live Interview Slot 2",
+              "difficulty": "Varies",
+              "description": "If it's a system design round, focus on structure: requirements, estimation, API, data model, high-level design, deep dive."
             }
-          ],
-          "ai_activities": [
-            "AI Career Launch: Offer negotiation simulation and decision-making optimization"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Post-Interview Debrief & Rest",
           "activities": [
-            "Offer negotiation practice with AI coaching",
-            "Long-term career planning with AI strategic guidance",
-            "Final roadmap completion and success celebration"
+            "Debrief today's interview, noting any new or interesting questions.",
+            "Follow up with recruiters as needed.",
+            "Take the rest of the evening off to decompress."
           ]
         }
       },
       "wednesday": {
-        "title": "Onboarding and First 90 Days Strategy",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Behavioral Story Polish",
           "activities": [
-            "Develop a strategic plan for the first 90 days in a new role with AI guidance"
+            "Review your top 5 STAR stories.",
+            "Use an AI partner to practice delivering one story, asking for feedback on tone and impact.",
+            "Prepare thoughtful questions to ask about company culture and team dynamics."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "Review company-specific codebase standards and best practices"
+          "title": "Live Interview Execution",
+          "problems": [
+            {
+              "name": "Live Interview Slot 3",
+              "difficulty": "Varies",
+              "description": "For behavioral rounds, be authentic, structured (STAR), and connect your experiences to the company's values or leadership principles."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Managing Interview Fatigue",
           "activities": [
-            "Set up communication channels and plan initial meetings"
+            "Reflect on your energy levels throughout the process.",
+            "Develop a quick 'reset' routine to use between back-to-back interviews.",
+            "Plan a non-technical activity to recharge."
           ]
         }
       },
       "thursday": {
-        "title": "Continuous Learning and Growth",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Negotiation Strategy",
           "activities": [
-            "Identify areas for continuous learning and skill development with AI career coach"
+            "Research average salaries for your target role, level, and location.",
+            "Use AI to learn about the components of a tech offer (base, equity, bonus).",
+            "Prepare your 'BATNA' (Best Alternative to a Negotiated Agreement)."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "Explore advanced topics relevant to the new role (e.g., new frameworks, internal tools)"
+          "title": "Offer Evaluation",
+          "problems": [
+            {
+              "name": "Offer Evaluation & Negotiation Practice",
+              "difficulty": "Life",
+              "description": "Use an AI to simulate an offer call from a recruiter. Practice expressing gratitude, asking clarifying questions, and presenting a well-reasoned counter-offer."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Decision Making",
           "activities": [
-            "Network with new colleagues and build professional relationships"
+            "Create a scorecard to compare potential offers across multiple factors (comp, team, growth, WLB).",
+            "Discuss your options with a mentor or trusted peer.",
+            "Trust your gut and make a decision you're excited about."
           ]
         }
       },
       "friday": {
-        "title": "Roadmap Completion and Celebration",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Roadmap Retrospective",
           "activities": [
-            "Final review of the entire 20-week journey and accomplishments"
+            "Look back at your Week 1 goals and notes.",
+            "Write down the three most valuable skills you learned.",
+            "Acknowledge how much you've grown throughout this intensive process."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "Write a final summary of key learnings and future goals"
+          "title": "Giving Back",
+          "problems": [
+            {
+              "name": "Contribute Back to the Community",
+              "difficulty": "Easy",
+              "description": "Write a post on LinkedIn or a blog sharing one key insight from your interview prep journey. Help those who are just getting started."
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Celebrate Your Success!",
           "activities": [
-            "Celebrate the completion of the mastery plan and the start of a new career chapter!"
+            "You've completed the ML-FAANG Mastery Plan!",
+            "Celebrate this incredible achievement with friends, family, or a well-deserved personal reward.",
+            "Get ready for your new career adventure!"
           ]
         }
-      }
-    },
-    "weekend_sessions": {
+      },
       "saturday": {
-        "title": "Final Interview Execution + Offer Negotiation",
-        "duration": 360,
-        "sessions": [
-          {
-            "time": "9:00-12:00 PM",
-            "title": "Final Interview Simulation",
-            "activities": [
-              "Final interview execution with AI simulation and real-time feedback",
-              "Offer negotiation role-play with AI and interactive feedback"
-            ]
-          }
-        ]
+        "title": "Design Your 30-60-90 Day Plan",
+        "duration": 120,
+        "description": "Strategically plan your first three months in your new role to ensure a fast start and long-term success. This plan will be your personal roadmap for making an impact, building relationships, and learning effectively.",
+        "focus_areas": [
+          "Onboarding & Learning",
+          "Building Relationships",
+          "Early Wins",
+          "Long-term Impact"
+        ],
+        "tasks": [
+          "**First 30 Days (Learn):** Define goals for understanding the team's codebase, tools, and processes. Schedule 1-on-1s with every team member.",
+          "**First 60 Days (Contribute):** Identify goals for completing your first project, making meaningful code contributions, and understanding the team's architecture.",
+          "**First 90 Days (Own):** Set goals for taking ownership of a small feature or component, providing value in team meetings, and establishing your reputation as a reliable engineer.",
+          "Use AI to refine your plan and add specific, measurable metrics for each goal."
+        ],
+        "deliverable": "A one-page document outlining your 30-60-90 day plan for your new role."
       },
       "sunday": {
-        "title": "Career Launch Planning & Reflection",
-        "duration": 240,
-        "sessions": [
-          {
-            "time": "1:00-5:00 PM",
-            "title": "Career Launch Strategy",
-            "activities": [
-              "Finalize career plan with AI guidance",
-              "Set first-year goals in new role",
-              "Celebrate achievements and outline continuous learning path"
-            ]
-          }
-        ]
+        "title": "Prepare for Day 1",
+        "duration": 60,
+        "description": "Final preparations for a successful start to your new job. This is about logistics and mindset, ensuring you walk in on your first day feeling prepared, confident, and excited.",
+        "focus_areas": [
+          "Logistics",
+          "Mindset",
+          "Professionalism",
+          "Excitement"
+        ],
+        "tasks": [
+          "Confirm all HR paperwork is complete.",
+          "Prepare your home office or commute plan.",
+          "Pick out your first-day outfit.",
+          "Relax and get a great night's sleep, ready to start the next chapter of your career."
+        ],
+        "deliverable": "A state of complete readiness and excitement for your new role."
       }
     }
   }

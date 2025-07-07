@@ -9,262 +9,247 @@
     "current_week": 18
   },
   "week": {
-    "title": "Portfolio Showcase + Technical Leadership Demonstration",
+    "title": "Final Projects & Production Optimization",
     "objectives": [
-      "Complete 15 problems + comprehensive portfolio + leadership demonstrations",
-      "Demonstrate technical leadership through advanced project implementations",
-      "Master technical presentation and communication skills",
-      "Implement advanced portfolio optimization and presentation strategies",
-      "Achieve portfolio excellence for maximum interview impact",
-      "Focus on production ML deployment and portfolio optimization"
+      "Complete and deploy a final, high-impact portfolio project",
+      "Master production-level code optimization (memory, latency)",
+      "Deeply understand MLOps and the lifecycle of production models",
+      "Practice advanced system design concepts for massive scale",
+      "Solidify behavioral stories related to end-to-end project ownership"
     ],
     "daily_schedule": {
       "monday": {
-        "title": "Comprehensive Portfolio Development + Technical Leadership",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Final Project Scoping & MLOps",
           "activities": [
-            "Portfolio architecture optimization with AI-guided project structure enhancement",
-            "AI explanation of technical leadership demonstration and influence optimization",
-            "Innovation showcase preparation with AI narrative development"
+            "Define the architecture for a final capstone project (e.g., a real-time feature store)",
+            "Research MLOps best practices for deployment, monitoring, and CI/CD",
+            "Use AI to create a detailed project plan with milestones"
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Concurrency & Parallelism",
           "problems": [
             {
-              "name": "Design Phone Directory",
+              "name": "Design Bounded Blocking Queue",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
-              "neetcode_url": "https://neetcode.io/problems/design-phone-directory",
-              "description": "System design with efficient resource management",
-              "ai_prompt": "How does resource allocation design relate to computational resource management in distributed ML training systems?"
+              "leetcode_url": "https://leetcode.com/problems/design-bounded-blocking-queue/",
+              "description": "Essential for producer-consumer problems in data pipelines."
             },
             {
-              "name": "Find Median from Data Stream",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
-              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
-              "description": "Real-time statistics with balanced data structures",
-              "ai_prompt": "How does streaming statistics relate to online learning and real-time model performance monitoring?"
-            },
-            {
-              "name": "Design Search Autocomplete System",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
-              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
-              "description": "Real-time search with ranking and caching",
-              "ai_prompt": "How does autocomplete design relate to sequence prediction and next-token generation in language models?"
+              "name": "Web Crawler",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/web-crawler/",
+              "description": "Tests multi-threading and concurrent data access."
             }
-          ],
-          "ai_activities": [
-            "AI Portfolio Coach: Optimize technical project presentation for maximum impact"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Capstone Project: Backend Setup",
           "activities": [
-            "Portfolio Project #1: Complete advanced ML system design showcase",
-            "Leadership Study: Technical leadership patterns at FAANG companies",
-            "Plan comprehensive portfolio optimization with AI enhancement"
+            "Set up the boilerplate for your final project (e.g., FastAPI/Flask backend)",
+            "Implement the core data models and API endpoints",
+            "Write initial unit tests with AI-generated cases"
           ]
         }
       },
       "tuesday": {
-        "title": "Technical Presentation Mastery + Communication Excellence",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Code Optimization Strategies",
           "activities": [
-            "Technical presentation mastery with AI-enhanced communication coaching",
-            "AI explanation of narrative development and storytelling optimization",
-            "Cross-functional communication with AI coaching for diverse audiences"
+            "Study memory optimization techniques in Python (e.g., generators, slots)",
+            "Use AI to explain latency vs. throughput trade-offs",
+            "Research profiling tools to identify performance bottlenecks"
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Hard DP & Optimization",
           "problems": [
             {
-              "name": "Skyline Problem",
+              "name": "Burst Balloons",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
-              "neetcode_url": "https://neetcode.io/problems/the-skyline-problem",
-              "description": "Complex geometric problem with sweep line algorithm",
-              "ai_prompt": "How does event-based processing relate to temporal pattern recognition and time-series analysis in ML?"
+              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+              "description": "Advanced interval DP optimization."
             },
             {
-              "name": "Design In-Memory File System",
+              "name": "Best Time to Buy and Sell Stock IV",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
-              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
-              "description": "Complex system design with hierarchical structure",
-              "ai_prompt": "How does hierarchical storage design relate to model versioning and artifact management in MLOps?"
-            },
-            {
-              "name": "Smallest Range Covering Elements from K Lists",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
-              "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
-              "description": "Multi-source optimization with sliding window",
-              "ai_prompt": "How does multi-source range optimization relate to ensemble model selection and multi-objective optimization?"
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+              "description": "DP with state machine or transaction limits."
             }
-          ],
-          "ai_activities": [
-            "Technical presentation practice with AI feedback optimization"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Capstone Project: Core Logic",
           "activities": [
-            "Portfolio Project #2: Advanced AI-ML integration showcase",
-            "Practice technical presentations with AI real-time feedback and optimization",
-            "Advanced SQL: Portfolio analytics and performance measurement queries"
+            "Implement the core, performance-critical logic of your project",
+            "Profile your code to find and eliminate bottlenecks",
+            "Use AI to suggest and explain code optimizations"
           ]
         }
       },
       "wednesday": {
-        "title": "Leadership Excellence + Innovation Showcase",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Large-Scale System Design Principles",
           "activities": [
-            "Technical leadership excellence with AI coaching on influence and impact",
-            "AI explanation of innovation communication and technology evangelism",
-            "Cross-team collaboration with AI guidance for leadership scenarios"
+            "Study distributed system concepts: CAP theorem, consensus (Paxos/Raft)",
+            "Use AI to explain different data partitioning strategies (sharding, replication)",
+            "Review system design for services like Twitter, Uber, or Netflix"
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "System Design Implementation",
           "problems": [
             {
-              "name": "Basic Calculator III",
+              "name": "Design Twitter",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
-              "neetcode_url": "https://neetcode.io/problems/basic-calculator-iii",
-              "description": "Expression parsing with operator precedence",
-              "ai_prompt": "How does expression evaluation relate to computational graph construction and automatic differentiation?"
+              "leetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+              "description": "Classic system design with focus on news feed generation."
             },
             {
-              "name": "Remove Invalid Parentheses",
+              "name": "Design a Rate Limiter",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
-              "neetcode_url": "https://neetcode.io/problems/remove-invalid-parentheses",
-              "description": "BFS with state pruning and optimization",
-              "ai_prompt": "How does constraint satisfaction relate to hyperparameter validation and model architecture search?"
-            },
-            {
-              "name": "Text Justification",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/text-justification/",
-              "neetcode_url": "https://neetcode.io/problems/text-justification",
-              "description": "String formatting with constraint optimization",
-              "ai_prompt": "How does text layout optimization relate to document processing and text rendering in ML applications?"
+              "description": "Not on LeetCode, but a common system design question. Tests understanding of different algorithms (token bucket, leaky bucket)."
             }
-          ],
-          "ai_activities": [
-            "Leadership scenario practice with AI coaching"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Capstone Project: Scalability",
           "activities": [
-            "Portfolio Project #3: Innovation showcase with technical leadership demonstration",
-            "Advanced project narrative with AI storytelling optimization",
-            "Technical influence practice with AI communication coaching"
+            "Integrate a caching layer (e.g., Redis) into your project",
+            "Containerize your application using Docker",
+            "Draft a plan for how your system would scale to 1 million users"
           ]
         }
       },
       "thursday": {
-        "title": "Portfolio Excellence + Advanced Communication",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Behavioral: End-to-End Ownership",
           "activities": [
-            "Portfolio excellence optimization with AI-guided project refinement",
-            "AI explanation of technical depth demonstration and expertise communication",
-            "Advanced project showcase with AI presentation optimization"
+            "Draft STAR stories specifically about project challenges, from conception to completion.",
+            "Focus on stories about debugging, handling production issues, and making critical trade-offs.",
+            "Use AI to role-play an interview where you must defend your project's architecture."
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
+          "title": "Final Hard Problems",
           "problems": [
             {
-              "name": "Word Ladder II",
+              "name": "Maximal Rectangle",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
-              "neetcode_url": "https://neetcode.io/problems/word-ladder-ii",
-              "description": "BFS with path tracking and optimization",
-              "ai_prompt": "How does path enumeration relate to sequence generation and beam search in language models?"
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "description": "Combines dynamic programming and stack-based histogram solution."
             },
             {
-              "name": "Wildcard Matching",
+              "name": "Trapping Rain Water II",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/wildcard-matching/",
-              "neetcode_url": "https://neetcode.io/problems/wildcard-matching",
-              "description": "Dynamic programming with pattern matching",
-              "ai_prompt": "How does pattern matching relate to sequence alignment and regex optimization in text processing?"
-            },
-            {
-              "name": "Edit Distance",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
-              "neetcode_url": "https://neetcode.io/problems/edit-distance",
-              "description": "Classic DP with sequence optimization",
-              "ai_prompt": "How does edit distance relate to similarity metrics and sequence comparison in NLP?"
+              "leetcode_url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+              "description": "2D version of the classic problem, requires a priority queue."
             }
-          ],
-          "ai_activities": [
-            "Portfolio refinement with AI quality assessment"
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Capstone Project: Deployment",
           "activities": [
-            "Portfolio Project #4: Advanced ML engineering showcase with technical depth",
-            "Technical communication mastery with AI optimization",
-            "Advanced presentation practice with AI feedback"
+            "Deploy your project to a cloud service (e.g., AWS, GCP, Vercel)",
+            "Set up basic CI/CD using GitHub Actions",
+            "Write a comprehensive README with architecture diagrams and setup instructions"
           ]
         }
       },
       "friday": {
-        "title": "Final Portfolio Optimization + Presentation Mastery",
         "morning_session": {
           "time": "6:00-7:00 AM",
           "duration": 60,
+          "title": "Review and Retrospective",
           "activities": [
-            "Final portfolio optimization with AI comprehensive enhancement",
-            "AI explanation of presentation excellence and maximum impact communication",
-            "Portfolio readiness assessment with AI evaluation"
+            "Review all the hard problems solved this week",
+            "Identify any remaining weak areas in algorithms or system design",
+            "Use AI to create a final, focused study plan for Week 19"
           ]
         },
         "coding_session": {
           "time": "7:00-8:30 AM",
           "duration": 90,
-          "activities": [
-            "Portfolio Integration: Comprehensive project compilation with AI optimization",
-            "Presentation Excellence: Final presentation rehearsal with AI coaching",
-            "Technical Demonstration: Live coding showcase with AI performance enhancement",
-            "AI comprehensive review of Week 18 portfolio development and presentation skills"
+          "title": "Mock Interview: System Design",
+          "problems": [
+            {
+              "name": "Design a Distributed Message Queue",
+              "difficulty": "Hard",
+              "description": "A deep system design question focusing on reliability, scalability, and durability. (e.g., SQS/Kafka)"
+            }
           ]
         },
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
+          "title": "Week 19 Prep",
           "activities": [
-            "Final portfolio presentation with AI comprehensive evaluation",
-            "AI analysis of portfolio impact and presentation effectiveness",
-            "Weekend planning for comprehensive optimization and final preparation"
+            "Finalize your project presentation deck",
+            "Prepare for the final mastery assessments in Week 19",
+            "Relax and mentally recharge for the final push"
           ]
         }
+      },
+      "saturday": {
+        "title": "Capstone Project Showcase",
+        "duration": 180,
+        "description": "Present your final, deployed capstone project as if you were presenting to an engineering team at a FAANG company. Focus on the 'why' behind your technical decisions, the challenges you overcame, and the impact of your work.",
+        "focus_areas": [
+          "Technical Storytelling",
+          "Live Demo",
+          "Architecture Defense",
+          "Production Readiness"
+        ],
+        "tasks": [
+          "Deliver a 25-minute presentation covering the problem, architecture, trade-offs, and results.",
+          "Conduct a live demo of the deployed application.",
+          "Answer deep-dive questions from a mock interview panel (peers or AI).",
+          "Write a blog post summarizing the project."
+        ],
+        "deliverable": "A deployed web service, a public GitHub repo with a high-quality README, and a recorded presentation."
+      },
+      "sunday": {
+        "title": "Advanced System Design Study",
+        "duration": 120,
+        "description": "Solidify your understanding of large-scale system design by studying and diagramming a complex, real-world system. Choose a system you're interested in, such as Google Photos, Netflix's video encoding pipeline, or Amazon's fulfillment network.",
+        "focus_areas": [
+          "Decomposition into Microservices",
+          "Data Storage at Scale",
+          "Asynchronous Communication",
+          "Fault Tolerance and Resiliency"
+        ],
+        "tasks": [
+          "Read engineering blogs and papers about your chosen system.",
+          "Create a detailed architecture diagram using a tool like Excalidraw or Mermaid.js.",
+          "Identify the key bottlenecks and how the system addresses them.",
+          "Use AI to compare the system's design with alternative approaches."
+        ],
+        "deliverable": "A detailed system design document, including an architecture diagram and an analysis of key trade-offs."
       }
     },
     "weekend_sessions": {
