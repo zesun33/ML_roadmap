@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 6
+  },
+  "week": {
+    "title": "Trees & Graph Foundations + Tesla ML Systems",
+    "objectives": [
+      "Master binary-tree and graph algorithms with AI visualization",
+      "Understand Tesla’s Autopilot ML pipeline and real-time vision systems",
+      "Connect tree/graph structures to decision-tree and GNN models",
+      "Complete 25+ problems and an AI-enhanced capstone project"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "title": "BST Properties & Self-Balancing Trees",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "BST operations with AI proofs",
+            "Self-balancing trees vs. gradient balancing",
+            "Tree rotations – visual demo"
+          ]
+        },
+        "coding_session": {
+          "title": "BST Coding",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Kth Smallest Element in a BST",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+              "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-bst",
+              "description": "In-order traversal with AI optimization"
+            },
+            {
+              "name": "Construct Binary Tree from Preorder & Inorder",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+              "description": "Step-by-step reconstruction"
+            },
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+              "description": "Relates to model serialization"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "AI Mock Interview + SQL Trees",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Mock interview (complex tree problem)",
+            "Tree use-cases in ML feature engineering",
+            "Recursive CTEs for hierarchical data"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "title": "Graph Theory Fundamentals",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Adjacency vs. edge-list representations",
+            "Graphs ↔ neural-net connectivity",
+            "DFS / BFS complexity analysis"
+          ]
+        },
+        "coding_session": {
+          "title": "Graph Coding",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Number of Islands",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+              "neetcode_url": "https://neetcode.io/problems/islands-and-treasure",
+              "description": "DFS vs BFS trade-offs"
+            },
+            {
+              "name": "Clone Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+              "neetcode_url": "https://neetcode.io/problems/clone-graph",
+              "description": "Graph copying & GNN analogy"
+            },
+            {
+              "name": "Course Schedule",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule",
+              "description": "Topological sort & cycle detection"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Graphs in Tesla Vision",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Optimizing graph code",
+            "Sensor-fusion architecture at Tesla",
+            "Plan advanced graph study path"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "title": "Tesla Engineering & Advanced Graphs",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Tesla interview expectations",
+            "AI analysis of hard graph problems",
+            "Proofs for advanced algorithms"
+          ]
+        },
+        "coding_session": {
+          "title": "Hard Graph Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Word Ladder",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder",
+              "description": "Shortest path with BFS optimization"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+              "description": "Topological sort in unknown order alphabet"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Tesla Mock Interview & ML Infra",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Innovation-focused mock interview",
+            "Deep dive: Tesla ML training stack",
+            "Set Friday goal checklist"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "title": "Dynamic Programming Fundamentals",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Optimal substructure & overlapping sub-problems",
+            "Memoization vs. tabulation demos",
+            "DP ↔ gradient accumulation analogy"
+          ]
+        },
+        "coding_session": {
+          "title": "DP Starter Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Climbing Stairs",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+              "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+              "description": "Classic Fibonacci DP"
+            },
+            {
+              "name": "House Robber",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/house-robber/",
+              "neetcode_url": "https://neetcode.io/problems/house-robber",
+              "description": "1-D DP with constraints"
+            },
+            {
+              "name": "Coin Change",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/coin-change/",
+              "neetcode_url": "https://neetcode.io/problems/coin-change",
+              "description": "Unbounded knapsack"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Kick Start & Weekend Prep",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Google Kick Start practice",
+            "AI analysis of speed & accuracy",
+            "Finalize weekend project scope"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "title": "Pattern Review & Speed Training",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Rapid review of tree/graph/DP patterns",
+            "Speed drills with AI timers",
+            "Contest strategy briefing"
+          ]
+        },
+        "coding_session": {
+          "title": "Weekly Contest",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "LeetCode Weekly Contest",
+              "difficulty": "Mixed",
+              "leetcode_url": "https://leetcode.com/contest/",
+              "description": "Live contest with AI coaching"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Performance Analysis",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Review contest solutions",
+            "Identify weak patterns",
+            "Finalize weekend project checklist"
+          ]
+        }
+      },
+      "saturday": {
+        "title": "Capstone Build – Autonomous Decision-Tree Navigator",
+        "duration": 240,
+        "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
+        "focus_areas": [
+          "Graph Path-Planning (A*, BFS)",
+          "Dynamic Programming Route Optimization",
+          "GNN for Traffic Prediction",
+          "Tree-Based Decision Logic"
+        ],
+        "problems": [
+          {
+            "name": "Word Ladder",
+            "difficulty": "Hard",
+            "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+            "neetcode_url": "https://neetcode.io/problems/word-ladder",
+            "description": "Shortest-path BFS with heuristics"
+          },
+          {
+            "name": "Alien Dictionary",
+            "difficulty": "Hard",
+            "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+            "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+            "description": "Topological ordering in unknown alphabet"
+          },
+          {
+            "name": "Binary Tree Maximum Path Sum",
+            "difficulty": "Hard",
+            "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+            "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+            "description": "DFS with global optimum tracking"
+          }
+        ],
+        "tasks": [
+          "Implement path-planning graph algorithms (BFS + A*)",
+          "Add DP route-optimization under fuel & time constraints",
+          "Integrate GNN predictor for traffic flow",
+          "Tree-based decision engine for junction handling",
+          "Benchmark vs. real Tesla Autopilot logs",
+          "Write AI-generated README + architecture diagram",
+          "Load-test navigator on synthetic traffic graphs",
+          "Push to GitHub & create demo video"
+        ],
+        "deliverable": "GitHub repository with the complete navigator, a detailed README, and a video demo of the system making decisions in the simulation."
+      },
+      "sunday": {
+        "title": "Advanced ML System Study: Netflix & Mock Interview",
+        "duration": 180,
+        "description": "Deep dive into the architecture of Netflix's recommendation engine and participate in a mock interview covering graphs and system design.",
+        "focus_areas": [
+          "System Design at Scale",
+          "Candidate Generation & Ranking",
+          "Real-Time Feature Engineering",
+          "Graph Traversal & DP"
+        ],
+        "problems": [
+          {
+            "name": "Serialize and Deserialize Binary Tree",
+            "difficulty": "Hard",
+            "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+            "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
+          },
+          {
+            "name": "Course Schedule",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+            "neetcode_url": "https://neetcode.io/problems/course-schedule"
+          },
+          {
+            "name": "Number of Connected Components",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+          },
+          {
+            "name": "Clone Graph",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+            "neetcode_url": "https://neetcode.io/problems/clone-graph"
+          }
+        ],
+        "tasks": [
+          "90-min live coding (graph traversal + DP)",
+          "30-min system design: Real-time Routing Service",
+          "Update progress metrics & charts",
+          "Identify weak areas → feed into Week 7 plan",
+          "Generate AI prompts for DP deep dive"
+        ],
+        "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."
+      }
+    }
+  }
+}

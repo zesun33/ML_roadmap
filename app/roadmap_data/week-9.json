@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 9
+  },
+  "week": {
+    "title": "Advanced Graph Algorithms + Google ML Infrastructure",
+    "objectives": [
+      "Achieve mastery of advanced graph algorithms (Dijkstra's, Bellman-Ford, Union-Find) with 32+ problems",
+      "Connect graph algorithms to Google's infrastructure (PageRank, Knowledge Graph)",
+      "Build an intelligent knowledge graph builder project",
+      "Deepen understanding of distributed ML systems"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Graph Theory & Knowledge Graphs",
+          "activities": [
+            "Advanced graph algorithms with AI-enhanced mathematical foundations",
+            "AI explanation connecting graph algorithms to knowledge graphs and semantic search",
+            "Graph representation optimization with AI analysis of memory vs computational trade-offs"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Shortest Path & MST Problems",
+          "problems": [
+            {
+              "name": "Network Delay Time",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/network-delay-time/",
+              "neetcode_url": "https://neetcode.io/problems/network-delay-time",
+              "description": "AI coaching on Dijkstra's algorithm optimization",
+              "ai_prompt": "Why is Dijkstra's suitable here? Explain the role of the priority queue. How does this relate to finding the fastest information propagation path in a network?"
+            },
+            {
+              "name": "Cheapest Flights Within K Stops",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+              "neetcode_url": "https://neetcode.io/problems/cheapest-flights-within-k-stops",
+              "description": "Bellman-Ford with AI complexity analysis",
+              "ai_prompt": "Explain why a standard Dijkstra's might fail and why a modified Bellman-Ford or Dijkstra with state (cost, city, stops) is needed. Relate this to constrained optimization in ML."
+            },
+            {
+              "name": "Min Cost to Connect All Points",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+              "description": "Kruskal's and Prim's with AI trade-off analysis",
+              "ai_prompt": "This is a classic MST problem. Implement both Prim's and Kruskal's algorithms. Discuss the trade-offs. When is one preferred over the other?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Graph Algos & Google PageRank",
+          "activities": [
+            "Implement AI-optimized graph algorithms with different representation strategies",
+            "ML System Study: Google's Knowledge Graph architecture and PageRank algorithm",
+            "Plan Union-Find data structure mastery with AI guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Union-Find & Distributed Systems",
+          "activities": [
+            "Union-Find data structure with AI visualization and optimization techniques",
+            "AI explanation connecting Union-Find to distributed consensus and network partitioning",
+            "Path compression and union by rank with AI mathematical proofs and analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Union-Find Problems",
+          "problems": [
+            {
+              "name": "Number of Connected Components in an Undirected Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+              "neetcode_url": "https://neetcode.io/problems/count-connected-components",
+              "description": "AI coaching on Union-Find optimization",
+              "ai_prompt": "Explain how path compression and union by rank/size optimize the Union-Find data structure. What is the amortized time complexity?"
+            },
+            {
+              "name": "Redundant Connection",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/redundant-connection/",
+              "neetcode_url": "https://neetcode.io/problems/redundant-connection",
+              "description": "Connect to cycle detection in neural networks",
+              "ai_prompt": "How does the Union-Find data structure elegantly detect the first redundant edge that forms a cycle in the graph?"
+            },
+            {
+              "name": "Accounts Merge",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/accounts-merge/",
+              "neetcode_url": "https://neetcode.io/problems/accounts-merge",
+              "description": "AI guidance on string processing with Union-Find",
+              "ai_prompt": "Explain the process of mapping emails to indices and then using Union-Find to group accounts. How would you reconstruct the merged accounts at the end?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Consensus Algos",
+          "activities": [
+            "AI Mock Interview: Advanced graph problem with optimization and scalability",
+            "Study distributed graph algorithms and consensus mechanisms",
+            "SQL Practice: Graph queries and recursive CTEs for network analysis"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Topological Sort & Google Eng",
+          "activities": [
+            "Topological sorting algorithms with AI analysis of different implementation approaches",
+            "AI explanation connecting topological sorting to ML pipeline dependency management",
+            "DAG properties and cycle detection with AI mathematical foundations"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Topological Sort Problems",
+          "problems": [
+            {
+              "name": "Course Schedule II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule-ii",
+              "description": "AI coaching on Kahn's algorithm optimization",
+              "ai_prompt": "Implement topological sort using both Kahn's algorithm (BFS with in-degrees) and DFS. Discuss the trade-offs."
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+              "description": "Advanced topological sorting with error handling",
+              "ai_prompt": "Revisit this problem. How do you build the dependency graph from the sorted list of words? How do you handle cycles to detect invalid orderings?"
+            },
+            {
+              "name": "Parallel Courses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/parallel-courses-ii/",
+              "description": "Connect to parallel training in distributed ML",
+              "ai_prompt": "This is a much harder version. Explain how bitmask DP can be used to explore the state space of completed courses. How does topological sorting help prune the search?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Prod Topo Sort & Google Infra",
+          "activities": [
+            "Implement production-level topological sorting with AI optimization techniques",
+            "ML Study: Google's distributed training architecture and pipeline orchestration",
+            "Plan Google-specific interview preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Graph Apps & Google Prep",
+          "activities": [
+            "Google's engineering culture, distributed systems focus, and scalability thinking",
+            "AI analysis of Google-tagged graph problems and optimization challenges",
+            "Large-scale graph processing with AI insights into practical implementation"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Graph Application Problems",
+          "problems": [
+            {
+              "name": "Critical Connections in a Network",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+              "neetcode_url": "https://neetcode.io/problems/critical-connections-in-a-network",
+              "description": "Tarjan's algorithm with AI complexity proof",
+              "ai_prompt": "Explain Tarjan's bridge-finding algorithm. What do the 'discovery time' and 'low-link' values represent?"
+            },
+            {
+              "name": "Swim in Rising Water",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/swim-in-rising-water/",
+              "neetcode_url": "https://neetcode.io/problems/swim-in-rising-water",
+              "description": "Binary search + BFS/Dijkstra optimization",
+              "ai_prompt": "Compare the two main solutions: Dijkstra-like approach (treating elevation as edge weight) and binary searching on the answer (the minimum required time). Why are both valid?"
+            },
+            {
+              "name": "Bus Routes",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/bus-routes/",
+              "neetcode_url": "https://neetcode.io/problems/bus-routes",
+              "description": "Advanced graph modeling with AI guidance",
+              "ai_prompt": "Explain how to model this problem as a graph. What do the nodes and edges represent? Why is BFS the right algorithm to find the minimum number of buses?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Mock & TensorFlow Study",
+          "activities": [
+            "AI Mock Interview: Google format (scalability focus + mathematical rigor)",
+            "Study Google's ML infrastructure including TensorFlow distributed training",
+            "Plan advanced algorithms with AI strategic guidance for Week 9 completion"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Graph Optimization & ML Integration",
+          "activities": [
+            "Graph algorithm optimization for large-scale systems with AI performance analysis",
+            "AI explanation of graph algorithms in recommendation systems and social networks",
+            "Memory optimization and cache efficiency in graph processing"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Hard Graph Optimization Problems",
+          "problems": [
+            {
+              "name": "Shortest Path to Get All Keys",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+              "neetcode_url": "https://neetcode.io/problems/shortest-path-to-get-all-keys",
+              "description": "BFS with state compression",
+              "ai_prompt": "This is a shortest path problem on a state graph. Define the state `(row, col, keys_mask)`. Why is BFS appropriate for this state-space search?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Contest & Analysis",
+          "activities": [
+            "Google Code Jam practice with AI real-time strategy coaching",
+            "AI analysis of contest performance and graph algorithm mastery",
+            "Weekend project planning with Google ML system integration"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Intelligent Knowledge Graph Builder",
+          "duration": 360,
+          "description": "Inspired by Google's Knowledge Graph, build a system that can construct, query, and rank entities in a graph. The project will involve implementing core graph algorithms and integrating them with NLP for knowledge extraction.",
+          "focus_areas": [
+            "Automated Graph Construction",
+            "PageRank for Entity Ranking",
+            "Union-Find for Entity Clustering",
+            "NLP-Driven Relationship Extraction"
+          ],
+          "tasks": [
+            "Use NLP libraries (like spaCy or NLTK) to extract entities and relationships from text.",
+            "Construct a graph from the extracted data.",
+            "Implement the PageRank algorithm to rank the importance of entities.",
+            "Use Union-Find to identify and merge duplicate entities.",
+            "Build a simple query interface to traverse the knowledge graph."
+          ],
+          "deliverable": "A GitHub repository and a deployed application demonstrating the knowledge graph builder, with a detailed README explaining the architecture.",
+          "problems": [
+            {
+              "name": "Implement Stack using Queues",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+              "description": "Stack-based string cleanup"
+            },
+            {
+              "name": "Design Circular Queue",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+              "description": "Array-based circular queue implementation"
+            },
+            {
+              "name": "Maximal Rectangle",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack usage in binary matrix to compute maximal area"
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Advanced Mock Interview & Facebook Graph Deep Dive",
+          "duration": 300,
+          "description": "Participate in an advanced mock interview focused on Google-style graph problems and system design, followed by a comparative analysis of Facebook's (Meta's) social graph architecture.",
+          "focus_areas": [
+            "Scalable Graph Algorithms",
+            "Distributed System Design",
+            "Social Network Architecture",
+            "Comparative Technology Analysis"
+          ],
+          "tasks": [
+            "Complete a 90-minute AI-led mock interview on a hard graph problem and a follow-up system design question on a distributed graph processing system.",
+            "Analyze AI feedback on your ability to handle scalability and complex trade-offs.",
+            "Study Facebook's TAO (The Associations and Objects) data store for their social graph.",
+            "Use AI to write a comparative analysis of Google's Knowledge Graph vs. Facebook's Social Graph in terms of design goals, data models, and consistency guarantees."
+          ],
+          "deliverable": "A markdown document containing your interview analysis and the comparative study of Google's and Facebook's graph systems.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

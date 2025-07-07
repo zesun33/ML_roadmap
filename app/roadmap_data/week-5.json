@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 5
+  },
+  "week": {
+    "title": "Dynamic Programming + AI Problem Generation + Google ML Systems",
+    "objectives": [
+      "Master Dynamic Programming with 25+ problems",
+      "Utilize AI for customized DP problem generation",
+      "Connect DP to reinforcement learning and Google ML systems",
+      "Complete a capstone project building a comprehensive algorithm library"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DP Foundation & Math",
+          "activities": [
+            "DP theory with AI mathematical proof explanations",
+            "AI connecting DP to optimization algorithms in ML",
+            "Template methodology with AI-generated variations and edge case analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Core DP Problems",
+          "problems": [
+            {
+              "name": "Fibonacci Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+              "neetcode_url": "https://neetcode.io/problems/fibonacci-number",
+              "description": "AI coaching on recursion and memoization",
+              "ai_prompt": "Explain the recursive and iterative approaches. How does memoization improve the time complexity?"
+            },
+            {
+              "name": "Min Cost Climbing Stairs",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+              "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+              "description": "AI coaching on bottom-up DP",
+              "ai_prompt": "Explain the bottom-up DP approach. How does this relate to dynamic programming in reinforcement learning?"
+            },
+            {
+              "name": "House Robber",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/house-robber/",
+              "neetcode_url": "https://neetcode.io/problems/house-robber",
+              "description": "AI coaching on state transition and optimization",
+              "ai_prompt": "Explain the state transition function. How does this relate to the Bellman equation in reinforcement learning?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & ML Connection",
+          "activities": [
+            "AI Mock Interview: DP with mathematical follow-ups and optimization",
+            "ML Connection: DP in reinforcement learning and neural architecture search",
+            "Template implementation with AI optimization suggestions and complexity verification"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DP Patterns & Advanced Techniques",
+          "activities": [
+            "DP patterns with AI visual explanations and mathematical intuition",
+            "Edge case identification with AI systematic approach and testing strategies",
+            "AI connecting DP concepts to graph algorithms and shortest paths"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "DP Pattern Problems",
+          "problems": [
+            {
+              "name": "Coin Change",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/coin-change/",
+              "neetcode_url": "https://neetcode.io/problems/coin-change",
+              "description": "AI coaching on state transition and optimization",
+              "ai_prompt": "Explain the state transition function. How does this relate to the Bellman equation in reinforcement learning?"
+            },
+            {
+              "name": "Longest Increasing Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+              "description": "AI coaching on patience sorting and binary search",
+              "ai_prompt": "Explain the patience sorting approach. How does binary search optimize the solution?"
+            },
+            {
+              "name": "Unique Paths",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+              "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes",
+              "description": "AI guidance on multi-dimensional DP",
+              "ai_prompt": "This is a multi-dimensional knapsack problem. Define the 2D DP state. How does this extend to problems with more than two constraints?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Federated Learning",
+          "activities": [
+            "AI Mock Interview: Complex DP problem with optimization and space trade-offs",
+            "Study privacy-preserving ML techniques and federated learning approaches",
+            "SQL Practice: Complex aggregation and optimization queries"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "String DP & Apple Culture",
+          "activities": [
+            "String DP patterns with AI visualization and edit distance theory",
+            "AI explanation connecting string algorithms to NLP and text generation",
+            "Sequence alignment algorithms with AI mathematical foundations"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "String DP Problems",
+          "problems": [
+            {
+              "name": "Longest Common Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+              "description": "AI coaching on 2D DP optimization",
+              "ai_prompt": "Explain the 2D DP state and the three possible transitions. How can space be optimized to O(min(m,n))?"
+            },
+            {
+              "name": "Edit Distance",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+              "neetcode_url": "https://neetcode.io/problems/edit-distance",
+              "description": "Connect to text preprocessing and data cleaning in ML",
+              "ai_prompt": "How do the three operations (insert, delete, replace) translate to the DP state transitions? How is this algorithm used in spell checkers and DNA sequencing?"
+            },
+            {
+              "name": "Distinct Subsequences",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+              "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+              "description": "AI step-by-step approach for complex state transitions",
+              "ai_prompt": "Explain the recurrence relation. Why do we add the results from two subproblems when characters match? How does this relate to counting paths in a DAG?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "String Algos & Siri Infra",
+          "activities": [
+            "Implement advanced string DP algorithms with AI optimization techniques",
+            "ML Study: Apple's NLP infrastructure and Siri's language understanding",
+            "Plan Apple-specific interview preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced DP & Apple Prep",
+          "activities": [
+            "Apple's design-focused engineering culture and privacy-first principles",
+            "AI analysis of Apple-tagged DP and optimization problems",
+            "Advanced DP techniques with AI mathematical proofs and optimization strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced DP Problems",
+          "problems": [
+            {
+              "name": "Maximum Product Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+              "description": "AI coaching on handling negative numbers",
+              "ai_prompt": "Why do you need to track both the maximum and minimum product ending at the current position? Explain the logic for handling negative numbers."
+            },
+            {
+              "name": "Decode Ways",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+              "neetcode_url": "https://neetcode.io/problems/decode-ways",
+              "description": "Connect to encoding/decoding in neural network architectures",
+              "ai_prompt": "Define the DP state and the one-step and two-step transitions. How does this problem relate to tokenization in NLP models?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Apple Mock & Core ML Study",
+          "activities": [
+            "AI Mock Interview: Apple format (design thinking + privacy considerations)",
+            "Study Apple's ML infrastructure and Core ML optimization techniques",
+            "Plan Phase 2 completion assessment with AI comprehensive evaluation"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Pattern Integration & Phase 2 Review",
+          "activities": [
+            "AI comprehensive review of all Phase 2 patterns and optimizations",
+            "Pattern recognition speed training with AI timing analysis",
+            "Contest preparation with AI strategic planning and problem prioritization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest & Speed Challenge",
+          "activities": [
+            "LeetCode Weekly Contest (live participation with AI coaching)",
+            "AI-Supervised Speed Challenge: Mixed patterns (15 problems in 30 minutes)",
+            "AI comprehensive performance analysis across all Phase 2 patterns"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Phase 2 Assessment & Planning",
+          "activities": [
+            "AI assessment of overall Phase 2 mastery across all domains",
+            "Identify optimization opportunities and create Phase 3 enhancement plan",
+            "Plan Phase 2 capstone project with AI scope and timeline definition"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Phase 2 Capstone: AI-Powered Algorithm Portfolio Optimizer",
+          "duration": 360,
+          "description": "Build an advanced portfolio of algorithms from Phase 2, enhanced with an AI layer that suggests the best algorithm for a given problem description. The tool will analyze problem characteristics and recommend an approach (e.g., heap, BFS, DP) with a justification.",
+          "focus_areas": [
+            "Comprehensive Algorithm Implementation",
+            "AI-Based Problem Classification",
+            "Performance Benchmarking",
+            "Real-World Application Mapping"
+          ],
+          "tasks": [
+            "Implement optimized versions of all key algorithms from Weeks 5-7.",
+            "Use a simple NLP model or rule-based system to parse problem descriptions and suggest patterns.",
+            "Create a visual dashboard to compare the performance of different algorithms on the same problem.",
+            "Use AI to write detailed documentation that connects each algorithm to a real-world FAANG use case."
+          ],
+          "deliverable": "A deployed web application and GitHub repository showcasing your algorithm portfolio and the AI-powered recommender.",
+          "problems": [
+            {
+              "name": "Coin Change",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/coin-change/",
+              "neetcode_url": "https://neetcode.io/problems/coin-change",
+              "description": "Classic DP - unbounded knapsack"
+            },
+            {
+              "name": "Longest Increasing Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+              "description": "DP with patience sorting optimization"
+            },
+            {
+              "name": "Maximum Product Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+              "description": "DP tracking max and min products"
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Comprehensive ML System Integration & Phase 3 Prep",
+          "duration": 300,
+          "description": "Undergo a comprehensive mock interview simulating a final round at a top tech company, covering multiple advanced algorithms and a system design problem. Use the results to finalize your preparation for the system-design-heavy Phase 3.",
+          "focus_areas": [
+            "Multi-Pattern Synthesis",
+            "Advanced System Design",
+            "Performance Under Pressure",
+            "Strategic Weakness Remediation"
+          ],
+          "tasks": [
+            "Complete a 2-hour AI-led interview with a hard DP problem, a graph problem, and a related system design question.",
+            "Receive and analyze a detailed AI report on your performance, focusing on areas for improvement before Phase 3.",
+            "Study and compare the high-level architecture of Google, Meta, and Apple's ML platforms.",
+            "Create a detailed, AI-assisted study plan for the upcoming ML system design phase."
+          ],
+          "deliverable": "A markdown document with your interview analysis and your strategic plan for mastering ML system design in Phase 3.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

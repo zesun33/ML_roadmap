@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 11
+  },
+  "week": {
+    "title": "ML System Design Fundamentals + Amazon Infrastructure",
+    "objectives": [
+      "Master ML system design fundamentals with a focus on scalability and reliability",
+      "Connect system design principles to Amazon's infrastructure (AWS, SageMaker)",
+      "Design core systems like recommendation engines, distributed caches, and logging systems",
+      "Integrate Amazon's Leadership Principles into technical design decisions"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "ML System Design & RecSys",
+          "activities": [
+            "ML system design fundamentals with AI-enhanced architecture principles",
+            "AI explanation of scalability patterns and distributed training",
+            "Microservices architecture for ML with AI trade-off analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "System Design Coding",
+          "problems": [
+            {
+              "name": "Design LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "neetcode_url": "https://neetcode.io/problems/lru-cache",
+              "description": "Production-level implementation with AI optimization",
+              "ai_prompt": "Revisit this. How would you design this to be thread-safe for a multi-threaded ML service? Discuss locking strategies."
+            },
+            {
+              "name": "Design Hit Counter",
+              "difficulty": "Medium",
+              "description": "Real-time analytics with AI scalability analysis",
+              "ai_prompt": "Revisit this. How would you scale this to handle billions of hits per day? Discuss distributed counters and potential data aggregation strategies."
+            },
+            {
+              "name": "Design Log Storage System",
+              "difficulty": "Hard",
+              "description": "Distributed logging with AI architecture guidance",
+              "ai_prompt": "Design a system to store and query logs from millions of servers. Discuss log ingestion, indexing (e.g., using Elasticsearch), and query APIs."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Amazon RecSys Design",
+          "activities": [
+            "System Design: Amazon Product Recommendation System with AI guidance",
+            "ML System Study: Amazon's collaborative filtering and deep learning models",
+            "Plan distributed ML system components with AI architecture optimization"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Distributed ML & Real-time Inference",
+          "activities": [
+            "Distributed ML system architecture with AI scalability and performance analysis",
+            "AI explanation of model serving patterns and real-time inference optimization",
+            "Load balancing and caching strategies for ML systems with AI guidance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Distributed System Coding",
+          "problems": [
+            {
+              "name": "Design TinyURL",
+              "difficulty": "Medium",
+              "description": "Distributed hash table with AI optimization",
+              "ai_prompt": "Design a URL shortening service. Discuss the hash function, handling collisions, and scaling the data store. How would you handle custom URLs?"
+            },
+            {
+              "name": "Design a Chat System",
+              "difficulty": "Hard",
+              "description": "Real-time messaging with AI scalability analysis",
+              "ai_prompt": "Focus on the real-time delivery component. Compare WebSockets vs. long polling. How would you store message history and handle group chats?"
+            },
+            {
+              "name": "Design a Rate Limiter",
+              "difficulty": "Medium",
+              "description": "API protection with AI algorithm selection",
+              "ai_prompt": "Compare different rate limiting algorithms (token bucket, leaky bucket, sliding window log). How would you implement this in a distributed environment?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Real-time Inference Design",
+          "activities": [
+            "System Design: Real-time ML Inference Pipeline with AI architecture guidance",
+            "Study distributed training and model parallelism techniques",
+            "SQL Practice: Data warehouse design for ML feature engineering"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "ML Data Pipelines & Amazon Culture",
+          "activities": [
+            "ML data pipeline architecture with AI optimization for throughput and latency",
+            "AI explanation of batch vs streaming processing for ML workflows",
+            "Feature store design and data versioning with AI best practices"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Data-Intensive System Coding",
+          "problems": [
+            {
+              "name": "Design a File System",
+              "difficulty": "Hard",
+              "description": "Distributed storage with AI consistency analysis",
+              "ai_prompt": "Design the metadata service for a distributed file system like HDFS. How do you handle file creation, deletion, and lookups? Discuss consistency models."
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "description": "Trie-based search with AI optimization",
+              "ai_prompt": "Revisit this problem. How would you update the search frequencies and rankings in real-time as users type and select suggestions?"
+            },
+            {
+              "name": "Design a Web Crawler",
+              "difficulty": "Hard",
+              "description": "Distributed crawling with AI politeness protocols",
+              "ai_prompt": "Design a distributed web crawler. Discuss the crawler components (URL frontier, fetchers, parsers), politeness policies (robots.txt), and avoiding crawler traps."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Amazon Supply Chain Design",
+          "activities": [
+            "System Design: Amazon Supply Chain Optimization with ML integration",
+            "ML Study: Amazon's logistics optimization and demand forecasting",
+            "Plan Amazon-specific interview preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "ML Model Management & Amazon Prep",
+          "activities": [
+            "Amazon's leadership principles and customer obsession in technical design",
+            "AI analysis of Amazon-tagged system design and optimization problems",
+            "ML model lifecycle management with AI automation and monitoring"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Large-Scale System Coding",
+          "problems": [
+            {
+              "name": "Design Twitter",
+              "difficulty": "Hard",
+              "description": "Social media platform with AI scalability focus",
+              "ai_prompt": "Focus on designing the news feed generation service. Compare a push (fan-out on write) vs. pull (fan-out on read) model. How would you handle celebrities?"
+            },
+            {
+              "name": "Design Netflix/YouTube",
+              "difficulty": "Hard",
+              "description": "Video streaming with AI content delivery optimization",
+              "ai_prompt": "Design the video upload and processing pipeline. How do you handle transcoding for different devices and network conditions? Discuss the role of a CDN."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Amazon Mock & SageMaker Study",
+          "activities": [
+            "AI Mock Interview: Amazon format (leadership principles + system design)",
+            "Study Amazon's ML infrastructure including SageMaker and distributed training",
+            "Plan comprehensive ML system design with AI strategic guidance"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced ML System Architecture",
+          "activities": [
+            "Advanced ML system architecture with AI optimization for different scales",
+            "AI explanation of ML system performance tuning and cost optimization",
+            "Monitoring and observability in ML systems with AI-driven insights"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Distributed Systems",
+          "problems": [
+            {
+              "name": "Design a Distributed Cache",
+              "difficulty": "Hard",
+              "description": "Consistent hashing with AI optimization",
+              "ai_prompt": "Design a distributed cache like Memcached or Redis. Explain how consistent hashing helps minimize cache misses during node additions/removals."
+            },
+            {
+              "name": "Design a Payment System",
+              "difficulty": "Hard",
+              "description": "Financial system with AI security analysis",
+              "ai_prompt": "Design a payment processing system. Discuss idempotency, security considerations, and how to ensure data consistency across multiple services."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Amazon Challenge & Analysis",
+          "activities": [
+            "Amazon Technical Challenge simulation with AI coaching",
+            "AI analysis of system design thinking and Amazon-specific optimization",
+            "Weekend project planning with comprehensive ML system integration"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Production ML System Architecture",
+          "duration": 360,
+          "description": "Design and document the architecture for a complete production ML system, inspired by Amazon's practices. This includes data ingestion, feature engineering, training, deployment, monitoring, and A/B testing.",
+          "focus_areas": [
+            "End-to-End ML Pipeline Design",
+            "Real-time Inference with Auto-Scaling",
+            "A/B Testing Framework",
+            "Cost Optimization & Monitoring"
+          ],
+          "tasks": [
+            "Create a detailed architecture diagram for a system like Amazon's product recommendation engine.",
+            "Define the API contracts between microservices.",
+            "Design the data models for feature stores and model registries.",
+            "Write a tech spec document that explains your design choices and trade-offs, integrating Amazon's Leadership Principles.",
+            "Use AI to critique your design for scalability, reliability, and cost-effectiveness."
+          ],
+          "deliverable": "A comprehensive architecture document, diagrams, and API definitions in a GitHub repository.",
+          "problems": [
+            {
+              "name": "Implement Stack using Queues",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+              "description": "Stack-based string cleanup"
+            },
+            {
+              "name": "Design Circular Queue",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+              "description": "Array-based circular queue implementation"
+            },
+            {
+              "name": "Maximal Rectangle",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack usage in binary matrix to compute maximal area"
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Advanced Mock Interview & Azure ML Deep Dive",
+          "duration": 300,
+          "description": "Engage in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
+          "focus_areas": [
+            "Customer-Obsessed System Design",
+            "Leadership Principle Integration",
+            "Enterprise ML Architecture",
+            "Cloud Platform Comparison"
+          ],
+          "tasks": [
+            "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",
+            "Analyze AI feedback on how well you integrated the principles into your technical design.",
+            "Study the architecture of Azure Machine Learning and its focus on enterprise-grade features.",
+            "Use AI to write a comparative analysis of AWS SageMaker and Azure ML."
+          ],
+          "deliverable": "A markdown document with your interview analysis and the comparative study of AWS and Azure ML platforms.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

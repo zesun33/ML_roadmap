@@ -30,7 +30,7 @@ function roadmapApp() {
 
             try {
                 // Load roadmap data
-                await this.loadRoadmapData();
+                await this.loadWeekData(this.currentWeek);
 
                 // Load saved progress
                 this.loadProgress();
@@ -49,40 +49,37 @@ function roadmapApp() {
             }
         },
 
-        // Load roadmap data with comprehensive error handling
-        async loadRoadmapData() {
+        // Load data for a specific week
+        async loadWeekData(weekNumber) {
             try {
                 this.loading = true;
                 this.error = false;
+                console.log(`📊 Loading data for week ${weekNumber}...`);
 
-                console.log('📊 Loading roadmap data...');
-
-                // Try to load from local file first
-                const response = await fetch('./roadmap_data.json');
-
+                const response = await fetch(`./roadmap_data/week-${weekNumber}.json`);
                 if (!response.ok) {
-                    throw new Error(`Failed to load roadmap data: ${response.status} ${response.statusText}`);
+                    throw new Error(`Failed to load data for week ${weekNumber}: ${response.status} ${response.statusText}`);
                 }
 
                 const data = await response.json();
-
-                // Validate data structure
                 if (!this.validateRoadmapData(data)) {
-                    throw new Error('Invalid roadmap data structure');
+                    throw new Error(`Invalid data structure for week ${weekNumber}`);
                 }
 
+                // If this is the first load, set the phase and total weeks data
+                if (!this.phases.length) {
+                    this.phases = data.metadata.phases || [];
+                    this.totalWeeks = data.metadata?.total_weeks || 20;
+                }
+                
+                // Replace the entire roadmapData with just the current week's data
                 this.roadmapData = data;
-                this.phases = data.phases || [];
-                this.totalWeeks = data.metadata?.total_weeks || 20;
 
-                console.log(`✅ Loaded roadmap with ${this.totalWeeks} weeks and ${this.phases.length} phases`);
+                console.log(`✅ Loaded data for week ${weekNumber}`);
 
             } catch (error) {
-                console.error('❌ Failed to load roadmap data:', error);
-
-                // Fallback to demo data
-                this.loadDemoData();
-
+                console.error(`❌ Failed to load data for week ${weekNumber}:`, error);
+                this.handleError(`Failed to load week ${weekNumber}`, error);
             } finally {
                 this.loading = false;
             }
@@ -90,7 +87,7 @@ function roadmapApp() {
 
         // Validate roadmap data structure
         validateRoadmapData(data) {
-            const required = ['metadata', 'phases', 'weeks'];
+            const required = ['metadata', 'week'];
             const isValid = required.every(key => data.hasOwnProperty(key));
 
             if (!isValid) {
@@ -99,6 +96,16 @@ function roadmapApp() {
             }
 
             return isValid;
+        },
+
+        // Change the current week and load its data
+        async changeWeek(weekNumber) {
+            if (weekNumber >= 1 && weekNumber <= this.totalWeeks) {
+                this.currentWeek = weekNumber;
+                await this.loadWeekData(weekNumber);
+                // You might need to re-initialize or update components that depend on the week's data
+                this.initializeCharts(); 
+            }
         },
 
         // Load demo data as fallback
@@ -150,57 +157,55 @@ function roadmapApp() {
                         focus_areas: ["Mock Interviews", "Company Prep", "Optimization", "Final Projects"]
                     }
                 ],
-                weeks: {
-                    "1": {
-                        title: "AI Environment Setup + Arrays & Hashing",
-                        objectives: [
-                            "Set up AI-powered learning environment",
-                            "Master core array and hashing problems",
-                            "Complete 25 problems with 90%+ accuracy",
-                            "Establish daily study routine"
-                        ],
-                        daily_schedule: {
-                            monday: {
-                                morning_session: {
-                                    title: "Environment Setup",
-                                    time: "6:00-7:30 AM",
-                                    activities: [
-                                        "Install development tools",
-                                        "Set up AI learning assistants",
-                                        "Configure progress tracking"
-                                    ]
-                                },
-                                coding_session: {
-                                    title: "Core Array Problems",
-                                    time: "7:30-9:00 AM",
-                                    problems: [
-                                        {
-                                            name: "Two Sum",
-                                            difficulty: "Easy",
-                                            leetcode_url: "https://leetcode.com/problems/two-sum/",
-                                            neetcode_url: "https://neetcode.io/problems/two-sum",
-                                            description: "Find two numbers that add up to a target sum",
-                                            ai_prompt: "Explain Two Sum using hash tables like vocabulary mappings in tokenizers. How does this relate to attention mechanisms in transformers?"
-                                        },
-                                        {
-                                            name: "Best Time to Buy and Sell Stock",
-                                            difficulty: "Easy",
-                                            leetcode_url: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-                                            neetcode_url: "https://neetcode.io/problems/buy-and-sell-crypto",
-                                            description: "Find the maximum profit from buying and selling stock",
-                                            ai_prompt: "Relate this to gradient optimization and finding optimal points in ML training curves."
-                                        }
-                                    ]
-                                },
-                                evening_session: {
-                                    title: "AI Study Setup",
-                                    time: "8:00-9:00 PM",
-                                    activities: [
-                                        "Create AI study prompts",
-                                        "Set up progress tracking",
-                                        "Plan tomorrow's schedule"
-                                    ]
-                                }
+                week: {
+                    title: "AI Environment Setup + Arrays & Hashing",
+                    objectives: [
+                        "Set up AI-powered learning environment",
+                        "Master core array and hashing problems",
+                        "Complete 25 problems with 90%+ accuracy",
+                        "Establish daily study routine"
+                    ],
+                    daily_schedule: {
+                        monday: {
+                            morning_session: {
+                                title: "Environment Setup",
+                                time: "6:00-7:30 AM",
+                                activities: [
+                                    "Install development tools",
+                                    "Set up AI learning assistants",
+                                    "Configure progress tracking"
+                                ]
+                            },
+                            coding_session: {
+                                title: "Core Array Problems",
+                                time: "7:30-9:00 AM",
+                                problems: [
+                                    {
+                                        name: "Two Sum",
+                                        difficulty: "Easy",
+                                        leetcode_url: "https://leetcode.com/problems/two-sum/",
+                                        neetcode_url: "https://neetcode.io/problems/two-sum",
+                                        description: "Find two numbers that add up to a target sum",
+                                        ai_prompt: "Explain Two Sum using hash tables like vocabulary mappings in tokenizers. How does this relate to attention mechanisms in transformers?"
+                                    },
+                                    {
+                                        name: "Best Time to Buy and Sell Stock",
+                                        difficulty: "Easy",
+                                        leetcode_url: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+                                        neetcode_url: "https://neetcode.io/problems/buy-and-sell-crypto",
+                                        description: "Find the maximum profit from buying and selling stock",
+                                        ai_prompt: "Relate this to gradient optimization and finding optimal points in ML training curves."
+                                    }
+                                ]
+                            },
+                            evening_session: {
+                                title: "AI Study Setup",
+                                time: "8:00-9:00 PM",
+                                activities: [
+                                    "Create AI study prompts",
+                                    "Set up progress tracking",
+                                    "Plan tomorrow's schedule"
+                                ]
                             }
                         }
                     }
@@ -405,44 +410,36 @@ function roadmapApp() {
 
         // Week completion methods
         getWeekCompletionClass(week) {
-            if (week < this.currentWeek) {
-                return 'bg-green-100 border-green-500 text-green-800';
-            } else if (week === this.currentWeek) {
-                return 'bg-yellow-100 border-yellow-500 text-yellow-800';
-            } else {
-                return 'bg-gray-100 border-gray-300 text-gray-600';
-            }
+            const progress = this.getWeekCompletionStatus(week);
+            if (progress === 100) return 'bg-green-500 text-white';
+            if (progress > 0) return 'bg-yellow-400';
+            return 'bg-gray-200';
         },
 
         getWeekCompletionStatus(week) {
-            if (week < this.currentWeek) {
-                return 'Completed';
-            } else if (week === this.currentWeek) {
-                return 'In Progress';
-            } else {
-                return 'Not Started';
-            }
+            // This function might need to be adjusted if it relies on having all weeks' data at once.
+            // For now, we assume it works on a per-week basis from saved progress.
+            const weekNumber = week;
+            const weekData = this.roadmapData?.week;
+            if (!weekData) return 0;
+
+            const sessions = Object.values(weekData.daily_schedule || {}).flatMap(day =>
+                Object.values(day)
+            );
+
+            if (sessions.length === 0) return 0;
+
+            const completedSessions = sessions.filter(session => this.isSessionCompleted(session.title)).length;
+            return (completedSessions / sessions.length) * 100;
         },
 
         // Export/Import methods
         exportProgress() {
-            const data = {
-                sessionCompletions: this.sessionCompletions,
-                currentWeek: this.currentWeek,
-                exportDate: new Date().toISOString(),
-                version: '1.0'
-            };
-
-            const blob = new Blob([JSON.stringify(data, null, 2)], {
-                type: 'application/json'
-            });
-
-            const url = URL.createObjectURL(blob);
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(this.sessionCompletions, null, 2));
             const a = document.createElement('a');
-            a.href = url;
+            a.href = dataStr;
             a.download = `ml-faang-progress-${new Date().toISOString().split('T')[0]}.json`;
             a.click();
-            URL.revokeObjectURL(url);
         },
 
         triggerImport() {

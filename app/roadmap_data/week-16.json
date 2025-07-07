@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 16
+  },
+  "week": {
+    "title": "Portfolio Showcase + Technical Leadership Demonstration",
+    "objectives": [
+      "Complete 15 problems + comprehensive portfolio + leadership demonstrations",
+      "Demonstrate technical leadership through advanced project implementations",
+      "Master technical presentation and communication skills",
+      "Implement advanced portfolio optimization and presentation strategies",
+      "Achieve portfolio excellence for maximum interview impact",
+      "Focus on production ML deployment and portfolio optimization"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "title": "Comprehensive Portfolio Development + Technical Leadership",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Portfolio architecture optimization with AI-guided project structure enhancement",
+            "AI explanation of technical leadership demonstration and influence optimization",
+            "Innovation showcase preparation with AI narrative development"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Design Phone Directory",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+              "neetcode_url": "https://neetcode.io/problems/design-phone-directory",
+              "description": "System design with efficient resource management",
+              "ai_prompt": "How does resource allocation design relate to computational resource management in distributed ML training systems?"
+            },
+            {
+              "name": "Find Median from Data Stream",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+              "description": "Real-time statistics with balanced data structures",
+              "ai_prompt": "How does streaming statistics relate to online learning and real-time model performance monitoring?"
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Real-time search with ranking and caching",
+              "ai_prompt": "How does autocomplete design relate to sequence prediction and next-token generation in language models?"
+            }
+          ],
+          "ai_activities": [
+            "AI Portfolio Coach: Optimize technical project presentation for maximum impact"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Portfolio Project #1: Complete advanced ML system design showcase",
+            "Leadership Study: Technical leadership patterns at FAANG companies",
+            "Plan comprehensive portfolio optimization with AI enhancement"
+          ]
+        }
+      },
+      "tuesday": {
+        "title": "Technical Presentation Mastery + Communication Excellence",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Technical presentation mastery with AI-enhanced communication coaching",
+            "AI explanation of narrative development and storytelling optimization",
+            "Cross-functional communication with AI coaching for diverse audiences"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Skyline Problem",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+              "neetcode_url": "https://neetcode.io/problems/the-skyline-problem",
+              "description": "Complex geometric problem with sweep line algorithm",
+              "ai_prompt": "How does event-based processing relate to temporal pattern recognition and time-series analysis in ML?"
+            },
+            {
+              "name": "Design In-Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+              "description": "Complex system design with hierarchical structure",
+              "ai_prompt": "How does hierarchical storage design relate to model versioning and artifact management in MLOps?"
+            },
+            {
+              "name": "Smallest Range Covering Elements from K Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+              "description": "Multi-source optimization with sliding window",
+              "ai_prompt": "How does multi-source range optimization relate to ensemble model selection and multi-objective optimization?"
+            }
+          ],
+          "ai_activities": [
+            "Technical presentation practice with AI feedback optimization"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Portfolio Project #2: Advanced AI-ML integration showcase",
+            "Practice technical presentations with AI real-time feedback and optimization",
+            "Advanced SQL: Portfolio analytics and performance measurement queries"
+          ]
+        }
+      },
+      "wednesday": {
+        "title": "Leadership Excellence + Innovation Showcase",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Technical leadership excellence with AI coaching on influence and impact",
+            "AI explanation of innovation communication and technology evangelism",
+            "Cross-team collaboration with AI guidance for leadership scenarios"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Basic Calculator III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+              "neetcode_url": "https://neetcode.io/problems/basic-calculator-iii",
+              "description": "Expression parsing with operator precedence",
+              "ai_prompt": "How does expression evaluation relate to computational graph construction and automatic differentiation?"
+            },
+            {
+              "name": "Remove Invalid Parentheses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/remove-invalid-parentheses",
+              "description": "BFS with state pruning and optimization",
+              "ai_prompt": "How does constraint satisfaction relate to hyperparameter validation and model architecture search?"
+            },
+            {
+              "name": "Text Justification",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/text-justification/",
+              "neetcode_url": "https://neetcode.io/problems/text-justification",
+              "description": "String formatting with constraint optimization",
+              "ai_prompt": "How does text layout optimization relate to document processing and text rendering in ML applications?"
+            }
+          ],
+          "ai_activities": [
+            "Leadership scenario practice with AI coaching"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Portfolio Project #3: Innovation showcase with technical leadership demonstration",
+            "Advanced project narrative with AI storytelling optimization",
+            "Technical influence practice with AI communication coaching"
+          ]
+        }
+      },
+      "thursday": {
+        "title": "Portfolio Excellence + Advanced Communication",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Portfolio excellence optimization with AI-guided project refinement",
+            "AI explanation of technical depth demonstration and expertise communication",
+            "Advanced project showcase with AI presentation optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Word Ladder II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder-ii",
+              "description": "BFS with path tracking and optimization",
+              "ai_prompt": "How does path enumeration relate to sequence generation and beam search in language models?"
+            },
+            {
+              "name": "Wildcard Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/wildcard-matching/",
+              "neetcode_url": "https://neetcode.io/problems/wildcard-matching",
+              "description": "Dynamic programming with pattern matching",
+              "ai_prompt": "How does pattern matching relate to sequence alignment and regex optimization in text processing?"
+            },
+            {
+              "name": "Edit Distance",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+              "neetcode_url": "https://neetcode.io/problems/edit-distance",
+              "description": "Classic DP with sequence optimization",
+              "ai_prompt": "How does edit distance relate to similarity metrics and sequence comparison in NLP?"
+            }
+          ],
+          "ai_activities": [
+            "Portfolio refinement with AI quality assessment"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Portfolio Project #4: Advanced ML engineering showcase with technical depth",
+            "Technical communication mastery with AI optimization",
+            "Advanced presentation practice with AI feedback"
+          ]
+        }
+      },
+      "friday": {
+        "title": "Final Portfolio Optimization + Presentation Mastery",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Final portfolio optimization with AI comprehensive enhancement",
+            "AI explanation of presentation excellence and maximum impact communication",
+            "Portfolio readiness assessment with AI evaluation"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "activities": [
+            "Portfolio Integration: Comprehensive project compilation with AI optimization",
+            "Presentation Excellence: Final presentation rehearsal with AI coaching",
+            "Technical Demonstration: Live coding showcase with AI performance enhancement",
+            "AI comprehensive review of Week 18 portfolio development and presentation skills"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Final portfolio presentation with AI comprehensive evaluation",
+            "AI analysis of portfolio impact and presentation effectiveness",
+            "Weekend planning for comprehensive optimization and final preparation"
+          ]
+        }
+      }
+    },
+    "weekend_sessions": {
+      "saturday": {
+        "title": "Portfolio Showcase Marathon + Leadership Demonstration",
+        "duration": 480,
+        "sessions": [
+          {
+            "time": "9:00-1:00 PM",
+            "title": "Portfolio Showcase Marathon",
+            "activities": [
+              "Complete portfolio presentation to multiple audiences with AI coaching",
+              "Technical leadership demonstration across different scenarios",
+              "Innovation showcase with comprehensive technical storytelling",
+              "AI comprehensive evaluation of portfolio impact and leadership demonstration"
+            ]
+          },
+          {
+            "time": "1:00-2:00 PM",
+            "title": "Feedback Integration",
+            "activities": [
+              "Portfolio optimization based on feedback with AI enhancement"
+            ]
+          },
+          {
+            "time": "2:00-5:00 PM",
+            "title": "Final Projects",
+            "activities": [
+              "Complete final portfolio projects with AI-assisted excellence achievement"
+            ]
+          }
+        ]
+      },
+      "sunday": {
+        "title": "Communication Mastery + Week Transition",
+        "duration": 360,
+        "sessions": [
+          {
+            "time": "9:00-1:00 PM",
+            "title": "Communication Excellence",
+            "activities": [
+              "Advanced technical communication practice with AI coaching",
+              "Leadership scenario demonstrations with AI evaluation",
+              "Cross-functional presentation mastery with AI optimization",
+              "Final communication assessment with AI comprehensive feedback"
+            ]
+          },
+          {
+            "time": "1:00-2:00 PM",
+            "title": "Portfolio Review",
+            "activities": [
+              "Comprehensive portfolio review and final optimization"
+            ]
+          },
+          {
+            "time": "2:00-3:00 PM",
+            "title": "Week Transition",
+            "activities": [
+              "Week 18 completion assessment and Week 19 preparation with AI strategic planning"
+            ]
+          }
+        ]
+      }
+    },
+    "ai_prompts": [
+      {
+        "category": "Portfolio Excellence",
+        "text": "Help me optimize my Week 18 technical portfolio for maximum impact. Guide me in showcasing both ML expertise and software engineering skills effectively."
+      },
+      {
+        "category": "Technical Leadership",
+        "text": "Assist me in demonstrating technical leadership through my portfolio projects. Help me craft compelling narratives that show innovation, problem-solving, and impact."
+      },
+      {
+        "category": "Presentation Optimization",
+        "text": "Guide me through advanced technical presentation skills. Help me communicate complex technical concepts clearly and persuasively to different audiences."
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 13
+  },
+  "week": {
+    "title": "Company-Specific ML Systems + Google & DeepMind",
+    "objectives": [
+      "Master Google's ML system architecture with a focus on search and distributed systems",
+      "Connect advanced algorithms to Google's core products and infrastructure",
+      "Study DeepMind's research and its impact on production ML systems",
+      "Complete Google-style interviews with a focus on scalability and innovation"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google Search & Distributed ML",
+          "activities": [
+            "Google's search architecture with AI-enhanced system design principles",
+            "AI explanation of distributed ML training with TensorFlow and TPUs",
+            "PageRank and its modern variants with AI mathematical optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Google-tagged Problems",
+          "problems": [
+            {
+              "name": "Number of Islands",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+              "neetcode_url": "https://neetcode.io/problems/number-of-islands",
+              "description": "Connect to image processing and computer vision",
+              "ai_prompt": "Revisit this problem. How can this be solved with both DFS and BFS? Discuss the trade-offs. How does this relate to identifying connected components in image segmentation?"
+            },
+            {
+              "name": "Word Ladder",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder",
+              "description": "Graph traversal with AI optimization",
+              "ai_prompt": "This is a shortest path problem on an unweighted graph. Explain how to build the graph implicitly and use BFS. How does bidirectional BFS optimize the search?"
+            },
+            {
+              "name": "Design Tic-Tac-Toe",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe/",
+              "neetcode_url": "https://neetcode.io/problems/design-tic-tac-toe",
+              "description": "Scalable game state design",
+              "ai_prompt": "Design a solution that is efficient for a very large board and multiple players. How would you detect a win condition in O(1) time per move?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Knowledge Graph Design",
+          "activities": [
+            "System Design: Google's Knowledge Graph with AI-guided architecture",
+            "ML System Study: Google's recommendation systems and ad targeting",
+            "Plan advanced Google-specific preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DeepMind Research & Production",
+          "activities": [
+            "DeepMind's research breakthroughs with AI analysis of production impact",
+            "AI explanation of AlphaGo and reinforcement learning innovations",
+            "Scaling research models to production with AI optimization strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Graph & DP",
+          "problems": [
+            {
+              "name": "Shortest Path in a Grid with Obstacles Elimination",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+              "description": "Advanced BFS with state representation",
+              "ai_prompt": "Explain the state needed for the BFS queue. Why is a simple (row, col) tuple not enough? How do you avoid cycles and redundant computations?"
+            },
+            {
+              "name": "Longest Increasing Path in a Matrix",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-a-matrix",
+              "description": "Graph DP with memoization",
+              "ai_prompt": "This can be viewed as finding the longest path in a DAG. Explain how to use DFS with memoization to solve this efficiently. What is the time complexity?"
+            },
+            {
+              "name": "Design In-Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+              "description": "Hierarchical data structures",
+              "ai_prompt": "Design the data structures (e.g., using Tries or nested HashMaps) to represent the file system hierarchy and store file content."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Reinforcement Learning Design",
+          "activities": [
+            "System Design: Reinforcement Learning Platform for game AI",
+            "Study Google's TensorFlow ecosystem and TFX for production ML",
+            "SQL Practice: Advanced analytics for large-scale experiment tracking"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google's Culture & Innovation",
+          "activities": [
+            "Google's culture of innovation and 10x thinking with AI analysis",
+            "AI explanation of Google's interview process and hiring criteria",
+            "Preparing for Google's behavioral interviews with AI coaching"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Google Scalability Problems",
+          "problems": [
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+              "description": "Tree traversal and string manipulation",
+              "ai_prompt": "Compare different serialization formats (e.g., preorder, level order). Discuss how you handle null nodes. Write the code for both serialization and deserialization."
+            },
+            {
+              "name": "Find Median from Data Stream",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+              "description": "Two heaps for real-time stats",
+              "ai_prompt": "Explain the two-heap approach. Why does this allow for O(log n) insertion and O(1) median retrieval? How do you keep the heaps balanced?"
+            },
+            {
+              "name": "Design a Distributed Key-Value Store",
+              "difficulty": "Hard",
+              "description": "System design with consistency trade-offs",
+              "ai_prompt": "Design a system like Google's Bigtable or DynamoDB. Discuss data partitioning (sharding), replication, and consistency models (strong vs. eventual)."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Cloud ML Design",
+          "activities": [
+            "System Design: ML Platform on Google Cloud with AI architecture",
+            "ML Study: Google's AI Platform and AutoML capabilities",
+            "Plan Google-specific interview strategy with AI optimization"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google-Specific Interview Prep",
+          "activities": [
+            "Google's focus on data structures, algorithms, and scalability",
+            "AI analysis of Google-tagged interview questions and patterns",
+            "Advanced algorithm optimization with AI performance analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Google Problems",
+          "problems": [
+            {
+              "name": "Trapping Rain Water",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+              "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+              "description": "Multiple approaches with AI optimization",
+              "ai_prompt": "Compare the brute-force, DP, two-pointer, and stack-based solutions. Explain the time and space complexity of each. Which is most optimal?"
+            },
+            {
+              "name": "Merge K Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-lists",
+              "description": "Heap-based merging with AI complexity analysis",
+              "ai_prompt": "Explain how using a min-heap reduces the time complexity compared to other approaches. What is the complexity of this solution?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Mock & System Study",
+          "activities": [
+            "AI Mock Interview: Google format (scalability, innovation, algorithms)",
+            "Study Google's File System (GFS) and MapReduce architecture",
+            "Plan comprehensive system design study with AI strategic guidance"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Final Google Prep & Contest",
+          "activities": [
+            "Advanced Google problem patterns with AI performance optimization",
+            "AI explanation of Google's technical standards and expectations",
+            "Google Kick Start contest simulation with AI coaching"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest-Level Problems",
+          "problems": [
+            {
+              "name": "Minimum Window Substring",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+              "description": "Sliding window with hash map",
+              "ai_prompt": "Explain the sliding window approach with two pointers and a hash map to keep track of character counts. How do you efficiently shrink the window?"
+            },
+            {
+              "name": "Word Search II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Trie + Backtracking optimization",
+              "ai_prompt": "Revisit this problem. Explain how the Trie structure prunes the search space. What is the role of backtracking in this algorithm?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Kick Start & Analysis",
+          "activities": [
+            "Google Kick Start practice contest with AI real-time coaching",
+            "AI analysis of contest performance and Google-specific problem-solving",
+            "Weekend project planning with Google Cloud ML integration"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Scalable ML System on GCP",
+          "duration": 360,
+          "description": "Design and build a scalable ML system on Google Cloud Platform. This project will demonstrate your ability to use Google's infrastructure to create a production-ready ML application.",
+          "focus_areas": [
+            "Google Cloud Platform (GCP) Services",
+            "Distributed Training with AI Platform",
+            "Scalable Data Processing with Dataflow",
+            "Production Deployment with Kubernetes Engine"
+          ],
+          "tasks": [
+            "Design a system for training and serving a model using GCP services (e.g., AI Platform, Kubeflow).",
+            "Implement a data pipeline using Apache Beam and Dataflow for large-scale data processing.",
+            "Deploy the model as a microservice on Google Kubernetes Engine (GKE).",
+            "Use AI to write a tech spec documenting your design choices and explaining how it aligns with Google's engineering principles."
+          ],
+          "deliverable": "A deployed application, GitHub repository, and a detailed tech spec for the GCP-based ML system.",
+          "problems": [
+            {
+              "name": "Implement Stack using Queues",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+              "description": "Stack-based string cleanup"
+            },
+            {
+              "name": "Design Circular Queue",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+              "description": "Array-based circular queue implementation"
+            },
+            {
+              "name": "Maximal Rectangle",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack usage in binary matrix to compute maximal area"
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Advanced Mock Interview & Meta Social Graph Deep Dive",
+          "duration": 300,
+          "description": "Engage in an advanced mock interview simulating a Google final round, followed by a comparative study of Meta's (Facebook's) social graph architecture.",
+          "focus_areas": [
+            "Scalable System Design",
+            "Advanced Algorithm Integration",
+            "Social Network Architecture",
+            "Cross-Company Technology Comparison"
+          ],
+          "tasks": [
+            "Complete a 2-hour AI-led mock interview covering a hard algorithmic problem and a large-scale system design question typical of Google.",
+            "Analyze AI feedback on your problem-solving, design trade-offs, and communication.",
+            "Study the architecture of Meta's social graph, including their TAO data store.",
+            "Use AI to write a comparative analysis of Google's Knowledge Graph vs. Meta's Social Graph."
+          ],
+          "deliverable": "A markdown document containing your interview analysis and a comparative study of Google's and Meta's graph technologies.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 20
+  },
+  "week": {
+    "title": "Interview Success + Career Launch Excellence",
+    "objectives": [
+      "Execute successful interviews with target companies",
+      "Achieve optimal interview scheduling and performance timing",
+      "Master final interview preparation and execution strategies",
+      "Successfully navigate offer negotiations and decision-making",
+      "Launch successful FAANG software engineering career",
+      "Focus on interview execution and career launch"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "title": "Interview Execution + Success Optimization",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Final interview execution strategy with AI guidance",
+            "AI explanation of optimal performance timing and confidence",
+            "Last-minute preparation with AI readiness validation"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Student Attendance Record II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/student-attendance-record-ii/",
+              "neetcode_url": "https://neetcode.io/problems/student-attendance-record-ii",
+              "description": "Complex dynamic programming with state machines",
+              "ai_prompt": "How does state machine modeling relate to behavior prediction and sequential decision making in ML systems?"
+            },
+            {
+              "name": "Strobogrammatic Number III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/strobogrammatic-number-iii/",
+              "neetcode_url": "https://neetcode.io/problems/strobogrammatic-number-iii",
+              "description": "Mathematical pattern generation with constraints",
+              "ai_prompt": "How does pattern generation relate to synthetic data creation and data augmentation in ML?"
+            },
+            {
+              "name": "Smallest Rectangle Enclosing Black Pixels",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-rectangle-enclosing-black-pixels",
+              "description": "Binary search on 2D space with optimization",
+              "ai_prompt": "How does spatial optimization relate to computer vision and object detection bounding box optimization?"
+            }
+          ],
+          "ai_activities": [
+            "AI Interview Success: Final execution strategy and confidence optimization"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Final interview preparation with AI readiness assessment",
+            "Confidence optimization with AI peak performance coaching",
+            "Strategic planning for upcoming interviews with AI guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "title": "Career Launch Excellence + Future Success",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Career launch strategy with AI guidance on long-term success",
+            "AI explanation of offer negotiation and decision-making",
+            "Continuous improvement planning with AI career coaching"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "problems": [
+            {
+              "name": "Valid Number",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/valid-number/",
+              "neetcode_url": "https://neetcode.io/problems/valid-number",
+              "description": "Complex string validation with finite state automaton",
+              "ai_prompt": "How does input validation relate to data quality assurance and robust ML pipeline design?"
+            },
+            {
+              "name": "Best Time to Buy and Sell Stock IV",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+              "neetcode_url": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock-iv",
+              "description": "DP with transaction optimization",
+              "ai_prompt": "How does transaction optimization relate to resource management and budget allocation in ML projects?"
+            },
+            {
+              "name": "Integer to English Words",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/integer-to-english-words/",
+              "neetcode_url": "https://neetcode.io/problems/integer-to-english-words",
+              "description": "Complex number to text conversion",
+              "ai_prompt": "How does structured data conversion relate to feature engineering and data preprocessing in ML?"
+            }
+          ],
+          "ai_activities": [
+            "AI Career Launch: Offer negotiation simulation and decision-making optimization"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Offer negotiation practice with AI coaching",
+            "Long-term career planning with AI strategic guidance",
+            "Final roadmap completion and success celebration"
+          ]
+        }
+      },
+      "wednesday": {
+        "title": "Onboarding and First 90 Days Strategy",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Develop a strategic plan for the first 90 days in a new role with AI guidance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "activities": [
+            "Review company-specific codebase standards and best practices"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Set up communication channels and plan initial meetings"
+          ]
+        }
+      },
+      "thursday": {
+        "title": "Continuous Learning and Growth",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Identify areas for continuous learning and skill development with AI career coach"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "activities": [
+            "Explore advanced topics relevant to the new role (e.g., new frameworks, internal tools)"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Network with new colleagues and build professional relationships"
+          ]
+        }
+      },
+      "friday": {
+        "title": "Roadmap Completion and Celebration",
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "activities": [
+            "Final review of the entire 20-week journey and accomplishments"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "activities": [
+            "Write a final summary of key learnings and future goals"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "activities": [
+            "Celebrate the completion of the mastery plan and the start of a new career chapter!"
+          ]
+        }
+      }
+    },
+    "weekend_sessions": {
+      "saturday": {
+        "title": "Final Interview Execution + Offer Negotiation",
+        "duration": 360,
+        "sessions": [
+          {
+            "time": "9:00-12:00 PM",
+            "title": "Final Interview Simulation",
+            "activities": [
+              "Final interview execution with AI simulation and real-time feedback",
+              "Offer negotiation role-play with AI and interactive feedback"
+            ]
+          }
+        ]
+      },
+      "sunday": {
+        "title": "Career Launch Planning & Reflection",
+        "duration": 240,
+        "sessions": [
+          {
+            "time": "1:00-5:00 PM",
+            "title": "Career Launch Strategy",
+            "activities": [
+              "Finalize career plan with AI guidance",
+              "Set first-year goals in new role",
+              "Celebrate achievements and outline continuous learning path"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
