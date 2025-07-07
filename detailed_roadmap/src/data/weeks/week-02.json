@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "week": 2,
+    "title": "Two Pointers & Sliding Window + Meta ML Infrastructure",
+    "phase": "Foundation & Basic Patterns",
+    "neetcode_pattern": "Two Pointers, Sliding Window, AI pattern recognition",
+    "target_problems": 30,
+    "target_accuracy": 90,
+    "ml_focus": "Meta's DLRM, sliding window in time series, convolutional patterns",
+    "ai_enhanced": true
+  },
+  "objectives": [
+    "Master two-pointer technique with 30+ problems solved",
+    "Understand sliding window patterns and optimizations",
+    "Connect algorithms to Meta's ML infrastructure",
+    "Implement advanced pattern recognition with AI coaching",
+    "Study distributed ML systems and optimization techniques"
+  ],
+  "daily_schedule": {
+    "monday": {
+      "morning_session": {
+        "title": "Two Pointers Foundation + Meta ML Study",
+        "time": "6:00-7:00 AM",
+        "duration": 90,
+        "activities": [
+          "Two pointers theory with AI explanations",
+          "Study Meta's Deep Learning Recommendation Model (DLRM)",
+          "AI explanation connecting two pointers to parallel processing"
+        ]
+      },
+      "coding_session": {
+        "title": "Two Pointers Core Problems",
+        "time": "7:00-8:30 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Valid Palindrome",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/valid-palindrome/",
+            "neetcode_url": "https://neetcode.io/problems/is-palindrome",
+            "description": "Check if a string is a palindrome",
+            "ai_coaching_prompt": "AI coaching on string manipulation and connection to text preprocessing in NLP."
+          },
+          {
+            "name": "Two Sum II - Input Array Is Sorted",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+            "neetcode_url": "https://neetcode.io/problems/two-integer-sum-ii",
+            "description": "Find two numbers that sum to target in sorted array",
+            "ai_coaching_prompt": "Connect to binary search and optimization techniques in ML hyperparameter tuning."
+          },
+          {
+            "name": "3Sum",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/3sum/",
+            "neetcode_url": "https://neetcode.io/problems/three-integer-sum",
+            "description": "Find all unique triplets that sum to zero",
+            "ai_coaching_prompt": "AI optimization for O(n²) complexity and relation to clustering problems in ML."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "AI Pattern Recognition + Meta Infrastructure",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "AI generates custom two-pointer problems",
+          "Study Meta's ML infrastructure and model serving",
+          "Implement two-pointer template with AI guidance"
+        ]
+      }
+    },
+    "tuesday": {
+      "morning_session": {
+        "title": "Container Problems + Optimization Theory",
+        "time": "6:00-7:00 AM",
+        "duration": 90,
+        "activities": [
+          "Container optimization theory with AI mathematical explanations",
+          "Greedy algorithms in ML optimization context",
+          "AI proof techniques and mathematical intuition"
+        ]
+      },
+      "coding_session": {
+        "title": "Container & Optimization Problems",
+        "time": "7:00-8:30 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Container With Most Water",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+            "neetcode_url": "https://neetcode.io/problems/max-water-container",
+            "description": "Find two lines that form container with most water",
+            "ai_coaching_prompt": "AI coaching on greedy approach and connection to optimization problems in ML training."
+          },
+          {
+            "name": "Trapping Rain Water",
+            "difficulty": "Hard",
+            "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+            "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+            "description": "Calculate trapped rainwater between elevation bars",
+            "ai_coaching_prompt": "Connect to dynamic programming patterns and optimization in gradient descent."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "AI Mock Interview + Meta Case Study",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "AI mock interview with medium container problem",
+          "Study Meta's recommendation systems and real-time inference",
+          "Optimization techniques analysis with AI guidance"
+        ]
+      }
+    },
+    "weekend_sessions": {
+      "saturday": {
+        "morning_session": {
+          "title": "Sliding Window Advanced Patterns",
+          "time": "9:00-11:00 AM",
+          "duration": 120,
+          "activities": [
+            "Advanced sliding window patterns with AI optimization",
+            "Study time series applications and CNN connections",
+            "Performance optimization techniques for large-scale systems"
+          ]
+        },
+        "coding_session": {
+          "title": "Sliding Window Mastery",
+          "time": "11:00-1:00 PM",
+          "duration": 120,
+          "problems": [
+            {
+              "name": "Longest Substring Without Repeating Characters",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+              "description": "Find longest substring without repeating characters",
+              "ai_coaching_prompt": "Connect to sliding window optimization in signal processing and feature extraction."
+            },
+            {
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+              "description": "Find maximum in each sliding window",
+              "ai_coaching_prompt": "AI coaching on deque usage and connection to convolution operations in CNNs."
+            }
+          ]
+        },
+        "deliverable": "Advanced sliding window algorithm implementation with AI optimization"
+      },
+      "sunday": {
+        "morning_session": {
+          "title": "Contest Practice + Meta Interview Prep",
+          "time": "9:00-10:30 AM",
+          "duration": 90,
+          "activities": [
+            "CodeForces round participation with AI coaching",
+            "Meta-specific interview preparation and culture study",
+            "Speed optimization techniques with AI timing analysis"
+          ]
+        },
+        "interview_session": {
+          "title": "Advanced AI Mock Interview",
+          "time": "10:30-12:00 PM",
+          "duration": 90,
+          "activities": [
+            "Meta format interview with behavioral components",
+            "Advanced two-pointer and sliding window problems",
+            "AI analysis of technical communication and performance"
+          ]
+        },
+        "deliverable": "Week 2 comprehensive review with AI performance analysis"
+      }
+    }
+  },
+  "ai_prompts": [
+    {
+      "category": "Two Pointers",
+      "text": "I'm working on two-pointer problems. Given my ML background: 1) How does this relate to parallel processing in distributed training? 2) What optimization techniques can I apply from gradient descent? 3) How do I recognize when to use two pointers vs other approaches? 4) Generate practice problems with ML context."
+    },
+    {
+      "category": "Sliding Window",
+      "text": "Help me master sliding window patterns: 1) How does this connect to convolutional operations in CNNs? 2) What are the time series applications I should know? 3) How do I optimize for large-scale data processing? 4) Create custom problems for practice."
+    }
+  ],
+  "completion_criteria": {
+    "problems_completed": 30,
+    "accuracy_target": 90,
+    "ai_coaching_sessions": 8,
+    "ml_systems_studied": 2,
+    "mock_interviews": 2
+  }
+}

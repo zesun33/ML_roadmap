@@ -120,6 +120,12 @@ button:focus {
     min-height: 80px;
     padding: 4px;
     position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .calendar-day.today {
@@ -133,4 +139,200 @@ button:focus {
 
 .calendar-day.completed {
     background: #d1fae5;
-} 
+}
+
+/* Calendar day hover effects */
+.calendar-day:hover {
+    background-color: #f3f4f6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* AI prompt styling */
+.ai-prompt {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-left: 4px solid #0ea5e9;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+/* Week navigation styles */
+.weekly-grid {
+    gap: 4px;
+}
+
+.weekly-grid>div {
+    min-height: 40px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.weekly-grid>div:hover {
+    transform: scale(1.05);
+}
+
+/* Problem difficulty badges */
+.difficulty-easy {
+    background-color: #dcfce7;
+    color: #166534;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.difficulty-medium {
+    background-color: #fef3c7;
+    color: #92400e;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.difficulty-hard {
+    background-color: #fee2e2;
+    color: #991b1b;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Session cards */
+.session-card {
+    transition: all 0.2s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.session-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bars */
+.progress-bar {
+    height: 8px;
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6 0%, #10b981 100%);
+    transition: width 0.3s ease;
+}
+
+/* Error and success states */
+.error-state {
+    background-color: #fef2f2;
+    border: 1px solid #fecaca;
+    color: #991b1b;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.success-state {
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #166534;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+/* Loading skeleton */
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Text utilities */
+.text-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Navigation tabs */
+.nav-tab {
+    transition: all 0.2s ease;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-tab.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.nav-tab:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Phase cards */
+.phase-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    border: 1px solid #e5e7eb;
+}
+
+.phase-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Enhanced responsive design */
+@media (max-width: 640px) {
+    .calendar-day {
+        min-height: 50px;
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .weekly-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .phase-card {
+        padding: 16px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .gradient-bg {
+        background: #667eea !important;
+        color: white !important;
+    }
+
+    .chart-container {
+        display: none;
+    }
+
+    .nav-tab,
+    .weekly-grid {
+        display: none;
+    }
+}

@@ -1,0 +1,467 @@
+{
+  "metadata": {
+    "week": 1,
+    "title": "AI Environment Setup + Arrays & Hashing + Real ML System Integration",
+    "phase": "Foundation & Basic Patterns",
+    "neetcode_pattern": "Arrays, Hash Maps, AI-powered learning setup",
+    "target_problems": 25,
+    "target_accuracy": 90,
+    "ml_focus": "Hash tables in embeddings, YouTube Recommendation System analysis",
+    "ai_enhanced": true
+  },
+  "objectives": [
+    "Set up AI-powered learning environment (Claude Pro, ChatGPT Plus)",
+    "Complete 25 array and hashing problems with 90%+ accuracy",
+    "Master fundamental data structures used in ML systems",
+    "Establish daily study routine with AI coaching integration",
+    "Understand hash tables in embeddings and recommendation systems"
+  ],
+  "daily_schedule": {
+    "monday": {
+      "morning_session": {
+        "title": "AI Ecosystem Bootstrap + Core Array Problems",
+        "time": "6:00-7:30 AM",
+        "duration": 90,
+        "activities": [
+          "Set up AI learning environment (Claude Pro, ChatGPT Plus)",
+          "Configure VS Code with AI extensions",
+          "AI-powered Anki setup with ML-DS&A prompt templates"
+        ]
+      },
+      "coding_session": {
+        "title": "Core Array Problems",
+        "time": "7:30-9:00 AM", 
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Two Sum",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/two-sum/",
+            "neetcode_url": "https://neetcode.io/problems/two-sum",
+            "description": "Find two numbers that add up to a target sum",
+            "ai_coaching_prompt": "Explain Two Sum using hash tables like vocabulary mappings in tokenizers. How does this relate to attention mechanisms in transformers?"
+          },
+          {
+            "name": "Best Time to Buy and Sell Stock",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+            "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+            "description": "Find maximum profit from stock transactions",
+            "ai_coaching_prompt": "Relate this to gradient optimization and finding optimal points in ML training curves."
+          },
+          {
+            "name": "Contains Duplicate",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/contains-duplicate/",
+            "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
+            "description": "Check if array contains duplicates",
+            "ai_coaching_prompt": "AI coaching on set operations vs hash tables in data preprocessing pipelines."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "AI Study Setup + ML System Deep Dive",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "Create personalized AI study buddy prompts",
+          "Set up GitHub repository with AI-generated README",
+          "ML System Study: YouTube Recommendations - hash tables for user/video embeddings"
+        ]
+      }
+    },
+    "tuesday": {
+      "morning_session": {
+        "title": "Hash Maps Deep Dive + ML Applications",
+        "time": "6:00-7:30 AM",
+        "duration": 90,
+        "activities": [
+          "Hash table theory with AI explanations connecting to PyTorch dict operations",
+          "Python dict internals, collision handling, and performance optimization",
+          "AI-generated flashcards for hash table complexity and ML applications"
+        ]
+      },
+      "coding_session": {
+        "title": "Hash Table Applications",
+        "time": "7:30-9:00 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Valid Anagram",
+            "difficulty": "Easy",
+            "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+            "neetcode_url": "https://neetcode.io/problems/is-anagram",
+            "description": "Check if two strings are anagrams",
+            "ai_coaching_prompt": "Connect to text preprocessing in NLP and character frequency analysis in transformer tokenization."
+          },
+          {
+            "name": "Group Anagrams",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+            "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+            "description": "Group strings that are anagrams",
+            "ai_coaching_prompt": "Relate to clustering algorithms in ML and feature hashing for dimensionality reduction."
+          },
+          {
+            "name": "Top K Frequent Elements",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+            "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+            "description": "Find k most frequent elements",
+            "ai_coaching_prompt": "Connect to attention mechanisms and frequency-based feature selection in recommendation systems."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "Implementation Practice + AI Mock Interview",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "Implement custom hash table class with AI assistance",
+          "AI Mock Interview: Easy hash table problem with ML connections",
+          "ML Deep Dive: Instagram Feed Ranking hash table optimizations"
+        ]
+      }
+    },
+    "wednesday": {
+      "morning_session": {
+        "title": "Advanced Array Patterns + Performance Optimization",
+        "time": "6:00-7:30 AM",
+        "duration": 90,
+        "activities": [
+          "Array manipulation techniques with AI optimization analysis",
+          "Memory layout and cache efficiency in array processing",
+          "Connection to tensor operations in deep learning frameworks"
+        ]
+      },
+      "coding_session": {
+        "title": "Array Pattern Mastery",
+        "time": "7:30-9:00 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Product of Array Except Self",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+            "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+            "description": "Calculate product of all elements except current index",
+            "ai_coaching_prompt": "Relate to backpropagation in neural networks and gradient computation excluding current layer."
+          },
+          {
+            "name": "Valid Sudoku",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
+            "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
+            "description": "Validate a 9x9 Sudoku board",
+            "ai_coaching_prompt": "Connect to constraint satisfaction problems and validation in ML model training pipelines."
+          },
+          {
+            "name": "Encode and Decode Strings",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings/",
+            "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
+            "description": "Design algorithm to encode and decode strings",
+            "ai_coaching_prompt": "Relate to tokenization and encoding schemes in NLP models like BERT and GPT."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "AI-Enhanced Problem Analysis + Contest Prep",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "AI-guided complexity analysis of solved problems",
+          "Contest strategy planning with AI coaching",
+          "Performance benchmarking against ML engineering standards"
+        ]
+      }
+    },
+    "thursday": {
+      "morning_session": {
+        "title": "Longest Consecutive Sequence + Advanced Hash Maps",
+        "time": "6:00-7:30 AM",
+        "duration": 90,
+        "activities": [
+          "Advanced hash map patterns in ML systems",
+          "Distributed hash tables in large-scale ML pipelines",
+          "AI-guided optimization techniques"
+        ]
+      },
+      "coding_session": {
+        "title": "Advanced Array & Hash Problems",
+        "time": "7:30-9:00 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "Longest Consecutive Sequence",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+            "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
+            "description": "Find length of longest consecutive elements sequence",
+            "ai_coaching_prompt": "Connect to sequence modeling in RNNs and finding patterns in time series data."
+          },
+          {
+            "name": "4Sum",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/4sum/",
+            "neetcode_url": "https://neetcode.io/problems/4sum",
+            "description": "Find all unique quadruplets that sum to target",
+            "ai_coaching_prompt": "Relate to multi-dimensional optimization problems in ML hyperparameter tuning."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "System Design: Hash-Based Systems",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "Design a distributed cache system using consistent hashing",
+          "ML System Case Study: Netflix's recommendation engine hash optimizations",
+          "Performance analysis and scaling considerations"
+        ]
+      }
+    },
+    "friday": {
+      "morning_session": {
+        "title": "Contest Simulation + Review",
+        "time": "6:00-7:30 AM",
+        "duration": 90,
+        "activities": [
+          "LeetCode weekly contest simulation with AI real-time coaching",
+          "Pattern recognition across all solved problems",
+          "AI-generated similar problems for practice"
+        ]
+      },
+      "coding_session": {
+        "title": "Mixed Problem Practice + Speed Optimization",
+        "time": "7:30-9:00 AM",
+        "duration": 90,
+        "problems": [
+          {
+            "name": "3Sum",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/3sum/",
+            "neetcode_url": "https://neetcode.io/problems/three-integer-sum",
+            "description": "Find all unique triplets that sum to zero",
+            "ai_coaching_prompt": "Connect to clustering problems in ML and finding optimal combinations in feature selection."
+          },
+          {
+            "name": "Container With Most Water",
+            "difficulty": "Medium",
+            "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+            "neetcode_url": "https://neetcode.io/problems/max-water-container",
+            "description": "Find two lines that form container with most water",
+            "ai_coaching_prompt": "Relate to optimization problems in ML and finding optimal boundaries in decision trees."
+          }
+        ]
+      },
+      "evening_session": {
+        "title": "Week 1 Comprehensive Review + AI Progress Analysis",
+        "time": "8:00-9:00 PM",
+        "duration": 60,
+        "activities": [
+          "AI-powered progress assessment and pattern analysis",
+          "Identify weak areas for Week 2 focus",
+          "Generate personalized study plan adjustments"
+        ]
+      }
+    },
+    "weekend_sessions": {
+      "saturday": {
+        "morning_session": {
+          "title": "Portfolio Project Setup + Advanced Problem Practice",
+          "time": "9:00-11:00 AM",
+          "duration": 120,
+          "activities": [
+            "Initialize AI-Enhanced Hash Table Implementation project",
+            "Set up development environment with performance monitoring",
+            "Research ML-inspired optimization techniques for hash tables"
+          ]
+        },
+        "coding_session": {
+          "title": "Advanced Array & Hash Problems",
+          "time": "11:00-1:00 PM", 
+          "duration": 120,
+          "problems": [
+            {
+              "name": "Maximum Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+              "description": "Find contiguous subarray with largest sum",
+              "ai_coaching_prompt": "Connect to sliding window optimization in signal processing and feature extraction in ML."
+            },
+            {
+              "name": "Subarray Sum Equals K",
+              "difficulty": "Medium", 
+              "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+              "neetcode_url": "https://neetcode.io/problems/subarray-sum-equals-k",
+              "description": "Count subarrays with sum equal to k",
+              "ai_coaching_prompt": "Relate to prefix sums in computational graphs and cumulative feature aggregation."
+            },
+            {
+              "name": "Longest Substring with At Most K Distinct Characters",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-with-at-most-k-distinct-characters",
+              "description": "Find longest substring with at most k distinct characters",
+              "ai_coaching_prompt": "Connect to vocabulary size constraints in NLP and feature diversity in recommendation systems."
+            },
+            {
+              "name": "Find All Anagrams in a String",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+              "neetcode_url": "https://neetcode.io/problems/find-all-anagrams-in-a-string", 
+              "description": "Find all anagram substrings in a string",
+              "ai_coaching_prompt": "Relate to pattern matching in sequence data and n-gram analysis in NLP."
+            },
+            {
+              "name": "Insert Delete GetRandom O(1)",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+              "neetcode_url": "https://neetcode.io/problems/randomized-set",
+              "description": "Design data structure with O(1) insert, delete, and random",
+              "ai_coaching_prompt": "Connect to sampling techniques in ML and efficient data structures for training data management."
+            }
+          ]
+        },
+        "project_session": {
+          "title": "AI-Enhanced Hash Table Implementation",
+          "time": "2:00-4:00 PM",
+          "duration": 120,
+          "activities": [
+            "Implement production-ready hash table with ML-inspired optimizations",
+            "Add dynamic resizing with load balancing strategies",
+            "Integrate AI-assisted performance monitoring and optimization",
+            "Create comprehensive documentation with ML use case examples"
+          ]
+        },
+        "deliverable": "GitHub repository with optimized hash table implementation and performance benchmarks"
+      },
+      "sunday": {
+        "morning_session": {
+          "title": "Contest Practice + AI Coaching",
+          "time": "9:00-10:30 AM",
+          "duration": 90,
+          "activities": [
+            "LeetCode Virtual Contest participation with AI real-time coaching", 
+            "Pattern recognition and strategy optimization with AI feedback",
+            "Speed improvement techniques and time management with AI analysis"
+          ]
+        },
+        "interview_session": {
+          "title": "AI Mock Interview + Behavioral Practice",
+          "time": "10:30-12:00 PM",
+          "duration": 90,
+          "activities": [
+            "AI Mock Interview: 2 medium array/hash problems with ML context",
+            "Behavioral questions with AI evaluation and feedback",
+            "Technical communication assessment and improvement suggestions"
+          ]
+        },
+        "review_session": {
+          "title": "Weekly Progress Analysis + ML System Deep Dive",
+          "time": "12:00-1:00 PM",
+          "duration": 60,
+          "activities": [
+            "Comprehensive week 1 review with AI progress analysis",
+            "ML Deep Dive: Airbnb Search Ranking hash table optimizations",
+            "Plan Week 2 focus areas and AI coaching adjustments"
+          ]
+        },
+        "extra_practice": {
+          "title": "Additional Problem Practice",
+          "time": "1:00-2:00 PM",
+          "duration": 60,
+          "problems": [
+            {
+              "name": "Design HashMap",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/design-hashmap/",
+              "neetcode_url": "https://neetcode.io/problems/design-hashmap",
+              "description": "Design a hash map data structure",
+              "ai_coaching_prompt": "Focus on collision handling and performance optimization techniques used in ML frameworks."
+            },
+            {
+              "name": "Design HashSet",
+              "difficulty": "Easy", 
+              "leetcode_url": "https://leetcode.com/problems/design-hashset/",
+              "neetcode_url": "https://neetcode.io/problems/design-hashset",
+              "description": "Design a hash set data structure",
+              "ai_coaching_prompt": "Compare with bloom filters and other probabilistic data structures used in ML."
+            }
+          ]
+        },
+        "deliverable": "Week 1 comprehensive review with AI progress analysis and Week 2 optimization plan"
+      }
+    }
+  },
+  "ai_prompts": [
+    {
+      "category": "Problem Solving",
+      "text": "I'm solving array and hashing problems. Given my ML background: 1) What patterns should I recognize from my research experience? 2) How does this relate to algorithms I've used in PyTorch/NumPy? 3) What's the most efficient implementation approach? 4) Generate 2 similar problems for practice."
+    },
+    {
+      "category": "Code Review", 
+      "text": "Review my solution for: 1) Time/space complexity optimization opportunities 2) Edge cases I might miss from my research background 3) Alternative approaches using ML algorithm thinking 4) How this pattern appears in production ML systems"
+    },
+    {
+      "category": "Interview Practice",
+      "text": "Conduct a technical interview: 1) Ask a medium array/hashing problem with ML context 2) Evaluate my problem-solving communication 3) Provide follow-up optimization questions 4) Grade like a FAANG interviewer (1-10 scale)"
+    },
+    {
+      "category": "ML Connections",
+      "text": "Explain how this data structure/algorithm connects to ML: 1) What ML concepts use similar patterns? 2) How is this optimized in ML frameworks like PyTorch? 3) Real-world applications in recommendation systems, NLP, computer vision 4) Performance considerations in large-scale ML systems"
+    }
+  ],
+  "ml_systems_focus": [
+    {
+      "company": "YouTube",
+      "system": "Recommendation Engine",
+      "hash_table_usage": "User embeddings, video embeddings, feature hashing for scalability",
+      "study_materials": [
+        "YouTube recommendation system architecture",
+        "Embedding storage and retrieval optimization",
+        "Real-time inference pipeline design"
+      ]
+    },
+    {
+      "company": "Instagram", 
+      "system": "Feed Ranking",
+      "hash_table_usage": "Feature storage, user interaction history, content caching",
+      "study_materials": [
+        "Instagram's ML infrastructure",
+        "Real-time feature serving architecture",
+        "Hash table optimizations for low latency"
+      ]
+    },
+    {
+      "company": "Netflix",
+      "system": "Content Recommendation", 
+      "hash_table_usage": "Content metadata, user preferences, collaborative filtering",
+      "study_materials": [
+        "Netflix recommendation algorithms",
+        "A/B testing infrastructure", 
+        "Performance optimization techniques"
+      ]
+    },
+    {
+      "company": "Airbnb",
+      "system": "Search Ranking",
+      "hash_table_usage": "Property features, user search patterns, ranking factors",
+      "study_materials": [
+        "Airbnb's search and ranking system",
+        "Real-time personalization techniques",
+        "Hash table optimizations for search"
+      ]
+    }
+  ],
+  "completion_criteria": {
+    "problems_completed": 25,
+    "accuracy_target": 90,
+    "ai_coaching_sessions": 7,
+    "ml_systems_studied": 4,
+    "portfolio_projects": 1,
+    "mock_interviews": 2
+  }
+}

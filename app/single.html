@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ML Roadmap for FAANG - 20 Week Study Plan</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <style>
+            .progress-ring {
+                transform: rotate(-90deg);
+            }
+
+            .gradient-bg {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+
+            .loading-spinner {
+                animation: spin 1s linear infinite;
+            }
+
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+
+            .fade-in {
+                animation: fadeIn 0.5s ease-in;
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(20px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            .chart-container {
+                position: relative;
+                height: 300px;
+                width: 100%;
+            }
+        </style>
+
+        <script>
+            function roadmapApp() {
+                return {
+                    // State variables
+                    loading: true,
+                    error: false,
+                    errorMessage: '',
+                    roadmapData: null,
+                    currentWeek: 1,
+                    activeTab: 'overview',
+                    sessionCompletions: {},
+
+                    // Computed properties
+                    get overallProgress() {
+                        return 0; // Simplified for single file
+                    },
+
+                    // Initialization
+                    async init() {
+                        console.log('Initializing roadmap app...');
+                        await this.loadRoadmapData();
+                    },
+
+                    // Data loading
+                    async loadRoadmapData() {
+                        try {
+                            console.log('Loading roadmap data...');
+                            this.loading = true;
+                            this.error = false;
+
+                            const response = await fetch('roadmap_data.json');
+                            if (!response.ok) {
+                                throw new Error(`Failed to load roadmap data: ${response.status} ${response.statusText}`);
+                            }
+
+                            this.roadmapData = await response.json();
+                            console.log('Roadmap data loaded successfully:', this.roadmapData);
+
+                        } catch (error) {
+                            console.error('Error loading roadmap data:', error);
+                            this.error = true;
+                            this.errorMessage = `Could not load roadmap_data.json: ${error.message}`;
+                        } finally {
+                            this.loading = false;
+                        }
+                    }
+                }
+            }
+
+            // Debug logging
+            console.log('Single file script loaded');
+            window.addEventListener('DOMContentLoaded', () => {
+                console.log('DOM Content Loaded');
+            });
+        </script>
+    </head>
+
+    <body class="bg-gray-50 min-h-screen" x-data="roadmapApp()">
+        <!-- Loading State -->
+        <div x-show="loading" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+            <div class="text-center">
+                <div class="loading-spinner w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full mb-4">
+                </div>
+                <p class="text-gray-600">Loading your roadmap...</p>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div x-show="error" class="fixed inset-0 bg-white flex items-center justify-center z-50">
+            <div class="text-center max-w-md">
+                <div class="text-red-500 text-6xl mb-4">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Unable to Load Roadmap</h2>
+                <p class="text-gray-600 mb-6" x-text="errorMessage"></p>
+                <button @click="loadRoadmapData()"
+                    class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                    Try Again
+                </button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div x-show="!loading && !error" class="fade-in">
+            <!-- Header -->
+            <header class="gradient-bg text-white shadow-lg">
+                <div class="container mx-auto px-4 py-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h1 class="text-3xl font-bold flex items-center">
+                                <i class="fas fa-robot mr-3"></i>
+                                <span
+                                    x-text="roadmapData?.metadata?.title || 'AI-Enhanced ML-FAANG Mastery Plan'"></span>
+                            </h1>
+                            <p class="text-blue-100 mt-2"
+                                x-text="roadmapData?.metadata?.description || '20-Week Transformation Journey'"></p>
+                        </div>
+                        <div class="text-right">
+                            <div class="text-2xl font-bold" x-text="Math.round(overallProgress) + '%'"></div>
+                            <div class="text-blue-100">Overall Progress</div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Tabs -->
+                    <div class="flex flex-wrap gap-2 mt-6">
+                        <button @click="activeTab = 'overview'"
+                            :class="activeTab === 'overview' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-home mr-2"></i>Overview
+                        </button>
+                        <button @click="activeTab = 'roadmap'"
+                            :class="activeTab === 'roadmap' ? 'bg-white/20' : 'bg-white/10'"
+                            class="px-4 py-2 rounded-lg transition-colors">
+                            <i class="fas fa-route mr-2"></i>Weekly Plan
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <main class="container mx-auto px-4 py-8">
+                <!-- Overview Tab -->
+                <div x-show="activeTab === 'overview'" class="space-y-8">
+                    <h2 class="text-3xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-home mr-3 text-blue-600"></i>
+                        Roadmap Overview
+                    </h2>
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <p class="text-gray-700 leading-relaxed"
+                            x-text="roadmapData?.metadata?.description || 'Loading overview...'"></p>
+                        <div class="mt-4 text-sm text-gray-500">
+                            <p>Total Weeks: <span x-text="roadmapData?.metadata?.total_weeks || 'Loading...'"></span>
+                            </p>
+                            <p>Total Phases: <span x-text="roadmapData?.metadata?.total_phases || 'Loading...'"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weekly Plan Tab -->
+                <div x-show="activeTab === 'roadmap'" class="space-y-8">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-3xl font-bold flex items-center">
+                            <i class="fas fa-route mr-3 text-blue-600"></i>
+                            Weekly Study Plan
+                        </h2>
+                        <div class="flex items-center gap-2">
+                            <button @click="currentWeek = Math.max(1, currentWeek - 1)"
+                                class="bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <span class="text-lg font-semibold" x-text="'Week ' + currentWeek"></span>
+                            <button @click="currentWeek = Math.min(20, currentWeek + 1)"
+                                class="bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Details -->
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <template x-if="roadmapData && roadmapData.weeks && roadmapData.weeks[currentWeek.toString()]">
+                            <div>
+                                <h3 class="text-2xl font-bold mb-2"
+                                    x-text="roadmapData.weeks[currentWeek.toString()].title"></h3>
+                                <div class="flex items-center text-gray-500 mb-4">
+                                    <i class="fas fa-bullseye mr-2"></i>
+                                    <p>Objectives:</p>
+                                </div>
+                                <ul class="list-disc list-inside space-y-2 mb-6">
+                                    <template
+                                        x-for="objective in roadmapData.weeks[currentWeek.toString()].objectives || []"
+                                        :key="objective">
+                                        <li x-text="objective"></li>
+                                    </template>
+                                </ul>
+
+                                <!-- Daily Schedule -->
+                                <div class="space-y-6"
+                                    x-show="roadmapData.weeks[currentWeek.toString()].daily_schedule">
+                                    <h4 class="text-xl font-semibold">Daily Schedule</h4>
+                                    <template
+                                        x-for="[day, schedule] in Object.entries(roadmapData.weeks[currentWeek.toString()].daily_schedule || {})"
+                                        :key="day">
+                                        <div class="p-4 rounded-lg bg-gray-50">
+                                            <h5 class="text-lg font-semibold capitalize mb-3" x-text="day"></h5>
+                                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                                <!-- Morning Session -->
+                                                <div class="bg-yellow-100 p-3 rounded"
+                                                    x-show="schedule.morning_session">
+                                                    <h6 class="font-bold text-yellow-800"><i
+                                                            class="fas fa-sun mr-1"></i>Morning</h6>
+                                                    <p class="text-sm text-yellow-600"
+                                                        x-text="schedule.morning_session?.time"></p>
+                                                    <p class="font-semibold text-sm"
+                                                        x-text="schedule.morning_session?.title"></p>
+                                                </div>
+                                                <!-- Coding Session -->
+                                                <div class="bg-blue-100 p-3 rounded" x-show="schedule.coding_session">
+                                                    <h6 class="font-bold text-blue-800"><i
+                                                            class="fas fa-code mr-1"></i>Coding</h6>
+                                                    <p class="text-sm text-blue-600"
+                                                        x-text="schedule.coding_session?.time"></p>
+                                                    <p class="font-semibold text-sm"
+                                                        x-text="schedule.coding_session?.title"></p>
+                                                </div>
+                                                <!-- Evening Session -->
+                                                <div class="bg-purple-100 p-3 rounded"
+                                                    x-show="schedule.evening_session">
+                                                    <h6 class="font-bold text-purple-800"><i
+                                                            class="fas fa-moon mr-1"></i>Evening</h6>
+                                                    <p class="text-sm text-purple-600"
+                                                        x-text="schedule.evening_session?.time"></p>
+                                                    <p class="font-semibold text-sm"
+                                                        x-text="schedule.evening_session?.title"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+
+                        <!-- Fallback -->
+                        <template
+                            x-if="!roadmapData || !roadmapData.weeks || !roadmapData.weeks[currentWeek.toString()]">
+                            <div class="text-center py-8">
+                                <p class="text-gray-500">Week data not available. Please check your roadmap
+                                    configuration.</p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+
+</html>
