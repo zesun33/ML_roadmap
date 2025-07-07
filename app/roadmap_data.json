@@ -1957,20 +1957,15 @@
           }
         },
         "saturday": {
-          "morning_session": {
             "title": "Capstone Build – Autonomous Decision-Tree Navigator",
-            "time": "9:00 AM – 1:00 PM",
-            "activities": [
-              "Implement path-planning graph algorithms (BFS + A*)",
-              "Add DP route-optimization under fuel & time constraints",
-              "Integrate GNN predictor for traffic flow",
-              "Tree-based decision engine for junction handling",
-              "Benchmark vs. real Tesla Autopilot logs"
-            ]
-          },
-          "coding_session": {
-            "title": "Graph / Tree Drill",
-            "time": "1:15 PM – 3:30 PM",
+            "duration": 240,
+            "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
+            "focus_areas": [
+              "Graph Path-Planning (A*, BFS)",
+              "Dynamic Programming Route Optimization",
+              "GNN for Traffic Prediction",
+              "Tree-Based Decision Logic"
+            ],
             "problems": [
               {
                 "name": "Word Ladder",
@@ -1993,79 +1988,64 @@
                 "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
                 "description": "DFS with global optimum tracking"
               }
-            ]
-          },
-          "evening_session": {
-            "title": "Deployment & Docs",
-            "time": "7:00 PM – 9:00 PM",
-            "activities": [
+            ],
+            "tasks": [
+              "Implement path-planning graph algorithms (BFS + A*)",
+              "Add DP route-optimization under fuel & time constraints",
+              "Integrate GNN predictor for traffic flow",
+              "Tree-based decision engine for junction handling",
+              "Benchmark vs. real Tesla Autopilot logs",
               "Write AI-generated README + architecture diagram",
               "Load-test navigator on synthetic traffic graphs",
               "Push to GitHub & create demo video"
-            ]
-          }
+            ],
+            "deliverable": "GitHub repository with the complete navigator, a detailed README, and a video demo of the system making decisions in the simulation."
         },
         "sunday": {
-          "morning_session": {
-            "title": "Mock Interview – Graph + System Design",
-            "time": "9:00 AM – 12:00 PM",
-            "activities": [
-              "90-min live coding (graph traversal + DP)",
-              "30-min system design: Real-time Routing Service"
+            "title": "Advanced ML System Study: Netflix & Mock Interview",
+            "duration": 180,
+            "description": "Deep dive into the architecture of Netflix's recommendation engine and participate in a mock interview covering graphs and system design.",
+            "focus_areas": [
+              "System Design at Scale",
+              "Candidate Generation & Ranking",
+              "Real-Time Feature Engineering",
+              "Graph Traversal & DP"
             ],
             "problems": [
-              {
-                "name": "Serialize and Deserialize Binary Tree",
-                "difficulty": "Hard",
-                "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-                "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
-              },
-              {
-                "name": "Course Schedule",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/course-schedule/",
-                "neetcode_url": "https://neetcode.io/problems/course-schedule"
-              }
-            ]
-          },
-          "coding_session": {
-            "title": "Graph-Theory Review",
-            "time": "1:00 PM – 2:30 PM",
-            "problems": [
-              {
-                "name": "Number of Connected Components",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
-              },
-              {
-                "name": "Clone Graph",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/clone-graph/",
-                "neetcode_url": "https://neetcode.io/problems/clone-graph"
-              }
-            ]
-          },
-          "evening_session": {
-            "title": "Week-End Retrospective & Week 7 Setup",
-            "time": "5:00 PM – 6:00 PM",
-            "activities": [
+                {
+                    "name": "Serialize and Deserialize Binary Tree",
+                    "difficulty": "Hard",
+                    "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+                    "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
+                },
+                {
+                    "name": "Course Schedule",
+                    "difficulty": "Medium",
+                    "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+                    "neetcode_url": "https://neetcode.io/problems/course-schedule"
+                },
+                {
+                    "name": "Number of Connected Components",
+                    "difficulty": "Medium",
+                    "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+                },
+                {
+                    "name": "Clone Graph",
+                    "difficulty": "Medium",
+                    "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+                    "neetcode_url": "https://neetcode.io/problems/clone-graph"
+                }
+            ],
+            "tasks": [
+              "90-min live coding (graph traversal + DP)",
+              "30-min system design: Real-time Routing Service",
               "Update progress metrics & charts",
               "Identify weak areas → feed into Week 7 plan",
               "Generate AI prompts for DP deep dive"
-            ]
-          }
+            ],
+            "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."
         }
-      },
-      "ai_prompts": [
-        {
-          "category": "Tree Algorithms",
-          "text": "Explain tree traversals ↔ neural-network forward/backward passes."
-        },
-        {
-          "category": "Tesla Vision",
-          "text": "Relate graph algorithms to sensor-fusion in Tesla Autopilot."
-        }
-      ]
+      }
     },
     "7": {
       "title": "Dynamic Programming Mastery + Apple ML Infrastructure",
@@ -2276,126 +2256,67 @@
             ]
           }
         },
-        "saturday": {
-          "morning_session": {
-            "title": "Capstone – Algorithm Portfolio Optimizer (Part 1)",
-            "time": "9:00 AM – 1:00 PM",
-            "activities": [
-              "Scaffold portfolio dashboard",
-              "Implement dynamic algorithm selector",
-              "Integrate performance-prediction ML model"
+          "saturday": {
+            "title": "Capstone Build – AI-Powered Content Moderation System",
+            "duration": 240,
+            "description": "Build a system to identify and flag inappropriate content in real-time, inspired by Google's large-scale safety systems. Use heaps for priority processing, Tries for text filtering, and a simple ML model for classification.",
+            "focus_areas": [
+              "Priority Queue for Job Scheduling",
+              "Trie for Blocklist Filtering",
+              "Real-Time Data Processing",
+              "Simple ML Model Integration"
             ],
             "problems": [
               {
-                "name": "Burst Balloons",
+                "name": "Find Median from Data Stream",
                 "difficulty": "Hard",
-                "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
-                "neetcode_url": "https://neetcode.io/problems/burst-balloons"
+                "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+                "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+                "description": "Core component for real-time analytics"
               },
               {
-                "name": "Palindrome Partitioning II",
+                "name": "Word Search II",
                 "difficulty": "Hard",
-                "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning-ii/",
-                "neetcode_url": "https://neetcode.io/problems/palindrome-partitioning-ii"
+                "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+                "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+                "description": "Efficiently search for multiple keywords"
               }
-            ]
+            ],
+            "tasks": [
+              "Implement a priority queue to manage content review jobs",
+              "Build a Trie to efficiently check against a large blocklist of words",
+              "Develop a simple classifier to flag potentially harmful images/text",
+              "Create a dashboard to show real-time moderation stats"
+            ],
+            "deliverable": "A GitHub repository with the complete moderation system, a README explaining the architecture, and a demo script."
           },
-          "coding_session": {
-            "title": "DP Benchmark Suite",
-            "time": "1:15 PM – 3:30 PM",
-            "problems": [
-              {
-                "name": "Coin Change",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/coin-change/",
-                "neetcode_url": "https://neetcode.io/problems/coin-change"
-              },
-              {
-                "name": "Partition Equal Subset Sum",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
-                "neetcode_url": "https://neetcode.io/problems/partition-equal-subset-sum"
-              },
-              {
-                "name": "Unique Paths",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/unique-paths/",
-                "neetcode_url": "https://neetcode.io/problems/count-paths"
-              }
-            ]
-          },
-          "evening_session": {
-            "title": "Docs & Benchmark Upload",
-            "time": "7:00 PM – 9:00 PM",
-            "activities": [
-              "Generate performance charts via AI",
-              "Write Core ML on-device optimization section",
-              "Publish GitHub release"
-            ]
-          }
-        },
-        "sunday": {
-          "morning_session": {
-            "title": "Phase 2 Graduation Interview",
-            "time": "9:00 AM – 12:30 PM",
-            "activities": [
-              "120-min FAANG-style DP + design interview",
-              "AI feedback & scoring session"
+          "sunday": {
+            "title": "Advanced ML System Study: Google Ads",
+            "duration": 180,
+            "description": "Deep dive into the architecture of Google's advertising platform, focusing on real-time bidding, feature engineering, and the use of ML models for click-through rate (CTR) prediction. Analyze the trade-offs between latency and accuracy.",
+            "focus_areas": [
+              "High-Frequency Bidding Systems",
+              "Large-Scale Feature Engineering",
+              "CTR Prediction Models",
+              "Latency vs. Accuracy Trade-offs"
             ],
             "problems": [
               {
-                "name": "Edit Distance",
-                "difficulty": "Hard",
-                "leetcode_url": "https://leetcode.com/problems/edit-distance/",
-                "neetcode_url": "https://neetcode.io/problems/edit-distance"
-              },
-              {
-                "name": "Distinct Subsequences",
-                "difficulty": "Hard",
-                "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
-                "neetcode_url": "https://neetcode.io/problems/distinct-subsequences"
+                "name": "Design Google Ads",
+                "difficulty": "Design",
+                "link": "https://leetcode.com/discuss/interview-question/system-design/124748/design-google-search-typeahead-autocomplete"
               }
-            ]
-          },
-          "coding_session": {
-            "title": "Final Review – DP Mastery",
-            "time": "1:00 PM – 2:30 PM",
-            "problems": [
-              {
-                "name": "Decode Ways",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/decode-ways/",
-                "neetcode_url": "https://neetcode.io/problems/decode-ways"
-              },
-              {
-                "name": "Maximum Product Subarray",
-                "difficulty": "Medium",
-                "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
-                "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray"
-              }
-            ]
-          },
-          "evening_session": {
-            "title": "Phase 3 Kick-Off Planning",
-            "time": "3:00 PM – 4:00 PM",
-            "activities": [
-              "Analyze Phase 2 metrics",
-              "Set ML-system design goals for Phase 3",
-              "Generate AI prompt set for advanced systems"
-            ]
+            ],
+            "tasks": [
+              "Map the data flow of a real-time ad auction",
+              "Analyze how features are generated and used in CTR models",
+              "Debate the challenges of maintaining model performance at scale",
+              "Prepare for Week 8 with an AI-generated preview of advanced topics"
+            ],
+            "deliverable": "A detailed markdown document summarizing the Google Ads system analysis and your key takeaways."
           }
         }
-      },
-      "ai_prompts": [
-        {
-          "category": "DP Mastery",
-          "text": "Relate DP state transitions to gradient-descent optimization."
-        },
-        {
-          "category": "Apple Core ML",
-          "text": "Explain on-device inference optimizations and privacy constraints."
-        }
-      ]
+      
     },
     "8": {
       "title": "Advanced Algorithms + Comprehensive Pattern Mastery",
