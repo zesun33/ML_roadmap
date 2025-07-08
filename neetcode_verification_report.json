@@ -1,0 +1,4805 @@
+{
+  "total_problems": 335,
+  "valid_neetcode_urls": 226,
+  "invalid_neetcode_urls": 0,
+  "missing_neetcode_urls": 109,
+  "duplicate_problems": {
+    "Top K Frequent Elements": [
+      {
+        "name": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+        "description": "Connect to attention mechanisms",
+        "week": 1,
+        "is_practice": false
+      },
+      {
+        "name": "Top K Frequent Elements",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+        "neetcode_url": "",
+        "description": "Tests heaps/sorting, common in data processing questions.",
+        "week": 17,
+        "is_practice": false
+      }
+    ],
+    "Product of Array Except Self": [
+      {
+        "name": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+        "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+        "description": "Relate to Jacobian calculations",
+        "week": 1,
+        "is_practice": false
+      },
+      {
+        "name": "Product of Array Except Self",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+        "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+        "description": "Revisit with multiple approaches",
+        "week": 1,
+        "is_practice": false
+      }
+    ],
+    "Sliding Window Maximum": [
+      {
+        "name": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+        "description": "Apply sliding window with deque to streaming anomaly data",
+        "week": 1,
+        "is_practice": false
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+        "description": "Advanced sliding window with deque optimization",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "neetcode_url": "",
+        "description": "Requires an optimal O(n) solution.",
+        "week": 17,
+        "is_practice": false
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+        "description": "AI coaching on deque usage for O(n) solution",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Sliding Window Maximum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+        "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+        "description": "Deque implementation with AI guidance",
+        "week": 3,
+        "is_practice": false
+      }
+    ],
+    "Longest Substring Without Repeating Characters": [
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "neetcode_url": "https://neetcode.io/problems/longest-substring-without-repeat",
+        "description": "Classic sliding window for unique substring length",
+        "week": 1,
+        "is_practice": false
+      },
+      {
+        "name": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+        "description": "Classic dynamic window problem",
+        "week": 2,
+        "is_practice": false
+      }
+    ],
+    "Range Sum Query - Mutable": [
+      {
+        "name": "Range Sum Query - Mutable",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+        "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+        "description": "AI coaching on segment tree construction",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Range Sum Query - Mutable",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+        "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+        "description": "BIT implementation with AI optimization",
+        "week": 10,
+        "is_practice": false
+      }
+    ],
+    "Count of Smaller Numbers After Self": [
+      {
+        "name": "Count of Smaller Numbers After Self",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+        "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
+        "description": "Advanced segment tree/BIT applications",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Count of Smaller Numbers After Self",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+        "neetcode_url": "",
+        "description": "Requires advanced data structures (Fenwick/Segment Tree).",
+        "week": 17,
+        "is_practice": false
+      }
+    ],
+    "Word Search II": [
+      {
+        "name": "Word Search II",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+        "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+        "description": "Trie + DFS optimization with pruning",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Word Search II",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+        "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+        "description": "Trie + Backtracking optimization",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Word Search II",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+        "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+        "description": "Efficiently search for multiple keywords",
+        "week": 7,
+        "is_practice": false
+      },
+      {
+        "name": "Word Search II",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+        "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+        "description": "Trie + DFS optimization with AI complexity analysis",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Design Search Autocomplete System": [
+      {
+        "name": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+        "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+        "description": "Production Trie implementation",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "Trie-based search with AI optimization",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+        "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+        "description": "Real-time search with ranking and caching",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design Search Autocomplete System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+        "neetcode_url": "",
+        "description": "Crucial for user-facing product features",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Binary Tree Maximum Path Sum": [
+      {
+        "name": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+        "description": "Advanced tree DP with AI optimization",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Binary Tree Maximum Path Sum",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+        "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+        "description": "DFS with global optimum tracking",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Implement Stack using Queues": [
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 12,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 8,
+        "is_practice": false
+      },
+      {
+        "name": "Implement Stack using Queues",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+        "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+        "description": "Stack-based string cleanup",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "Design Circular Queue": [
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 12,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 8,
+        "is_practice": false
+      },
+      {
+        "name": "Design Circular Queue",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+        "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+        "description": "Array-based circular queue implementation",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "Maximal Rectangle": [
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 12,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "",
+        "description": "Combines dynamic programming and stack-based histogram solution.",
+        "week": 18,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 8,
+        "is_practice": false
+      },
+      {
+        "name": "Maximal Rectangle",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+        "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+        "description": "Stack usage in binary matrix to compute maximal area",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "Design a Message Queue Service": [
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 12,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 4,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 8,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Message Queue Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "Design a Distributed Search Service": [
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 10,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 12,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 4,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 8,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Distributed Search Service",
+        "difficulty": "Design",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "Design Hit Counter": [
+      {
+        "name": "Design Hit Counter",
+        "difficulty": "Medium",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "Real-time analytics with AI scalability analysis",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design Hit Counter",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+        "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+        "description": "Queue-based system design",
+        "week": 3,
+        "is_practice": false
+      },
+      {
+        "name": "Design Hit Counter",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+        "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+        "description": "Connect to real-time analytics in ML systems",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Design a Rate Limiter": [
+      {
+        "name": "Design a Rate Limiter",
+        "difficulty": "Medium",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "API protection with AI algorithm selection",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design a Rate Limiter",
+        "difficulty": "Hard",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "Not on LeetCode, but a common system design question. Tests understanding of different algorithms (token bucket, leaky bucket).",
+        "week": 18,
+        "is_practice": false
+      }
+    ],
+    "Design Twitter": [
+      {
+        "name": "Design Twitter",
+        "difficulty": "Hard",
+        "leetcode_url": "",
+        "neetcode_url": "",
+        "description": "Social media platform with AI scalability focus",
+        "week": 11,
+        "is_practice": false
+      },
+      {
+        "name": "Design Twitter",
+        "difficulty": "Hard",
+        "leetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+        "neetcode_url": "",
+        "description": "Classic system design with focus on news feed generation.",
+        "week": 18,
+        "is_practice": false
+      },
+      {
+        "name": "Design Twitter",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+        "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+        "description": "AI guidance on system design through coding",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Number of Islands": [
+      {
+        "name": "Number of Islands",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+        "neetcode_url": "https://neetcode.io/problems/number-of-islands",
+        "description": "Connect to image processing and computer vision",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Number of Islands",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+        "neetcode_url": "",
+        "description": "Classic graph traversal, frequently asked.",
+        "week": 17,
+        "is_practice": false
+      },
+      {
+        "name": "Number of Islands",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+        "neetcode_url": "https://neetcode.io/problems/islands-and-treasure",
+        "description": "DFS vs BFS trade-offs",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Word Ladder": [
+      {
+        "name": "Word Ladder",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+        "neetcode_url": "https://neetcode.io/problems/word-ladder",
+        "description": "Graph traversal with AI optimization",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Word Ladder",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+        "neetcode_url": "",
+        "description": "Tests BFS and graph transformation skills.",
+        "week": 17,
+        "is_practice": false
+      },
+      {
+        "name": "Word Ladder",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+        "neetcode_url": "https://neetcode.io/problems/word-ladder",
+        "description": "Shortest path with BFS optimization",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Word Ladder",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+        "neetcode_url": "https://neetcode.io/problems/word-ladder",
+        "description": "Shortest-path BFS with heuristics",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Design In-Memory File System": [
+      {
+        "name": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+        "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+        "description": "Hierarchical data structures",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+        "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+        "description": "Complex system design with hierarchical structure",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design In-Memory File System",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+        "neetcode_url": "",
+        "description": "Complex system design with hierarchical structure",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Serialize and Deserialize Binary Tree": [
+      {
+        "name": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+        "description": "Tree traversal and string manipulation",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+        "description": "Relates to model serialization",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Serialize and Deserialize Binary Tree",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+        "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+        "description": "",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Find Median from Data Stream": [
+      {
+        "name": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+        "description": "Two heaps for real-time stats",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+        "description": "Real-time statistics with balanced data structures",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "neetcode_url": "",
+        "description": "Commonly asked, relates to real-time analytics",
+        "week": 16,
+        "is_practice": false
+      },
+      {
+        "name": "Find Median from Data Stream",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+        "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+        "description": "Core component for real-time analytics",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Trapping Rain Water": [
+      {
+        "name": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+        "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+        "description": "Multiple approaches with AI optimization",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Trapping Rain Water",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+        "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+        "description": "Connect to dynamic programming patterns",
+        "week": 2,
+        "is_practice": false
+      }
+    ],
+    "Merge K Sorted Lists": [
+      {
+        "name": "Merge K Sorted Lists",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-lists",
+        "description": "Heap-based merging with AI complexity analysis",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Merge K Sorted Lists",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+        "neetcode_url": "",
+        "description": "Classic heap problem, essential for infra roles.",
+        "week": 17,
+        "is_practice": false
+      }
+    ],
+    "Minimum Window Substring": [
+      {
+        "name": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+        "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+        "description": "Sliding window with hash map",
+        "week": 13,
+        "is_practice": false
+      },
+      {
+        "name": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+        "neetcode_url": "",
+        "description": "Sliding window problem with tricky edge cases.",
+        "week": 17,
+        "is_practice": false
+      },
+      {
+        "name": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+        "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+        "description": "AI step-by-step approach for this complex pattern",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+        "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+        "description": "Sliding window substring optimization",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Minimum Window Substring",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+        "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+        "description": "Advanced sliding window with AI complexity proof",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Design Phone Directory": [
+      {
+        "name": "Design Phone Directory",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+        "neetcode_url": "https://neetcode.io/problems/design-phone-directory",
+        "description": "System design with efficient resource management",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Design Phone Directory",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+        "neetcode_url": "",
+        "description": "System design with efficient resource management",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "The Skyline Problem": [
+      {
+        "name": "The Skyline Problem",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+        "neetcode_url": "https://neetcode.io/problems/the-skyline-problem",
+        "description": "Complex geometric problem with sweep line algorithm",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "The Skyline Problem",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+        "neetcode_url": "",
+        "description": "Complex geometric problem with sweep-line algorithm",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Smallest Range Covering Elements from K Lists": [
+      {
+        "name": "Smallest Range Covering Elements from K Lists",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+        "description": "Multi-source optimization with sliding window",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Smallest Range Covering Elements from K Lists",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+        "neetcode_url": "",
+        "description": "Multi-source optimization with sliding window",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Basic Calculator III": [
+      {
+        "name": "Basic Calculator III",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+        "neetcode_url": "https://neetcode.io/problems/basic-calculator-iii",
+        "description": "Expression parsing with operator precedence",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Basic Calculator III",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+        "neetcode_url": "",
+        "description": "Expression parsing with operator precedence",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Remove Invalid Parentheses": [
+      {
+        "name": "Remove Invalid Parentheses",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+        "neetcode_url": "https://neetcode.io/problems/remove-invalid-parentheses",
+        "description": "BFS with state pruning and optimization",
+        "week": 14,
+        "is_practice": false
+      },
+      {
+        "name": "Remove Invalid Parentheses",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+        "neetcode_url": "",
+        "description": "BFS with state pruning and optimization",
+        "week": 16,
+        "is_practice": false
+      }
+    ],
+    "Shortest Distance from All Buildings": [
+      {
+        "name": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+        "neetcode_url": "https://neetcode.io/problems/shortest-distance-from-all-buildings",
+        "description": "Multi-source BFS with optimization",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Shortest Distance from All Buildings",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+        "neetcode_url": "",
+        "description": "A challenging graph problem requiring optimized BFS from multiple sources.",
+        "week": 19,
+        "is_practice": false
+      }
+    ],
+    "Data Stream as Disjoint Intervals": [
+      {
+        "name": "Data Stream as Disjoint Intervals",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+        "neetcode_url": "https://neetcode.io/problems/data-stream-as-disjoint-intervals",
+        "description": "Real-time interval merging with efficient updates",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Data Stream as Disjoint Intervals",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+        "neetcode_url": "",
+        "description": "Tests ability to handle streaming data and merge intervals efficiently. Requires tree/BST knowledge.",
+        "week": 19,
+        "is_practice": false
+      }
+    ],
+    "Paint House III": [
+      {
+        "name": "Paint House III",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+        "neetcode_url": "https://neetcode.io/problems/paint-house-iii",
+        "description": "3D dynamic programming with cost optimization",
+        "week": 15,
+        "is_practice": false
+      },
+      {
+        "name": "Paint House III",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+        "neetcode_url": "",
+        "description": "A complex 3D DP problem that tests careful state management.",
+        "week": 19,
+        "is_practice": false
+      }
+    ],
+    "LRU Cache": [
+      {
+        "name": "LRU Cache",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+        "neetcode_url": "",
+        "description": "Classic design problem, tests data structure fundamentals.",
+        "week": 17,
+        "is_practice": false
+      },
+      {
+        "name": "LRU Cache",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+        "neetcode_url": "https://neetcode.io/problems/lru-cache",
+        "description": "AI coaching on production-level implementation",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Burst Balloons": [
+      {
+        "name": "Burst Balloons",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+        "neetcode_url": "",
+        "description": "Advanced interval DP optimization.",
+        "week": 18,
+        "is_practice": false
+      },
+      {
+        "name": "Burst Balloons",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+        "neetcode_url": "https://neetcode.io/problems/burst-balloons",
+        "description": "AI step-by-step interval DP optimization",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Longest Repeating Character Replacement": [
+      {
+        "name": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+        "description": "Tricky sliding window application",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Longest Repeating Character Replacement",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+        "neetcode_url": "https://neetcode.io/problems/longest-repeating-character-replacement",
+        "description": "Sliding window with character counts",
+        "week": 2,
+        "is_practice": false
+      }
+    ],
+    "Permutation in String": [
+      {
+        "name": "Permutation in String",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
+        "neetcode_url": "https://neetcode.io/problems/permutation-string",
+        "description": "AI pattern matching guidance",
+        "week": 2,
+        "is_practice": false
+      },
+      {
+        "name": "Permutation in String",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
+        "neetcode_url": "https://neetcode.io/problems/permutation-in-string",
+        "description": "Check for permutation presence using window",
+        "week": 2,
+        "is_practice": false
+      }
+    ],
+    "Median of Two Sorted Arrays": [
+      {
+        "name": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+        "description": "AI mathematical approach and complexity analysis",
+        "week": 4,
+        "is_practice": false
+      },
+      {
+        "name": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+        "description": "AI coaching on logarithmic optimization",
+        "week": 8,
+        "is_practice": false
+      }
+    ],
+    "Fibonacci Number": [
+      {
+        "name": "Fibonacci Number",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+        "neetcode_url": "https://neetcode.io/problems/fibonacci-number",
+        "description": "AI coaching on recursion and memoization",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Fibonacci Number",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+        "neetcode_url": "https://neetcode.io/problems/fibonacci-sequence",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Min Cost Climbing Stairs": [
+      {
+        "name": "Min Cost Climbing Stairs",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+        "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+        "description": "AI coaching on bottom-up DP",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Min Cost Climbing Stairs",
+        "difficulty": "Easy",
+        "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+        "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "House Robber": [
+      {
+        "name": "House Robber",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/house-robber/",
+        "neetcode_url": "https://neetcode.io/problems/house-robber",
+        "description": "AI coaching on state transition and optimization",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "House Robber",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/house-robber/",
+        "neetcode_url": "https://neetcode.io/problems/house-robber",
+        "description": "1-D DP with constraints",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Coin Change": [
+      {
+        "name": "Coin Change",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/coin-change/",
+        "neetcode_url": "https://neetcode.io/problems/coin-change",
+        "description": "AI coaching on state transition and optimization",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Coin Change",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/coin-change/",
+        "neetcode_url": "https://neetcode.io/problems/coin-change",
+        "description": "Classic DP - unbounded knapsack",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Coin Change",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/coin-change/",
+        "neetcode_url": "https://neetcode.io/problems/coin-change",
+        "description": "Unbounded knapsack",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Longest Increasing Subsequence": [
+      {
+        "name": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+        "description": "AI coaching on patience sorting and binary search",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Longest Increasing Subsequence",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+        "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+        "description": "DP with patience sorting optimization",
+        "week": 5,
+        "is_practice": false
+      }
+    ],
+    "Unique Paths": [
+      {
+        "name": "Unique Paths",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+        "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes",
+        "description": "AI guidance on multi-dimensional DP",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Unique Paths",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/unique-paths/",
+        "neetcode_url": "https://neetcode.io/problems/count-paths",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Longest Common Subsequence": [
+      {
+        "name": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+        "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+        "description": "AI coaching on 2D DP optimization",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Longest Common Subsequence",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+        "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Edit Distance": [
+      {
+        "name": "Edit Distance",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+        "neetcode_url": "https://neetcode.io/problems/edit-distance",
+        "description": "Connect to text preprocessing and data cleaning in ML",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Edit Distance",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+        "neetcode_url": "https://neetcode.io/problems/edit-distance",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Distinct Subsequences": [
+      {
+        "name": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+        "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+        "description": "AI step-by-step approach for complex state transitions",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Distinct Subsequences",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+        "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Maximum Product Subarray": [
+      {
+        "name": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+        "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+        "description": "AI coaching on handling negative numbers",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+        "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+        "description": "DP tracking max and min products",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Maximum Product Subarray",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+        "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Decode Ways": [
+      {
+        "name": "Decode Ways",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+        "neetcode_url": "https://neetcode.io/problems/decode-ways",
+        "description": "Connect to encoding/decoding in neural network architectures",
+        "week": 5,
+        "is_practice": false
+      },
+      {
+        "name": "Decode Ways",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+        "neetcode_url": "https://neetcode.io/problems/decode-ways",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ],
+    "Clone Graph": [
+      {
+        "name": "Clone Graph",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+        "neetcode_url": "https://neetcode.io/problems/clone-graph",
+        "description": "Graph copying & GNN analogy",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Clone Graph",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+        "neetcode_url": "https://neetcode.io/problems/clone-graph",
+        "description": "",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Course Schedule": [
+      {
+        "name": "Course Schedule",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+        "neetcode_url": "https://neetcode.io/problems/course-schedule",
+        "description": "Topological sort & cycle detection",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Course Schedule",
+        "difficulty": "Medium",
+        "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+        "neetcode_url": "https://neetcode.io/problems/course-schedule",
+        "description": "",
+        "week": 6,
+        "is_practice": false
+      }
+    ],
+    "Alien Dictionary": [
+      {
+        "name": "Alien Dictionary",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+        "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+        "description": "Topological sort in unknown order alphabet",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Alien Dictionary",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+        "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+        "description": "Topological ordering in unknown alphabet",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "Alien Dictionary",
+        "difficulty": "Hard",
+        "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+        "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+        "description": "Advanced topological sorting with error handling",
+        "week": 9,
+        "is_practice": false
+      }
+    ],
+    "LeetCode Weekly Contest": [
+      {
+        "name": "LeetCode Weekly Contest",
+        "difficulty": "Mixed",
+        "leetcode_url": "https://leetcode.com/contest/",
+        "neetcode_url": "",
+        "description": "Live contest with AI coaching",
+        "week": 6,
+        "is_practice": false
+      },
+      {
+        "name": "LeetCode Weekly Contest",
+        "difficulty": "Mixed",
+        "leetcode_url": "https://leetcode.com/contest/",
+        "neetcode_url": "",
+        "description": "",
+        "week": 7,
+        "is_practice": false
+      }
+    ]
+  },
+  "invalid_urls": [],
+  "missing_from_neetcode_150": [
+    "Subsets II",
+    "Combination Sum II",
+    "Word Search",
+    "Palindrome Partitioning",
+    "Letter Combinations of a Phone Number",
+    "N-Queens",
+    "Max Area of Island",
+    "Pacific Atlantic Water Flow",
+    "Surrounded Regions",
+    "Rotting Oranges",
+    "Walls and Gates",
+    "Graph Valid Tree",
+    "Reconstruct Itinerary",
+    "House Robber II",
+    "Longest Palindromic Substring",
+    "Palindromic Substrings",
+    "Word Break",
+    "Best Time to Buy and Sell Stock with Cooldown",
+    "Coin Change 2",
+    "Interleaving String",
+    "Jump Game II",
+    "Gas Station",
+    "Hand of Straights",
+    "Merge Triplets to Form Target Triplet",
+    "Partition Labels",
+    "Valid Parenthesis String",
+    "Non-overlapping Intervals",
+    "Meeting Rooms",
+    "Minimum Interval to Include Each Query",
+    "Rotate Image",
+    "Spiral Matrix",
+    "Set Matrix Zeroes",
+    "Happy Number",
+    "Plus One",
+    "Pow(x, n)",
+    "Multiply Strings",
+    "Detect Squares",
+    "Number of 1 Bits",
+    "Reverse Bits",
+    "Sum of Two Integers",
+    "Reverse Integer"
+  ],
+  "week_summary": {
+    "1": {
+      "total_problems": 17,
+      "problems": [
+        {
+          "name": "Two Sum",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/two-sum/",
+          "neetcode_url": "https://neetcode.io/problems/two-sum",
+          "description": "Connect to embedding lookups in transformers",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Best Time to Buy and Sell Stock",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+          "description": "Relate to gradient optimization",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Contains Duplicate",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/contains-duplicate/",
+          "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
+          "description": "AI coaching on set operations vs hash tables",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Valid Anagram",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+          "neetcode_url": "https://neetcode.io/problems/is-anagram",
+          "description": "Connect to text preprocessing in NLP",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Group Anagrams",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+          "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+          "description": "Relate to clustering algorithms in ML",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Top K Frequent Elements",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+          "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+          "description": "Connect to attention mechanisms",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Product of Array Except Self",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+          "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+          "description": "Relate to Jacobian calculations",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Valid Sudoku",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
+          "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
+          "description": "AI coaching on constraint satisfaction",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Encode and Decode Strings",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings/",
+          "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
+          "description": "Connect to tokenization",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Consecutive Sequence",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
+          "description": "Union-Find connection",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Product of Array Except Self",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+          "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+          "description": "Revisit with multiple approaches",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Speed Practice",
+          "difficulty": "Easy",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "10 easy array problems in 30 minutes (AI-timed)",
+          "week": 1,
+          "is_practice": true
+        },
+        {
+          "name": "Two Sum Variants",
+          "difficulty": "Easy/Medium",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Practice with AI-generated test cases",
+          "week": 1,
+          "is_practice": true
+        },
+        {
+          "name": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+          "description": "Apply sliding window with deque to streaming anomaly data",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Contains Duplicate II",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/contains-duplicate-ii/",
+          "neetcode_url": "https://neetcode.io/problems/contains-duplicate-ii",
+          "description": "Detect duplicates within a moving window of k",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Substring Without Repeating Characters",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "neetcode_url": "https://neetcode.io/problems/longest-substring-without-repeat",
+          "description": "Classic sliding window for unique substring length",
+          "week": 1,
+          "is_practice": false
+        },
+        {
+          "name": "Design YouTube Recommendation System",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 1,
+          "is_practice": false
+        }
+      ]
+    },
+    "10": {
+      "total_problems": 18,
+      "problems": [
+        {
+          "name": "Range Sum Query - Mutable",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+          "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+          "description": "AI coaching on segment tree construction",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Count of Smaller Numbers After Self",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+          "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
+          "description": "Advanced segment tree/BIT applications",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Range Sum Query - Mutable",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+          "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+          "description": "BIT implementation with AI optimization",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Count of Range Sum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/count-of-range-sum/",
+          "neetcode_url": "https://neetcode.io/problems/count-of-range-sum",
+          "description": "Advanced BIT applications with coordinate compression",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Reverse Pairs",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/reverse-pairs/",
+          "neetcode_url": "https://neetcode.io/problems/reverse-pairs",
+          "description": "Merge sort + BIT optimization",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Word Search II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+          "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+          "description": "Trie + DFS optimization with pruning",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Design Search Autocomplete System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+          "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+          "description": "Production Trie implementation",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Replace Words",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/replace-words/",
+          "neetcode_url": "https://neetcode.io/problems/replace-words",
+          "description": "Connect to text preprocessing in ML pipelines",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Serialize and Deserialize N-ary Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+          "neetcode_url": "",
+          "description": "Advanced serialization with AI",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Vertical Order Traversal of a Binary Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/vertical-order-traversal-of-a-binary-tree",
+          "description": "Complex traversal with multiple criteria",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Binary Tree Maximum Path Sum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+          "description": "Advanced tree DP with AI optimization",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Recover Binary Search Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/",
+          "neetcode_url": "https://neetcode.io/problems/recover-binary-search-tree",
+          "description": "Complex tree restoration algorithm",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "House Robber III",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/house-robber-iii/",
+          "neetcode_url": "https://neetcode.io/problems/house-robber-iii",
+          "description": "Tree DP with optimal substructure",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 10,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 10,
+          "is_practice": false
+        }
+      ]
+    },
+    "11": {
+      "total_problems": 18,
+      "problems": [
+        {
+          "name": "Design LRU Cache",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+          "neetcode_url": "https://neetcode.io/problems/lru-cache",
+          "description": "Production-level implementation with AI optimization",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Hit Counter",
+          "difficulty": "Medium",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Real-time analytics with AI scalability analysis",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Log Storage System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Distributed logging with AI architecture guidance",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design TinyURL",
+          "difficulty": "Medium",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Distributed hash table with AI optimization",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Chat System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Real-time messaging with AI scalability analysis",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Rate Limiter",
+          "difficulty": "Medium",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "API protection with AI algorithm selection",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a File System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Distributed storage with AI consistency analysis",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Search Autocomplete System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Trie-based search with AI optimization",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Web Crawler",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Distributed crawling with AI politeness protocols",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Twitter",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Social media platform with AI scalability focus",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Netflix/YouTube",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Video streaming with AI content delivery optimization",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Cache",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Consistent hashing with AI optimization",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Payment System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Financial system with AI security analysis",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 11,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 11,
+          "is_practice": false
+        }
+      ]
+    },
+    "12": {
+      "total_problems": 19,
+      "problems": [
+        {
+          "name": "Design a Feature Store",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Production feature management with AI",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an A/B Testing Framework",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Statistical significance with AI analysis",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an ML Model Registry",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Version control and deployment automation",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Real-time ML Pipeline",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Stream processing with AI optimization",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an ML Monitoring System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Drift detection with AI analytics",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an Auto-scaling ML Service",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Dynamic resource management",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Secure ML API",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Authentication and authorization with AI",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Privacy-Preserving System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Differential privacy implementation",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Federated Learning System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Distributed training coordination",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an Enterprise ML Platform",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Multi-tenant architecture with AI",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an ML Data Lake",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Scalable data management with AI optimization",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an ML Governance System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Compliance and audit trails",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Global ML Platform",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Multi-region deployment with AI",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design an AutoML System",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Automated machine learning pipeline",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 12,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 12,
+          "is_practice": false
+        }
+      ]
+    },
+    "13": {
+      "total_problems": 18,
+      "problems": [
+        {
+          "name": "Number of Islands",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+          "neetcode_url": "https://neetcode.io/problems/number-of-islands",
+          "description": "Connect to image processing and computer vision",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Word Ladder",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+          "neetcode_url": "https://neetcode.io/problems/word-ladder",
+          "description": "Graph traversal with AI optimization",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design Tic-Tac-Toe",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe/",
+          "neetcode_url": "https://neetcode.io/problems/design-tic-tac-toe",
+          "description": "Scalable game state design",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Shortest Path in a Grid with Obstacles Elimination",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+          "neetcode_url": "",
+          "description": "Advanced BFS with state representation",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Increasing Path in a Matrix",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+          "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-a-matrix",
+          "description": "Graph DP with memoization",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design In-Memory File System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+          "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+          "description": "Hierarchical data structures",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Serialize and Deserialize Binary Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+          "description": "Tree traversal and string manipulation",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Find Median from Data Stream",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+          "description": "Two heaps for real-time stats",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Key-Value Store",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "System design with consistency trade-offs",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Trapping Rain Water",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+          "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+          "description": "Multiple approaches with AI optimization",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Merge K Sorted Lists",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-lists",
+          "description": "Heap-based merging with AI complexity analysis",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+          "description": "Sliding window with hash map",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Word Search II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+          "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+          "description": "Trie + Backtracking optimization",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 13,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 13,
+          "is_practice": false
+        }
+      ]
+    },
+    "14": {
+      "total_problems": 19,
+      "problems": [
+        {
+          "name": "Design Phone Directory",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+          "neetcode_url": "https://neetcode.io/problems/design-phone-directory",
+          "description": "System design with efficient resource management",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Find Median from Data Stream",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+          "description": "Real-time statistics with balanced data structures",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Design Search Autocomplete System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+          "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+          "description": "Real-time search with ranking and caching",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Subarray",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+          "description": "Kadane's algorithm for maximum subarray sum",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Jump Game",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/jump-game/",
+          "neetcode_url": "https://neetcode.io/problems/jump-game",
+          "description": "Greedy approach to determine if end is reachable",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "The Skyline Problem",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+          "neetcode_url": "https://neetcode.io/problems/the-skyline-problem",
+          "description": "Complex geometric problem with sweep line algorithm",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Design In-Memory File System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+          "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+          "description": "Complex system design with hierarchical structure",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Smallest Range Covering Elements from K Lists",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+          "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+          "description": "Multi-source optimization with sliding window",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Basic Calculator III",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+          "neetcode_url": "https://neetcode.io/problems/basic-calculator-iii",
+          "description": "Expression parsing with operator precedence",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Remove Invalid Parentheses",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+          "neetcode_url": "https://neetcode.io/problems/remove-invalid-parentheses",
+          "description": "BFS with state pruning and optimization",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Portfolio Optimization Task",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Complete technical project optimization with AI enhancement",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Quality Validation Task",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Comprehensive code review and performance optimization",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Presentation Challenge",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Technical communication with AI real-time optimization",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Excellence Validation Task",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Portfolio quality assessment with AI standards verification",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 14,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 14,
+          "is_practice": false
+        }
+      ]
+    },
+    "15": {
+      "total_problems": 19,
+      "problems": [
+        {
+          "name": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+          "description": "Advanced sliding window with deque optimization",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Shortest Distance from All Buildings",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+          "neetcode_url": "https://neetcode.io/problems/shortest-distance-from-all-buildings",
+          "description": "Multi-source BFS with optimization",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Data Stream as Disjoint Intervals",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+          "neetcode_url": "https://neetcode.io/problems/data-stream-as-disjoint-intervals",
+          "description": "Real-time interval merging with efficient updates",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Merge Intervals",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/merge-intervals/",
+          "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+          "description": "Merge overlapping intervals",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Insert Interval",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/insert-interval/",
+          "neetcode_url": "https://neetcode.io/problems/insert-new-interval",
+          "description": "Insert and merge new interval",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Gap",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximum-gap/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-gap",
+          "description": "Linear time sorting with bucket sort optimization",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Substring with At Most K Distinct Characters",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+          "neetcode_url": "https://neetcode.io/problems/longest-substring-with-at-most-k-distinct-characters",
+          "description": "Advanced sliding window with constraint tracking",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Paint House III",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+          "neetcode_url": "https://neetcode.io/problems/paint-house-iii",
+          "description": "3D dynamic programming with cost optimization",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Peak Performance Challenge",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Multiple hard problems with AI optimization",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Consistency Validation",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Repeated problem solving with AI performance tracking",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "System Integration Challenge",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Complete technical skill demonstration with AI validation",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Excellence Certification Task",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "AI comprehensive evaluation across all dimensions",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Final Excellence Test",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Complete skill validation with AI assessment",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Readiness Confirmation",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Final validation with AI certification",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 15,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 15,
+          "is_practice": false
+        }
+      ]
+    },
+    "16": {
+      "total_problems": 13,
+      "problems": [
+        {
+          "name": "Design Phone Directory",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
+          "neetcode_url": "",
+          "description": "System design with efficient resource management",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Design In-Memory File System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+          "neetcode_url": "",
+          "description": "Complex system design with hierarchical structure",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Single Number",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/single-number/",
+          "neetcode_url": "https://neetcode.io/problems/single-number",
+          "description": "Find single number using XOR",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Missing Number",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/missing-number/",
+          "neetcode_url": "https://neetcode.io/problems/missing-number",
+          "description": "Find missing number using bit manipulation",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Counting Bits",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/counting-bits/",
+          "neetcode_url": "https://neetcode.io/problems/counting-bits",
+          "description": "Count 1 bits using dynamic programming",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "The Skyline Problem",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+          "neetcode_url": "",
+          "description": "Complex geometric problem with sweep-line algorithm",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Smallest Range Covering Elements from K Lists",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+          "neetcode_url": "",
+          "description": "Multi-source optimization with sliding window",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Basic Calculator III",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+          "neetcode_url": "",
+          "description": "Expression parsing with operator precedence",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Remove Invalid Parentheses",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+          "neetcode_url": "",
+          "description": "BFS with state pruning and optimization",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Word Ladder II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
+          "neetcode_url": "",
+          "description": "Find all shortest transformation sequences",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Text Justification",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/text-justification/",
+          "neetcode_url": "",
+          "description": "String formatting with constraint optimization",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Find Median from Data Stream",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "neetcode_url": "",
+          "description": "Commonly asked, relates to real-time analytics",
+          "week": 16,
+          "is_practice": false
+        },
+        {
+          "name": "Design Search Autocomplete System",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+          "neetcode_url": "",
+          "description": "Crucial for user-facing product features",
+          "week": 16,
+          "is_practice": false
+        }
+      ]
+    },
+    "17": {
+      "total_problems": 13,
+      "problems": [
+        {
+          "name": "Number of Islands",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+          "neetcode_url": "",
+          "description": "Classic graph traversal, frequently asked.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Word Ladder",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+          "neetcode_url": "",
+          "description": "Tests BFS and graph transformation skills.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Subarray Sum Equals K",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+          "neetcode_url": "",
+          "description": "Often asked, tests hash map and prefix sum skills.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Merge K Sorted Lists",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "neetcode_url": "",
+          "description": "Classic heap problem, essential for infra roles.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Copy List with Random Pointer",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+          "neetcode_url": "https://neetcode.io/problems/copy-linked-list-with-random-pointer",
+          "description": "Deep copy linked list with random pointers",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Find the Duplicate Number",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/",
+          "neetcode_url": "https://neetcode.io/problems/find-duplicate-integer",
+          "description": "Find duplicate using Floyd's cycle detection",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Reverse Nodes in k-Group",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+          "neetcode_url": "https://neetcode.io/problems/reverse-nodes-in-k-group",
+          "description": "Advanced linked list manipulation",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Top K Frequent Elements",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+          "neetcode_url": "",
+          "description": "Tests heaps/sorting, common in data processing questions.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "LRU Cache",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+          "neetcode_url": "",
+          "description": "Classic design problem, tests data structure fundamentals.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Integer to English Words",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/integer-to-english-words/",
+          "neetcode_url": "",
+          "description": "Lots of edge cases and requires careful coding.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+          "neetcode_url": "",
+          "description": "Sliding window problem with tricky edge cases.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "neetcode_url": "",
+          "description": "Requires an optimal O(n) solution.",
+          "week": 17,
+          "is_practice": false
+        },
+        {
+          "name": "Count of Smaller Numbers After Self",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+          "neetcode_url": "",
+          "description": "Requires advanced data structures (Fenwick/Segment Tree).",
+          "week": 17,
+          "is_practice": false
+        }
+      ]
+    },
+    "18": {
+      "total_problems": 9,
+      "problems": [
+        {
+          "name": "Design Bounded Blocking Queue",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-bounded-blocking-queue/",
+          "neetcode_url": "",
+          "description": "Essential for producer-consumer problems in data pipelines.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Web Crawler",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/web-crawler/",
+          "neetcode_url": "",
+          "description": "Tests multi-threading and concurrent data access.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Burst Balloons",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+          "neetcode_url": "",
+          "description": "Advanced interval DP optimization.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Best Time to Buy and Sell Stock IV",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+          "neetcode_url": "",
+          "description": "DP with state machine or transaction limits.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Design Twitter",
+          "difficulty": "Hard",
+          "leetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+          "neetcode_url": "",
+          "description": "Classic system design with focus on news feed generation.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Rate Limiter",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Not on LeetCode, but a common system design question. Tests understanding of different algorithms (token bucket, leaky bucket).",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "",
+          "description": "Combines dynamic programming and stack-based histogram solution.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Trapping Rain Water II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/trapping-rain-water-ii/",
+          "neetcode_url": "",
+          "description": "2D version of the classic problem, requires a priority queue.",
+          "week": 18,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Message Queue",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "A deep system design question focusing on reliability, scalability, and durability. (e.g., SQS/Kafka)",
+          "week": 18,
+          "is_practice": false
+        }
+      ]
+    },
+    "19": {
+      "total_problems": 5,
+      "problems": [
+        {
+          "name": "Shortest Distance from All Buildings",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
+          "neetcode_url": "",
+          "description": "A challenging graph problem requiring optimized BFS from multiple sources.",
+          "week": 19,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Proximity Service (like Yelp or 'Near Me')",
+          "difficulty": "Hard",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "System design question that requires knowledge of quadtrees, geohashing, and database scaling.",
+          "week": 19,
+          "is_practice": false
+        },
+        {
+          "name": "Data Stream as Disjoint Intervals",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/data-stream-as-disjoint-intervals/",
+          "neetcode_url": "",
+          "description": "Tests ability to handle streaming data and merge intervals efficiently. Requires tree/BST knowledge.",
+          "week": 19,
+          "is_practice": false
+        },
+        {
+          "name": "Paint House III",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/paint-house-iii/",
+          "neetcode_url": "",
+          "description": "A complex 3D DP problem that tests careful state management.",
+          "week": 19,
+          "is_practice": false
+        },
+        {
+          "name": "Validate Binary Search Tree",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/validate-binary-search-tree/",
+          "neetcode_url": "",
+          "description": "A fundamental tree problem to build confidence.",
+          "week": 19,
+          "is_practice": false
+        }
+      ]
+    },
+    "2": {
+      "total_problems": 16,
+      "problems": [
+        {
+          "name": "Valid Palindrome",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/valid-palindrome/",
+          "neetcode_url": "https://neetcode.io/problems/is-palindrome",
+          "description": "AI coaching on string manipulation",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Two Sum II - Input Array Is Sorted",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+          "neetcode_url": "https://neetcode.io/problems/two-integer-sum-ii",
+          "description": "Connect to binary search",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "3Sum",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/3sum/",
+          "neetcode_url": "https://neetcode.io/problems/three-integer-sum",
+          "description": "AI optimization for O(n^2) complexity",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Container With Most Water",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+          "neetcode_url": "https://neetcode.io/problems/max-water-container",
+          "description": "AI coaching on greedy approach",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Trapping Rain Water",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
+          "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
+          "description": "Connect to dynamic programming patterns",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Substring Without Repeating Characters",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+          "description": "Classic dynamic window problem",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+          "description": "AI coaching on deque usage for O(n) solution",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+          "description": "AI step-by-step approach for this complex pattern",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Repeating Character Replacement",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+          "description": "Tricky sliding window application",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Permutation in String",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
+          "neetcode_url": "https://neetcode.io/problems/permutation-string",
+          "description": "AI pattern matching guidance",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
+          "description": "Sliding window substring optimization",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Repeating Character Replacement",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "neetcode_url": "https://neetcode.io/problems/longest-repeating-character-replacement",
+          "description": "Sliding window with character counts",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Permutation in String",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
+          "neetcode_url": "https://neetcode.io/problems/permutation-in-string",
+          "description": "Check for permutation presence using window",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Remove All Adjacent Duplicates in String II",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+          "neetcode_url": "https://neetcode.io/problems/remove-all-adjacent-duplicates-in-string-ii",
+          "description": "Stack-based string cleanup",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 2,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 2,
+          "is_practice": false
+        }
+      ]
+    },
+    "20": {
+      "total_problems": 5,
+      "problems": [
+        {
+          "name": "Live Interview Slot 1",
+          "difficulty": "Varies",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Focus on clear communication, thinking out loud, and asking clarifying questions. The goal is a strong, positive interaction.",
+          "week": 20,
+          "is_practice": false
+        },
+        {
+          "name": "Live Interview Slot 2",
+          "difficulty": "Varies",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "If it's a system design round, focus on structure: requirements, estimation, API, data model, high-level design, deep dive.",
+          "week": 20,
+          "is_practice": false
+        },
+        {
+          "name": "Live Interview Slot 3",
+          "difficulty": "Varies",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "For behavioral rounds, be authentic, structured (STAR), and connect your experiences to the company's values or leadership principles.",
+          "week": 20,
+          "is_practice": false
+        },
+        {
+          "name": "Offer Evaluation & Negotiation Practice",
+          "difficulty": "Life",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Use an AI to simulate an offer call from a recruiter. Practice expressing gratitude, asking clarifying questions, and presenting a well-reasoned counter-offer.",
+          "week": 20,
+          "is_practice": false
+        },
+        {
+          "name": "Contribute Back to the Community",
+          "difficulty": "Easy",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "Write a post on LinkedIn or a blog sharing one key insight from your interview prep journey. Help those who are just getting started.",
+          "week": 20,
+          "is_practice": false
+        }
+      ]
+    },
+    "3": {
+      "total_problems": 17,
+      "problems": [
+        {
+          "name": "Valid Parentheses",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+          "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+          "description": "AI coaching on balanced structures",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Min Stack",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/min-stack/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-stack",
+          "description": "AI optimization for O(1) operations",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Evaluate Reverse Polish Notation",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+          "neetcode_url": "https://neetcode.io/problems/evaluate-reverse-polish-notation",
+          "description": "Connect to expression trees",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Generate Parentheses",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/generate-parentheses/",
+          "neetcode_url": "https://neetcode.io/problems/generate-parentheses",
+          "description": "AI coaching on backtracking with stacks",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Simplify Path",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/simplify-path/",
+          "neetcode_url": "https://neetcode.io/problems/simplify-path",
+          "description": "Connect to file system operations",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Basic Calculator",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/basic-calculator/",
+          "neetcode_url": "https://neetcode.io/problems/basic-calculator",
+          "description": "Advanced expression parsing",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Daily Temperatures",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/daily-temperatures/",
+          "neetcode_url": "https://neetcode.io/problems/daily-temperatures",
+          "description": "AI coaching on monotonic stack technique",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Car Fleet",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/car-fleet/",
+          "neetcode_url": "https://neetcode.io/problems/car-fleet",
+          "description": "Connect to scheduling and optimization algorithms",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Largest Rectangle in Histogram",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+          "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+          "description": "AI step-by-step guidance",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Queue using Stacks",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+          "neetcode_url": "https://neetcode.io/problems/implement-queue-using-stacks",
+          "description": "Design patterns with AI",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Sliding Window Maximum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+          "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+          "description": "Deque implementation with AI guidance",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Design Hit Counter",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+          "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+          "description": "Queue-based system design",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 3,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 3,
+          "is_practice": false
+        }
+      ]
+    },
+    "4": {
+      "total_problems": 16,
+      "problems": [
+        {
+          "name": "Binary Search",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/binary-search/",
+          "neetcode_url": "https://neetcode.io/problems/binary-search",
+          "description": "AI coaching on boundary conditions and invariants",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Search in Rotated Sorted Array",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+          "neetcode_url": "https://neetcode.io/problems/find-target-in-rotated-sorted-array",
+          "description": "AI pattern recognition coaching",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Find First and Last Position of Element in Sorted Array",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+          "neetcode_url": "https://neetcode.io/problems/find-first-and-last-position-of-element-in-sorted-array",
+          "description": "AI boundary analysis",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Find Minimum in Rotated Sorted Array",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+          "neetcode_url": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array",
+          "description": "AI complexity optimization",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Search in Rotated Sorted Array II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+          "neetcode_url": "https://neetcode.io/problems/search-in-rotated-sorted-array-ii",
+          "description": "AI duplicate handling strategies",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Time Based Key-Value Store",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/time-based-key-value-store/",
+          "neetcode_url": "https://neetcode.io/problems/time-based-key-value-store",
+          "description": "AI coaching on design patterns",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Search a 2D Matrix",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix/",
+          "neetcode_url": "https://neetcode.io/problems/search-2d-matrix",
+          "description": "Connect to tensor indexing and multi-dimensional optimization",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Kth Smallest Element in a Sorted Matrix",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+          "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-sorted-matrix",
+          "description": "AI heap vs binary search comparison",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Median of Two Sorted Arrays",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+          "description": "AI mathematical approach and complexity analysis",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Koko Eating Bananas",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/koko-eating-bananas/",
+          "neetcode_url": "https://neetcode.io/problems/eating-bananas",
+          "description": "AI coaching on search space definition",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Split Array Largest Sum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/",
+          "neetcode_url": "https://neetcode.io/problems/split-array-largest-sum",
+          "description": "AI optimization and dynamic programming connections",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Capacity To Ship Packages Within D Days",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+          "neetcode_url": "https://neetcode.io/problems/capacity-to-ship-packages-within-d-days",
+          "description": "Binary search on shipping capacity",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Number of Days to Make m Bouquets",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-number-of-days-to-make-m-bouquets",
+          "description": "Binary search on days",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Find Peak Element",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/find-peak-element/",
+          "neetcode_url": "https://neetcode.io/problems/find-peak-element",
+          "description": "Binary search to find a local maximum",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 4,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 4,
+          "is_practice": false
+        }
+      ]
+    },
+    "5": {
+      "total_problems": 22,
+      "problems": [
+        {
+          "name": "Fibonacci Number",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+          "neetcode_url": "https://neetcode.io/problems/fibonacci-number",
+          "description": "AI coaching on recursion and memoization",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Min Cost Climbing Stairs",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+          "description": "AI coaching on bottom-up DP",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "House Robber",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/house-robber/",
+          "neetcode_url": "https://neetcode.io/problems/house-robber",
+          "description": "AI coaching on state transition and optimization",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Reverse Linked List",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+          "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list",
+          "description": "Fundamental linked list reversal",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Merge Two Sorted Lists",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+          "neetcode_url": "https://neetcode.io/problems/merge-two-sorted-linked-lists",
+          "description": "Essential merge operation for sorted data",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Linked List Cycle",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
+          "neetcode_url": "https://neetcode.io/problems/linked-list-cycle",
+          "description": "Cycle detection using Floyd's algorithm",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Coin Change",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/coin-change/",
+          "neetcode_url": "https://neetcode.io/problems/coin-change",
+          "description": "AI coaching on state transition and optimization",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Increasing Subsequence",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+          "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+          "description": "AI coaching on patience sorting and binary search",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Unique Paths",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+          "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes",
+          "description": "AI guidance on multi-dimensional DP",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Reorder List",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/reorder-list/",
+          "neetcode_url": "https://neetcode.io/problems/reorder-linked-list",
+          "description": "Complex linked list manipulation",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Remove Nth Node From End of List",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "neetcode_url": "https://neetcode.io/problems/remove-node-from-end-of-linked-list",
+          "description": "Two-pointer technique for linked lists",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Add Two Numbers",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/add-two-numbers/",
+          "neetcode_url": "https://neetcode.io/problems/add-two-numbers",
+          "description": "Arithmetic on linked list representation",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Common Subsequence",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+          "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+          "description": "AI coaching on 2D DP optimization",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Edit Distance",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+          "neetcode_url": "https://neetcode.io/problems/edit-distance",
+          "description": "Connect to text preprocessing and data cleaning in ML",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Distinct Subsequences",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+          "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+          "description": "AI step-by-step approach for complex state transitions",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Product Subarray",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+          "description": "AI coaching on handling negative numbers",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Decode Ways",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+          "neetcode_url": "https://neetcode.io/problems/decode-ways",
+          "description": "Connect to encoding/decoding in neural network architectures",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Coin Change",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/coin-change/",
+          "neetcode_url": "https://neetcode.io/problems/coin-change",
+          "description": "Classic DP - unbounded knapsack",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Increasing Subsequence",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+          "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+          "description": "DP with patience sorting optimization",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Product Subarray",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+          "description": "DP tracking max and min products",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 5,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 5,
+          "is_practice": false
+        }
+      ]
+    },
+    "6": {
+      "total_problems": 25,
+      "problems": [
+        {
+          "name": "Kth Smallest Element in a BST",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+          "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-bst",
+          "description": "In-order traversal with AI optimization",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Construct Binary Tree from Preorder & Inorder",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "neetcode_url": "https://neetcode.io/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+          "description": "Step-by-step reconstruction",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Serialize and Deserialize Binary Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+          "description": "Relates to model serialization",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Invert Binary Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree",
+          "description": "Tree structure manipulation",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Depth of Binary Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree",
+          "description": "Basic tree traversal and depth calculation",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Same Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/same-tree/",
+          "neetcode_url": "https://neetcode.io/problems/same-binary-tree",
+          "description": "Tree comparison and structure validation",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Number of Islands",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+          "neetcode_url": "https://neetcode.io/problems/islands-and-treasure",
+          "description": "DFS vs BFS trade-offs",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Clone Graph",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+          "neetcode_url": "https://neetcode.io/problems/clone-graph",
+          "description": "Graph copying & GNN analogy",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Course Schedule",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+          "neetcode_url": "https://neetcode.io/problems/course-schedule",
+          "description": "Topological sort & cycle detection",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Diameter of Binary Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/binary-tree-diameter",
+          "description": "Calculate longest path in tree",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Balanced Binary Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/balanced-binary-tree",
+          "description": "Check if tree is height-balanced",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Subtree of Another Tree",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/subtree-of-another-tree/",
+          "neetcode_url": "https://neetcode.io/problems/subtree-of-a-binary-tree",
+          "description": "Check if one tree is subtree of another",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Word Ladder",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+          "neetcode_url": "https://neetcode.io/problems/word-ladder",
+          "description": "Shortest path with BFS optimization",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Alien Dictionary",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+          "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+          "description": "Topological sort in unknown order alphabet",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Climbing Stairs",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+          "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+          "description": "Classic Fibonacci DP",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "House Robber",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/house-robber/",
+          "neetcode_url": "https://neetcode.io/problems/house-robber",
+          "description": "1-D DP with constraints",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Coin Change",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/coin-change/",
+          "neetcode_url": "https://neetcode.io/problems/coin-change",
+          "description": "Unbounded knapsack",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "LeetCode Weekly Contest",
+          "difficulty": "Mixed",
+          "leetcode_url": "https://leetcode.com/contest/",
+          "neetcode_url": "",
+          "description": "Live contest with AI coaching",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Word Ladder",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+          "neetcode_url": "https://neetcode.io/problems/word-ladder",
+          "description": "Shortest-path BFS with heuristics",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Alien Dictionary",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+          "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+          "description": "Topological ordering in unknown alphabet",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Binary Tree Maximum Path Sum",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+          "description": "DFS with global optimum tracking",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Serialize and Deserialize Binary Tree",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+          "description": "",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Course Schedule",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+          "neetcode_url": "https://neetcode.io/problems/course-schedule",
+          "description": "",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Number of Connected Components",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+          "neetcode_url": "",
+          "description": "",
+          "week": 6,
+          "is_practice": false
+        },
+        {
+          "name": "Clone Graph",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+          "neetcode_url": "https://neetcode.io/problems/clone-graph",
+          "description": "",
+          "week": 6,
+          "is_practice": false
+        }
+      ]
+    },
+    "7": {
+      "total_problems": 18,
+      "problems": [
+        {
+          "name": "Fibonacci Number",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+          "neetcode_url": "https://neetcode.io/problems/fibonacci-sequence",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Min Cost Climbing Stairs",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+          "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Unique Paths",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/unique-paths/",
+          "neetcode_url": "https://neetcode.io/problems/count-paths",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Partition Equal Subset Sum",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+          "neetcode_url": "https://neetcode.io/problems/partition-equal-subset-sum",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Target Sum",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/target-sum/",
+          "neetcode_url": "https://neetcode.io/problems/target-sum",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Ones and Zeroes",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+          "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Lowest Common Ancestor of a Binary Search Tree",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+          "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+          "description": "LCA in BST using properties",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Binary Tree Level Order Traversal",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+          "neetcode_url": "https://neetcode.io/problems/binary-tree-level-order-traversal",
+          "description": "BFS traversal of binary tree",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Binary Tree Right Side View",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+          "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+          "description": "Get rightmost nodes at each level",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Longest Common Subsequence",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+          "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Edit Distance",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+          "neetcode_url": "https://neetcode.io/problems/edit-distance",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Distinct Subsequences",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+          "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Product Subarray",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Decode Ways",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+          "neetcode_url": "https://neetcode.io/problems/decode-ways",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "LeetCode Weekly Contest",
+          "difficulty": "Mixed",
+          "leetcode_url": "https://leetcode.com/contest/",
+          "neetcode_url": "",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Find Median from Data Stream",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+          "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+          "description": "Core component for real-time analytics",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Word Search II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+          "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+          "description": "Efficiently search for multiple keywords",
+          "week": 7,
+          "is_practice": false
+        },
+        {
+          "name": "Design Google Ads",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 7,
+          "is_practice": false
+        }
+      ]
+    },
+    "8": {
+      "total_problems": 27,
+      "problems": [
+        {
+          "name": "Meeting Rooms II",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/meeting-rooms-ii/",
+          "neetcode_url": "https://neetcode.io/problems/meeting-schedule-ii",
+          "description": "AI coaching on interval scheduling optimization",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Maximum Frequency Stack",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximum-frequency-stack/",
+          "neetcode_url": "https://neetcode.io/problems/maximum-frequency-stack",
+          "description": "Connect to data structure design in ML pipelines",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design Twitter",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+          "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+          "description": "AI guidance on system design through coding",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Shortest Path in Binary Matrix",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+          "neetcode_url": "https://neetcode.io/problems/shortest-path-in-binary-matrix",
+          "description": "A* algorithm with AI optimization",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Word Search II",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+          "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+          "description": "Trie + DFS optimization with AI complexity analysis",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Regular Expression Matching",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+          "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+          "description": "AI step-by-step DP approach",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Count Good Nodes in Binary Tree",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+          "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+          "description": "Count nodes with no larger ancestors",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "neetcode_url": "https://neetcode.io/problems/build-binary-tree-from-preorder-and-inorder-traversal",
+          "description": "Reconstruct tree from traversals",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Trie (Prefix Tree)",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+          "neetcode_url": "https://neetcode.io/problems/implement-prefix-tree",
+          "description": "Implement prefix tree data structure",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "LRU Cache",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+          "neetcode_url": "https://neetcode.io/problems/lru-cache",
+          "description": "AI coaching on production-level implementation",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design Hit Counter",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+          "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+          "description": "Connect to real-time analytics in ML systems",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Insert Delete GetRandom O(1)",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+          "neetcode_url": "https://neetcode.io/problems/randomized-set",
+          "description": "AI optimization for constant time operations",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Merge k Sorted Lists",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+          "description": "Merge multiple sorted linked lists efficiently",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design Add and Search Words Data Structure",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+          "neetcode_url": "https://neetcode.io/problems/design-word-search-data-structure",
+          "description": "Trie with wildcard search functionality",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Kth Largest Element in a Stream",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+          "neetcode_url": "https://neetcode.io/problems/kth-largest-integer-in-a-stream",
+          "description": "Maintain kth largest in streaming data",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Last Stone Weight",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/last-stone-weight/",
+          "neetcode_url": "https://neetcode.io/problems/last-stone-weight",
+          "description": "Heap-based simulation problem",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "K Closest Points to Origin",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+          "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin",
+          "description": "Find k closest points using heap",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Kth Largest Element in an Array",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+          "neetcode_url": "https://neetcode.io/problems/kth-largest-element-in-an-array",
+          "description": "Find kth largest using quickselect or heap",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Median of Two Sorted Arrays",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+          "description": "AI coaching on logarithmic optimization",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Minimum Window Substring",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+          "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+          "description": "Advanced sliding window with AI complexity proof",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Burst Balloons",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+          "neetcode_url": "https://neetcode.io/problems/burst-balloons",
+          "description": "AI step-by-step interval DP optimization",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Task Scheduler",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/task-scheduler/",
+          "neetcode_url": "https://neetcode.io/problems/task-scheduling",
+          "description": "Schedule tasks with cooldown constraints",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 8,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 8,
+          "is_practice": false
+        }
+      ]
+    },
+    "9": {
+      "total_problems": 21,
+      "problems": [
+        {
+          "name": "Network Delay Time",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/network-delay-time/",
+          "neetcode_url": "https://neetcode.io/problems/network-delay-time",
+          "description": "AI coaching on Dijkstra's algorithm optimization",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Cheapest Flights Within K Stops",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+          "neetcode_url": "https://neetcode.io/problems/cheapest-flights-within-k-stops",
+          "description": "Bellman-Ford with AI complexity analysis",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Min Cost to Connect All Points",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+          "neetcode_url": "",
+          "description": "Kruskal's and Prim's with AI trade-off analysis",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Subsets",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/subsets/",
+          "neetcode_url": "https://neetcode.io/problems/subsets",
+          "description": "Generate all possible subsets using backtracking",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Permutations",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/permutations/",
+          "neetcode_url": "https://neetcode.io/problems/permutations",
+          "description": "Generate all permutations using backtracking",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Combination Sum",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/combination-sum/",
+          "neetcode_url": "https://neetcode.io/problems/combination-target-sum",
+          "description": "Find combinations that sum to target",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Number of Connected Components in an Undirected Graph",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+          "neetcode_url": "https://neetcode.io/problems/count-connected-components",
+          "description": "AI coaching on Union-Find optimization",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Redundant Connection",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/redundant-connection/",
+          "neetcode_url": "https://neetcode.io/problems/redundant-connection",
+          "description": "Connect to cycle detection in neural networks",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Accounts Merge",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/accounts-merge/",
+          "neetcode_url": "https://neetcode.io/problems/accounts-merge",
+          "description": "AI guidance on string processing with Union-Find",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Course Schedule II",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/",
+          "neetcode_url": "https://neetcode.io/problems/course-schedule-ii",
+          "description": "AI coaching on Kahn's algorithm optimization",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Alien Dictionary",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+          "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+          "description": "Advanced topological sorting with error handling",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Parallel Courses",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/parallel-courses-ii/",
+          "neetcode_url": "",
+          "description": "Connect to parallel training in distributed ML",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Critical Connections in a Network",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+          "neetcode_url": "https://neetcode.io/problems/critical-connections-in-a-network",
+          "description": "Tarjan's algorithm with AI complexity proof",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Swim in Rising Water",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/swim-in-rising-water/",
+          "neetcode_url": "https://neetcode.io/problems/swim-in-rising-water",
+          "description": "Binary search + BFS/Dijkstra optimization",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Bus Routes",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/bus-routes/",
+          "neetcode_url": "https://neetcode.io/problems/bus-routes",
+          "description": "Advanced graph modeling with AI guidance",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Shortest Path to Get All Keys",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+          "neetcode_url": "https://neetcode.io/problems/shortest-path-to-get-all-keys",
+          "description": "BFS with state compression",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Implement Stack using Queues",
+          "difficulty": "Easy",
+          "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+          "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+          "description": "Stack-based string cleanup",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Design Circular Queue",
+          "difficulty": "Medium",
+          "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+          "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+          "description": "Array-based circular queue implementation",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Maximal Rectangle",
+          "difficulty": "Hard",
+          "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+          "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+          "description": "Stack usage in binary matrix to compute maximal area",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Message Queue Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 9,
+          "is_practice": false
+        },
+        {
+          "name": "Design a Distributed Search Service",
+          "difficulty": "Design",
+          "leetcode_url": "",
+          "neetcode_url": "",
+          "description": "",
+          "week": 9,
+          "is_practice": false
+        }
+      ]
+    }
+  }
+}

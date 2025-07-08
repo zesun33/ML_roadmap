@@ -86,6 +86,30 @@
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
               "description": "Classic heap problem, essential for infra roles."
+            },
+            {
+              "name": "Copy List with Random Pointer",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+              "neetcode_url": "https://neetcode.io/problems/copy-linked-list-with-random-pointer",
+              "description": "Deep copy linked list with random pointers",
+              "ai_prompt": "How does deep copying relate to model cloning in ML?"
+            },
+            {
+              "name": "Find the Duplicate Number",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-the-duplicate-number/",
+              "neetcode_url": "https://neetcode.io/problems/find-duplicate-integer",
+              "description": "Find duplicate using Floyd's cycle detection",
+              "ai_prompt": "How does duplicate detection relate to data quality in ML pipelines?"
+            },
+            {
+              "name": "Reverse Nodes in k-Group",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-nodes-in-k-group",
+              "description": "Advanced linked list manipulation",
+              "ai_prompt": "How does k-group reversal relate to batch processing in ML?"
             }
           ]
         },

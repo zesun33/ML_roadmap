@@ -56,6 +56,22 @@
               "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
               "description": "Real-time search with ranking and caching",
               "ai_prompt": "How does autocomplete design relate to sequence prediction and next-token generation in language models?"
+            },
+            {
+              "name": "Maximum Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+              "description": "Kadane's algorithm for maximum subarray sum",
+              "ai_prompt": "How does Kadane's algorithm relate to dynamic programming in RL?"
+            },
+            {
+              "name": "Jump Game",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/jump-game/",
+              "neetcode_url": "https://neetcode.io/problems/jump-game",
+              "description": "Greedy approach to determine if end is reachable",
+              "ai_prompt": "How does reachability analysis relate to goal planning in RL?"
             }
           ]
         },

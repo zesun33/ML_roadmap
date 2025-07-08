@@ -109,6 +109,30 @@
               "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
               "description": "AI step-by-step DP approach",
               "ai_prompt": "Define the 2D DP state `dp[i][j]`. Explain the logic for the base cases and the transitions, especially for the '*' character."
+            },
+            {
+              "name": "Count Good Nodes in Binary Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+              "description": "Count nodes with no larger ancestors",
+              "ai_prompt": "How does path-dependent counting relate to sequential decision making?"
+            },
+            {
+              "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/build-binary-tree-from-preorder-and-inorder-traversal",
+              "description": "Reconstruct tree from traversals",
+              "ai_prompt": "How does tree reconstruction relate to model architecture search?"
+            },
+            {
+              "name": "Implement Trie (Prefix Tree)",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+              "neetcode_url": "https://neetcode.io/problems/implement-prefix-tree",
+              "description": "Implement prefix tree data structure",
+              "ai_prompt": "How does trie implementation relate to tokenization in NLP?"
             }
           ]
         },
@@ -162,6 +186,54 @@
               "neetcode_url": "https://neetcode.io/problems/randomized-set",
               "description": "AI optimization for constant time operations",
               "ai_prompt": "Explain how using a hash map and a dynamic array (list) together allows for O(1) average time complexity for all three operations. Why is the swap-with-last-element trick crucial for deletion?"
+            },
+            {
+              "name": "Merge k Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+              "description": "Merge multiple sorted linked lists efficiently",
+              "ai_prompt": "How does k-way merging relate to distributed data processing in ML?"
+            },
+            {
+              "name": "Design Add and Search Words Data Structure",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+              "neetcode_url": "https://neetcode.io/problems/design-word-search-data-structure",
+              "description": "Trie with wildcard search functionality",
+              "ai_prompt": "How does wildcard search relate to fuzzy matching in ML applications?"
+            },
+            {
+              "name": "Kth Largest Element in a Stream",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+              "neetcode_url": "https://neetcode.io/problems/kth-largest-integer-in-a-stream",
+              "description": "Maintain kth largest in streaming data",
+              "ai_prompt": "How does streaming kth largest relate to online learning algorithms?"
+            },
+            {
+              "name": "Last Stone Weight",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/last-stone-weight/",
+              "neetcode_url": "https://neetcode.io/problems/last-stone-weight",
+              "description": "Heap-based simulation problem",
+              "ai_prompt": "How does priority-based processing relate to task scheduling in ML pipelines?"
+            },
+            {
+              "name": "K Closest Points to Origin",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+              "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin",
+              "description": "Find k closest points using heap",
+              "ai_prompt": "How does k-nearest selection relate to KNN algorithms in ML?"
+            },
+            {
+              "name": "Kth Largest Element in an Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+              "neetcode_url": "https://neetcode.io/problems/kth-largest-element-in-an-array",
+              "description": "Find kth largest using quickselect or heap",
+              "ai_prompt": "How does selection algorithms relate to feature selection in ML?"
             }
           ]
         },
@@ -215,6 +287,14 @@
               "neetcode_url": "https://neetcode.io/problems/burst-balloons",
               "description": "AI step-by-step interval DP optimization",
               "ai_prompt": "This is a classic interval DP problem. Explain why you need to decide which balloon to burst *last* in a given interval. Define the DP state and recurrence."
+            },
+            {
+              "name": "Task Scheduler",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/task-scheduler/",
+              "neetcode_url": "https://neetcode.io/problems/task-scheduling",
+              "description": "Schedule tasks with cooldown constraints",
+              "ai_prompt": "How does task scheduling relate to resource allocation in distributed ML training?"
             }
           ]
         },

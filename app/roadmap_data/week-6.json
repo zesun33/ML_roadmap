@@ -12,7 +12,7 @@
     "title": "Trees & Graph Foundations + Tesla ML Systems",
     "objectives": [
       "Master binary-tree and graph algorithms with AI visualization",
-      "Understand Tesla’s Autopilot ML pipeline and real-time vision systems",
+      "Understand Tesla\u2019s Autopilot ML pipeline and real-time vision systems",
       "Connect tree/graph structures to decision-tree and GNN models",
       "Complete 25+ problems and an AI-enhanced capstone project"
     ],
@@ -24,7 +24,7 @@
           "activities": [
             "BST operations with AI proofs",
             "Self-balancing trees vs. gradient balancing",
-            "Tree rotations – visual demo"
+            "Tree rotations \u2013 visual demo"
           ]
         },
         "coding_session": {
@@ -51,6 +51,30 @@
               "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
               "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
               "description": "Relates to model serialization"
+            },
+            {
+              "name": "Invert Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree",
+              "description": "Tree structure manipulation",
+              "ai_prompt": "How does tree inversion relate to tree transformations in decision trees?"
+            },
+            {
+              "name": "Maximum Depth of Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree",
+              "description": "Basic tree traversal and depth calculation",
+              "ai_prompt": "How does tree depth relate to model depth in neural networks?"
+            },
+            {
+              "name": "Same Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/same-tree/",
+              "neetcode_url": "https://neetcode.io/problems/same-binary-tree",
+              "description": "Tree comparison and structure validation",
+              "ai_prompt": "How does tree comparison relate to model comparison in ML?"
             }
           ]
         },
@@ -70,7 +94,7 @@
           "time": "6:00-7:00 AM",
           "activities": [
             "Adjacency vs. edge-list representations",
-            "Graphs ↔ neural-net connectivity",
+            "Graphs \u2194 neural-net connectivity",
             "DFS / BFS complexity analysis"
           ]
         },
@@ -98,6 +122,30 @@
               "leetcode_url": "https://leetcode.com/problems/course-schedule/",
               "neetcode_url": "https://neetcode.io/problems/course-schedule",
               "description": "Topological sort & cycle detection"
+            },
+            {
+              "name": "Diameter of Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-diameter",
+              "description": "Calculate longest path in tree",
+              "ai_prompt": "How does tree diameter relate to network analysis in graph ML?"
+            },
+            {
+              "name": "Balanced Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/balanced-binary-tree",
+              "description": "Check if tree is height-balanced",
+              "ai_prompt": "How does tree balance relate to model stability in ML?"
+            },
+            {
+              "name": "Subtree of Another Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/subtree-of-another-tree/",
+              "neetcode_url": "https://neetcode.io/problems/subtree-of-a-binary-tree",
+              "description": "Check if one tree is subtree of another",
+              "ai_prompt": "How does subtree detection relate to pattern matching in data structures?"
             }
           ]
         },
@@ -158,7 +206,7 @@
           "activities": [
             "Optimal substructure & overlapping sub-problems",
             "Memoization vs. tabulation demos",
-            "DP ↔ gradient accumulation analogy"
+            "DP \u2194 gradient accumulation analogy"
           ]
         },
         "coding_session": {
@@ -231,7 +279,7 @@
         }
       },
       "saturday": {
-        "title": "Capstone Build – Autonomous Decision-Tree Navigator",
+        "title": "Capstone Build \u2013 Autonomous Decision-Tree Navigator",
         "duration": 240,
         "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
         "focus_areas": [
@@ -314,7 +362,7 @@
           "90-min live coding (graph traversal + DP)",
           "30-min system design: Real-time Routing Service",
           "Update progress metrics & charts",
-          "Identify weak areas → feed into Week 7 plan",
+          "Identify weak areas \u2192 feed into Week 7 plan",
           "Generate AI prompts for DP deep dive"
         ],
         "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."

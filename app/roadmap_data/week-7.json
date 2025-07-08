@@ -23,7 +23,7 @@
           "time": "6:00-7:00 AM",
           "activities": [
             "NeetCode DP video + AI notes",
-            "DP ↔ back-propagation analogy",
+            "DP \u2194 back-propagation analogy",
             "State-transition visualization"
           ]
         },
@@ -92,6 +92,30 @@
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
               "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes"
+            },
+            {
+              "name": "Lowest Common Ancestor of a Binary Search Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+              "description": "LCA in BST using properties",
+              "ai_prompt": "How does LCA relate to hierarchical clustering in ML?"
+            },
+            {
+              "name": "Binary Tree Level Order Traversal",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-level-order-traversal",
+              "description": "BFS traversal of binary tree",
+              "ai_prompt": "How does level-order traversal relate to layer-wise processing in neural networks?"
+            },
+            {
+              "name": "Binary Tree Right Side View",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+              "description": "Get rightmost nodes at each level",
+              "ai_prompt": "How does selective node viewing relate to attention mechanisms?"
             }
           ]
         },
@@ -145,7 +169,7 @@
           "activities": [
             "Implement string DP optimizations",
             "Study Apple NLP stack",
-            "Plan Thursday’s DP topics"
+            "Plan Thursday\u2019s DP topics"
           ]
         }
       },
@@ -218,7 +242,7 @@
         }
       },
       "saturday": {
-        "title": "Capstone Build – AI-Powered Content Moderation System",
+        "title": "Capstone Build \u2013 AI-Powered Content Moderation System",
         "duration": 240,
         "description": "Build a system to identify and flag inappropriate content in real-time, inspired by Google's large-scale safety systems. Use heaps for priority processing, Tries for text filtering, and a simple ML model for classification.",
         "focus_areas": [

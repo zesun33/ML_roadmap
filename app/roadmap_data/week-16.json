@@ -45,6 +45,30 @@
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
               "description": "Complex system design with hierarchical structure"
+            },
+            {
+              "name": "Single Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/single-number/",
+              "neetcode_url": "https://neetcode.io/problems/single-number",
+              "description": "Find single number using XOR",
+              "ai_prompt": "How does XOR relate to error correction in distributed ML systems?"
+            },
+            {
+              "name": "Missing Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/missing-number/",
+              "neetcode_url": "https://neetcode.io/problems/missing-number",
+              "description": "Find missing number using bit manipulation",
+              "ai_prompt": "How does missing data detection relate to data quality in ML?"
+            },
+            {
+              "name": "Counting Bits",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/counting-bits/",
+              "neetcode_url": "https://neetcode.io/problems/counting-bits",
+              "description": "Count 1 bits using dynamic programming",
+              "ai_prompt": "How does bit counting relate to sparse representation in ML?"
             }
           ]
         },

@@ -56,6 +56,22 @@
               "neetcode_url": "https://neetcode.io/problems/data-stream-as-disjoint-intervals",
               "description": "Real-time interval merging with efficient updates",
               "ai_prompt": "How does interval management relate to time-series segmentation and anomaly detection in streaming data?"
+            },
+            {
+              "name": "Merge Intervals",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/merge-intervals/",
+              "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+              "description": "Merge overlapping intervals",
+              "ai_prompt": "How does interval merging relate to time series data processing?"
+            },
+            {
+              "name": "Insert Interval",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/insert-interval/",
+              "neetcode_url": "https://neetcode.io/problems/insert-new-interval",
+              "description": "Insert and merge new interval",
+              "ai_prompt": "How does interval insertion relate to incremental learning?"
             }
           ]
         },

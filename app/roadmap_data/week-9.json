@@ -55,6 +55,30 @@
               "leetcode_url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
               "description": "Kruskal's and Prim's with AI trade-off analysis",
               "ai_prompt": "This is a classic MST problem. Implement both Prim's and Kruskal's algorithms. Discuss the trade-offs. When is one preferred over the other?"
+            },
+            {
+              "name": "Subsets",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/subsets/",
+              "neetcode_url": "https://neetcode.io/problems/subsets",
+              "description": "Generate all possible subsets using backtracking",
+              "ai_prompt": "How does subset generation relate to feature selection in ML?"
+            },
+            {
+              "name": "Permutations",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/permutations/",
+              "neetcode_url": "https://neetcode.io/problems/permutations",
+              "description": "Generate all permutations using backtracking",
+              "ai_prompt": "How do permutations relate to data augmentation strategies?"
+            },
+            {
+              "name": "Combination Sum",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/combination-sum/",
+              "neetcode_url": "https://neetcode.io/problems/combination-target-sum",
+              "description": "Find combinations that sum to target",
+              "ai_prompt": "How does combination search relate to hyperparameter optimization?"
             }
           ]
         },
@@ -250,6 +274,42 @@
               "neetcode_url": "https://neetcode.io/problems/shortest-path-to-get-all-keys",
               "description": "BFS with state compression",
               "ai_prompt": "This is a shortest path problem on a state graph. Define the state `(row, col, keys_mask)`. Why is BFS appropriate for this state-space search?"
+            },
+            {
+              "name": "Subsets II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/subsets-ii/",
+              "neetcode_url": "https://neetcode.io/problems/subsets-ii"
+            },
+            {
+              "name": "Combination Sum II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/combination-sum-ii/",
+              "neetcode_url": "https://neetcode.io/problems/combination-sum-ii"
+            },
+            {
+              "name": "Word Search",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/word-search/",
+              "neetcode_url": "https://neetcode.io/problems/search-for-word"
+            },
+            {
+              "name": "Palindrome Partitioning",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/palindrome-partitioning/",
+              "neetcode_url": "https://neetcode.io/problems/palindrome-partitioning"
+            },
+            {
+              "name": "Letter Combinations of a Phone Number",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+              "neetcode_url": "https://neetcode.io/problems/combinations-of-a-phone-number"
+            },
+            {
+              "name": "N-Queens",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/n-queens/",
+              "neetcode_url": "https://neetcode.io/problems/n-queens"
             }
           ]
         },
