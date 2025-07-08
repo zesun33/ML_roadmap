@@ -24,9 +24,13 @@ jobs:
         # Create a clean gh-pages branch
         git checkout --orphan gh-pages-temp
         
-        # Copy only app files to root
-        cp app/* .
-        rm -rf app/ docs/ research/ tools/ *.md *.code-workspace .gitignore
+        # Copy ALL files from app directory to root (including hidden files and directories)
+        cp -r app/. .
+        
+        # Remove source directories and files we don't want in deployment
+        rm -rf app/ docs/ research/ tools/ scripts/ practice/ detailed_roadmap/
+        rm -f *.md *.code-workspace .gitignore netlify.toml
+        rm -f neetcode_verification_report.json link_verifier.py
         
         # Commit and force push to gh-pages
         git add .
