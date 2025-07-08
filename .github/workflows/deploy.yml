@@ -2,41 +2,42 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, development ]
   pull_request:
     branches: [ main ]
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      
-    - name: Setup Git
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
+      - name: Checkout
+        uses: actions/checkout@v4
         
-    - name: Deploy to gh-pages
-      run: |
-        # Create a clean gh-pages branch
-        git checkout --orphan gh-pages-temp
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
         
-        # Copy only app files to root
-        cp app/* .
-        rm -rf app/ docs/ research/ tools/ *.md *.code-workspace .gitignore
-        
-        # Commit and force push to gh-pages
-        git add .
-        git commit -m "🚀 Auto-deploy: $(date '+%Y-%m-%d %H:%M:%S')"
-        git branch -D gh-pages || true
-        git branch -m gh-pages
-        git push -f origin gh-pages
-        
-        # Return to main branch
-        git checkout main
-
-permissions:
-  contents: write 
+      - name: Copy app files to deployment directory
+        run: |
+          mkdir -p _site
+          cp -r app/* _site/
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 
