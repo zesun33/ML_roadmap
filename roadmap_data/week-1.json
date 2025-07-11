@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 1
+  },
+  "week": {
+    "title": "AI Environment Setup + Arrays & Hashing + Real ML System Integration",
+    "objectives": [
+      "Set up complete AI-enhanced development environment with advanced tools",
+      "Master Arrays & Hashing patterns with 25+ problems and 90%+ accuracy",
+      "Connect hash tables to ML embeddings and recommendation systems",
+      "Implement custom hash table with ML-inspired optimizations",
+      "Study YouTube Recommendation System architecture with hash tables",
+      "Establish AI coaching system with personalized prompts"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "AI Ecosystem Bootstrap",
+          "activities": [
+            "Set up AI learning environment (Claude Pro, ChatGPT Plus, VS Code extensions)",
+            "Configure AI-powered Anki with custom ML-DS&A prompt templates",
+            "Watch NeetCode 'Arrays and Hashing' intro + AI note synthesis",
+            "AI explanation connecting arrays to tensor operations in PyTorch"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Core Array Problems",
+          "problems": [
+            {
+              "name": "Two Sum",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/two-sum/",
+              "neetcode_url": "https://neetcode.io/problems/two-sum",
+              "description": "Connect to embedding lookups in transformers",
+              "ai_prompt": "Explain Two Sum using hash tables like vocabulary mappings in tokenizers. How does this relate to attention mechanisms in transformers?"
+            },
+            {
+              "name": "Best Time to Buy and Sell Stock",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+              "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+              "description": "Relate to gradient optimization",
+              "ai_prompt": "How does this greedy algorithm relate to finding optimal points in loss function landscapes?"
+            },
+            {
+              "name": "Contains Duplicate",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/contains-duplicate/",
+              "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
+              "description": "AI coaching on set operations vs hash tables",
+              "ai_prompt": "Compare set-based and hash table solutions. How does this relate to efficient data deduplication in ML pipelines?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "AI Setup & ML System Study",
+          "activities": [
+            "Create personalized AI study buddy prompts for ML connections",
+            "Set up GitHub repository with AI-generated README and project structure",
+            "ML System Study: YouTube Recommendations - hash tables for user/video embeddings"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Hash Maps Deep Dive",
+          "activities": [
+            "Hash table theory with AI explanations connecting to PyTorch dict operations",
+            "Python dict internals, collision handling, and performance optimization",
+            "AI-generated flashcards for hash table complexity and ML applications"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "ML System Applications",
+          "problems": [
+            {
+              "name": "Valid Anagram",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/valid-anagram/",
+              "neetcode_url": "https://neetcode.io/problems/is-anagram",
+              "description": "Connect to text preprocessing in NLP",
+              "ai_prompt": "How does anagram detection relate to text normalization and preprocessing in NLP pipelines?"
+            },
+            {
+              "name": "Group Anagrams",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/group-anagrams/",
+              "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+              "description": "Relate to clustering algorithms in ML",
+              "ai_prompt": "Compare this grouping approach to clustering algorithms. How does the hash key strategy relate to feature engineering?"
+            },
+            {
+              "name": "Top K Frequent Elements",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/",
+              "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+              "description": "Connect to attention mechanisms",
+              "ai_prompt": "How does selecting top-K elements relate to attention mechanisms and ranking in recommendation systems?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Implementation & Mock Interview",
+          "activities": [
+            "Implement custom hash table class with AI assistance and ML optimizations",
+            "AI Mock Interview: Easy hash table problem with ML connections",
+            "ML Deep Dive: Instagram Feed Ranking - hash tables for feature storage"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Array Ops & SQL",
+          "activities": [
+            "SQL essentials for data engineers - window functions and CTEs",
+            "Array indexing patterns connecting to tensor operations",
+            "AI explanation of prefix sums relating to cumulative distributions"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Array & String Problems",
+          "problems": [
+            {
+              "name": "Product of Array Except Self",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+              "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+              "description": "Relate to Jacobian calculations",
+              "ai_prompt": "How does this array transformation technique relate to element-wise operations in NumPy and vectorized computations in ML frameworks like PyTorch?"
+            },
+            {
+              "name": "Valid Sudoku",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/valid-sudoku/",
+              "neetcode_url": "https://neetcode.io/problems/valid-sudoku",
+              "description": "AI coaching on constraint satisfaction",
+              "ai_prompt": "How does constraint satisfaction in Sudoku relate to hyperparameter tuning in ML?"
+            },
+            {
+              "name": "Encode and Decode Strings",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/encode-and-decode-strings/",
+              "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
+              "description": "Connect to tokenization",
+              "ai_prompt": "Compare this string encoding to tokenization methods like BPE. What are the trade-offs?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Technique Practice & Big Data",
+          "activities": [
+            "Two-pointer technique practice with AI-generated variants",
+            "Big Data Study: Spark and Hadoop ecosystem overview",
+            "AI quiz on array complexity and SQL optimization"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google Focus",
+          "activities": [
+            "Study Google's interview format and ML infrastructure",
+            "AI analysis of Google-tagged array problems on LeetCode",
+            "Mathematical problem-solving approaches (Google style)"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Google-Tagged Problems",
+          "problems": [
+            {
+              "name": "Longest Consecutive Sequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-consecutive-sequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
+              "description": "Union-Find connection",
+              "ai_prompt": "How can a Union-Find data structure be used here? How does it relate to clustering problems?"
+            },
+            {
+              "name": "Product of Array Except Self",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/",
+              "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+              "description": "Revisit with multiple approaches",
+              "ai_prompt": "Compare the prefix-sum approach to a division-based approach. What are the numerical stability trade-offs, similar to issues in deep learning?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Mock & System Study",
+          "activities": [
+            "AI Mock Interview: Google format (45 min problem + follow-ups)",
+            "ML System Study: Google's TensorFlow Extended (TFX) pipeline",
+            "Plan Friday's contest strategy with AI optimization"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Contest Prep & Speed Training",
+          "activities": [
+            "AI-guided speed practice techniques and contest strategy",
+            "Contest problem identification and time management",
+            "Review week's patterns with AI-generated comprehensive summary"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Speed Drills & Contest Simulation",
+          "problems": [
+            {
+              "name": "Speed Practice",
+              "description": "10 easy array problems in 30 minutes (AI-timed)",
+              "difficulty": "Easy",
+              "is_practice": true
+            },
+            {
+              "name": "Two Sum Variants",
+              "description": "Practice with AI-generated test cases",
+              "difficulty": "Easy/Medium",
+              "is_practice": true
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Performance Analysis & Planning",
+          "activities": [
+            "AI analysis of week's performance and improvement areas",
+            "Prepare contest environment and AI-assisted strategy",
+            "Weekend project planning with AI assistance"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Real-Time Anomaly Detection System",
+          "duration": 180,
+          "description": "Build a system to detect anomalies in streaming data using advanced hashing and array techniques. The system will be designed to handle high-throughput data streams, a common requirement in FAANG-level production environments. You will use AI to help design the data structures, optimize the algorithms, and generate test cases with various anomaly patterns.",
+          "focus_areas": [
+            "Sliding Window with Hashing",
+            "High-Throughput Data Structures",
+            "Real-Time Analytics",
+            "AI-Assisted Algorithm Design"
+          ],
+          "problems": [
+            {
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+              "description": "Apply sliding window with deque to streaming anomaly data"
+            },
+            {
+              "name": "Contains Duplicate II",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/contains-duplicate-ii/",
+              "neetcode_url": "https://neetcode.io/problems/contains-duplicate-ii",
+              "description": "Detect duplicates within a moving window of k"
+            },
+            {
+              "name": "Longest Substring Without Repeating Characters",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-without-repeat",
+              "description": "Classic sliding window for unique substring length"
+            }
+          ],
+          "tasks": [
+            "Design a custom hash function for streaming data elements with AI guidance.",
+            "Implement a rolling hash to efficiently compare sliding windows of data.",
+            "Develop a system to flag statistical anomalies (e.g., sudden changes in mean or variance) in real-time.",
+            "Use AI to generate a synthetic data stream with injected anomalies for robust testing."
+          ],
+          "deliverable": "A GitHub repository with the complete project, a detailed README explaining the design and performance, and a demonstration script."
+        },
+        "sunday": {
+          "title": "Advanced ML System Study & Week 2 Prep",
+          "duration": 120,
+          "description": "Deep dive into the architecture of a large-scale content recommendation system like Netflix's, focusing on how data structures from this week are used for candidate generation and filtering. Use AI to simulate architectural discussions and trade-off analysis.",
+          "focus_areas": [
+            "Candidate Generation at Scale",
+            "Real-Time Feature Stores",
+            "System Design Trade-offs",
+            "AI-Powered Architectural Analysis"
+          ],
+          "problems": [
+            {
+              "name": "Design YouTube Recommendation System",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1043745/youtube-recommendation-system"
+            }
+          ],
+          "tasks": [
+            "Map out the data flow in the Netflix recommendation pipeline with AI assistance.",
+            "Analyze how hash-based techniques are used for efficient candidate retrieval from a massive content catalog.",
+            "Use an AI partner to debate the pros and cons of different data structures for storing user profiles and content metadata.",
+            "Prepare for Week 2 by using AI to generate a summary of Two Pointer techniques and their applications in ML."
+          ],
+          "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and your architectural insights."
+        }
+      }
+    },
+    "ai_prompts": [
+      {
+        "category": "Environment Setup",
+        "text": "Help me configure the optimal AI-enhanced development environment for ML engineering interviews. Include VS Code extensions, AI tools (Claude, GPT-4, Copilot), and custom prompt templates for connecting DS&A to ML systems."
+      },
+      {
+        "category": "ML Connections",
+        "text": "Explain how hash tables relate to my ML background - embedding lookups, attention mechanisms, vocabulary mappings in transformers. Provide coding examples connecting Two Sum to transformer operations."
+      },
+      {
+        "category": "Learning Strategy",
+        "text": "Create a personalized study plan based on my ML research background. Identify knowledge gaps in DS&A and suggest optimal learning sequence for FAANG interviews with AI assistance."
+      }
+    ]
+  }
+}

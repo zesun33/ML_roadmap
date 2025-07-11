@@ -1,0 +1,46 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      
+    - name: Setup Git
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        
+    - name: Deploy to gh-pages
+      run: |
+        # Create a clean gh-pages branch
+        git checkout --orphan gh-pages-temp
+        
+        # Copy ALL files from app directory to root (including hidden files and directories)
+        cp -r app/. .
+        
+        # Remove source directories and files we don't want in deployment
+        rm -rf app/ docs/ research/ tools/ scripts/ practice/ detailed_roadmap/
+        rm -f *.md *.code-workspace .gitignore netlify.toml
+        rm -f neetcode_verification_report.json link_verifier.py
+        
+        # Commit and force push to gh-pages
+        git add .
+        git commit -m "🚀 Auto-deploy: $(date '+%Y-%m-%d %H:%M:%S')"
+        git branch -D gh-pages || true
+        git branch -m gh-pages
+        git push -f origin gh-pages
+        
+        # Return to main branch
+        git checkout main
+
+permissions:
+  contents: write 

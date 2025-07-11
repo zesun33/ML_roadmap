@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 10
+  },
+  "week": {
+    "title": "Advanced Tree Algorithms + Meta ML Infrastructure",
+    "objectives": [
+      "Master advanced tree algorithms including Segment Trees, Fenwick Trees (BIT), and Tries",
+      "Connect advanced tree structures to real-time aggregation and social graph problems at Meta",
+      "Build a real-time social graph analyzer project",
+      "Deepen understanding of NLP applications of Tries"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Segment Trees & Real-time ML",
+          "activities": [
+            "Segment tree fundamentals with AI-enhanced mathematical foundations",
+            "AI explanation connecting segment trees to real-time aggregation in ML pipelines",
+            "Range query optimization with AI complexity analysis and implementation strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Segment Tree Problems",
+          "problems": [
+            {
+              "name": "Range Sum Query - Mutable",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+              "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+              "description": "AI coaching on segment tree construction",
+              "ai_prompt": "Explain the process of building the segment tree and the logic for the `update` and `query` functions. How does the tree structure allow for O(log n) performance?"
+            },
+            {
+              "name": "Count of Smaller Numbers After Self",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
+              "neetcode_url": "https://neetcode.io/problems/count-of-smaller-numbers-after-self",
+              "description": "Advanced segment tree/BIT applications",
+              "ai_prompt": "This problem can be solved with a Segment Tree, BIT, or a modified Merge Sort. Explain the Segment Tree approach. What range of values do you need to cover?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Lazy Propagation & Meta Ranking",
+          "activities": [
+            "Implement AI-optimized segment trees with lazy propagation",
+            "ML System Study: Meta's real-time content ranking and engagement prediction",
+            "Plan binary indexed trees with AI guidance and optimization"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Binary Indexed Trees & Social Graphs",
+          "activities": [
+            "Binary Indexed Tree (Fenwick Tree) with AI visualization and mathematical proofs",
+            "AI explanation connecting BIT to incremental learning and online ML algorithms",
+            "Comparison of BIT vs Segment Tree with AI trade-off analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Binary Indexed Tree Problems",
+          "problems": [
+            {
+              "name": "Range Sum Query - Mutable",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/range-sum-query-mutable/",
+              "neetcode_url": "https://neetcode.io/problems/range-sum-query-mutable",
+              "description": "BIT implementation with AI optimization",
+              "ai_prompt": "Re-implement this using a Binary Indexed Tree. Explain the `update` and `query` logic based on the bit manipulation of indices. When is a BIT preferred over a Segment Tree?"
+            },
+            {
+              "name": "Count of Range Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-of-range-sum/",
+              "neetcode_url": "https://neetcode.io/problems/count-of-range-sum",
+              "description": "Advanced BIT applications with coordinate compression",
+              "ai_prompt": "Explain how this problem can be transformed and solved using a BIT after calculating prefix sums and performing coordinate compression on these sums."
+            },
+            {
+              "name": "Reverse Pairs",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/reverse-pairs/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-pairs",
+              "description": "Merge sort + BIT optimization",
+              "ai_prompt": "Compare the classic Merge Sort solution with a solution using a Binary Indexed Tree. What are the conceptual similarities and implementation differences?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Friend Recs",
+          "activities": [
+            "AI Mock Interview: Advanced tree problem with real-time constraints",
+            "Study social graph algorithms and friend recommendation systems",
+            "SQL Practice: Advanced window functions for social media analytics"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Trie Applications & Meta Eng",
+          "activities": [
+            "Advanced Trie applications with AI optimization for memory and performance",
+            "AI explanation connecting Tries to tokenization and vocabulary management in NLP",
+            "Compressed Tries and radix trees with AI mathematical analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Trie & Autocomplete Problems",
+          "problems": [
+            {
+              "name": "Word Search II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Trie + DFS optimization with pruning",
+              "ai_prompt": "Revisit this problem. Explain how building a Trie of the dictionary words allows you to prune the DFS search on the board efficiently."
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Production Trie implementation",
+              "ai_prompt": "Design a Trie node to store not just character links but also search frequencies. How would you return the top 3 results at each prefix? Discuss the data structures needed for this."
+            },
+            {
+              "name": "Replace Words",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/replace-words/",
+              "neetcode_url": "https://neetcode.io/problems/replace-words",
+              "description": "Connect to text preprocessing in ML pipelines",
+              "ai_prompt": "How does using a Trie provide an efficient way to find the shortest root for each word in the sentence? Relate this to tokenization strategies in NLP."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Prod Trie & Meta NLP",
+          "activities": [
+            "Implement production-level Trie with AI memory optimization techniques",
+            "ML Study: Meta's NLP infrastructure and real-time text processing",
+            "Plan Meta-specific interview preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Trees & Meta Prep",
+          "activities": [
+            "Meta's fast execution culture and real-time system requirements",
+            "AI analysis of Meta-tagged tree problems and performance optimization",
+            "Advanced tree traversal techniques with AI complexity optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Tree Traversal",
+          "problems": [
+            {
+              "name": "Serialize and Deserialize N-ary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/",
+              "description": "Advanced serialization with AI",
+              "ai_prompt": "Design a serialization format for an N-ary tree. Compare a recursive preorder approach with a level-order (BFS) approach. Discuss handling of null children."
+            },
+            {
+              "name": "Vertical Order Traversal of a Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/vertical-order-traversal-of-a-binary-tree",
+              "description": "Complex traversal with multiple criteria",
+              "ai_prompt": "This requires sorting by column, then row, then value. Explain how to use a BFS or DFS approach while storing nodes with their coordinates, and then perform a final sort."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Meta Mock & PyTorch Study",
+          "activities": [
+            "AI Mock Interview: Meta format (speed + real-time optimization focus)",
+            "Study Meta's ML infrastructure including PyTorch distributed training",
+            "Plan advanced optimization with AI strategic guidance"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Tree Optimization & Contest",
+          "activities": [
+            "Advanced tree optimization techniques with AI performance analysis",
+            "AI explanation of tree algorithms in production ML system architectures",
+            "Contest-level tree problem strategies with AI tactical guidance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Tree DP Problems",
+          "problems": [
+            {
+              "name": "Binary Tree Maximum Path Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+              "description": "Advanced tree DP with AI optimization",
+              "ai_prompt": "Explain the recursive helper function. What two values does it need to compute at each node to solve the problem? (i.e., max path through the node vs. max path from the node upwards)"
+            },
+            {
+              "name": "Recover Binary Search Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/recover-binary-search-tree",
+              "description": "Complex tree restoration algorithm",
+              "ai_prompt": "The key insight is that an inorder traversal of a corrupted BST will have one or two 'dips'. Explain how to find the two swapped nodes using an inorder traversal. Discuss the O(1) space (Morris traversal) solution."
+            },
+            {
+              "name": "House Robber III",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/house-robber-iii/",
+              "neetcode_url": "https://neetcode.io/problems/house-robber-iii",
+              "description": "Tree DP with optimal substructure",
+              "ai_prompt": "Define the DP state for a node. Why is it optimal to return a pair of values from the recursive calls: one for robbing the current house, and one for not robbing it?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Hacker Cup & Analysis",
+          "activities": [
+            "Meta Hacker Cup practice with AI real-time coaching",
+            "AI analysis of contest performance and advanced tree algorithm mastery",
+            "Weekend project planning with Meta ML system integration"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Real-time Social Graph Analyzer",
+          "duration": 360,
+          "description": "Inspired by Meta's social graph, build a system that can analyze and query a large graph of users and their connections in real-time. The project will use advanced tree and graph structures for efficient data aggregation and querying.",
+          "focus_areas": [
+            "Real-time Data Aggregation",
+            "Hierarchical Relationship Analysis",
+            "Content Categorization with Tries",
+            "Friend Recommendation Engine"
+          ],
+          "tasks": [
+            "Design a data structure to represent the social graph.",
+            "Use a Segment Tree or BIT to track and query real-time engagement metrics (e.g., likes in the last hour).",
+            "Implement a Trie to categorize and search user-generated content.",
+            "Develop a friend recommendation algorithm based on mutual connections and interests."
+          ],
+          "deliverable": "A deployed application and GitHub repository showcasing the social graph analyzer with a performance benchmark report.",
+          "problems": [
+            {
+              "name": "Implement Stack using Queues",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+              "description": "Stack-based string cleanup"
+            },
+            {
+              "name": "Design Circular Queue",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
+              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
+              "description": "Array-based circular queue implementation"
+            },
+            {
+              "name": "Maximal Rectangle",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack usage in binary matrix to compute maximal area"
+            }
+          ]
+        },
+        "sunday": {
+          "title": "Advanced Mock Interview & TikTok Deep Dive",
+          "duration": 300,
+          "description": "Engage in a mock interview focused on Meta-style tree and real-time system design problems, followed by a deep dive into the architecture of TikTok's formidable recommendation algorithm.",
+          "focus_areas": [
+            "Real-time Algorithm Design",
+            "Large-Scale System Architecture",
+            "Recommendation Engine Internals",
+            "Comparative Technology Strategy"
+          ],
+          "tasks": [
+            "Complete a 90-minute AI-led mock interview on a hard tree problem and a system design question for a real-time feature like Instagram's feed.",
+            "Analyze AI feedback on your speed, optimization, and real-time design trade-offs.",
+            "Study the key components of TikTok's recommendation system, including user profiling, feature engineering, and the 'For You' page algorithm.",
+            "Use AI to write a comparative analysis of Meta's and TikTok's approaches to content recommendation and user engagement."
+          ],
+          "deliverable": "A markdown document with your interview analysis and a detailed breakdown of TikTok's recommendation architecture compared to Meta's.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
