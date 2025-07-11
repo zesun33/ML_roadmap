@@ -192,41 +192,43 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Full FAANG On-site Simulation",
-        "duration": 240,
-        "description": "A final, full-length simulation of a 4-round FAANG on-site interview loop. This should be done with peers or a professional service to maximize realism. The goal is peak performance and stamina.",
-        "focus_areas": [
-          "Endurance",
-          "Mental Agility",
-          "Consistent Communication",
-          "Peak Performance"
-        ],
-        "tasks": [
-          "Round 1 (45 min): Coding, Hard (e.g., Advanced DP/Graphs).",
-          "Round 2 (45 min): Behavioral Deep Dive.",
-          "Round 3 (45 min): System Design (e.g., Design a distributed cache).",
-          "Round 4 (45 min): Coding, Hard (e.g., Advanced Trees/Heaps)."
-        ],
-        "deliverable": "A final self-assessment score (1-10) for your perceived performance and a one-paragraph summary of your readiness."
-      },
-      "sunday": {
-        "title": "Rest, Reflect, and Look Ahead",
-        "duration": 120,
-        "description": "The hard work is done. This day is for rest, reflection on the incredible journey, and looking ahead to the next steps. No coding required.",
-        "focus_areas": [
-          "Mental Recovery",
-          "Confidence Solidification",
-          "Career Planning",
-          "Acknowledging Progress"
-        ],
-        "tasks": [
-          "Review your progress from Week 1 to Week 19.",
-          "Write down 5 key strengths you've developed.",
-          "Update your LinkedIn profile and resume with your new projects and skills.",
-          "Begin lightly researching teams and roles at your target companies."
-        ],
-        "deliverable": "An updated, polished resume and a one-page summary of your key projects and skills."
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Full FAANG On-site Simulation",
+          "duration": 240,
+          "description": "A final, full-length simulation of a 4-round FAANG on-site interview loop. This should be done with peers or a professional service to maximize realism. The goal is peak performance and stamina.",
+          "focus_areas": [
+            "Endurance",
+            "Mental Agility",
+            "Consistent Communication",
+            "Peak Performance"
+          ],
+          "tasks": [
+            "Round 1 (45 min): Coding, Hard (e.g., Advanced DP/Graphs).",
+            "Round 2 (45 min): Behavioral Deep Dive.",
+            "Round 3 (45 min): System Design (e.g., Design a distributed cache).",
+            "Round 4 (45 min): Coding, Hard (e.g., Advanced Trees/Heaps)."
+          ],
+          "deliverable": "A final self-assessment score (1-10) for your perceived performance and a one-paragraph summary of your readiness."
+        },
+        "sunday": {
+          "title": "Rest, Reflect, and Look Ahead",
+          "duration": 120,
+          "description": "The hard work is done. This day is for rest, reflection on the incredible journey, and looking ahead to the next steps. No coding required.",
+          "focus_areas": [
+            "Mental Recovery",
+            "Confidence Solidification",
+            "Career Planning",
+            "Acknowledging Progress"
+          ],
+          "tasks": [
+            "Review your progress from Week 1 to Week 19.",
+            "Write down 5 key strengths you've developed.",
+            "Update your LinkedIn profile and resume with your new projects and skills.",
+            "Begin lightly researching teams and roles at your target companies."
+          ],
+          "deliverable": "An updated, polished resume and a one-page summary of your key projects and skills."
+        }
       }
     }
   }

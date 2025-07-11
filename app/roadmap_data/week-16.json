@@ -247,41 +247,43 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Portfolio Project: Live Demo & Defense",
-        "duration": 180,
-        "description": "Simulate a portfolio review session. Present one of your key projects to a panel (peers or AI personas) and defend your technical decisions. The goal is to demonstrate ownership, deep understanding, and strong communication skills under pressure.",
-        "focus_areas": [
-          "Live Presentation",
-          "Technical Deep Dive",
-          "Handling Q&A",
-          "Articulating Trade-offs"
-        ],
-        "tasks": [
-          "Deliver a 20-minute presentation on your project.",
-          "Field 30 minutes of deep-dive questions from your review panel.",
-          "Whiteboard a potential extension or improvement to your system.",
-          "Use AI to get feedback on your performance and identify areas for improvement."
-        ],
-        "deliverable": "A recording of your presentation and a document summarizing the feedback received and your action items."
-      },
-      "sunday": {
-        "title": "Behavioral Interview Prep for Technical Leaders",
-        "duration": 120,
-        "description": "Focus on behavioral questions tailored for senior/leadership roles. Use the STAR (Situation, Task, Action, Result) method to structure compelling stories about your past projects and experiences, emphasizing your leadership, impact, and decision-making process.",
-        "focus_areas": [
-          "STAR Method",
-          "Leadership & Influence",
-          "Conflict Resolution",
-          "Project Ownership"
-        ],
-        "tasks": [
-          "Draft 5 detailed STAR stories based on your portfolio projects.",
-          "Use AI to refine your stories for maximum impact and clarity.",
-          "Practice answering common behavioral questions with an AI mock interviewer.",
-          "Prepare questions to ask your interviewers that demonstrate your technical curiosity and leadership potential."
-        ],
-        "deliverable": "A document containing 5 polished STAR stories ready for interviews."
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Live Demo & Defense",
+          "duration": 180,
+          "description": "Simulate a portfolio review session. Present one of your key projects to a panel (peers or AI personas) and defend your technical decisions. The goal is to demonstrate ownership, deep understanding, and strong communication skills under pressure.",
+          "focus_areas": [
+            "Live Presentation",
+            "Technical Deep Dive",
+            "Handling Q&A",
+            "Articulating Trade-offs"
+          ],
+          "tasks": [
+            "Deliver a 20-minute presentation on your project.",
+            "Field 30 minutes of deep-dive questions from your review panel.",
+            "Whiteboard a potential extension or improvement to your system.",
+            "Use AI to get feedback on your performance and identify areas for improvement."
+          ],
+          "deliverable": "A recording of your presentation and a document summarizing the feedback received and your action items."
+        },
+        "sunday": {
+          "title": "Behavioral Interview Prep for Technical Leaders",
+          "duration": 120,
+          "description": "Focus on behavioral questions tailored for senior/leadership roles. Use the STAR (Situation, Task, Action, Result) method to structure compelling stories about your past projects and experiences, emphasizing your leadership, impact, and decision-making process.",
+          "focus_areas": [
+            "STAR Method",
+            "Leadership & Influence",
+            "Conflict Resolution",
+            "Project Ownership"
+          ],
+          "tasks": [
+            "Draft 5 detailed STAR stories based on your portfolio projects.",
+            "Use AI to refine your stories for maximum impact and clarity.",
+            "Practice answering common behavioral questions with an AI mock interviewer.",
+            "Prepare questions to ask your interviewers that demonstrate your technical curiosity and leadership potential."
+          ],
+          "deliverable": "A document containing 5 polished STAR stories ready for interviews."
+        }
       }
     }
   }

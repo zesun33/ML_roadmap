@@ -278,94 +278,96 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Capstone Build \u2013 Autonomous Decision-Tree Navigator",
-        "duration": 240,
-        "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
-        "focus_areas": [
-          "Graph Path-Planning (A*, BFS)",
-          "Dynamic Programming Route Optimization",
-          "GNN for Traffic Prediction",
-          "Tree-Based Decision Logic"
-        ],
-        "problems": [
-          {
-            "name": "Word Ladder",
-            "difficulty": "Hard",
-            "leetcode_url": "https://leetcode.com/problems/word-ladder/",
-            "neetcode_url": "https://neetcode.io/problems/word-ladder",
-            "description": "Shortest-path BFS with heuristics"
-          },
-          {
-            "name": "Alien Dictionary",
-            "difficulty": "Hard",
-            "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
-            "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
-            "description": "Topological ordering in unknown alphabet"
-          },
-          {
-            "name": "Binary Tree Maximum Path Sum",
-            "difficulty": "Hard",
-            "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-            "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
-            "description": "DFS with global optimum tracking"
-          }
-        ],
-        "tasks": [
-          "Implement path-planning graph algorithms (BFS + A*)",
-          "Add DP route-optimization under fuel & time constraints",
-          "Integrate GNN predictor for traffic flow",
-          "Tree-based decision engine for junction handling",
-          "Benchmark vs. real Tesla Autopilot logs",
-          "Write AI-generated README + architecture diagram",
-          "Load-test navigator on synthetic traffic graphs",
-          "Push to GitHub & create demo video"
-        ],
-        "deliverable": "GitHub repository with the complete navigator, a detailed README, and a video demo of the system making decisions in the simulation."
-      },
-      "sunday": {
-        "title": "Advanced ML System Study: Netflix & Mock Interview",
-        "duration": 180,
-        "description": "Deep dive into the architecture of Netflix's recommendation engine and participate in a mock interview covering graphs and system design.",
-        "focus_areas": [
-          "System Design at Scale",
-          "Candidate Generation & Ranking",
-          "Real-Time Feature Engineering",
-          "Graph Traversal & DP"
-        ],
-        "problems": [
-          {
-            "name": "Serialize and Deserialize Binary Tree",
-            "difficulty": "Hard",
-            "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-            "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
-          },
-          {
-            "name": "Course Schedule",
-            "difficulty": "Medium",
-            "leetcode_url": "https://leetcode.com/problems/course-schedule/",
-            "neetcode_url": "https://neetcode.io/problems/course-schedule"
-          },
-          {
-            "name": "Number of Connected Components",
-            "difficulty": "Medium",
-            "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
-          },
-          {
-            "name": "Clone Graph",
-            "difficulty": "Medium",
-            "leetcode_url": "https://leetcode.com/problems/clone-graph/",
-            "neetcode_url": "https://neetcode.io/problems/clone-graph"
-          }
-        ],
-        "tasks": [
-          "90-min live coding (graph traversal + DP)",
-          "30-min system design: Real-time Routing Service",
-          "Update progress metrics & charts",
-          "Identify weak areas \u2192 feed into Week 7 plan",
-          "Generate AI prompts for DP deep dive"
-        ],
-        "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Capstone Build – Autonomous Decision-Tree Navigator",
+          "duration": 240,
+          "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
+          "focus_areas": [
+            "Graph Path-Planning (A*, BFS)",
+            "Dynamic Programming Route Optimization",
+            "GNN for Traffic Prediction",
+            "Tree-Based Decision Logic"
+          ],
+          "problems": [
+            {
+              "name": "Word Ladder",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder",
+              "description": "Shortest-path BFS with heuristics"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+              "description": "Topological ordering in unknown alphabet"
+            },
+            {
+              "name": "Binary Tree Maximum Path Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+              "description": "DFS with global optimum tracking"
+            }
+          ],
+          "tasks": [
+            "Implement path-planning graph algorithms (BFS + A*)",
+            "Add DP route-optimization under fuel & time constraints",
+            "Integrate GNN predictor for traffic flow",
+            "Tree-based decision engine for junction handling",
+            "Benchmark vs. real Tesla Autopilot logs",
+            "Write AI-generated README + architecture diagram",
+            "Load-test navigator on synthetic traffic graphs",
+            "Push to GitHub & create demo video"
+          ],
+          "deliverable": "GitHub repository with the complete navigator, a detailed README, and a video demo of the system making decisions in the simulation."
+        },
+        "sunday": {
+          "title": "Advanced ML System Study: Netflix & Mock Interview",
+          "duration": 180,
+          "description": "Deep dive into the architecture of Netflix's recommendation engine and participate in a mock interview covering graphs and system design.",
+          "focus_areas": [
+            "System Design at Scale",
+            "Candidate Generation & Ranking",
+            "Real-Time Feature Engineering",
+            "Graph Traversal & DP"
+          ],
+          "problems": [
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
+            },
+            {
+              "name": "Course Schedule",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule"
+            },
+            {
+              "name": "Number of Connected Components",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
+            },
+            {
+              "name": "Clone Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+              "neetcode_url": "https://neetcode.io/problems/clone-graph"
+            }
+          ],
+          "tasks": [
+            "90-min live coding (graph traversal + DP)",
+            "30-min system design: Real-time Routing Service",
+            "Update progress metrics & charts",
+            "Identify weak areas → feed into Week 7 plan",
+            "Generate AI prompts for DP deep dive"
+          ],
+          "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."
+        }
       }
     }
   }

@@ -188,41 +188,43 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Design Your 30-60-90 Day Plan",
-        "duration": 120,
-        "description": "Strategically plan your first three months in your new role to ensure a fast start and long-term success. This plan will be your personal roadmap for making an impact, building relationships, and learning effectively.",
-        "focus_areas": [
-          "Onboarding & Learning",
-          "Building Relationships",
-          "Early Wins",
-          "Long-term Impact"
-        ],
-        "tasks": [
-          "**First 30 Days (Learn):** Define goals for understanding the team's codebase, tools, and processes. Schedule 1-on-1s with every team member.",
-          "**First 60 Days (Contribute):** Identify goals for completing your first project, making meaningful code contributions, and understanding the team's architecture.",
-          "**First 90 Days (Own):** Set goals for taking ownership of a small feature or component, providing value in team meetings, and establishing your reputation as a reliable engineer.",
-          "Use AI to refine your plan and add specific, measurable metrics for each goal."
-        ],
-        "deliverable": "A one-page document outlining your 30-60-90 day plan for your new role."
-      },
-      "sunday": {
-        "title": "Prepare for Day 1",
-        "duration": 60,
-        "description": "Final preparations for a successful start to your new job. This is about logistics and mindset, ensuring you walk in on your first day feeling prepared, confident, and excited.",
-        "focus_areas": [
-          "Logistics",
-          "Mindset",
-          "Professionalism",
-          "Excitement"
-        ],
-        "tasks": [
-          "Confirm all HR paperwork is complete.",
-          "Prepare your home office or commute plan.",
-          "Pick out your first-day outfit.",
-          "Relax and get a great night's sleep, ready to start the next chapter of your career."
-        ],
-        "deliverable": "A state of complete readiness and excitement for your new role."
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Design Your 30-60-90 Day Plan",
+          "duration": 120,
+          "description": "Strategically plan your first three months in your new role to ensure a fast start and long-term success. This plan will be your personal roadmap for making an impact, building relationships, and learning effectively.",
+          "focus_areas": [
+            "Onboarding & Learning",
+            "Building Relationships",
+            "Early Wins",
+            "Long-term Impact"
+          ],
+          "tasks": [
+            "**First 30 Days (Learn):** Define goals for understanding the team's codebase, tools, and processes. Schedule 1-on-1s with every team member.",
+            "**First 60 Days (Contribute):** Identify goals for completing your first project, making meaningful code contributions, and understanding the team's architecture.",
+            "**First 90 Days (Own):** Set goals for taking ownership of a small feature or component, providing value in team meetings, and establishing your reputation as a reliable engineer.",
+            "Use AI to refine your plan and add specific, measurable metrics for each goal."
+          ],
+          "deliverable": "A one-page document outlining your 30-60-90 day plan for your new role."
+        },
+        "sunday": {
+          "title": "Prepare for Day 1",
+          "duration": 60,
+          "description": "Final preparations for a successful start to your new job. This is about logistics and mindset, ensuring you walk in on your first day feeling prepared, confident, and excited.",
+          "focus_areas": [
+            "Logistics",
+            "Mindset",
+            "Professionalism",
+            "Excitement"
+          ],
+          "tasks": [
+            "Confirm all HR paperwork is complete.",
+            "Prepare your home office or commute plan.",
+            "Pick out your first-day outfit.",
+            "Relax and get a great night's sleep, ready to start the next chapter of your career."
+          ],
+          "deliverable": "A state of complete readiness and excitement for your new role."
+        }
       }
     }
   }
