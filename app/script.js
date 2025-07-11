@@ -9,7 +9,7 @@ function roadmapApp() {
         phases: [],
         totalWeeks: 20,
         currentWeek: 1,
-        activeTab: 'overview',
+        activeTab: 'roadmap',
 
         // Progress tracking
         sessionCompletions: {},
@@ -24,6 +24,10 @@ function roadmapApp() {
         currentDate: new Date(),
         selectedCalendarDay: null,
 
+        // Search functionality
+        searchQuery: '',
+        showSearch: false,
+
         // Initialize the application
         async init() {
             console.log('🚀 Initializing ML-FAANG Roadmap App...');
@@ -35,8 +39,10 @@ function roadmapApp() {
                 // Load saved progress
                 this.loadProgress();
 
-                // Initialize charts
-                this.initializeCharts();
+                // Initialize charts after a short delay to ensure DOM is ready
+                setTimeout(() => {
+                    this.initializeCharts();
+                }, 100);
 
                 // Set current week based on start date
                 this.setCurrentWeek();
@@ -68,14 +74,15 @@ function roadmapApp() {
 
                 // If this is the first load, set the phase and total weeks data
                 if (!this.phases.length) {
-                    this.phases = data.metadata.phases || [];
+                    // Use phases from data if available, otherwise use default phases
+                    this.phases = data.metadata.phases || this.getDefaultPhases();
                     this.totalWeeks = data.metadata?.total_weeks || 20;
                 }
                 
                 // Replace the entire roadmapData with just the current week's data
                 this.roadmapData = data;
 
-                console.log(`✅ Loaded data for week ${weekNumber}`);
+                console.log(`✅ Loaded data for week ${weekNumber}`, this.roadmapData);
 
             } catch (error) {
                 console.error(`❌ Failed to load data for week ${weekNumber}:`, error);
@@ -496,11 +503,111 @@ function roadmapApp() {
             // In a real app, this would send to AI service
             alert('AI setup complete! Your personalized roadmap is ready.');
             this.showAIPrompt = false;
+        },
+
+        // Get default phases if not provided in data
+        getDefaultPhases() {
+            return [
+                {
+                    number: 1,
+                    name: "Foundation & Basic Patterns",
+                    description: "Master fundamental data structures and algorithms with AI coaching",
+                    weeks: [1, 2, 3, 4],
+                    focus_areas: ["Arrays & Hashing", "Two Pointers", "Sliding Window", "Binary Search"]
+                },
+                {
+                    number: 2,
+                    name: "Advanced Data Structures",
+                    description: "Deep dive into complex data structures and algorithms",
+                    weeks: [5, 6, 7, 8],
+                    focus_areas: ["Linked Lists", "Trees", "Heaps", "Graphs"]
+                },
+                {
+                    number: 3,
+                    name: "Dynamic Programming & Greedy",
+                    description: "Master optimization techniques and mathematical problem solving",
+                    weeks: [9, 10, 11, 12],
+                    focus_areas: ["Dynamic Programming", "Greedy Algorithms", "Backtracking", "Math"]
+                },
+                {
+                    number: 4,
+                    name: "System Design & Advanced Topics",
+                    description: "Learn system design and advanced algorithmic concepts",
+                    weeks: [13, 14, 15, 16],
+                    focus_areas: ["System Design", "Advanced Graphs", "Trie", "Intervals"]
+                },
+                {
+                    number: 5,
+                    name: "Interview Mastery & Specialization",
+                    description: "Company-specific preparation and interview mastery",
+                    weeks: [17, 18, 19, 20],
+                    focus_areas: ["Mock Interviews", "Company Prep", "Optimization", "Final Projects"]
+                }
+            ];
+        },
+
+        // Search functionality
+        toggleSearch() {
+            this.showSearch = !this.showSearch;
+            if (this.showSearch) {
+                setTimeout(() => {
+                    const searchInput = document.getElementById('search-input');
+                    if (searchInput) searchInput.focus();
+                }, 100);
+            }
+        },
+
+        searchProblems() {
+            if (!this.searchQuery || !this.roadmapData?.week?.daily_schedule) return [];
+            
+            const query = this.searchQuery.toLowerCase();
+            const allProblems = [];
+            
+            // Extract all problems from the current week
+            Object.values(this.roadmapData.week.daily_schedule).forEach(day => {
+                Object.values(day).forEach(session => {
+                    if (session.problems) {
+                        session.problems.forEach(problem => {
+                            allProblems.push(problem);
+                        });
+                    }
+                });
+            });
+            
+            return allProblems.filter(problem => 
+                problem.name.toLowerCase().includes(query) ||
+                problem.difficulty.toLowerCase().includes(query) ||
+                (problem.description && problem.description.toLowerCase().includes(query))
+            );
+        },
+
+        selectProblem(problem) {
+            this.selectedProblem = problem;
+            this.showSearch = false;
+            this.searchQuery = '';
+        },
+
+        // Get week progress for display
+        getWeekProgress(weekNumber) {
+            // This is a simplified version - in a real app, you'd calculate actual progress
+            const savedProgress = this.sessionCompletions[`week-${weekNumber}`];
+            return savedProgress ? savedProgress : 0;
+        },
+
+        // Helper to format time
+        formatTime(timeString) {
+            if (!timeString) return '';
+            return timeString.replace(/AM|PM/g, match => match.toLowerCase());
+        },
+
+        // Get current phase based on week
+        getCurrentPhase() {
+            return this.phases.find(phase => 
+                phase.weeks && phase.weeks.includes(this.currentWeek)
+            ) || this.phases[0];
         }
     };
 }
 
-// Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', function () {
-    console.log('📋 DOM loaded, initializing app...');
-});
+// Log when script is loaded
+console.log('📋 ML Roadmap script loaded successfully. Alpine.js will initialize the app automatically.');
