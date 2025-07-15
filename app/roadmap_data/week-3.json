@@ -201,20 +201,20 @@
               "ai_prompt": "Explain the amortized O(1) complexity of the enqueue and dequeue operations. How does this relate to amortized analysis in other algorithms?"
             },
             {
-              "name": "Sliding Window Maximum",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
-              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
-              "description": "Deque implementation with AI guidance",
-              "ai_prompt": "Revisit this problem from a queue perspective. Why is a double-ended queue (deque) the perfect data structure here?"
+              "name": "Moving Average from Data Stream",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/moving-average-from-data-stream/",
+              "neetcode_url": "https://neetcode.io/problems/moving-average-from-data-stream",
+              "description": "Queue implementation for sliding window average",
+              "ai_prompt": "Explain how a queue efficiently maintains a sliding window for computing moving averages. How does this relate to streaming data processing in ML pipelines?"
             },
             {
-              "name": "Design Hit Counter",
+              "name": "Design Circular Deque",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
-              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
-              "description": "Queue-based system design",
-              "ai_prompt": "Compare a queue-based solution to a solution using a fixed-size array or hash map. What are the trade-offs in a high-throughput system?"
+              "leetcode_url": "https://leetcode.com/problems/design-circular-deque/",
+              "neetcode_url": "https://neetcode.io/problems/design-circular-deque",
+              "description": "Double-ended queue design with AI guidance",
+              "ai_prompt": "Explain the advantages of a circular implementation. How does this design optimize memory usage in buffer systems used in ML data pipelines?"
             }
           ]
         },
@@ -267,10 +267,40 @@
           "duration": 300,
           "description": "Build a sophisticated expression evaluator that can parse and compute complex mathematical and logical expressions, similar to the core of a simple programming language or a computational graph engine. Use AI to handle operator precedence, function calls, and error handling.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "Stack-Based Parsing",
             "Computational Graph Simulation",
             "AI-Assisted Error Handling",
             "Performance Optimization"
+=======
+            "Priority Queue Implementation",
+            "Distributed System Design",
+            "Job Scheduling Algorithms",
+            "Fault Tolerance & Recovery"
+          ],
+          "problems": [
+            {
+              "name": "Task Scheduler",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/task-scheduler/",
+              "neetcode_url": "https://neetcode.io/problems/task-scheduling",
+              "description": "Optimal task scheduling with cooldown constraints"
+            },
+            {
+              "name": "Implement Stack using Queues",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
+              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
+              "description": "Queue-based stack implementation for task scheduling"
+            },
+            {
+              "name": "Remove K Digits",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/remove-k-digits/",
+              "neetcode_url": "https://neetcode.io/problems/remove-k-digits",
+              "description": "Monotonic stack for optimal digit removal"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Implement a stack-based algorithm to handle infix to postfix conversion.",
@@ -308,10 +338,33 @@
           "duration": 240,
           "description": "Participate in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "Customer-Obsessed System Design",
             "Leadership Principle Integration",
             "Enterprise ML Architecture",
             "Cloud Platform Comparison"
+=======
+            "ML Pipeline Orchestration",
+            "Resource Queue Management",
+            "Workflow State Management",
+            "Auto-Scaling & Load Balancing"
+          ],
+          "problems": [
+            {
+              "name": "Number of Recent Calls",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/number-of-recent-calls/",
+              "neetcode_url": "https://neetcode.io/problems/number-of-recent-calls",
+              "description": "Queue-based sliding window for request counting"
+            },
+            {
+              "name": "Decode String",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/decode-string/",
+              "neetcode_url": "https://neetcode.io/problems/decode-string",
+              "description": "Stack-based string parsing and reconstruction"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",

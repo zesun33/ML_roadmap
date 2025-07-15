@@ -140,12 +140,12 @@
               "ai_prompt": "Revisit this problem. Explain how building a Trie of the dictionary words allows you to prune the DFS search on the board efficiently."
             },
             {
-              "name": "Design Search Autocomplete System",
+              "name": "Stream of Characters",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
-              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
-              "description": "Production Trie implementation",
-              "ai_prompt": "Design a Trie node to store not just character links but also search frequencies. How would you return the top 3 results at each prefix? Discuss the data structures needed for this."
+              "leetcode_url": "https://leetcode.com/problems/stream-of-characters/",
+              "neetcode_url": "https://neetcode.io/problems/stream-of-characters",
+              "description": "Advanced Trie implementation for streaming pattern matching",
+              "ai_prompt": "Explain how to efficiently match patterns in a stream using a Trie. How does this relate to real-time pattern detection in NLP applications?"
             },
             {
               "name": "Replace Words",
@@ -271,10 +271,40 @@
           "duration": 360,
           "description": "Inspired by Meta's social graph, build a system that can analyze and query a large graph of users and their connections in real-time. The project will use advanced tree and graph structures for efficient data aggregation and querying.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "Real-time Data Aggregation",
             "Hierarchical Relationship Analysis",
             "Content Categorization with Tries",
             "Friend Recommendation Engine"
+=======
+            "Segment Tree Optimization",
+            "Real-Time Range Queries",
+            "Streaming Data Aggregation",
+            "ML Feature Engineering"
+          ],
+          "problems": [
+            {
+              "name": "Range Sum Query 2D - Mutable",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/range-sum-query-2d-mutable/",
+              "neetcode_url": "https://neetcode.io/problems/range-sum-query-2d-mutable",
+              "description": "2D segment tree for matrix range operations"
+            },
+            {
+              "name": "Longest Univalue Path",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-univalue-path/",
+              "neetcode_url": "https://neetcode.io/problems/longest-univalue-path",
+              "description": "Tree path optimization with constraints"
+            },
+            {
+              "name": "Binary Tree Cameras",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-cameras/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-cameras",
+              "description": "Greedy algorithm on trees for minimum coverage"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Design a data structure to represent the social graph.",
@@ -312,10 +342,33 @@
           "duration": 300,
           "description": "Engage in a mock interview focused on Meta-style tree and real-time system design problems, followed by a deep dive into the architecture of TikTok's formidable recommendation algorithm.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "Real-time Algorithm Design",
             "Large-Scale System Architecture",
             "Recommendation Engine Internals",
             "Comparative Technology Strategy"
+=======
+            "Real-Time Content Scoring",
+            "Hierarchical User Modeling",
+            "Personalized Feed Generation",
+            "Billion-Scale Tree Operations"
+          ],
+          "problems": [
+            {
+              "name": "Sum Root to Leaf Numbers",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/",
+              "neetcode_url": "https://neetcode.io/problems/sum-root-to-leaf-numbers",
+              "description": "Tree path aggregation for scoring calculations"
+            },
+            {
+              "name": "Distribute Coins in Binary Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/distribute-coins-in-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/distribute-coins-in-binary-tree",
+              "description": "Tree resource optimization and balancing"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete a 90-minute AI-led mock interview on a hard tree problem and a system design question for a real-time feature like Instagram's feed.",

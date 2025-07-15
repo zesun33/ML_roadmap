@@ -50,12 +50,12 @@
               "ai_prompt": "How does streaming statistics relate to online learning and real-time model performance monitoring?"
             },
             {
-              "name": "Design Search Autocomplete System",
+              "name": "Design Online Election System",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
-              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
-              "description": "Real-time search with ranking and caching",
-              "ai_prompt": "How does autocomplete design relate to sequence prediction and next-token generation in language models?"
+              "leetcode_url": "https://leetcode.com/problems/design-online-election-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-online-election-system",
+              "description": "Real-time voting system with distributed consistency",
+              "ai_prompt": "How would you design a distributed election system that ensures consistency and handles high throughput? What are the trade-offs?"
             },
             {
               "name": "Maximum Subarray",
@@ -272,10 +272,40 @@
           "duration": 480,
           "description": "A full day dedicated to finalizing all technical projects and portfolio materials with AI assistance, ensuring every detail is polished to perfection.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "End-to-End Project Finalization",
             "Comprehensive Documentation",
             "AI-Powered Quality Assurance",
             "Presentation Rehearsal"
+=======
+            "Low-Latency Data Serving",
+            "Advanced Caching Strategies",
+            "Real-Time Feature Engineering",
+            "High-Availability Architecture"
+          ],
+          "problems": [
+            {
+              "name": "Insert Delete GetRandom O(1)",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+              "neetcode_url": "https://neetcode.io/problems/randomized-set",
+              "description": "Design data structure with O(1) operations"
+            },
+            {
+              "name": "All O`one Data Structure",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/all-oone-data-structure/",
+              "neetcode_url": "https://neetcode.io/problems/all-oone-data-structure",
+              "description": "Complex data structure with multiple O(1) requirements"
+            },
+            {
+              "name": "Design Browser History",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-browser-history/",
+              "neetcode_url": "https://neetcode.io/problems/design-browser-history",
+              "description": "Navigation system design with efficient data structures"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete any remaining coding and testing for all portfolio projects.",

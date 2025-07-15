@@ -3,22 +3,6 @@
 		{
 			"name": "ML Roadmap",
 			"path": "."
-		},
-		{
-			"name": "📱 App (Deployable)",
-			"path": "./app"
-		},
-		{
-			"name": "📚 Documentation",
-			"path": "./docs"
-		},
-		{
-			"name": "🔬 Research",
-			"path": "./research"
-		},
-		{
-			"name": "🛠️ Tools",
-			"path": "./tools"
 		}
 	],
 	"settings": {

@@ -35,13 +35,13 @@
           "title": "Google-Style Problems",
           "problems": [
             {
-              "name": "Number of Islands",
+              "name": "N-Queens II",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
               "description": "Classic graph traversal, frequently asked."
             },
             {
-              "name": "Word Ladder",
+              "name": "Restore IP Addresses",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/word-ladder/",
               "description": "Tests BFS and graph transformation skills."
@@ -147,7 +147,7 @@
               "description": "Tests heaps/sorting, common in data processing questions."
             },
             {
-              "name": "LRU Cache",
+              "name": "LFU Cache",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/lru-cache/",
               "description": "Classic design problem, tests data structure fundamentals."
@@ -188,10 +188,10 @@
               "description": "Lots of edge cases and requires careful coding."
             },
             {
-              "name": "Minimum Window Substring",
+              "name": "Sudoku Solver",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
-              "description": "Sliding window problem with tricky edge cases."
+              "leetcode_url": "https://leetcode.com/problems/sudoku-solver/",
+              "description": "Backtracking problem with constraint satisfaction."
             }
           ]
         },
@@ -223,10 +223,10 @@
           "title": "Speed & Optimization Drills",
           "problems": [
             {
-              "name": "Sliding Window Maximum",
+              "name": "Median of Two Sorted Arrays",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
-              "description": "Requires an optimal O(n) solution."
+              "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+              "description": "Classic binary search problem requiring O(log(min(m,n))) solution."
             },
             {
               "name": "Count of Smaller Numbers After Self",

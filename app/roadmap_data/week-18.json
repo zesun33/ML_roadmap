@@ -117,10 +117,10 @@
           "title": "System Design Implementation",
           "problems": [
             {
-              "name": "Design Twitter",
+              "name": "Design File System",
               "difficulty": "Hard",
-              "leetcode_url": "https://neetcode.io/problems/design-twitter-feed",
-              "description": "Classic system design with focus on news feed generation."
+              "leetcode_url": "https://leetcode.com/problems/design-file-system/",
+              "description": "Production-level system design with hierarchical storage and operations."
             },
             {
               "name": "Design a Rate Limiter",

@@ -42,10 +42,10 @@
               "ai_prompt": "Revisit this. How would you design this to be thread-safe for a multi-threaded ML service? Discuss locking strategies."
             },
             {
-              "name": "Design Hit Counter",
+              "name": "Design Amazon Locker",
               "difficulty": "Medium",
-              "description": "Real-time analytics with AI scalability analysis",
-              "ai_prompt": "Revisit this. How would you scale this to handle billions of hits per day? Discuss distributed counters and potential data aggregation strategies."
+              "description": "Location-based system design with AI optimization",
+              "ai_prompt": "Design Amazon's locker delivery system. How would you handle locker allocation, package routing, and optimize locker placement using ML?"
             },
             {
               "name": "Design Log Storage System",
@@ -136,10 +136,10 @@
               "ai_prompt": "Design the metadata service for a distributed file system like HDFS. How do you handle file creation, deletion, and lookups? Discuss consistency models."
             },
             {
-              "name": "Design Search Autocomplete System",
+              "name": "Design a Video Streaming Service",
               "difficulty": "Hard",
-              "description": "Trie-based search with AI optimization",
-              "ai_prompt": "Revisit this problem. How would you update the search frequencies and rankings in real-time as users type and select suggestions?"
+              "description": "Video delivery system with AI-powered recommendations",
+              "ai_prompt": "Design a system like Amazon Prime Video. How would you handle content delivery networks (CDN), video encoding, and integrate ML-based recommendation systems?"
             },
             {
               "name": "Design a Web Crawler",
@@ -177,10 +177,10 @@
           "title": "Large-Scale System Coding",
           "problems": [
             {
-              "name": "Design Twitter",
+              "name": "Design a Cloud Storage System",
               "difficulty": "Hard",
-              "description": "Social media platform with AI scalability focus",
-              "ai_prompt": "Focus on designing the news feed generation service. Compare a push (fan-out on write) vs. pull (fan-out on read) model. How would you handle celebrities?"
+              "description": "Distributed storage like Amazon S3 with AI optimization",
+              "ai_prompt": "Design a system like Amazon S3. How would you handle data replication, consistency, and implement intelligent tiering for cost optimization using ML?"
             },
             {
               "name": "Design Netflix/YouTube",
@@ -248,10 +248,40 @@
           "duration": 360,
           "description": "Design and document the architecture for a complete production ML system, inspired by Amazon's practices. This includes data ingestion, feature engineering, training, deployment, monitoring, and A/B testing.",
           "focus_areas": [
+<<<<<<< Updated upstream
             "End-to-End ML Pipeline Design",
             "Real-time Inference with Auto-Scaling",
             "A/B Testing Framework",
             "Cost Optimization & Monitoring"
+=======
+            "Neural Architecture Search",
+            "Model Pruning Optimization",
+            "Quantization Strategy Planning",
+            "Multi-Objective Optimization"
+          ],
+          "problems": [
+            {
+              "name": "Burst Balloons",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+              "neetcode_url": "https://neetcode.io/problems/burst-balloons",
+              "description": "Interval DP for optimal sequence decisions"
+            },
+            {
+              "name": "Stone Game IV",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/stone-game-iv/",
+              "neetcode_url": "https://neetcode.io/problems/stone-game-iv",
+              "description": "Game theory DP with optimal strategy"
+            },
+            {
+              "name": "Frog Jump",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/frog-jump/",
+              "neetcode_url": "https://neetcode.io/problems/frog-jump",
+              "description": "DP with state transition validation"
+            }
+>>>>>>> Stashed changes
           ],
           "tasks": [
             "Create a detailed architecture diagram for a system like Amazon's product recommendation engine.",

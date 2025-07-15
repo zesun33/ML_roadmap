@@ -34,7 +34,7 @@
           "title": "Google-tagged Problems",
           "problems": [
             {
-              "name": "Number of Islands",
+              "name": "Course Schedule II",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
               "neetcode_url": "https://neetcode.io/problems/number-of-islands",
@@ -42,7 +42,7 @@
               "ai_prompt": "Revisit this problem. How can this be solved with both DFS and BFS? Discuss the trade-offs. How does this relate to identifying connected components in image segmentation?"
             },
             {
-              "name": "Word Ladder",
+              "name": "Word Break II",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/word-ladder/",
               "neetcode_url": "https://neetcode.io/problems/word-ladder",
@@ -235,12 +235,12 @@
           "title": "Contest-Level Problems",
           "problems": [
             {
-              "name": "Minimum Window Substring",
+              "name": "Expression Add Operators",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
-              "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
-              "description": "Sliding window with hash map",
-              "ai_prompt": "Explain the sliding window approach with two pointers and a hash map to keep track of character counts. How do you efficiently shrink the window?"
+              "leetcode_url": "https://leetcode.com/problems/expression-add-operators/",
+              "neetcode_url": "https://neetcode.io/problems/expression-add-operators",
+              "description": "Complex backtracking with mathematical evaluation",
+              "ai_prompt": "Explain the backtracking approach for generating all possible expressions. How does this relate to search space exploration in neural architecture search?"
             },
             {
               "name": "Word Search II",

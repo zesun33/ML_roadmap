@@ -34,12 +34,12 @@
           "title": "Advanced Optimization Problems",
           "problems": [
             {
-              "name": "Sliding Window Maximum",
+              "name": "Reverse Pairs",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
-              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
-              "description": "Advanced sliding window with deque optimization",
-              "ai_prompt": "How does sliding window optimization relate to temporal feature extraction and real-time ML inference?"
+              "leetcode_url": "https://leetcode.com/problems/reverse-pairs/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-pairs",
+              "description": "Advanced divide-and-conquer with merge sort optimization",
+              "ai_prompt": "Explain the merge sort approach for counting reverse pairs efficiently. How does this divide-and-conquer strategy relate to distributed ML training?"
             },
             {
               "name": "Shortest Distance from All Buildings",
