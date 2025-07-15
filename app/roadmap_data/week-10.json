@@ -271,12 +271,6 @@
           "duration": 360,
           "description": "Inspired by Meta's social graph, build a system that can analyze and query a large graph of users and their connections in real-time. The project will use advanced tree and graph structures for efficient data aggregation and querying.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "Real-time Data Aggregation",
-            "Hierarchical Relationship Analysis",
-            "Content Categorization with Tries",
-            "Friend Recommendation Engine"
-=======
             "Segment Tree Optimization",
             "Real-Time Range Queries",
             "Streaming Data Aggregation",
@@ -304,7 +298,6 @@
               "neetcode_url": "https://neetcode.io/problems/binary-tree-cameras",
               "description": "Greedy algorithm on trees for minimum coverage"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Design a data structure to represent the social graph.",
@@ -342,12 +335,6 @@
           "duration": 300,
           "description": "Engage in a mock interview focused on Meta-style tree and real-time system design problems, followed by a deep dive into the architecture of TikTok's formidable recommendation algorithm.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "Real-time Algorithm Design",
-            "Large-Scale System Architecture",
-            "Recommendation Engine Internals",
-            "Comparative Technology Strategy"
-=======
             "Real-Time Content Scoring",
             "Hierarchical User Modeling",
             "Personalized Feed Generation",
@@ -368,7 +355,6 @@
               "neetcode_url": "https://neetcode.io/problems/distribute-coins-in-binary-tree",
               "description": "Tree resource optimization and balancing"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete a 90-minute AI-led mock interview on a hard tree problem and a system design question for a real-time feature like Instagram's feed.",

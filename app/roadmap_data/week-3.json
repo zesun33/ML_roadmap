@@ -331,11 +331,10 @@
           "duration": 240,
           "description": "Participate in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "ML Pipeline Orchestration",
-            "Resource Queue Management",
-            "Workflow State Management",
-            "Auto-Scaling & Load Balancing"
+            "Customer-Obsessed System Design",
+            "Leadership Principle Integration",
+            "Enterprise ML Architecture",
+            "Cloud Platform Comparison"
           ],
           "problems": [
             {
@@ -351,6 +350,25 @@
               "leetcode_url": "https://leetcode.com/problems/decode-string/",
               "neetcode_url": "https://neetcode.io/problems/decode-string",
               "description": "Stack-based string parsing and reconstruction"
+            }
+          ],
+          "tasks": [
+            "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",
+            "Analyze AI feedback on how well you integrated the principles into your technical design.",
+            "Study the architecture of Azure Machine Learning and its focus on enterprise-grade features.",
+            "Use AI to write a comparative analysis of AWS SageMaker and Azure ML."
+          ],
+          "deliverable": "A markdown document with your interview analysis and the comparative study of AWS and Azure ML platforms.",
+          "problems": [
+            {
+              "name": "Design a Message Queue Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+            },
+            {
+              "name": "Design a Distributed Search Service",
+              "difficulty": "Design",
+              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
             }
           ]
         ],
