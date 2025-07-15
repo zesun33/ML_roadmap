@@ -248,16 +248,10 @@
           "duration": 360,
           "description": "Design and document the architecture for a complete production ML system, inspired by Amazon's practices. This includes data ingestion, feature engineering, training, deployment, monitoring, and A/B testing.",
           "focus_areas": [
-<<<<<<< Updated upstream
             "End-to-End ML Pipeline Design",
             "Real-time Inference with Auto-Scaling",
             "A/B Testing Framework",
             "Cost Optimization & Monitoring"
-=======
-            "Neural Architecture Search",
-            "Model Pruning Optimization",
-            "Quantization Strategy Planning",
-            "Multi-Objective Optimization"
           ],
           "problems": [
             {
@@ -281,7 +275,6 @@
               "neetcode_url": "https://neetcode.io/problems/frog-jump",
               "description": "DP with state transition validation"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Create a detailed architecture diagram for a system like Amazon's product recommendation engine.",

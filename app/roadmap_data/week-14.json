@@ -272,16 +272,10 @@
           "duration": 480,
           "description": "A full day dedicated to finalizing all technical projects and portfolio materials with AI assistance, ensuring every detail is polished to perfection.",
           "focus_areas": [
-<<<<<<< Updated upstream
             "End-to-End Project Finalization",
             "Comprehensive Documentation",
             "AI-Powered Quality Assurance",
             "Presentation Rehearsal"
-=======
-            "Low-Latency Data Serving",
-            "Advanced Caching Strategies",
-            "Real-Time Feature Engineering",
-            "High-Availability Architecture"
           ],
           "problems": [
             {
@@ -305,7 +299,6 @@
               "neetcode_url": "https://neetcode.io/problems/design-browser-history",
               "description": "Navigation system design with efficient data structures"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete any remaining coding and testing for all portfolio projects.",

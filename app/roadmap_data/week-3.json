@@ -267,16 +267,10 @@
           "duration": 300,
           "description": "Build a sophisticated expression evaluator that can parse and compute complex mathematical and logical expressions, similar to the core of a simple programming language or a computational graph engine. Use AI to handle operator precedence, function calls, and error handling.",
           "focus_areas": [
-<<<<<<< Updated upstream
             "Stack-Based Parsing",
             "Computational Graph Simulation",
             "AI-Assisted Error Handling",
             "Performance Optimization"
-=======
-            "Priority Queue Implementation",
-            "Distributed System Design",
-            "Job Scheduling Algorithms",
-            "Fault Tolerance & Recovery"
           ],
           "problems": [
             {
@@ -300,7 +294,6 @@
               "neetcode_url": "https://neetcode.io/problems/remove-k-digits",
               "description": "Monotonic stack for optimal digit removal"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Implement a stack-based algorithm to handle infix to postfix conversion.",
@@ -338,16 +331,10 @@
           "duration": 240,
           "description": "Participate in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
           "focus_areas": [
-<<<<<<< Updated upstream
             "Customer-Obsessed System Design",
             "Leadership Principle Integration",
             "Enterprise ML Architecture",
             "Cloud Platform Comparison"
-=======
-            "ML Pipeline Orchestration",
-            "Resource Queue Management",
-            "Workflow State Management",
-            "Auto-Scaling & Load Balancing"
           ],
           "problems": [
             {
@@ -364,7 +351,6 @@
               "neetcode_url": "https://neetcode.io/problems/decode-string",
               "description": "Stack-based string parsing and reconstruction"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",

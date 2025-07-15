@@ -348,11 +348,6 @@
           "description": "Build a production-ready interview preparation system that simulates FAANG-level coding interviews. The system will feature company-specific problem sets, real-time complexity analysis, and AI-powered feedback on code quality and optimization.",
           "focus_areas": [
             "Company-Specific Problem Curation",
-<<<<<<< Updated upstream
-            "Real-Time Code Analysis",
-            "AI-Powered Feedback Generation",
-            "Adaptive Difficulty Scaling"
-=======
             "AI-Powered Code Review",
             "Real-Time Performance Analysis",
             "Adaptive Interview Simulation"
@@ -379,7 +374,6 @@
               "neetcode_url": "https://neetcode.io/problems/word-ladder-ii",
               "description": "BFS with path reconstruction"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Curate and tag problems based on FAANG company interview patterns.",
@@ -417,12 +411,6 @@
           "duration": 300,
           "description": "Complete a final, comprehensive assessment of all Phase 2 material in a multi-hour FAANG simulation interview. Use the outcome to transition into Phase 3, which is heavily focused on ML System Design.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "Full-Spectrum Algorithm Mastery",
-            "Production-Level Optimization",
-            "System Design Integration",
-            "Transition to ML System Architecture"
-=======
             "Multi-Pattern Algorithm Mastery",
             "Advanced System Design",
             "ML Infrastructure Architecture",
@@ -443,7 +431,6 @@
               "neetcode_url": "https://neetcode.io/problems/count-smaller-numbers-after-self",
               "description": "Advanced divide-and-conquer with merge sort optimization"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Participate in a 3-hour AI-led mock interview simulating a final FAANG loop, covering 2 hard algorithm questions and 1 system design question.",
