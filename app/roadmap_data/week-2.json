@@ -251,12 +251,6 @@
           "duration": 300,
           "description": "Build an interactive tool that visualizes the behavior of various sliding window algorithms in real-time. This project will demonstrate your deep understanding of the pattern and your ability to build sophisticated, educational tools. Use AI to suggest features, generate complex test cases, and help with UI design.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "Algorithm Visualization",
-            "Interactive UI/UX",
-            "Real-Time Data Handling",
-            "AI-Powered Feature Generation"
-=======
             "Sliding Window Algorithms",
             "Real-Time Data Processing",
             "Two-Pointer Optimization",
@@ -284,7 +278,6 @@
               "neetcode_url": "https://neetcode.io/problems/remove-duplicates-from-sorted-array-ii",
               "description": "Two pointers for in-place array modification"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Implement visualizations for fixed, dynamic, and deque-based sliding window algorithms.",
@@ -322,12 +315,6 @@
           "duration": 240,
           "description": "Engage in a rigorous mock interview combining advanced sliding window problems with system design questions. Follow this with a deep dive into Microsoft's ML infrastructure, focusing on real-time inference and model serving at scale.",
           "focus_areas": [
-<<<<<<< Updated upstream
-            "Advanced Problem Solving",
-            "System Design Integration",
-            "Real-Time ML Inference",
-            "Cloud ML Infrastructure"
-=======
             "Real-Time Feature Computation",
             "Sliding Window Aggregations",
             "Stream Processing Architecture",
@@ -348,7 +335,6 @@
               "neetcode_url": "https://neetcode.io/problems/longest-substring-with-at-most-k-distinct-characters",
               "description": "Variable window with character frequency tracking"
             }
->>>>>>> Stashed changes
           ],
           "tasks": [
             "Complete a 90-minute AI-led mock interview covering a hard sliding window problem and a related system design follow-up.",
