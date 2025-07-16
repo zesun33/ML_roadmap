@@ -216,7 +216,7 @@
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
-          "title": "Google Mock & System Study",
+          "title": "Foundational Google Mock & TensorFlow Study",
           "activities": [
             "AI Mock Interview: Google format (45 min problem + follow-ups)",
             "ML System Study: Google's TensorFlow Extended (TFX) pipeline",
@@ -267,70 +267,72 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Real-Time Anomaly Detection System",
+          "title": "Portfolio Project: Smart Hash Table with ML Optimizations",
           "duration": 180,
-          "description": "Build a system to detect anomalies in streaming data using advanced hashing and array techniques. The system will be designed to handle high-throughput data streams, a common requirement in FAANG-level production environments. You will use AI to help design the data structures, optimize the algorithms, and generate test cases with various anomaly patterns.",
+          "description": "Build an intelligent hash table implementation optimized for ML workloads, featuring adaptive resizing, collision avoidance, and memory-efficient operations. This project demonstrates understanding of both data structures and ML system optimization.",
           "focus_areas": [
-            "Sliding Window with Hashing",
-            "High-Throughput Data Structures",
-            "Real-Time Analytics",
-            "AI-Assisted Algorithm Design"
+            "Custom Hash Function Design",
+            "ML-Inspired Load Balancing", 
+            "Memory Optimization",
+            "Performance Benchmarking"
           ],
           "problems": [
             {
-              "name": "Sliding Window Maximum",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
-              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
-              "description": "Apply sliding window with deque to streaming anomaly data"
-            },
-            {
-              "name": "Contains Duplicate II",
+              "name": "Design HashMap",
               "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/contains-duplicate-ii/",
-              "neetcode_url": "https://neetcode.io/problems/contains-duplicate-ii",
-              "description": "Detect duplicates within a moving window of k"
+              "leetcode_url": "https://leetcode.com/problems/design-hashmap/",
+              "neetcode_url": "https://neetcode.io/problems/design-hashmap",
+              "description": "Implement a custom hash map from scratch"
             },
             {
-              "name": "Longest Substring Without Repeating Characters",
+              "name": "Find All Anagrams in a String",
+              "difficulty": "Medium", 
+              "leetcode_url": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+              "neetcode_url": "https://neetcode.io/problems/find-all-anagrams-in-a-string",
+              "description": "Sliding window with character frequency hashing"
+            },
+            {
+              "name": "Subarray Sum Equals K",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-              "neetcode_url": "https://neetcode.io/problems/longest-substring-without-repeat",
-              "description": "Classic sliding window for unique substring length"
+              "leetcode_url": "https://leetcode.com/problems/subarray-sum-equals-k/", 
+              "neetcode_url": "https://neetcode.io/problems/subarray-sum-equals-k",
+              "description": "Prefix sum with hashing for efficient subarray detection"
             }
           ],
           "tasks": [
-            "Design a custom hash function for streaming data elements with AI guidance.",
-            "Implement a rolling hash to efficiently compare sliding windows of data.",
-            "Develop a system to flag statistical anomalies (e.g., sudden changes in mean or variance) in real-time.",
-            "Use AI to generate a synthetic data stream with injected anomalies for robust testing."
+            "Design a hash function optimized for integer keys using ML-inspired techniques (feature hashing).",
+            "Implement dynamic resizing with load factor optimization based on access patterns.", 
+            "Create a collision resolution strategy using Robin Hood hashing or cuckoo hashing.",
+            "Build comprehensive benchmarks comparing your implementation to Python's dict and measure memory usage."
           ],
-          "deliverable": "A GitHub repository with the complete project, a detailed README explaining the design and performance, and a demonstration script."
+          "deliverable": "A GitHub repository with a production-ready hash table library, performance benchmarks, and detailed documentation explaining design decisions."
         },
         "sunday": {
-          "title": "Advanced ML System Study & Week 2 Prep",
+          "title": "ML System Deep Dive: YouTube Recommendation Architecture",
           "duration": 120,
-          "description": "Deep dive into the architecture of a large-scale content recommendation system like Netflix's, focusing on how data structures from this week are used for candidate generation and filtering. Use AI to simulate architectural discussions and trade-off analysis.",
+          "description": "Study YouTube's recommendation system architecture, focusing on how hash tables enable efficient candidate generation, user embedding lookups, and real-time feature serving at massive scale.",
           "focus_areas": [
-            "Candidate Generation at Scale",
-            "Real-Time Feature Stores",
-            "System Design Trade-offs",
-            "AI-Powered Architectural Analysis"
+            "Candidate Generation Pipeline", 
+            "Embedding Storage & Retrieval",
+            "Real-Time Feature Engineering",
+            "Scalable Hashing Techniques"
           ],
           "problems": [
             {
-              "name": "Design YouTube Recommendation System",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1043745/youtube-recommendation-system"
+              "name": "LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "neetcode_url": "https://neetcode.io/problems/lru-cache", 
+              "description": "Design cache system for recommendation serving"
             }
           ],
           "tasks": [
-            "Map out the data flow in the Netflix recommendation pipeline with AI assistance.",
-            "Analyze how hash-based techniques are used for efficient candidate retrieval from a massive content catalog.",
-            "Use an AI partner to debate the pros and cons of different data structures for storing user profiles and content metadata.",
-            "Prepare for Week 2 by using AI to generate a summary of Two Pointer techniques and their applications in ML."
+            "Analyze how YouTube uses hash tables for user profile storage and fast lookups of viewing history.",
+            "Study the two-tower model architecture and how embedding tables are organized for efficient retrieval.",
+            "Research how real-time signals (clicks, watch time) are aggregated using streaming hash tables.",
+            "Design a simplified recommendation system using your custom hash table from Saturday's project."
           ],
-          "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and your architectural insights."
+          "deliverable": "A technical blog post explaining YouTube's recommendation architecture with focus on data structure choices, including diagrams and code examples."
         }
       }
     },

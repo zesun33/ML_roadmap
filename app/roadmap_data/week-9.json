@@ -171,12 +171,12 @@
               "ai_prompt": "Implement topological sort using both Kahn's algorithm (BFS with in-degrees) and DFS. Discuss the trade-offs."
             },
             {
-              "name": "Alien Dictionary",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
-              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
-              "description": "Advanced topological sorting with error handling",
-              "ai_prompt": "Revisit this problem. How do you build the dependency graph from the sorted list of words? How do you handle cycles to detect invalid orderings?"
+              "name": "Minimum Height Trees",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-height-trees/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-height-trees",
+              "description": "Advanced graph center finding with topological approach",
+              "ai_prompt": "Explain how the centroid concept works in trees. How does the iterative leaf removal approach efficiently find the graph centers?"
             },
             {
               "name": "Parallel Courses",
@@ -326,76 +326,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Intelligent Knowledge Graph Builder",
-          "duration": 360,
-          "description": "Inspired by Google's Knowledge Graph, build a system that can construct, query, and rank entities in a graph. The project will involve implementing core graph algorithms and integrating them with NLP for knowledge extraction.",
+          "title": "Portfolio Project: Distributed Knowledge Graph Engine",
+          "duration": 330,
+          "description": "Build a scalable knowledge graph system inspired by Google's Knowledge Vault, using advanced graph algorithms for entity resolution, relationship discovery, and real-time query processing. The system will handle millions of entities and relationships efficiently.",
           "focus_areas": [
-            "Automated Graph Construction",
-            "PageRank for Entity Ranking",
-            "Union-Find for Entity Clustering",
-            "NLP-Driven Relationship Extraction"
+            "Graph Database Optimization",
+            "Entity Resolution Algorithms",
+            "Distributed Graph Processing",
+            "Real-Time Knowledge Discovery"
           ],
-          "tasks": [
-            "Use NLP libraries (like spaCy or NLTK) to extract entities and relationships from text.",
-            "Construct a graph from the extracted data.",
-            "Implement the PageRank algorithm to rank the importance of entities.",
-            "Use Union-Find to identify and merge duplicate entities.",
-            "Build a simple query interface to traverse the knowledge graph."
-          ],
-          "deliverable": "A GitHub repository and a deployed application demonstrating the knowledge graph builder, with a detailed README explaining the architecture.",
           "problems": [
             {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
+              "name": "Graph Valid Tree",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
+              "leetcode_url": "https://leetcode.com/problems/graph-valid-tree/",
+              "neetcode_url": "https://neetcode.io/problems/graph-valid-tree",
+              "description": "Union-Find for graph connectivity validation"
             },
             {
-              "name": "Maximal Rectangle",
+              "name": "Reconstruct Itinerary",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
+              "leetcode_url": "https://leetcode.com/problems/reconstruct-itinerary/",
+              "neetcode_url": "https://neetcode.io/problems/reconstruct-itinerary",
+              "description": "Eulerian path in directed graph"
+            },
+            {
+              "name": "Minimum Height Trees",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-height-trees/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-height-trees",
+              "description": "Graph center finding algorithm"
             }
-          ]
+          ],
+          "tasks": [
+            "Implement distributed graph storage using consistent hashing for entity partitioning.",
+            "Create entity resolution algorithms using graph-based similarity measures and community detection.",
+            "Build real-time relationship discovery using graph neural networks and random walks.",
+            "Design query optimization engine using graph traversal algorithms and indexing strategies."
+          ],
+          "deliverable": "A scalable knowledge graph platform with REST API, graph visualization interface, and performance benchmarks on million-entity datasets."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & Facebook Graph Deep Dive",
-          "duration": 300,
-          "description": "Participate in an advanced mock interview focused on Google-style graph problems and system design, followed by a comparative analysis of Facebook's (Meta's) social graph architecture.",
+          "title": "ML System Study: Google's PageRank and Knowledge Graph Architecture",
+          "duration": 200,
+          "description": "Deep dive into Google's graph-based systems including PageRank algorithm evolution, Knowledge Graph construction, and how graph algorithms power search ranking and entity understanding at web scale.",
           "focus_areas": [
-            "Scalable Graph Algorithms",
-            "Distributed System Design",
-            "Social Network Architecture",
-            "Comparative Technology Analysis"
+            "PageRank Algorithm Evolution",
+            "Knowledge Graph Construction",
+            "Graph-Based Search Ranking",
+            "Entity Understanding at Scale"
           ],
-          "tasks": [
-            "Complete a 90-minute AI-led mock interview on a hard graph problem and a follow-up system design question on a distributed graph processing system.",
-            "Analyze AI feedback on your ability to handle scalability and complex trade-offs.",
-            "Study Facebook's TAO (The Associations and Objects) data store for their social graph.",
-            "Use AI to write a comparative analysis of Google's Knowledge Graph vs. Facebook's Social Graph in terms of design goals, data models, and consistency guarantees."
-          ],
-          "deliverable": "A markdown document containing your interview analysis and the comparative study of Google's and Facebook's graph systems.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Evaluate Division",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/evaluate-division/",
+              "neetcode_url": "https://neetcode.io/problems/evaluate-division",
+              "description": "Weighted graph traversal for relationship queries"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Longest Increasing Path in a Matrix",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-a-matrix",
+              "description": "DFS with memoization on 2D graph"
             }
-          ]
+          ],
+          "tasks": [
+            "Study the evolution from original PageRank to modern graph-based ranking algorithms.",
+            "Analyze how Google constructs and maintains the Knowledge Graph from web data.",
+            "Research graph embedding techniques used for entity representation and similarity.",
+            "Implement a mini search ranking system using graph algorithms and your knowledge graph engine."
+          ],
+          "deliverable": "Comprehensive analysis of Google's graph systems with working implementation of PageRank-inspired ranking algorithm."
         }
       }
     }

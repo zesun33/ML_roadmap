@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Sessions Debug - ML Roadmap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        .debug-box { border: 2px solid #e53e3e; padding: 1rem; margin: 1rem 0; }
+        .success-box { border: 2px solid #38a169; padding: 1rem; margin: 1rem 0; }
+    </style>
+</head>
+<body class="bg-gray-50 p-8">
+    <h1 class="text-3xl font-bold mb-6">Weekend Sessions Debug Page</h1>
+    
+    <div x-data="weekendDebugApp()" x-init="init()">
+        <!-- Current Week Display -->
+        <div class="success-box">
+            <h2 class="text-xl font-bold">Current Week: <span x-text="currentWeek"></span></h2>
+            <p>Data loaded: <span x-text="dataLoaded ? 'YES' : 'NO'"></span></p>
+            <p>Has weekend data: <span x-text="hasWeekendData ? 'YES' : 'NO'"></span></p>
+        </div>
+
+        <!-- Week Selector -->
+        <div class="mb-6">
+            <h3 class="text-lg font-bold mb-2">Test Different Weeks:</h3>
+            <div class="flex gap-2 flex-wrap">
+                <template x-for="week in [1, 5, 10, 15, 16, 17, 18, 19]" :key="week">
+                    <button 
+                        @click="loadWeek(week)"
+                        :class="currentWeek === week ? 'bg-blue-600 text-white' : 'bg-gray-200'"
+                        class="px-4 py-2 rounded hover:bg-blue-500 hover:text-white"
+                        x-text="'Week ' + week">
+                    </button>
+                </template>
+            </div>
+        </div>
+
+        <!-- Raw Data Display -->
+        <div class="debug-box" x-show="roadmapData">
+            <h3 class="text-lg font-bold mb-2">Raw Weekend Data:</h3>
+            <pre class="bg-gray-100 p-2 text-xs overflow-auto" x-text="JSON.stringify(weekendSessions, null, 2)"></pre>
+        </div>
+
+        <!-- Saturday Session Display -->
+        <div class="mb-6" x-show="weekendSessions?.saturday">
+            <h3 class="text-lg font-bold mb-4 text-purple-700">Saturday Session</h3>
+            <div class="bg-purple-50 p-4 rounded-lg border-2 border-purple-200">
+                <h4 class="font-bold text-purple-800 mb-2" x-text="weekendSessions.saturday?.title || 'No Title'"></h4>
+                <p class="text-sm text-purple-600 mb-2" x-text="'Duration: ' + (weekendSessions.saturday?.duration || 0) + ' minutes'"></p>
+                <p class="text-sm text-gray-700" x-text="weekendSessions.saturday?.description || 'No Description'"></p>
+                
+                <!-- Focus Areas -->
+                <div class="mt-4" x-show="weekendSessions.saturday?.focus_areas">
+                    <h5 class="font-semibold text-sm mb-2">Focus Areas:</h5>
+                    <div class="flex flex-wrap gap-2">
+                        <template x-for="area in weekendSessions.saturday?.focus_areas || []" :key="area">
+                            <span class="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full" x-text="area"></span>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sunday Session Display -->
+        <div class="mb-6" x-show="weekendSessions?.sunday">
+            <h3 class="text-lg font-bold mb-4 text-blue-700">Sunday Session</h3>
+            <div class="bg-blue-50 p-4 rounded-lg border-2 border-blue-200">
+                <h4 class="font-bold text-blue-800 mb-2" x-text="weekendSessions.sunday?.title || 'No Title'"></h4>
+                <p class="text-sm text-blue-600 mb-2" x-text="'Duration: ' + (weekendSessions.sunday?.duration || 0) + ' minutes'"></p>
+                <p class="text-sm text-gray-700" x-text="weekendSessions.sunday?.description || 'No Description'"></p>
+                
+                <!-- Focus Areas -->
+                <div class="mt-4" x-show="weekendSessions.sunday?.focus_areas">
+                    <h5 class="font-semibold text-sm mb-2">Focus Areas:</h5>
+                    <div class="flex flex-wrap gap-2">
+                        <template x-for="area in weekendSessions.sunday?.focus_areas || []" :key="area">
+                            <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full" x-text="area"></span>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Display -->
+        <div class="debug-box" x-show="error">
+            <h3 class="text-lg font-bold text-red-600">Error:</h3>
+            <p x-text="errorMessage"></p>
+        </div>
+
+        <!-- Loading State -->
+        <div x-show="loading" class="success-box">
+            <p>Loading week data...</p>
+        </div>
+    </div>
+
+    <script>
+        function weekendDebugApp() {
+            return {
+                currentWeek: 1,
+                roadmapData: null,
+                weekendSessions: null,
+                loading: false,
+                error: false,
+                errorMessage: '',
+                dataLoaded: false,
+                hasWeekendData: false,
+
+                async init() {
+                    console.log('🚀 Weekend Debug App initialized');
+                    await this.loadWeek(1);
+                },
+
+                async loadWeek(weekNumber) {
+                    try {
+                        this.loading = true;
+                        this.error = false;
+                        this.currentWeek = weekNumber;
+                        
+                        console.log(`📊 Loading week ${weekNumber}...`);
+                        
+                        // Force cache bust with timestamp
+                        const cacheBuster = new Date().getTime();
+                        const response = await fetch(`./roadmap_data/week-${weekNumber}.json?v=${cacheBuster}`);
+                        
+                        if (!response.ok) {
+                            throw new Error(`Failed to load week ${weekNumber}: ${response.status}`);
+                        }
+
+                        const data = await response.json();
+                        console.log(`✅ Loaded data for week ${weekNumber}:`, data);
+
+                        // Update reactive data
+                        this.roadmapData = data;
+                        this.weekendSessions = data.week?.daily_schedule?.weekend_sessions || null;
+                        this.dataLoaded = true;
+                        this.hasWeekendData = !!this.weekendSessions;
+
+                        console.log('Weekend sessions:', this.weekendSessions);
+
+                    } catch (error) {
+                        console.error(`❌ Failed to load week ${weekNumber}:`, error);
+                        this.error = true;
+                        this.errorMessage = error.message;
+                        this.dataLoaded = false;
+                        this.hasWeekendData = false;
+                    } finally {
+                        this.loading = false;
+                    }
+                }
+            };
+        }
+    </script>
+</body>
+</html> 

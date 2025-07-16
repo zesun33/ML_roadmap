@@ -42,10 +42,10 @@
               "ai_prompt": "Revisit this. How would you design this to be thread-safe for a multi-threaded ML service? Discuss locking strategies."
             },
             {
-              "name": "Design Amazon Locker",
-              "difficulty": "Medium",
-              "description": "Location-based system design with AI optimization",
-              "ai_prompt": "Design Amazon's locker delivery system. How would you handle locker allocation, package routing, and optimize locker placement using ML?"
+              "name": "Design Amazon Alexa",
+              "difficulty": "Hard",
+              "description": "Voice processing system with AI scalability analysis",
+              "ai_prompt": "Design a voice assistant system like Alexa. How would you handle speech recognition, natural language processing, and real-time response generation at scale?"
             },
             {
               "name": "Design Log Storage System",
@@ -136,10 +136,10 @@
               "ai_prompt": "Design the metadata service for a distributed file system like HDFS. How do you handle file creation, deletion, and lookups? Discuss consistency models."
             },
             {
-              "name": "Design a Video Streaming Service",
+              "name": "Design Amazon S3",
               "difficulty": "Hard",
-              "description": "Video delivery system with AI-powered recommendations",
-              "ai_prompt": "Design a system like Amazon Prime Video. How would you handle content delivery networks (CDN), video encoding, and integrate ML-based recommendation systems?"
+              "description": "Distributed object storage with AI optimization",
+              "ai_prompt": "Design a distributed object storage system like Amazon S3. How do you handle data replication, consistency, and fault tolerance across multiple data centers?"
             },
             {
               "name": "Design a Web Crawler",
@@ -177,10 +177,10 @@
           "title": "Large-Scale System Coding",
           "problems": [
             {
-              "name": "Design a Cloud Storage System",
+              "name": "Design Amazon Prime Video",
               "difficulty": "Hard",
-              "description": "Distributed storage like Amazon S3 with AI optimization",
-              "ai_prompt": "Design a system like Amazon S3. How would you handle data replication, consistency, and implement intelligent tiering for cost optimization using ML?"
+              "description": "Video streaming platform with AI scalability focus",
+              "ai_prompt": "Focus on designing the video streaming service. How do you handle content delivery, transcoding, and user recommendations? Discuss AWS integration."
             },
             {
               "name": "Design Netflix/YouTube",
@@ -244,22 +244,22 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Production ML System Architecture",
-          "duration": 360,
-          "description": "Design and document the architecture for a complete production ML system, inspired by Amazon's practices. This includes data ingestion, feature engineering, training, deployment, monitoring, and A/B testing.",
+          "title": "Portfolio Project: ML Model Optimization Toolkit",
+          "duration": 270,
+          "description": "Build a comprehensive ML model optimization toolkit using advanced dynamic programming algorithms for neural architecture search, pruning strategies, and quantization optimization. The system will automatically optimize models for different deployment targets.",
           "focus_areas": [
-            "End-to-End ML Pipeline Design",
-            "Real-time Inference with Auto-Scaling",
-            "A/B Testing Framework",
-            "Cost Optimization & Monitoring"
+            "Neural Architecture Search",
+            "Model Pruning Optimization",
+            "Quantization Strategy Planning",
+            "Multi-Objective Optimization"
           ],
           "problems": [
             {
-              "name": "Burst Balloons",
+              "name": "Design Movie Rental System",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
-              "neetcode_url": "https://neetcode.io/problems/burst-balloons",
-              "description": "Interval DP for optimal sequence decisions"
+              "leetcode_url": "https://leetcode.com/problems/design-movie-rental-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-movie-rental-system",
+              "description": "Multi-index system design for rental management"
             },
             {
               "name": "Stone Game IV",
@@ -277,66 +277,46 @@
             }
           ],
           "tasks": [
-            "Create a detailed architecture diagram for a system like Amazon's product recommendation engine.",
-            "Define the API contracts between microservices.",
-            "Design the data models for feature stores and model registries.",
-            "Write a tech spec document that explains your design choices and trade-offs, integrating Amazon's Leadership Principles.",
-            "Use AI to critique your design for scalability, reliability, and cost-effectiveness."
+            "Implement neural architecture search using DP for efficient exploration of architecture space.",
+            "Create model pruning algorithms that use DP to find optimal sparsity patterns.",
+            "Build quantization optimization using DP to minimize accuracy loss while maximizing compression.",
+            "Design multi-objective optimization system balancing accuracy, latency, and memory usage."
           ],
-          "deliverable": "A comprehensive architecture document, diagrams, and API definitions in a GitHub repository.",
-          "problems": [
-            {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "A comprehensive model optimization toolkit with automated optimization pipelines, benchmarking suite, and deployment target optimization."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & Azure ML Deep Dive",
-          "duration": 300,
-          "description": "Engage in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
+          "title": "ML System Study: OpenAI's Training Infrastructure",
+          "duration": 150,
+          "description": "Analyze OpenAI's large-scale training infrastructure, focusing on how dynamic programming principles optimize distributed training, gradient accumulation, and resource scheduling for massive language models like GPT.",
           "focus_areas": [
-            "Customer-Obsessed System Design",
-            "Leadership Principle Integration",
-            "Enterprise ML Architecture",
-            "Cloud Platform Comparison"
+            "Distributed Training Optimization",
+            "Gradient Accumulation Strategies",
+            "Resource Scheduling Algorithms",
+            "Large-Scale Training Efficiency"
           ],
-          "tasks": [
-            "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",
-            "Analyze AI feedback on how well you integrated the principles into your technical design.",
-            "Study the architecture of Azure Machine Learning and its focus on enterprise-grade features.",
-            "Use AI to write a comparative analysis of AWS SageMaker and Azure ML."
-          ],
-          "deliverable": "A markdown document with your interview analysis and the comparative study of AWS and Azure ML platforms.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Regular Expression Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+              "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+              "description": "2D DP for pattern matching optimization"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Paint House II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/paint-house-ii/",
+              "neetcode_url": "https://neetcode.io/problems/paint-house-ii",
+              "description": "DP optimization with constraint satisfaction"
             }
-          ]
+          ],
+          "tasks": [
+            "Study how OpenAI optimizes distributed training using DP principles for gradient synchronization.",
+            "Analyze resource scheduling algorithms and how DP minimizes training time across compute clusters.",
+            "Research gradient accumulation strategies and their connection to dynamic programming optimization.",
+            "Implement a mini distributed training system using DP-based scheduling from your optimization toolkit."
+          ],
+          "deliverable": "Detailed analysis of OpenAI's training infrastructure with working prototype of DP-optimized distributed training scheduler."
         }
       }
     }

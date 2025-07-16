@@ -50,12 +50,12 @@
               "ai_prompt": "Explain the dual hash map design. How does the 'stack of stacks' concept ensure O(1) push and pop operations? Relate this to managing model versions or experiment results."
             },
             {
-              "name": "Design Tic-Tac-Toe",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe/",
-              "neetcode_url": "https://neetcode.io/problems/design-tic-tac-toe",
-              "description": "AI guidance on efficient game state management",
-              "ai_prompt": "Explain how to optimize the win condition check to O(1) instead of checking the entire board. How does this relate to efficient state tracking in ML training?"
+              "name": "Design Twitter",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+              "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+              "description": "AI guidance on system design through coding",
+              "ai_prompt": "How would you scale the `getNewsFeed` operation? Discuss the trade-offs of merging k-sorted lists from user's followees. Compare a heap-based merge with a simpler iterative merge."
             }
           ]
         },
@@ -95,12 +95,12 @@
               "ai_prompt": "While BFS works, how could you apply the A* algorithm here? What would be a suitable heuristic? Discuss the benefits in a larger grid."
             },
             {
-              "name": "Robot Room Cleaner",
+              "name": "Word Search II",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/robot-room-cleaner/",
-              "neetcode_url": "https://neetcode.io/problems/robot-room-cleaner",
-              "description": "Advanced backtracking with state management",
-              "ai_prompt": "Explain the backtracking algorithm for exploring unknown spaces. How does this relate to reinforcement learning exploration strategies?"
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Trie + DFS optimization with AI complexity analysis",
+              "ai_prompt": "Explain how using a Trie and backtracking on the board prunes the search space significantly compared to iterating through each word."
             },
             {
               "name": "Regular Expression Matching",
@@ -164,7 +164,7 @@
           "title": "System Design Coding Problems",
           "problems": [
             {
-              "name": "Insert Delete GetRandom O(1) - Duplicates allowed",
+              "name": "LRU Cache",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/lru-cache/",
               "neetcode_url": "https://neetcode.io/problems/lru-cache",
@@ -172,12 +172,12 @@
               "ai_prompt": "Explain the combination of a doubly linked list and a hash map to achieve O(1) for get and put operations. How would you make this thread-safe?"
             },
             {
-              "name": "Design Snake Game",
+              "name": "Design Hit Counter",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-snake-game/",
-              "neetcode_url": "https://neetcode.io/problems/design-snake-game",
-              "description": "Advanced game state management with AI optimization",
-              "ai_prompt": "Explain how to efficiently track the snake's body using a deque and set. How does this dual data structure approach relate to caching strategies in ML systems?"
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Connect to real-time analytics in ML systems",
+              "ai_prompt": "Compare the solution using a queue with one using a fixed-size array and timestamps. Discuss the trade-offs for memory and accuracy in a high-throughput system."
             },
             {
               "name": "Insert Delete GetRandom O(1)",
@@ -273,12 +273,12 @@
               "ai_prompt": "Revisit this problem. Explain the binary search approach on the partitions of the smaller array. What is the invariant you are trying to maintain?"
             },
             {
-              "name": "Palindrome Pairs",
+              "name": "Longest Substring with At Most K Distinct Characters",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/palindrome-pairs/",
-              "neetcode_url": "https://neetcode.io/problems/palindrome-pairs",
-              "description": "Advanced string processing with trie optimization",
-              "ai_prompt": "Explain the trie-based approach for efficient palindrome pair detection. How does this relate to efficient string matching in NLP preprocessing?"
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-with-k-distinct-characters",
+              "description": "Advanced sliding window with AI complexity proof",
+              "ai_prompt": "Explain the sliding window approach with hash map to track character frequencies. How do you efficiently maintain at most k distinct characters?"
             },
             {
               "name": "Burst Balloons",
@@ -343,9 +343,9 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Advanced Portfolio: FAANG-Ready Algorithm Interview Simulator",
+          "title": "Portfolio Project: FAANG-Level Algorithm Interview Simulator",
           "duration": 360,
-          "description": "Build a production-ready interview preparation system that simulates FAANG-level coding interviews. The system will feature company-specific problem sets, real-time complexity analysis, and AI-powered feedback on code quality and optimization.",
+          "description": "Build a comprehensive interview preparation platform that simulates real FAANG coding interviews with company-specific problem sets, AI-powered feedback, and adaptive difficulty scaling. The system will prepare candidates for the highest level technical interviews.",
           "focus_areas": [
             "Company-Specific Problem Curation",
             "AI-Powered Code Review",
@@ -376,40 +376,17 @@
             }
           ],
           "tasks": [
-            "Curate and tag problems based on FAANG company interview patterns.",
-            "Implement a feature to provide real-time feedback on time and space complexity as the user types.",
-            "Use AI to analyze the user's solution and suggest optimizations, alternative approaches, and code style improvements.",
-            "Design a system that adjusts problem difficulty based on user performance."
+            "Create company-specific problem sets with Google, Meta, Amazon, Apple, and Microsoft patterns.",
+            "Implement AI-powered code analysis for time/space complexity and optimization suggestions.",
+            "Build adaptive difficulty system that adjusts based on candidate performance and target company.",
+            "Design real-time interview simulation with behavioral questions and system design integration."
           ],
-          "deliverable": "A deployed web application that provides a realistic and challenging interview simulation experience.",
-          "problems": [
-            {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "A deployed interview platform with comprehensive problem sets, AI feedback system, and performance analytics dashboard."
         },
         "sunday": {
-          "title": "Phase 2 Graduation & Phase 3 Transition",
+          "title": "Phase 2 Assessment & Advanced ML System Architecture Study",
           "duration": 300,
-          "description": "Complete a final, comprehensive assessment of all Phase 2 material in a multi-hour FAANG simulation interview. Use the outcome to transition into Phase 3, which is heavily focused on ML System Design.",
+          "description": "Complete comprehensive Phase 2 evaluation through multi-hour FAANG simulation interviews, followed by deep dive into advanced ML system architectures across major tech companies to prepare for Phase 3.",
           "focus_areas": [
             "Multi-Pattern Algorithm Mastery",
             "Advanced System Design",
@@ -418,39 +395,27 @@
           ],
           "problems": [
             {
-              "name": "Alien Dictionary",
+              "name": "Critical Connections in a Network",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
-              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
-              "description": "Topological sorting with graph construction"
+              "leetcode_url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+              "neetcode_url": "https://neetcode.io/problems/critical-connections-in-a-network",
+              "description": "Tarjan's algorithm for finding bridges in graphs"
             },
             {
-              "name": "Count of Smaller Numbers After Self",
+              "name": "Regular Expression Matching",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
-              "neetcode_url": "https://neetcode.io/problems/count-smaller-numbers-after-self",
-              "description": "Advanced divide-and-conquer with merge sort optimization"
+              "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+              "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+              "description": "Advanced dynamic programming with string matching"
             }
           ],
           "tasks": [
-            "Participate in a 3-hour AI-led mock interview simulating a final FAANG loop, covering 2 hard algorithm questions and 1 system design question.",
-            "Receive a final, detailed AI assessment of your readiness for a FAANG interview.",
-            "Review the Phase 3 curriculum, which focuses on designing large-scale ML systems.",
-            "Use AI to create a personalized bridge study plan connecting advanced algorithms to ML system architecture principles."
+            "Complete 3-hour FAANG simulation covering hard algorithm problems and system design.",
+            "Receive comprehensive AI performance analysis across all Phase 2 patterns and skills.",
+            "Study advanced ML architectures: Google's TPU systems, Meta's PyTorch infrastructure, Amazon's SageMaker.",
+            "Design strategic learning plan for Phase 3 ML system design focus with personalized recommendations."
           ],
-          "deliverable": "A final readiness report and a strategic learning plan for Phase 3, stored in your GitHub repository.",
-          "problems": [
-            {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
-            },
-            {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
-            }
-          ]
+          "deliverable": "Complete Phase 2 assessment report with performance analysis and strategic Phase 3 preparation plan."
         }
       }
     }

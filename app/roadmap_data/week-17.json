@@ -35,16 +35,16 @@
           "title": "Google-Style Problems",
           "problems": [
             {
-              "name": "N-Queens II",
+              "name": "Clone Graph",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
-              "description": "Classic graph traversal, frequently asked."
+              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+              "description": "Graph cloning with DFS/BFS, frequently asked."
             },
             {
-              "name": "Restore IP Addresses",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
-              "description": "Tests BFS and graph transformation skills."
+              "name": "Course Schedule II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule-ii/",
+              "description": "Tests topological sort and cycle detection skills."
             }
           ]
         },
@@ -148,9 +148,9 @@
             },
             {
               "name": "LFU Cache",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
-              "description": "Classic design problem, tests data structure fundamentals."
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/lfu-cache/",
+              "description": "Advanced caching strategy, tests complex data structure design."
             }
           ]
         },
@@ -188,10 +188,10 @@
               "description": "Lots of edge cases and requires careful coding."
             },
             {
-              "name": "Sudoku Solver",
+              "name": "Substring with Concatenation of All Words",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/sudoku-solver/",
-              "description": "Backtracking problem with constraint satisfaction."
+              "leetcode_url": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/",
+              "description": "String matching problem with multiple patterns and tricky edge cases."
             }
           ]
         },
@@ -223,10 +223,10 @@
           "title": "Speed & Optimization Drills",
           "problems": [
             {
-              "name": "Median of Two Sorted Arrays",
+              "name": "Max Points on a Line",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-              "description": "Classic binary search problem requiring O(log(min(m,n))) solution."
+              "leetcode_url": "https://leetcode.com/problems/max-points-on-a-line/",
+              "description": "Requires optimal O(n²) solution with precision handling."
             },
             {
               "name": "Count of Smaller Numbers After Self",
@@ -247,117 +247,57 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Full Mock Interview Loop (Peer/Professional)",
-        "duration": 180,
-        "description": "Simulate a real on-site loop by doing back-to-back interviews with a peer, mentor, or professional service. The goal is to build stamina and test your performance under realistic conditions. If possible, have different interviewers for each session.",
-        "focus_areas": [
-          "Interview Stamina",
-          "Consistent Performance",
-          "Real-time Feedback",
-          "Multi-faceted Evaluation"
-        ],
-        "tasks": [
-          "Session 1: 45-min Coding Interview (e.g., Graphs/DP).",
-          "Session 2: 45-min System Design Interview (e.g., Design a real-time analytics system).",
-          "Session 3: 45-min Behavioral Interview focused on leadership and project ownership.",
-          "Gather comprehensive feedback from all interviewers and synthesize key themes."
-        ],
-        "deliverable": "A summary of feedback from the interview loop and a personal action plan for the next week."
-      },
-      "sunday": {
-        "title": "Deep Dive & Weakness Remediation",
-        "duration": 120,
-        "description": "Based on the feedback from the week's mock interviews, spend dedicated time on your weakest area. Whether it's a specific algorithm pattern, system design concept, or behavioral storytelling, this is your chance to turn a weakness into a strength.",
-        "focus_areas": [
-          "Targeted Practice",
-          "Conceptual Understanding",
-          "Pattern Recognition",
-          "Confidence Building"
-        ],
-        "tasks": [
-          "Analyze all mock interview feedback to identify your #1 weak spot.",
-          "Watch 2-3 in-depth videos or read articles on that specific topic.",
-          "Solve 3-5 LeetCode problems related to that topic, starting from medium and working to hard.",
-          "Write a short document explaining the concept in your own words to solidify your understanding."
-        ],
-        "deliverable": "A write-up explaining your former weak-spot topic, proving your new understanding."
-      }
-    },
-    "weekend_sessions": {
-      "saturday": {
-        "title": "Comprehensive Interview Marathon + AI Performance Optimization",
-        "duration": 480,
-        "sessions": [
-          {
-            "time": "9:00-1:00 PM",
-            "title": "Interview Marathon Day 1",
-            "activities": [
-              "Google technical interview with AI scalability coaching",
-              "Meta system design with AI real-time optimization guidance",
-              "Amazon behavioral + technical with AI leadership integration",
-              "AI comprehensive performance analysis and optimization"
-            ]
-          },
-          {
-            "time": "1:00-2:00 PM",
-            "title": "Interview Recovery",
-            "activities": [
-              "Interview recovery and optimization with AI strategic guidance"
-            ]
-          },
-          {
-            "time": "2:00-5:00 PM",
-            "title": "Portfolio Enhancement",
-            "activities": [
-              "AI-assisted optimization of all projects and presentations"
-            ]
-          }
-        ]
-      },
-      "sunday": {
-        "title": "Interview Marathon Day 2 + Week Review",
-        "duration": 360,
-        "sessions": [
-          {
-            "time": "9:00-1:00 PM",
-            "title": "Interview Marathon Day 2",
-            "activities": [
-              "Apple design + privacy interview with AI innovation coaching",
-              "Netflix personalization system design with AI optimization",
-              "Cross-company system integration with AI complexity management",
-              "Final AI assessment and readiness validation"
-            ]
-          },
-          {
-            "time": "1:00-2:00 PM",
-            "title": "Comprehensive Review",
-            "activities": [
-              "AI analysis of all interview performance metrics"
-            ]
-          },
-          {
-            "time": "2:00-3:00 PM",
-            "title": "Week Planning",
-            "activities": [
-              "Week 17 optimization and Week 18 planning with AI strategic guidance"
-            ]
-          }
-        ]
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Capstone Project Showcase",
+          "duration": 180,
+          "description": "Present your final, deployed capstone project as if you were presenting to an engineering team at a FAANG company. Focus on the 'why' behind your technical decisions, the challenges you overcame, and the impact of your work.",
+          "focus_areas": [
+            "Technical Storytelling",
+            "Live Demo",
+            "Architecture Defense",
+            "Production Readiness"
+          ],
+          "tasks": [
+            "Deliver a 25-minute presentation covering the problem, architecture, trade-offs, and results.",
+            "Conduct a live demo of the deployed application.",
+            "Answer deep-dive questions from a mock interview panel (peers or AI).",
+            "Write a blog post summarizing the project."
+          ],
+          "deliverable": "A deployed web service, a public GitHub repo with a high-quality README, and a recorded presentation."
+        },
+        "sunday": {
+          "title": "Mock Interview System Design Study",
+          "duration": 120,
+          "description": "Solidify your understanding of large-scale system design by studying and diagramming a complex, real-world system. Choose a system you're interested in, such as Google Photos, Netflix's video encoding pipeline, or Amazon's fulfillment network.",
+          "focus_areas": [
+            "Decomposition into Microservices",
+            "Data Storage at Scale",
+            "Asynchronous Communication",
+            "Fault Tolerance and Resiliency"
+          ],
+          "tasks": [
+            "Read engineering blogs and papers about your chosen system.",
+            "Create a detailed architecture diagram using a tool like Excalidraw or Mermaid.js.",
+            "Identify the key bottlenecks and how the system addresses them.",
+            "Use AI to compare the system's design with alternative approaches."
+          ],
+          "deliverable": "A detailed system design document, including an architecture diagram and an analysis of key trade-offs."
+        }
       }
     },
     "ai_prompts": [
       {
-        "category": "Mock Interview Excellence",
-        "text": "Conduct intensive Week 17 mock interviews with maximum realism and difficulty. Evaluate my performance across all dimensions and provide detailed optimization strategies."
+        "category": "Portfolio Excellence",
+        "text": "Help me optimize my Week 18 technical portfolio for maximum impact. Guide me in showcasing both ML expertise and software engineering skills effectively."
       },
       {
-        "category": "Company Specialization",
-        "text": "Help me specialize my interview approach for each target company's specific style, technical focus, and cultural expectations. Provide tailored preparation strategies."
+        "category": "Technical Leadership",
+        "text": "Assist me in demonstrating technical leadership through my portfolio projects. Help me craft compelling narratives that show innovation, problem-solving, and impact."
       },
       {
-        "category": "Performance Consistency",
-        "text": "Analyze my interview performance patterns and help me achieve consistent high performance. Focus on eliminating variability and optimizing for peak performance."
+        "category": "Presentation Optimization",
+        "text": "Guide me through advanced technical presentation skills. Help me communicate complex technical concepts clearly and persuasively to different audiences."
       }
     ]
   }

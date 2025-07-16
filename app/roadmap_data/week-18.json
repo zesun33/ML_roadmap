@@ -76,10 +76,10 @@
           "title": "Hard DP & Optimization",
           "problems": [
             {
-              "name": "Burst Balloons",
+              "name": "Cherry Pickup",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
-              "description": "Advanced interval DP optimization."
+              "leetcode_url": "https://leetcode.com/problems/cherry-pickup/",
+              "description": "Advanced 3D DP optimization with path constraints."
             },
             {
               "name": "Best Time to Buy and Sell Stock IV",
@@ -117,10 +117,10 @@
           "title": "System Design Implementation",
           "problems": [
             {
-              "name": "Design File System",
+              "name": "Design a Logging System",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-file-system/",
-              "description": "Production-level system design with hierarchical storage and operations."
+              "leetcode_url": "https://leetcode.com/problems/design-a-logging-system/",
+              "description": "Production logging system with focus on scalability and real-time processing."
             },
             {
               "name": "Design a Rate Limiter",
@@ -215,103 +215,43 @@
           ]
         }
       },
-      "saturday": {
-        "title": "Capstone Project Showcase",
-        "duration": 180,
-        "description": "Present your final, deployed capstone project as if you were presenting to an engineering team at a FAANG company. Focus on the 'why' behind your technical decisions, the challenges you overcame, and the impact of your work.",
-        "focus_areas": [
-          "Technical Storytelling",
-          "Live Demo",
-          "Architecture Defense",
-          "Production Readiness"
-        ],
-        "tasks": [
-          "Deliver a 25-minute presentation covering the problem, architecture, trade-offs, and results.",
-          "Conduct a live demo of the deployed application.",
-          "Answer deep-dive questions from a mock interview panel (peers or AI).",
-          "Write a blog post summarizing the project."
-        ],
-        "deliverable": "A deployed web service, a public GitHub repo with a high-quality README, and a recorded presentation."
-      },
-      "sunday": {
-        "title": "Advanced System Design Study",
-        "duration": 120,
-        "description": "Solidify your understanding of large-scale system design by studying and diagramming a complex, real-world system. Choose a system you're interested in, such as Google Photos, Netflix's video encoding pipeline, or Amazon's fulfillment network.",
-        "focus_areas": [
-          "Decomposition into Microservices",
-          "Data Storage at Scale",
-          "Asynchronous Communication",
-          "Fault Tolerance and Resiliency"
-        ],
-        "tasks": [
-          "Read engineering blogs and papers about your chosen system.",
-          "Create a detailed architecture diagram using a tool like Excalidraw or Mermaid.js.",
-          "Identify the key bottlenecks and how the system addresses them.",
-          "Use AI to compare the system's design with alternative approaches."
-        ],
-        "deliverable": "A detailed system design document, including an architecture diagram and an analysis of key trade-offs."
-      }
-    },
-    "weekend_sessions": {
-      "saturday": {
-        "title": "Portfolio Showcase Marathon + Leadership Demonstration",
-        "duration": 480,
-        "sessions": [
-          {
-            "time": "9:00-1:00 PM",
-            "title": "Portfolio Showcase Marathon",
-            "activities": [
-              "Complete portfolio presentation to multiple audiences with AI coaching",
-              "Technical leadership demonstration across different scenarios",
-              "Innovation showcase with comprehensive technical storytelling",
-              "AI comprehensive evaluation of portfolio impact and leadership demonstration"
-            ]
-          },
-          {
-            "time": "1:00-2:00 PM",
-            "title": "Feedback Integration",
-            "activities": [
-              "Portfolio optimization based on feedback with AI enhancement"
-            ]
-          },
-          {
-            "time": "2:00-5:00 PM",
-            "title": "Final Projects",
-            "activities": [
-              "Complete final portfolio projects with AI-assisted excellence achievement"
-            ]
-          }
-        ]
-      },
-      "sunday": {
-        "title": "Communication Mastery + Week Transition",
-        "duration": 360,
-        "sessions": [
-          {
-            "time": "9:00-1:00 PM",
-            "title": "Communication Excellence",
-            "activities": [
-              "Advanced technical communication practice with AI coaching",
-              "Leadership scenario demonstrations with AI evaluation",
-              "Cross-functional presentation mastery with AI optimization",
-              "Final communication assessment with AI comprehensive feedback"
-            ]
-          },
-          {
-            "time": "1:00-2:00 PM",
-            "title": "Portfolio Review",
-            "activities": [
-              "Comprehensive portfolio review and final optimization"
-            ]
-          },
-          {
-            "time": "2:00-3:00 PM",
-            "title": "Week Transition",
-            "activities": [
-              "Week 18 completion assessment and Week 19 preparation with AI strategic planning"
-            ]
-          }
-        ]
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Final Project Technical Deep Dive",
+          "duration": 180,
+          "description": "Present your final, deployed capstone project as if you were presenting to an engineering team at a FAANG company. Focus on the 'why' behind your technical decisions, the challenges you overcame, and the impact of your work.",
+          "focus_areas": [
+            "Technical Storytelling",
+            "Live Demo",
+            "Architecture Defense",
+            "Production Readiness"
+          ],
+          "tasks": [
+            "Deliver a 25-minute presentation covering the problem, architecture, trade-offs, and results.",
+            "Conduct a live demo of the deployed application.",
+            "Answer deep-dive questions from a mock interview panel (peers or AI).",
+            "Write a blog post summarizing the project."
+          ],
+          "deliverable": "A deployed web service, a public GitHub repo with a high-quality README, and a recorded presentation."
+        },
+        "sunday": {
+          "title": "Advanced System Design Study",
+          "duration": 120,
+          "description": "Solidify your understanding of large-scale system design by studying and diagramming a complex, real-world system. Choose a system you're interested in, such as Google Photos, Netflix's video encoding pipeline, or Amazon's fulfillment network.",
+          "focus_areas": [
+            "Decomposition into Microservices",
+            "Data Storage at Scale",
+            "Asynchronous Communication",
+            "Fault Tolerance and Resiliency"
+          ],
+          "tasks": [
+            "Read engineering blogs and papers about your chosen system.",
+            "Create a detailed architecture diagram using a tool like Excalidraw or Mermaid.js.",
+            "Identify the key bottlenecks and how the system addresses them.",
+            "Use AI to compare the system's design with alternative approaches."
+          ],
+          "deliverable": "A detailed system design document, including an architecture diagram and an analysis of key trade-offs."
+        }
       }
     },
     "ai_prompts": [

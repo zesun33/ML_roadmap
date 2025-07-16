@@ -168,7 +168,7 @@
         "evening_session": {
           "time": "8:00-9:00 PM",
           "duration": 60,
-          "title": "Amazon Mock & SageMaker Study",
+          "title": "Queue System Mock & AWS Study",
           "activities": [
             "AI Mock Interview: Amazon format with leadership principles integration",
             "ML System Study: Amazon SageMaker architecture and ML pipelines",
@@ -201,20 +201,20 @@
               "ai_prompt": "Explain the amortized O(1) complexity of the enqueue and dequeue operations. How does this relate to amortized analysis in other algorithms?"
             },
             {
-              "name": "Moving Average from Data Stream",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/moving-average-from-data-stream/",
-              "neetcode_url": "https://neetcode.io/problems/moving-average-from-data-stream",
-              "description": "Queue implementation for sliding window average",
-              "ai_prompt": "Explain how a queue efficiently maintains a sliding window for computing moving averages. How does this relate to streaming data processing in ML pipelines?"
+              "name": "Longest Valid Parentheses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-valid-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/longest-valid-parentheses",
+              "description": "Stack-based optimization with AI guidance",
+              "ai_prompt": "Explain the stack-based approach to track valid parentheses. How do you handle the dynamic programming aspect?"
             },
             {
-              "name": "Design Circular Deque",
+              "name": "Design Hit Counter",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-deque/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-deque",
-              "description": "Double-ended queue design with AI guidance",
-              "ai_prompt": "Explain the advantages of a circular implementation. How does this design optimize memory usage in buffer systems used in ML data pipelines?"
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Queue-based system design",
+              "ai_prompt": "Compare a queue-based solution to a solution using a fixed-size array or hash map. What are the trade-offs in a high-throughput system?"
             }
           ]
         },
@@ -263,14 +263,14 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: AI-Powered Expression Evaluator",
+          "title": "Portfolio Project: Distributed Task Queue System",
           "duration": 300,
-          "description": "Build a sophisticated expression evaluator that can parse and compute complex mathematical and logical expressions, similar to the core of a simple programming language or a computational graph engine. Use AI to handle operator precedence, function calls, and error handling.",
+          "description": "Build a production-grade distributed task queue system similar to Celery or RQ, using advanced queue and stack algorithms. The system will handle job scheduling, priority management, and worker coordination for ML training pipelines.",
           "focus_areas": [
-            "Stack-Based Parsing",
-            "Computational Graph Simulation",
-            "AI-Assisted Error Handling",
-            "Performance Optimization"
+            "Priority Queue Implementation",
+            "Distributed System Design",
+            "Job Scheduling Algorithms",
+            "Fault Tolerance & Recovery"
           ],
           "problems": [
             {
@@ -281,11 +281,11 @@
               "description": "Optimal task scheduling with cooldown constraints"
             },
             {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Queue-based stack implementation for task scheduling"
+              "name": "Design Log Storage System",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-log-storage-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-log-storage-system",
+              "description": "Time-based storage for log aggregation"
             },
             {
               "name": "Remove K Digits",
@@ -296,45 +296,22 @@
             }
           ],
           "tasks": [
-            "Implement a stack-based algorithm to handle infix to postfix conversion.",
-            "Build the evaluator to compute the result from the postfix expression.",
-            "Use AI to design a system for adding custom functions and variables.",
-            "Develop a robust error-handling mechanism with AI-suggested user feedback."
+            "Implement a priority queue using binary heap for job scheduling with different priority levels.",
+            "Create a circular buffer-based queue for handling high-throughput job submissions.",
+            "Build a stack-based algorithm for dependency resolution in complex ML training workflows.",
+            "Design a distributed coordination system using queue-based message passing between workers."
           ],
-          "deliverable": "A command-line tool and GitHub repository with a fully functional expression evaluator, extensive test cases, and a detailed README.",
-          "problems": [
-            {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "A deployable task queue system with web dashboard, worker monitoring, job retry mechanisms, and comprehensive API documentation."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & Microsoft ML Deep Dive",
-          "duration": 240,
-          "description": "Participate in an advanced mock interview on ML system design with a focus on Amazon's leadership principles, followed by a comparative study of Microsoft's Azure ML platform.",
+          "title": "ML System Study: Amazon SageMaker Pipeline Architecture",
+          "duration": 180,
+          "description": "Analyze Amazon SageMaker's ML pipeline orchestration system, focusing on how queues and stacks manage job execution, resource allocation, and workflow coordination at enterprise scale.",
           "focus_areas": [
-            "Customer-Obsessed System Design",
-            "Leadership Principle Integration",
-            "Enterprise ML Architecture",
-            "Cloud Platform Comparison"
+            "ML Pipeline Orchestration",
+            "Resource Queue Management",
+            "Workflow State Management",
+            "Auto-Scaling & Load Balancing"
           ],
           "problems": [
             {
@@ -353,44 +330,13 @@
             }
           ],
           "tasks": [
-            "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",
-            "Analyze AI feedback on how well you integrated the principles into your technical design.",
-            "Study the architecture of Azure Machine Learning and its focus on enterprise-grade features.",
-            "Use AI to write a comparative analysis of AWS SageMaker and Azure ML."
+            "Study how SageMaker uses queues for managing training job submissions and resource allocation.",
+            "Analyze the workflow orchestration system and how it handles dependencies between pipeline steps.",
+            "Research auto-scaling mechanisms and how queue depth metrics trigger resource provisioning.",
+            "Design a simplified ML pipeline using your task queue system from Saturday's project."
           ],
-          "deliverable": "A markdown document with your interview analysis and the comparative study of AWS and Azure ML platforms.",
-          "problems": [
-            {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
-            },
-            {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
-            }
-          ]
-        ],
-        "tasks": [
-          "Complete a 90-minute AI-led mock interview on designing a large-scale ML system, where you must justify your decisions using Amazon's Leadership Principles.",
-          "Analyze AI feedback on how well you integrated the principles into your technical design.",
-          "Study the architecture of Azure Machine Learning and its focus on enterprise-grade features.",
-          "Use AI to write a comparative analysis of AWS SageMaker and Azure ML."
-        ],
-        "deliverable": "A markdown document with your interview analysis and the comparative study of AWS and Azure ML platforms.",
-        "problems": [
-          {
-            "name": "Design a Message Queue Service",
-            "difficulty": "Design",
-            "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
-          },
-          {
-            "name": "Design a Distributed Search Service",
-            "difficulty": "Design",
-            "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
-          }
-        ]
+          "deliverable": "Detailed architecture analysis with diagrams of SageMaker's queue-based systems and a working mini ML pipeline implementation."
+        }
       }
     }
   }

@@ -35,10 +35,10 @@
           "title": "System Design in Code",
           "problems": [
             {
-              "name": "Design Phone Directory",
+              "name": "Design File System",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-phone-directory/",
-              "description": "System design with efficient resource management"
+              "leetcode_url": "https://leetcode.com/problems/design-file-system/",
+              "description": "System design with efficient path management"
             },
             {
               "name": "Design In-Memory File System",
@@ -188,10 +188,10 @@
               "description": "Find all shortest transformation sequences"
             },
             {
-              "name": "Text Justification",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/text-justification/",
-              "description": "String formatting with constraint optimization"
+              "name": "Design Browser History",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-browser-history/",
+              "description": "Stack-based navigation system design"
             }
           ]
         },
@@ -223,16 +223,16 @@
           "title": "Targeted Problem Solving",
           "problems": [
             {
-              "name": "Find Median from Data Stream",
+              "name": "Serialize and Deserialize Binary Tree",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
-              "description": "Commonly asked, relates to real-time analytics"
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "description": "Commonly asked, relates to data persistence and tree traversal"
             },
             {
-              "name": "Design Movie Rental System",
+              "name": "Design SQL",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-movie-rental-system/",
-              "description": "Complex system design with multiple data structures and operations"
+              "leetcode_url": "https://leetcode.com/problems/design-sql/",
+              "description": "Database query engine design, crucial for data-driven product features"
             }
           ]
         },
@@ -249,40 +249,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Live Demo & Defense",
-          "duration": 180,
-          "description": "Simulate a portfolio review session. Present one of your key projects to a panel (peers or AI personas) and defend your technical decisions. The goal is to demonstrate ownership, deep understanding, and strong communication skills under pressure.",
+          "title": "Portfolio Project: Geometric ML Algorithms Library",
+          "duration": 280,
+          "description": "Build a comprehensive library of geometric algorithms optimized for ML applications including computational geometry for computer vision, spatial indexing for recommendation systems, and mathematical optimization for neural networks.",
           "focus_areas": [
-            "Live Presentation",
-            "Technical Deep Dive",
-            "Handling Q&A",
-            "Articulating Trade-offs"
+            "Computational Geometry for CV",
+            "Spatial Data Structures",
+            "Mathematical Optimization",
+            "Geometric Deep Learning"
+          ],
+          "problems": [
+            {
+              "name": "Erect the Fence",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/erect-the-fence/",
+              "neetcode_url": "https://neetcode.io/problems/erect-the-fence",
+              "description": "Convex hull algorithm for geometric optimization"
+            },
+            {
+              "name": "Largest Triangle Area",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/largest-triangle-area/",
+              "neetcode_url": "https://neetcode.io/problems/largest-triangle-area",
+              "description": "Geometric area calculation and optimization"
+            },
+            {
+              "name": "Rectangle Area",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/rectangle-area/",
+              "neetcode_url": "https://neetcode.io/problems/rectangle-area",
+              "description": "Geometric intersection and union calculations"
+            }
           ],
           "tasks": [
-            "Deliver a 20-minute presentation on your project.",
-            "Field 30 minutes of deep-dive questions from your review panel.",
-            "Whiteboard a potential extension or improvement to your system.",
-            "Use AI to get feedback on your performance and identify areas for improvement."
+            "Implement computational geometry algorithms for computer vision applications (convex hull, polygon triangulation).",
+            "Create spatial indexing systems using R-trees and KD-trees for efficient nearest neighbor search in recommendation systems.",
+            "Build mathematical optimization algorithms using geometric methods for neural network training optimization.",
+            "Design geometric deep learning framework for processing non-Euclidean data like graphs and manifolds."
           ],
-          "deliverable": "A recording of your presentation and a document summarizing the feedback received and your action items."
+          "deliverable": "A production-ready geometric algorithms library with computer vision integration, spatial search capabilities, and comprehensive benchmarking."
         },
         "sunday": {
-          "title": "Behavioral Interview Prep for Technical Leaders",
-          "duration": 120,
-          "description": "Focus on behavioral questions tailored for senior/leadership roles. Use the STAR (Situation, Task, Action, Result) method to structure compelling stories about your past projects and experiences, emphasizing your leadership, impact, and decision-making process.",
+          "title": "ML System Study: Waymo's Autonomous Driving Perception Pipeline",
+          "duration": 180,
+          "description": "Analyze Waymo's autonomous driving perception and planning systems, focusing on how geometric algorithms enable 3D object detection, path planning, and real-time spatial reasoning for self-driving vehicles.",
           "focus_areas": [
-            "STAR Method",
-            "Leadership & Influence",
-            "Conflict Resolution",
-            "Project Ownership"
+            "3D Object Detection",
+            "Geometric Path Planning",
+            "Spatial Reasoning Systems",
+            "Real-Time Perception Pipeline"
+          ],
+          "problems": [
+            {
+              "name": "K Closest Points to Origin",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+              "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin",
+              "description": "Geometric distance optimization and selection"
+            },
+            {
+              "name": "Minimum Area Rectangle",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-area-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-area-rectangle",
+              "description": "Geometric optimization for shape detection"
+            }
           ],
           "tasks": [
-            "Draft 5 detailed STAR stories based on your portfolio projects.",
-            "Use AI to refine your stories for maximum impact and clarity.",
-            "Practice answering common behavioral questions with an AI mock interviewer.",
-            "Prepare questions to ask your interviewers that demonstrate your technical curiosity and leadership potential."
+            "Study Waymo's 3D perception pipeline and how geometric algorithms process LiDAR and camera data.",
+            "Analyze path planning algorithms and how geometric optimization enables safe trajectory generation.",
+            "Research real-time spatial reasoning systems and how they handle dynamic object tracking.",
+            "Implement a mini autonomous driving perception system using geometric algorithms from your library."
           ],
-          "deliverable": "A document containing 5 polished STAR stories ready for interviews."
+          "deliverable": "Technical analysis of Waymo's perception systems with working prototype of geometric-based object detection and path planning."
         }
       }
     }
