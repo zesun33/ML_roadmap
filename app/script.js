@@ -62,7 +62,9 @@ function roadmapApp() {
                 this.error = false;
                 console.log(`📊 Loading data for week ${weekNumber}...`);
 
-                const response = await fetch(`./roadmap_data/week-${weekNumber}.json`);
+                // Add cache-busting timestamp to prevent stale data
+                const cacheBuster = new Date().getTime();
+                const response = await fetch(`./roadmap_data/week-${weekNumber}.json?v=${cacheBuster}`);
                 if (!response.ok) {
                     throw new Error(`Failed to load data for week ${weekNumber}: ${response.status} ${response.statusText}`);
                 }
