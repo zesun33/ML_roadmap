@@ -242,64 +242,80 @@
         }
       },
       "weekend_sessions": {
-        "saturday": {
-          "title": "Capstone Build – AI-Powered Content Moderation System",
-          "duration": 240,
-          "description": "Build a system to identify and flag inappropriate content in real-time, inspired by Google's large-scale safety systems. Use heaps for priority processing, Tries for text filtering, and a simple ML model for classification.",
-          "focus_areas": [
-            "Priority Queue for Job Scheduling",
-            "Trie for Blocklist Filtering",
-            "Real-Time Data Processing",
-            "Simple ML Model Integration"
-          ],
-          "problems": [
-            {
-              "name": "Find Median from Data Stream",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
-              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
-              "description": "Core component for real-time analytics"
+      "saturday": {
+          "title": "Portfolio Project: ML Training Optimization Engine",
+          "duration": 300,
+          "description": "Build an intelligent training optimization system using dynamic programming algorithms for hyperparameter scheduling, learning rate optimization, and resource allocation. The system will minimize training time while maximizing model performance.",
+        "focus_areas": [
+            "Learning Rate Scheduling",
+            "Hyperparameter Optimization",
+            "Resource Allocation",
+            "Training Pipeline Optimization"
+        ],
+        "problems": [
+          {
+              "name": "Palindromic Substrings",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/palindromic-substrings/",
+              "neetcode_url": "https://neetcode.io/problems/palindromic-substrings",
+              "description": "Dynamic programming for substring pattern counting"
             },
             {
-              "name": "Word Search II",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
-              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
-              "description": "Efficiently search for multiple keywords"
-            }
-          ],
-          "tasks": [
-            "Implement a priority queue to manage content review jobs",
-            "Build a Trie to efficiently check against a large blocklist of words",
-            "Develop a simple classifier to flag potentially harmful images/text",
-            "Create a dashboard to show real-time moderation stats"
-          ],
-          "deliverable": "A GitHub repository with the complete moderation system, a README explaining the architecture, and a demo script."
-        },
-        "sunday": {
-          "title": "Advanced ML System Study: Google Ads",
-          "duration": 180,
-          "description": "Deep dive into the architecture of Google's advertising platform, focusing on real-time bidding, feature engineering, and the use of ML models for click-through rate (CTR) prediction. Analyze the trade-offs between latency and accuracy.",
-          "focus_areas": [
-            "High-Frequency Bidding Systems",
-            "Large-Scale Feature Engineering",
-            "CTR Prediction Models",
-            "Latency vs. Accuracy Trade-offs"
-          ],
-          "problems": [
+              "name": "Interleaving String",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/interleaving-string/",
+              "neetcode_url": "https://neetcode.io/problems/interleaving-string",
+              "description": "2D DP for string combination validation"
+          },
+          {
+              "name": "Best Time to Buy and Sell Stock with Cooldown",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+              "neetcode_url": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock-with-cooldown",
+              "description": "State machine DP for optimization with constraints"
+          }
+        ],
+        "tasks": [
+            "Implement dynamic learning rate scheduling using DP to optimize convergence curves.",
+            "Create a resource allocation algorithm that optimizes GPU memory usage across multiple training jobs.",
+            "Build a hyperparameter optimization system using DP for efficient search space exploration.",
+            "Design an early stopping mechanism using DP to predict optimal training termination points."
+        ],
+          "deliverable": "A training optimization platform with MLflow integration, automated hyperparameter tuning, and real-time training monitoring dashboard."
+      },
+      "sunday": {
+          "title": "ML System Study: Apple's On-Device ML Optimization",
+          "duration": 170,
+          "description": "Deep dive into Apple's Core ML and on-device optimization strategies, focusing on how dynamic programming techniques enable efficient model inference on resource-constrained devices like iPhones and Apple Watch.",
+        "focus_areas": [
+            "On-Device Model Optimization",
+            "Memory-Efficient Inference",
+            "Dynamic Model Adaptation",
+            "Privacy-Preserving ML"
+        ],
+        "problems": [
+          {
+              "name": "Unique Paths II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/unique-paths-ii/",
+              "neetcode_url": "https://neetcode.io/problems/unique-paths-ii",
+              "description": "DP with obstacles for path counting"
+            },
             {
-              "name": "Design Google Ads",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/124748/design-google-search-typeahead-autocomplete"
-            }
-          ],
-          "tasks": [
-            "Map the data flow of a real-time ad auction",
-            "Analyze how features are generated and used in CTR models",
-            "Debate the challenges of maintaining model performance at scale",
-            "Prepare for Week 8 with an AI-generated preview of advanced topics"
-          ],
-          "deliverable": "A detailed markdown document summarizing the Google Ads system analysis and your key takeaways."
+              "name": "Word Break",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/word-break/",
+              "neetcode_url": "https://neetcode.io/problems/word-break",
+              "description": "DP for sequence decomposition validation"
+          }
+        ],
+        "tasks": [
+            "Study Apple's neural engine architecture and how DP optimizes model execution paths.",
+            "Analyze Core ML's quantization strategies and how DP minimizes precision loss.",
+            "Research federated learning approaches and how DP enables privacy-preserving model updates.",
+            "Implement a model compression system using DP-based pruning algorithms."
+        ],
+          "deliverable": "Technical analysis of Apple's on-device ML with implementation of DP-based model optimization techniques and performance benchmarks."
         }
       }
     }

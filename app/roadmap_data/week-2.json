@@ -140,20 +140,20 @@
               "ai_prompt": "Explain how the sliding window expands and contracts. How is this similar to the receptive field in a CNN?"
             },
             {
-              "name": "Permutation in String",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
-              "neetcode_url": "https://neetcode.io/problems/permutation-string",
-              "description": "AI coaching on sliding window with character frequency tracking",
-              "ai_prompt": "Explain how to use a sliding window to check for anagram patterns. How does this relate to pattern detection in sequence modeling?"
+              "name": "Sliding Window Maximum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/sliding-window-maximum/",
+              "neetcode_url": "https://neetcode.io/problems/sliding-window-maximum",
+              "description": "AI coaching on deque usage for O(n) solution",
+              "ai_prompt": "Explain why a deque is the optimal data structure here. Relate this to efficient queuing in data processing pipelines."
             },
             {
-              "name": "Longest Repeating Character Replacement",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-              "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
-              "description": "AI step-by-step approach for variable sliding window",
-              "ai_prompt": "Walk through how to expand and contract the window while tracking character frequency. How does this relate to sequence optimization in NLP preprocessing?"
+              "name": "Minimum Window Substring",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+              "description": "AI step-by-step approach for this complex pattern",
+              "ai_prompt": "Walk through the logic of expanding the window to satisfy the condition, then contracting it to find the minimum. How does this relate to search algorithms in large parameter spaces?"
             }
           ]
         },
@@ -247,9 +247,9 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Sliding Window Algorithm Visualizer",
-          "duration": 300,
-          "description": "Build an interactive tool that visualizes the behavior of various sliding window algorithms in real-time. This project will demonstrate your deep understanding of the pattern and your ability to build sophisticated, educational tools. Use AI to suggest features, generate complex test cases, and help with UI design.",
+          "title": "Portfolio Project: Real-Time Stream Processor with Sliding Windows",
+          "duration": 240,
+          "description": "Build a high-performance stream processing engine using sliding window algorithms, designed for real-time analytics in ML pipelines. The system will handle time-series data, detect patterns, and compute aggregations efficiently.",
           "focus_areas": [
             "Sliding Window Algorithms",
             "Real-Time Data Processing",
@@ -280,40 +280,17 @@
             }
           ],
           "tasks": [
-            "Implement visualizations for fixed, dynamic, and deque-based sliding window algorithms.",
-            "Allow users to input custom data and patterns to see the algorithms in action.",
-            "Integrate AI-powered code analysis to show time and space complexity dynamically.",
-            "Deploy the visualizer as a web application using Flask or a similar framework."
+            "Implement a circular buffer for fixed-size sliding windows with O(1) insertion and deletion.",
+            "Create variable-size sliding window algorithms for pattern detection in streaming data.",
+            "Build a two-pointer system for efficient duplicate detection and removal in sorted streams.",
+            "Design a real-time anomaly detection system using sliding window statistics (mean, variance, percentiles)."
           ],
-          "deliverable": "A live, deployed web application and a GitHub repository with the complete source code and a detailed README.",
-          "problems": [
-            {
-              "name": "Minimum Window Substring",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/minimum-window-substring/",
-              "neetcode_url": "https://neetcode.io/problems/minimum-window-substring",
-              "description": "Sliding window substring optimization"
-            },
-            {
-              "name": "Longest Repeating Character Replacement",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-              "neetcode_url": "https://neetcode.io/problems/longest-repeating-character-replacement",
-              "description": "Sliding window with character counts"
-            },
-            {
-              "name": "Permutation in String",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/permutation-in-string/",
-              "neetcode_url": "https://neetcode.io/problems/permutation-in-string",
-              "description": "Check for permutation presence using window"
-            }
-          ]
+          "deliverable": "A stream processing library with comprehensive benchmarks, documentation, and real-time visualization dashboard showing window operations."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & ML System Deep Dive",
-          "duration": 240,
-          "description": "Engage in a rigorous mock interview combining advanced sliding window problems with system design questions. Follow this with a deep dive into Microsoft's ML infrastructure, focusing on real-time inference and model serving at scale.",
+          "title": "ML System Study: Meta's Real-Time Feature Engineering",
+          "duration": 150,
+          "description": "Deep dive into how Meta uses sliding window techniques for real-time feature computation in their recommendation and ranking systems, focusing on News Feed and Instagram algorithms.",
           "focus_areas": [
             "Real-Time Feature Computation",
             "Sliding Window Aggregations",
@@ -337,35 +314,12 @@
             }
           ],
           "tasks": [
-            "Complete a 90-minute AI-led mock interview covering a hard sliding window problem and a related system design follow-up.",
-            "Receive and analyze detailed AI feedback on technical skills, communication, and design trade-offs.",
-            "Study and diagram the architecture of Azure Machine Learning's real-time endpoint deployment.",
-            "Use AI to compare Microsoft's approach to real-time inference with Google's and Meta's."
+            "Study Meta's feature engineering pipeline and how sliding windows compute user engagement metrics.",
+            "Analyze how real-time signals (likes, comments, shares) are aggregated using time-based windows.",
+            "Research the architecture of Meta's stream processing systems (Kafka, Flink) for ML feature serving.",
+            "Design a mini News Feed ranking system using sliding window features from your Saturday project."
           ],
-          "deliverable": "A markdown document in your GitHub repo detailing your mock interview performance and your analysis of Microsoft's ML systems.",
-          "problems": [
-            {
-              "name": "Remove All Adjacent Duplicates in String II",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
-              "neetcode_url": "https://neetcode.io/problems/remove-all-adjacent-duplicates-in-string-ii",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "Technical analysis document with architecture diagrams explaining Meta's real-time ML systems and your mini implementation with performance analysis."
         }
       }
     }

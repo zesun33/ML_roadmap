@@ -255,75 +255,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Phase 1 Capstone Project: AI-Enhanced Algorithm Library",
+          "title": "Portfolio Project: ML Hyperparameter Optimization Engine",
           "duration": 360,
-          "description": "Build a comprehensive Python library that implements all algorithms and data structures covered in Phase 1. The library should be AI-enhanced, meaning it includes AI-powered optimizations, performance benchmarking, and adaptive algorithm selection based on input data characteristics.",
+          "description": "Build an intelligent hyperparameter optimization system using binary search techniques and Bayesian optimization. The system will efficiently search high-dimensional parameter spaces for optimal ML model configurations.",
           "focus_areas": [
-            "Comprehensive Pattern Implementation",
-            "AI-Powered Optimization",
-            "Performance Benchmarking",
-            "Modular and Reusable Code"
+            "Binary Search on Continuous Spaces",
+            "Bayesian Optimization",
+            "Multi-Dimensional Search",
+            "ML Model Performance Optimization"
           ],
-          "tasks": [
-            "Implement optimized versions of all algorithms from Weeks 1-4.",
-            "Use AI to generate extensive test suites for each algorithm, including edge cases.",
-            "Develop a performance dashboard to visualize the time and space complexity of different implementations.",
-            "Create a high-quality README with documentation and usage examples generated with AI assistance."
-          ],
-          "deliverable": "A well-documented and tested Python library hosted on GitHub, showcasing your mastery of foundational data structures and algorithms.",
           "problems": [
-            {
-              "name": "Capacity To Ship Packages Within D Days",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-              "neetcode_url": "https://neetcode.io/problems/capacity-to-ship-packages-within-d-days",
-              "description": "Binary search on shipping capacity"
-            },
-            {
-              "name": "Minimum Number of Days to Make m Bouquets",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
-              "neetcode_url": "https://neetcode.io/problems/minimum-number-of-days-to-make-m-bouquets",
-              "description": "Binary search on days"
-            },
             {
               "name": "Find Peak Element",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/find-peak-element/",
               "neetcode_url": "https://neetcode.io/problems/find-peak-element",
-              "description": "Binary search to find a local maximum"
-            }
-          ]
-        },
-        "sunday": {
-          "title": "Comprehensive AI Assessment & Phase 2 Planning",
-          "duration": 300,
-          "description": "Undergo a comprehensive assessment of your Phase 1 progress, including a capstone mock interview. Use the AI-driven feedback to create a detailed, personalized plan for Phase 2.",
-          "focus_areas": [
-            "Holistic Skill Assessment",
-            "Multi-Pattern Problem Solving",
-            "System Design Integration",
-            "Strategic Learning Plan"
-          ],
-          "tasks": [
-            "Complete a 2-hour AI-led capstone interview covering multiple patterns from Phase 1 and a system design problem.",
-            "Review a detailed AI-generated report on your strengths, weaknesses, and performance metrics across the entire phase.",
-            "Use AI to analyze your progress and generate a personalized study plan for the next phase, focusing on your specific weak areas.",
-            "Set clear, measurable goals for Phase 2."
-          ],
-          "deliverable": "A detailed markdown document in your GitHub repo outlining your Phase 1 assessment results and your strategic plan for Phase 2.",
-          "problems": [
-            {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "description": "Binary search for local maximum in unsorted array"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Search Insert Position",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/search-insert-position/",
+              "neetcode_url": "https://neetcode.io/problems/search-insert-position",
+              "description": "Binary search for insertion point"
+            },
+            {
+              "name": "Valid Perfect Square",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/valid-perfect-square/",
+              "neetcode_url": "https://neetcode.io/problems/valid-perfect-square",
+              "description": "Binary search for mathematical validation"
             }
-          ]
+          ],
+          "tasks": [
+            "Implement binary search for continuous parameter optimization (learning rate, regularization).",
+            "Create a grid search algorithm with binary search optimization for efficient parameter space exploration.",
+            "Build a Bayesian optimization system using Gaussian processes with binary search for acquisition function maximization.",
+            "Design a distributed hyperparameter search system that coordinates multiple binary search processes."
+          ],
+          "deliverable": "A deployable hyperparameter optimization service with web interface, experiment tracking, and integration with popular ML frameworks (scikit-learn, PyTorch)."
+        },
+        "sunday": {
+          "title": "ML System Study: Microsoft Azure AutoML Architecture", 
+          "duration": 200,
+          "description": "Deep dive into Microsoft's AutoML system architecture, focusing on how binary search and optimization algorithms are used for automated model selection, feature engineering, and hyperparameter tuning at enterprise scale.",
+          "focus_areas": [
+            "Automated Model Selection",
+            "Search Space Optimization", 
+            "Enterprise ML Automation",
+            "Multi-Objective Optimization"
+          ],
+          "problems": [
+            {
+              "name": "Sqrt(x)",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/sqrtx/",
+              "neetcode_url": "https://neetcode.io/problems/sqrtx",
+              "description": "Binary search for mathematical computation"
+            },
+            {
+              "name": "First Bad Version",
+              "difficulty": "Easy", 
+              "leetcode_url": "https://leetcode.com/problems/first-bad-version/",
+              "neetcode_url": "https://neetcode.io/problems/first-bad-version",
+              "description": "Binary search for boundary detection"
+            }
+          ],
+          "tasks": [
+            "Study how Azure AutoML uses search algorithms for automated feature selection and engineering.",
+            "Analyze the model selection process and how binary search optimizes architecture choices.",
+            "Research the multi-objective optimization approach for balancing accuracy, speed, and interpretability.",
+            "Implement a mini AutoML system using your hyperparameter optimization engine from Saturday."
+          ],
+          "deliverable": "Comprehensive analysis of Azure AutoML with implementation comparison showing performance differences between search strategies."
         }
       }
     }

@@ -132,20 +132,20 @@
           "title": "Trie & Autocomplete Problems",
           "problems": [
             {
-              "name": "Word Search II",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
-              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
-              "description": "Trie + DFS optimization with pruning",
-              "ai_prompt": "Revisit this problem. Explain how building a Trie of the dictionary words allows you to prune the DFS search on the board efficiently."
-            },
-            {
               "name": "Stream of Characters",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/stream-of-characters/",
               "neetcode_url": "https://neetcode.io/problems/stream-of-characters",
-              "description": "Advanced Trie implementation for streaming pattern matching",
-              "ai_prompt": "Explain how to efficiently match patterns in a stream using a Trie. How does this relate to real-time pattern detection in NLP applications?"
+              "description": "Trie + Stream processing optimization",
+              "ai_prompt": "Explain how to use a Trie to efficiently detect words in a stream of characters. How does the reverse Trie approach optimize the solution?"
+            },
+            {
+              "name": "Design Search Autocomplete System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-search-autocomplete-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-search-autocomplete-system",
+              "description": "Production Trie implementation",
+              "ai_prompt": "Design a Trie node to store not just character links but also search frequencies. How would you return the top 3 results at each prefix? Discuss the data structures needed for this."
             },
             {
               "name": "Replace Words",
@@ -267,9 +267,9 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Real-time Social Graph Analyzer",
-          "duration": 360,
-          "description": "Inspired by Meta's social graph, build a system that can analyze and query a large graph of users and their connections in real-time. The project will use advanced tree and graph structures for efficient data aggregation and querying.",
+          "title": "Portfolio Project: Real-Time Analytics Engine with Segment Trees",
+          "duration": 300,
+          "description": "Build a high-performance real-time analytics engine using segment trees and advanced tree algorithms for efficient range queries and updates. The system will handle streaming data aggregations for ML feature engineering and real-time monitoring.",
           "focus_areas": [
             "Segment Tree Optimization",
             "Real-Time Range Queries",
@@ -300,40 +300,17 @@
             }
           ],
           "tasks": [
-            "Design a data structure to represent the social graph.",
-            "Use a Segment Tree or BIT to track and query real-time engagement metrics (e.g., likes in the last hour).",
-            "Implement a Trie to categorize and search user-generated content.",
-            "Develop a friend recommendation algorithm based on mutual connections and interests."
+            "Implement segment trees with lazy propagation for efficient range updates and queries.",
+            "Create a streaming data aggregation system using binary indexed trees for real-time metrics.",
+            "Build advanced tree traversal algorithms for hierarchical data analysis and feature extraction.",
+            "Design a distributed tree structure for handling petabyte-scale analytics workloads."
           ],
-          "deliverable": "A deployed application and GitHub repository showcasing the social graph analyzer with a performance benchmark report.",
-          "problems": [
-            {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "A scalable analytics engine with real-time dashboard, streaming data ingestion, and comprehensive performance benchmarks."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & TikTok Deep Dive",
-          "duration": 300,
-          "description": "Engage in a mock interview focused on Meta-style tree and real-time system design problems, followed by a deep dive into the architecture of TikTok's formidable recommendation algorithm.",
+          "title": "ML System Study: Meta's Real-Time Content Ranking Infrastructure",
+          "duration": 180,
+          "description": "Analyze Meta's News Feed and Instagram ranking systems, focusing on how tree-based algorithms enable real-time content scoring, user preference modeling, and personalized feed generation at billions of users scale.",
           "focus_areas": [
             "Real-Time Content Scoring",
             "Hierarchical User Modeling",
@@ -357,24 +334,12 @@
             }
           ],
           "tasks": [
-            "Complete a 90-minute AI-led mock interview on a hard tree problem and a system design question for a real-time feature like Instagram's feed.",
-            "Analyze AI feedback on your speed, optimization, and real-time design trade-offs.",
-            "Study the key components of TikTok's recommendation system, including user profiling, feature engineering, and the 'For You' page algorithm.",
-            "Use AI to write a comparative analysis of Meta's and TikTok's approaches to content recommendation and user engagement."
+            "Study how Meta uses tree structures for organizing user interests and content categories.",
+            "Analyze real-time scoring algorithms and how tree traversals compute personalized rankings.",
+            "Research hierarchical user modeling and how trees represent user preference embeddings.",
+            "Implement a mini content ranking system using tree-based algorithms from your analytics engine."
           ],
-          "deliverable": "A markdown document with your interview analysis and a detailed breakdown of TikTok's recommendation architecture compared to Meta's.",
-          "problems": [
-            {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
-            },
-            {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
-            }
-          ]
+          "deliverable": "Technical analysis of Meta's ranking systems with working prototype of tree-based content recommendation engine."
         }
       }
     }

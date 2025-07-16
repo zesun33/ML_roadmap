@@ -280,93 +280,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Capstone Build – Autonomous Decision-Tree Navigator",
-          "duration": 240,
-          "description": "Build a path-planning and decision-making engine inspired by Tesla's Autopilot. Implement graph search, dynamic programming optimization, and a GNN-based traffic predictor. The goal is to navigate a simulated environment efficiently and safely.",
+          "title": "Portfolio Project: ML Decision Tree Framework with Optimization",
+          "duration": 330,
+          "description": "Build a high-performance decision tree framework optimized for large-scale ML applications. The system will include advanced tree algorithms, pruning techniques, and parallel processing capabilities for ensemble methods.",
           "focus_areas": [
-            "Graph Path-Planning (A*, BFS)",
-            "Dynamic Programming Route Optimization",
-            "GNN for Traffic Prediction",
-            "Tree-Based Decision Logic"
+            "Decision Tree Optimization",
+            "Tree Pruning Algorithms",
+            "Parallel Tree Construction",
+            "Ensemble Method Integration"
           ],
           "problems": [
             {
-              "name": "Word Ladder",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
-              "neetcode_url": "https://neetcode.io/problems/word-ladder",
-              "description": "Shortest-path BFS with heuristics"
+              "name": "Recover Binary Search Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/recover-binary-search-tree",
+              "description": "Fix corrupted BST with two swapped nodes"
             },
             {
-              "name": "Alien Dictionary",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
-              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
-              "description": "Topological ordering in unknown alphabet"
+              "name": "Binary Tree Right Side View",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+              "description": "Level-order traversal for tree visualization"
             },
             {
-              "name": "Binary Tree Maximum Path Sum",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-              "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
-              "description": "DFS with global optimum tracking"
+              "name": "Count Good Nodes in Binary Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+              "description": "Path-based tree traversal with constraints"
             }
           ],
           "tasks": [
-            "Implement path-planning graph algorithms (BFS + A*)",
-            "Add DP route-optimization under fuel & time constraints",
-            "Integrate GNN predictor for traffic flow",
-            "Tree-based decision engine for junction handling",
-            "Benchmark vs. real Tesla Autopilot logs",
-            "Write AI-generated README + architecture diagram",
-            "Load-test navigator on synthetic traffic graphs",
-            "Push to GitHub & create demo video"
+            "Implement optimized binary search tree with AVL or Red-Black balancing for feature indexing.",
+            "Create a decision tree algorithm with information gain and Gini impurity calculations.",
+            "Build tree pruning mechanisms (pre-pruning and post-pruning) to prevent overfitting.",
+            "Design parallel tree construction using multi-threading for Random Forest implementation."
           ],
-          "deliverable": "GitHub repository with the complete navigator, a detailed README, and a video demo of the system making decisions in the simulation."
+          "deliverable": "A production-ready decision tree library with scikit-learn compatibility, performance benchmarks, and comprehensive documentation."
         },
         "sunday": {
-          "title": "Advanced ML System Study: Netflix & Mock Interview",
-          "duration": 180,
-          "description": "Deep dive into the architecture of Netflix's recommendation engine and participate in a mock interview covering graphs and system design.",
+          "title": "ML System Study: Tesla's Autonomous Driving Decision Pipeline",
+          "duration": 200,
+          "description": "Analyze Tesla's hierarchical decision-making system for autonomous driving, focusing on how tree structures organize sensor fusion, path planning, and real-time decision making in their Full Self-Driving (FSD) stack.",
           "focus_areas": [
-            "System Design at Scale",
-            "Candidate Generation & Ranking",
-            "Real-Time Feature Engineering",
-            "Graph Traversal & DP"
+            "Hierarchical Decision Making",
+            "Sensor Fusion Tree Structures",
+            "Real-Time Path Planning",
+            "Multi-Level Decision Trees"
           ],
           "problems": [
             {
-              "name": "Serialize and Deserialize Binary Tree",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree"
+              "name": "Path Sum II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/path-sum-ii/",
+              "neetcode_url": "https://neetcode.io/problems/path-sum-ii",
+              "description": "Find all root-to-leaf paths with target sum"
             },
             {
-              "name": "Course Schedule",
+              "name": "Binary Tree Zigzag Level Order Traversal",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/course-schedule/",
-              "neetcode_url": "https://neetcode.io/problems/course-schedule"
-            },
-            {
-              "name": "Number of Connected Components",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/"
-            },
-            {
-              "name": "Clone Graph",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
-              "neetcode_url": "https://neetcode.io/problems/clone-graph"
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-zigzag-level-order-traversal",
+              "description": "Complex tree traversal pattern"
             }
           ],
           "tasks": [
-            "90-min live coding (graph traversal + DP)",
-            "30-min system design: Real-time Routing Service",
-            "Update progress metrics & charts",
-            "Identify weak areas → feed into Week 7 plan",
-            "Generate AI prompts for DP deep dive"
+            "Study Tesla's neural network architecture and how decision trees organize multi-sensor inputs.",
+            "Analyze the hierarchical planning system from high-level route planning to low-level control decisions.",
+            "Research how tree structures handle real-time constraint satisfaction in autonomous driving.",
+            "Implement a simplified autonomous decision system using tree-based planning algorithms."
           ],
-          "deliverable": "A detailed markdown document in your GitHub repo summarizing the Netflix system analysis and architectural insights, and updated progress metrics."
+          "deliverable": "Detailed technical analysis of Tesla's FSD architecture with working prototype of tree-based decision system for autonomous navigation."
         }
       }
     }

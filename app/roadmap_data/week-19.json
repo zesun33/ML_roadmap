@@ -35,10 +35,10 @@
           "title": "Mock Interview: Google-Style Coding",
           "problems": [
             {
-              "name": "Shortest Distance from All Buildings",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/shortest-distance-from-all-buildings/",
-              "description": "A challenging graph problem requiring optimized BFS from multiple sources."
+              "name": "The Maze II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/the-maze-ii/",
+              "description": "A challenging graph problem requiring optimized BFS with distance tracking."
             }
           ]
         },

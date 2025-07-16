@@ -34,7 +34,7 @@
           "title": "Google-tagged Problems",
           "problems": [
             {
-              "name": "Course Schedule II",
+              "name": "Number of Islands",
               "difficulty": "Medium",
               "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
               "neetcode_url": "https://neetcode.io/problems/number-of-islands",
@@ -42,7 +42,7 @@
               "ai_prompt": "Revisit this problem. How can this be solved with both DFS and BFS? Discuss the trade-offs. How does this relate to identifying connected components in image segmentation?"
             },
             {
-              "name": "Word Break II",
+              "name": "Word Ladder",
               "difficulty": "Hard",
               "leetcode_url": "https://leetcode.com/problems/word-ladder/",
               "neetcode_url": "https://neetcode.io/problems/word-ladder",
@@ -190,12 +190,12 @@
           "title": "Advanced Google Problems",
           "problems": [
             {
-              "name": "Trapping Rain Water",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/trapping-rain-water/",
-              "neetcode_url": "https://neetcode.io/problems/trapping-rain-water",
-              "description": "Multiple approaches with AI optimization",
-              "ai_prompt": "Compare the brute-force, DP, two-pointer, and stack-based solutions. Explain the time and space complexity of each. Which is most optimal?"
+              "name": "Container With Most Water",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+              "neetcode_url": "https://neetcode.io/problems/container-with-most-water",
+              "description": "Two pointers with greedy optimization",
+              "ai_prompt": "Explain the greedy two-pointer approach. How does this relate to optimization strategies in distributed systems and load balancing?"
             },
             {
               "name": "Merge K Sorted Lists",
@@ -235,20 +235,20 @@
           "title": "Contest-Level Problems",
           "problems": [
             {
-              "name": "Expression Add Operators",
+              "name": "Text Justification",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/expression-add-operators/",
-              "neetcode_url": "https://neetcode.io/problems/expression-add-operators",
-              "description": "Complex backtracking with mathematical evaluation",
-              "ai_prompt": "Explain the backtracking approach for generating all possible expressions. How does this relate to search space exploration in neural architecture search?"
+              "leetcode_url": "https://leetcode.com/problems/text-justification/",
+              "neetcode_url": "https://neetcode.io/problems/text-justification",
+              "description": "String processing with greedy algorithms",
+              "ai_prompt": "Explain the greedy approach for word wrapping and spacing distribution. How does this relate to search result formatting algorithms?"
             },
             {
-              "name": "Word Search II",
+              "name": "Maximum Rectangle",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
-              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
-              "description": "Trie + Backtracking optimization",
-              "ai_prompt": "Revisit this problem. Explain how the Trie structure prunes the search space. What is the role of backtracking in this algorithm?"
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack-based optimization for matrix problems",
+              "ai_prompt": "Explain how this problem relates to the largest rectangle in histogram. How does this stack-based approach apply to Google's image processing algorithms?"
             }
           ]
         },
@@ -265,75 +265,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Project: Scalable ML System on GCP",
-          "duration": 360,
-          "description": "Design and build a scalable ML system on Google Cloud Platform. This project will demonstrate your ability to use Google's infrastructure to create a production-ready ML application.",
+          "title": "Portfolio Project: Resource Optimization Engine for ML Training",
+          "duration": 280,
+          "description": "Build an intelligent resource optimization engine that uses greedy algorithms and mathematical optimization to efficiently allocate compute resources for large-scale ML training workloads across distributed clusters.",
           "focus_areas": [
-            "Google Cloud Platform (GCP) Services",
-            "Distributed Training with AI Platform",
-            "Scalable Data Processing with Dataflow",
-            "Production Deployment with Kubernetes Engine"
+            "Greedy Resource Allocation",
+            "Multi-Objective Optimization",
+            "Distributed Compute Scheduling",
+            "Cost-Performance Trade-offs"
           ],
-          "tasks": [
-            "Design a system for training and serving a model using GCP services (e.g., AI Platform, Kubeflow).",
-            "Implement a data pipeline using Apache Beam and Dataflow for large-scale data processing.",
-            "Deploy the model as a microservice on Google Kubernetes Engine (GKE).",
-            "Use AI to write a tech spec documenting your design choices and explaining how it aligns with Google's engineering principles."
-          ],
-          "deliverable": "A deployed application, GitHub repository, and a detailed tech spec for the GCP-based ML system.",
           "problems": [
             {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
+              "name": "Gas Station",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
+              "leetcode_url": "https://leetcode.com/problems/gas-station/",
+              "neetcode_url": "https://neetcode.io/problems/gas-station",
+              "description": "Greedy algorithm for circular optimization"
             },
             {
-              "name": "Maximal Rectangle",
+              "name": "Candy",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
+              "leetcode_url": "https://leetcode.com/problems/candy/",
+              "neetcode_url": "https://neetcode.io/problems/candy",
+              "description": "Greedy approach for constraint satisfaction"
+            },
+            {
+              "name": "Minimum Number of Arrows to Burst Balloons",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-number-of-arrows-to-burst-balloons",
+              "description": "Interval scheduling with greedy optimization"
             }
-          ]
+          ],
+          "tasks": [
+            "Implement greedy algorithms for optimal GPU cluster allocation based on job priorities and resource requirements.",
+            "Create cost optimization system using greedy heuristics for balancing training speed vs infrastructure costs.",
+            "Build dynamic resource scheduling that greedily reallocates resources based on real-time performance metrics.",
+            "Design multi-objective optimization using greedy approaches for minimizing training time, cost, and energy consumption."
+          ],
+          "deliverable": "A production-ready resource optimization platform with real-time scheduling, cost analysis, and performance monitoring dashboard."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & Meta Social Graph Deep Dive",
-          "duration": 300,
-          "description": "Engage in an advanced mock interview simulating a Google final round, followed by a comparative study of Meta's (Facebook's) social graph architecture.",
+          "title": "ML System Study: Spotify's Music Recommendation Infrastructure",
+          "duration": 190,
+          "description": "Analyze Spotify's music recommendation and personalization infrastructure, focusing on how greedy algorithms optimize playlist generation, music discovery, and real-time personalization at 400+ million users scale.",
           "focus_areas": [
-            "Scalable System Design",
-            "Advanced Algorithm Integration",
-            "Social Network Architecture",
-            "Cross-Company Technology Comparison"
+            "Personalized Playlist Generation",
+            "Real-Time Music Discovery",
+            "Collaborative Filtering Optimization",
+            "Large-Scale Content Recommendation"
           ],
-          "tasks": [
-            "Complete a 2-hour AI-led mock interview covering a hard algorithmic problem and a large-scale system design question typical of Google.",
-            "Analyze AI feedback on your problem-solving, design trade-offs, and communication.",
-            "Study the architecture of Meta's social graph, including their TAO data store.",
-            "Use AI to write a comparative analysis of Google's Knowledge Graph vs. Meta's Social Graph."
-          ],
-          "deliverable": "A markdown document containing your interview analysis and a comparative study of Google's and Meta's graph technologies.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Queue Reconstruction by Height",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+              "neetcode_url": "https://neetcode.io/problems/queue-reconstruction-by-height",
+              "description": "Greedy reconstruction with ordering constraints"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Smallest Range Covering Elements from K Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+              "description": "Multi-source optimization with greedy selection"
             }
-          ]
+          ],
+          "tasks": [
+            "Study how Spotify uses greedy algorithms for automated playlist generation and music sequencing.",
+            "Analyze real-time recommendation systems and how greedy heuristics balance exploration vs exploitation.",
+            "Research collaborative filtering optimization and how greedy approaches scale to hundreds of millions of users.",
+            "Implement a mini music recommendation system using greedy algorithms from your resource optimization engine."
+          ],
+          "deliverable": "Technical analysis of Spotify's recommendation architecture with working prototype of greedy-based music recommendation system."
         }
       }
     }

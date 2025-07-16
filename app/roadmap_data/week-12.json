@@ -248,75 +248,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Phase 3 Capstone: ML System Architecture Portfolio",
+          "title": "Portfolio Project: Multi-Modal AI System Architecture",
           "duration": 360,
-          "description": "Create a comprehensive portfolio of ML system architecture designs. This will involve creating detailed design documents for several complex, FAANG-scale systems, demonstrating your mastery of production ML architecture.",
+          "description": "Design and implement a sophisticated multi-modal AI system that processes text, images, and audio simultaneously using advanced algorithms. The system will demonstrate integration of multiple AI techniques with efficient data structure management.",
           "focus_areas": [
-            "Multi-Company Architecture Comparison",
-            "Production-Ready Design Documentation",
-            "Advanced Security and Privacy Frameworks",
-            "Cross-Platform Performance Optimization"
+            "Multi-Modal Data Processing",
+            "Cross-Modal Feature Fusion",
+            "Scalable Architecture Design",
+            "Real-Time Multi-Stream Processing"
           ],
-          "tasks": [
-            "Create detailed architecture diagrams for 3 different large-scale ML systems (e.g., YouTube Recommendations, Meta's News Feed, Amazon's Fraud Detection).",
-            "Write a tech spec for each design, outlining components, APIs, data models, and trade-offs.",
-            "For each design, include a section on security, privacy, and monitoring.",
-            "Use AI to review and critique your designs, suggesting improvements and alternative approaches."
-          ],
-          "deliverable": "A GitHub repository containing a portfolio of at least 3 detailed ML system design documents.",
           "problems": [
             {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
+              "name": "Cherry Pickup",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
+              "leetcode_url": "https://leetcode.com/problems/cherry-pickup/",
+              "neetcode_url": "https://neetcode.io/problems/cherry-pickup",
+              "description": "3D DP for optimal path finding with constraints"
+            },
+            {
+              "name": "Minimum Difficulty of a Job Schedule", 
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-difficulty-of-a-job-schedule",
+              "description": "DP with scheduling optimization"
+            },
+            {
+              "name": "Count Different Palindromic Subsequences",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-different-palindromic-subsequences/",
+              "neetcode_url": "https://neetcode.io/problems/count-different-palindromic-subsequences",
+              "description": "Advanced DP for combinatorial counting"
             }
-          ]
+          ],
+          "tasks": [
+            "Design multi-modal data ingestion pipelines using efficient data structures for text, image, and audio.",
+            "Implement cross-modal attention mechanisms using advanced tree and graph algorithms.",
+            "Create real-time feature fusion system using heaps and priority queues for latency optimization.",
+            "Build scalable inference serving architecture using advanced caching and load balancing algorithms."
+          ],
+          "deliverable": "A deployed multi-modal AI system with web interface, real-time processing capabilities, and comprehensive performance analysis."
         },
         "sunday": {
-          "title": "Phase 3 Graduation Interview & Phase 4 Prep",
-          "duration": 300,
-          "description": "Complete a final, rigorous assessment of your ML system design skills in a simulated FAANG final loop interview, and use the results to prepare for the final phase of interview mastery.",
+          "title": "Comprehensive AI System Study & Phase 3 Preparation",
+          "duration": 240,
+          "description": "Conduct comprehensive analysis of cutting-edge AI systems across major tech companies, synthesizing learnings from all previous weeks to prepare for advanced system design challenges in Phase 3.",
           "focus_areas": [
-            "Enterprise-Grade System Architecture",
-            "Performance Under Pressure",
-            "Multi-Domain ML Application",
-            "Transition to Interview Mastery"
+            "Cross-Company AI Architecture Analysis",
+            "System Design Pattern Synthesis",
+            "Advanced ML Infrastructure",
+            "Phase 3 Strategic Planning"
           ],
-          "tasks": [
-            "Complete a 2-hour AI-led mock interview focused entirely on a complex, multi-part ML system design question.",
-            "Receive and analyze a detailed AI report on your architecture skills, communication, and handling of trade-offs.",
-            "Review the Phase 4 curriculum, which focuses on intensive, company-specific interview practice.",
-            "Use AI to create a personalized study plan for Phase 4, targeting any remaining weak spots in your system design knowledge."
-          ],
-          "deliverable": "A final Phase 3 readiness report and a strategic learning plan for Phase 4, stored in your GitHub repository.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Strange Printer",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/strange-printer/",
+              "neetcode_url": "https://neetcode.io/problems/strange-printer",
+              "description": "Interval DP for optimal sequence planning"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Freedom Trail",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/freedom-trail/", 
+              "neetcode_url": "https://neetcode.io/problems/freedom-trail",
+              "description": "Circular DP with state optimization"
             }
-          ]
+          ],
+          "tasks": [
+            "Analyze and compare AI system architectures across Google, Meta, OpenAI, Tesla, and Microsoft.",
+            "Synthesize common design patterns and trade-offs in large-scale ML infrastructure.",
+            "Create comprehensive mapping of algorithms to real-world ML system components.",
+            "Develop strategic learning plan for Phase 3 focusing on system design mastery and ML infrastructure."
+          ],
+          "deliverable": "Comprehensive AI systems analysis report with Phase 3 preparation strategy and personalized learning roadmap."
         }
       }
     }

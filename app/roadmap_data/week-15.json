@@ -34,12 +34,12 @@
           "title": "Advanced Optimization Problems",
           "problems": [
             {
-              "name": "Reverse Pairs",
+              "name": "Constrained Subsequence Sum",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/reverse-pairs/",
-              "neetcode_url": "https://neetcode.io/problems/reverse-pairs",
-              "description": "Advanced divide-and-conquer with merge sort optimization",
-              "ai_prompt": "Explain the merge sort approach for counting reverse pairs efficiently. How does this divide-and-conquer strategy relate to distributed ML training?"
+              "leetcode_url": "https://leetcode.com/problems/constrained-subsequence-sum/",
+              "neetcode_url": "https://neetcode.io/problems/constrained-subsequence-sum",
+              "description": "Advanced dynamic programming with deque optimization",
+              "ai_prompt": "How does constrained optimization relate to feature selection and regularization in ML models?"
             },
             {
               "name": "Shortest Distance from All Buildings",
@@ -264,75 +264,79 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Excellence Marathon & Final Prep",
-          "duration": 480,
-          "description": "A full-day marathon session to validate your complete skill set across all interview dimensions, leaving no doubt about your readiness.",
+          "title": "Portfolio Project: Intelligent Job Scheduling Platform",
+          "duration": 300,
+          "description": "Build a sophisticated job scheduling platform using interval algorithms and optimization techniques for managing complex ML training workflows, batch processing, and resource allocation in distributed computing environments.",
           "focus_areas": [
-            "Comprehensive Problem Solving",
-            "System Design Mastery",
-            "Performance Under Pressure",
-            "AI-Validated Excellence"
+            "Interval Scheduling Optimization",
+            "Resource Conflict Resolution",
+            "Multi-Priority Job Management",
+            "Distributed Workflow Orchestration"
           ],
-          "tasks": [
-            "Complete a 4-hour mock interview marathon, simulating back-to-back interviews from different FAANG companies.",
-            "Undergo a final system design deep-dive session with an AI-interviewer, defending your architectural choices.",
-            "Receive and analyze your final, comprehensive AI performance report.",
-            "Use the feedback for last-minute targeted practice and confidence building."
-          ],
-          "deliverable": "A final AI-validated certificate of readiness and a personal strategy for managing interview day.",
           "problems": [
             {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
+              "name": "Meeting Rooms III",
               "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
+              "leetcode_url": "https://leetcode.com/problems/meeting-rooms-iii/",
+              "neetcode_url": "https://neetcode.io/problems/meeting-rooms-iii",
+              "description": "Advanced interval scheduling with resource constraints"
+            },
+            {
+              "name": "Employee Free Time",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/employee-free-time/",
+              "neetcode_url": "https://neetcode.io/problems/employee-free-time",
+              "description": "Complex interval merging and gap finding"
+            },
+            {
+              "name": "My Calendar III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/my-calendar-iii/",
+              "neetcode_url": "https://neetcode.io/problems/my-calendar-iii",
+              "description": "Dynamic interval overlap counting"
             }
-          ]
+          ],
+          "tasks": [
+            "Implement interval-based scheduling algorithms for optimal resource utilization and job placement.",
+            "Create conflict resolution system using advanced interval merging and splitting techniques.",
+            "Build priority-based job queue management with deadline optimization and dependency handling.",
+            "Design distributed workflow orchestration using interval graphs for complex ML pipeline coordination."
+          ],
+          "deliverable": "A production-ready job scheduling platform with web interface, real-time monitoring, and comprehensive analytics dashboard."
         },
         "sunday": {
-          "title": "Final Interview Preparation & Relaxation",
-          "duration": 360,
-          "description": "The final day of preparation, focused on mental readiness, strategic review, and relaxation to ensure you are at your peak for the upcoming interviews.",
+          "title": "ML System Study: Airbnb's Search and Ranking Infrastructure",
+          "duration": 160,
+          "description": "Analyze Airbnb's search and ranking infrastructure, focusing on how interval algorithms optimize availability searches, pricing calculations, and real-time inventory management for millions of listings worldwide.",
           "focus_areas": [
-            "Strategic Review",
-            "Mental Preparation",
-            "Confidence Building",
-            "Relaxation and Recovery"
+            "Real-Time Availability Search",
+            "Dynamic Pricing Optimization",
+            "Inventory Management",
+            "Geographic Search Optimization"
           ],
-          "tasks": [
-            "Lightly review your notes and key concepts; do not attempt new problems.",
-            "Practice your introduction and answers to common behavioral questions.",
-            "Engage in relaxation techniques like meditation or light exercise.",
-            "Finalize your logistics for interview day (equipment check, quiet space, etc.)."
-          ],
-          "deliverable": "A calm, confident, and fully prepared mindset for interview success.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Range Module",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/range-module/",
+              "neetcode_url": "https://neetcode.io/problems/range-module",
+              "description": "Dynamic range tracking and querying"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Calendar III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/my-calendar-iii/",
+              "neetcode_url": "https://neetcode.io/problems/my-calendar-iii",
+              "description": "Efficient overlap detection and counting"
             }
-          ]
+          ],
+          "tasks": [
+            "Study how Airbnb uses interval algorithms for real-time availability searches across date ranges.",
+            "Analyze dynamic pricing systems and how interval-based calculations optimize revenue per booking.",
+            "Research inventory management algorithms and how they handle overlapping reservations and cancellations.",
+            "Implement a mini booking system using interval algorithms from your scheduling platform."
+          ],
+          "deliverable": "Technical analysis of Airbnb's search infrastructure with working prototype of interval-based booking system."
         }
       }
     }

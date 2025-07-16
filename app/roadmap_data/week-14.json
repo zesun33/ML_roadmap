@@ -50,12 +50,12 @@
               "ai_prompt": "How does streaming statistics relate to online learning and real-time model performance monitoring?"
             },
             {
-              "name": "Design Online Election System",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/design-online-election-system/",
-              "neetcode_url": "https://neetcode.io/problems/design-online-election-system",
-              "description": "Real-time voting system with distributed consistency",
-              "ai_prompt": "How would you design a distributed election system that ensures consistency and handles high throughput? What are the trade-offs?"
+              "name": "Design Tic-Tac-Toe",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe/",
+              "neetcode_url": "https://neetcode.io/problems/design-tic-tac-toe",
+              "description": "Game engine design with optimal win detection",
+              "ai_prompt": "How does game state management relate to reinforcement learning environments and decision trees?"
             },
             {
               "name": "Maximum Subarray",
@@ -268,14 +268,14 @@
       },
       "weekend_sessions": {
         "saturday": {
-          "title": "Portfolio Completion Marathon",
-          "duration": 480,
-          "description": "A full day dedicated to finalizing all technical projects and portfolio materials with AI assistance, ensuring every detail is polished to perfection.",
+          "title": "Portfolio Project: Real-Time Feature Store Infrastructure",
+          "duration": 320,
+          "description": "Build a production-grade real-time feature store system using advanced data structures for serving ML features at ultra-low latency. The system will handle millions of feature requests per second with millisecond response times.",
           "focus_areas": [
-            "End-to-End Project Finalization",
-            "Comprehensive Documentation",
-            "AI-Powered Quality Assurance",
-            "Presentation Rehearsal"
+            "Low-Latency Data Serving",
+            "Advanced Caching Strategies",
+            "Real-Time Feature Engineering",
+            "High-Availability Architecture"
           ],
           "problems": [
             {
@@ -293,73 +293,54 @@
               "description": "Complex data structure with multiple O(1) requirements"
             },
             {
-              "name": "Design Browser History",
+              "name": "Design Underground System",
               "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-browser-history/",
-              "neetcode_url": "https://neetcode.io/problems/design-browser-history",
-              "description": "Navigation system design with efficient data structures"
+              "leetcode_url": "https://leetcode.com/problems/design-underground-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-underground-system",
+              "description": "Real-time analytics system with efficient data structures"
             }
           ],
           "tasks": [
-            "Complete any remaining coding and testing for all portfolio projects.",
-            "Write comprehensive README files and design documents for each project.",
-            "Use AI tools to perform a final code review and quality check on your entire portfolio.",
-            "Rehearse your project presentations until you can deliver them flawlessly."
+            "Implement high-performance feature serving using custom hash tables with consistent hashing.",
+            "Create multi-level caching system using LRU and TTL policies for feature freshness management.",
+            "Build real-time feature computation pipeline using streaming data structures and incremental updates.",
+            "Design horizontal scaling architecture with automatic failover and data replication."
           ],
-          "deliverable": "A fully completed and polished portfolio, ready for submission to any FAANG company.",
-          "problems": [
-            {
-              "name": "Implement Stack using Queues",
-              "difficulty": "Easy",
-              "leetcode_url": "https://leetcode.com/problems/implement-stack-using-queues/",
-              "neetcode_url": "https://neetcode.io/problems/implement-stack-using-queues",
-              "description": "Stack-based string cleanup"
-            },
-            {
-              "name": "Design Circular Queue",
-              "difficulty": "Medium",
-              "leetcode_url": "https://leetcode.com/problems/design-circular-queue/",
-              "neetcode_url": "https://neetcode.io/problems/design-circular-queue",
-              "description": "Array-based circular queue implementation"
-            },
-            {
-              "name": "Maximal Rectangle",
-              "difficulty": "Hard",
-              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
-              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
-              "description": "Stack usage in binary matrix to compute maximal area"
-            }
-          ]
+          "deliverable": "A scalable feature store platform with REST/gRPC APIs, monitoring dashboard, and comprehensive benchmarking suite."
         },
         "sunday": {
-          "title": "Advanced Mock Interview & Final Portfolio Review",
-          "duration": 360,
-          "description": "Engage in a portfolio-focused mock interview session and conduct a final, comprehensive review of all your materials, preparing you for any deep-dive questions.",
+          "title": "ML System Study: Uber's Real-Time ML Platform",
+          "duration": 170,
+          "description": "Deep dive into Uber's real-time ML infrastructure including Michelangelo ML platform, focusing on how advanced data structures enable real-time prediction serving for ride matching, pricing, and ETA prediction.",
           "focus_areas": [
-            "Portfolio Deep-Dive Questions",
-            "Technical Leadership Demonstration",
-            "Cross-Project Synthesis",
-            "Final Readiness Assessment"
+            "Real-Time Prediction Serving",
+            "Dynamic Pricing Algorithms",
+            "Geospatial Data Structures",
+            "Multi-Service ML Architecture"
           ],
-          "tasks": [
-            "Participate in a 2-hour AI-led mock interview where you present your portfolio and field deep-dive questions on your design and implementation choices.",
-            "Analyze AI feedback on your ability to defend your technical decisions and articulate your contributions.",
-            "Conduct a final peer review or self-review of your portfolio, looking for any last-minute improvements.",
-            "Use AI to generate a final readiness score for your portfolio and presentation skills."
-          ],
-          "deliverable": "A final, polished portfolio and a presentation strategy optimized for maximum impact.",
           "problems": [
             {
-              "name": "Design a Message Queue Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/1852617/design-a-message-queue-service"
+              "name": "Design Add and Search Words Data Structure",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+              "neetcode_url": "https://neetcode.io/problems/design-add-and-search-words-data-structure",
+              "description": "Trie-based data structure with pattern matching"
             },
             {
-              "name": "Design a Distributed Search Service",
-              "difficulty": "Design",
-              "link": "https://leetcode.com/discuss/interview-question/system-design/371522/design-a-distributed-search-service"
+              "name": "Snapshot Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/snapshot-array/",
+              "neetcode_url": "https://neetcode.io/problems/snapshot-array",
+              "description": "Versioned data structure with efficient storage"
             }
-          ]
+          ],
+          "tasks": [
+            "Study Uber's Michelangelo platform architecture and how it serves real-time ML predictions.",
+            "Analyze geospatial data structures used for efficient driver-rider matching and route optimization.",
+            "Research dynamic pricing algorithms and how they use real-time feature stores for demand prediction.",
+            "Implement a mini ride-matching system using advanced data structures from your feature store project."
+          ],
+          "deliverable": "Technical analysis of Uber's ML platform with working prototype of real-time prediction serving system."
         }
       }
     }
