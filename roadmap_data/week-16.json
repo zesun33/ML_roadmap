@@ -1,0 +1,329 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 16
+  },
+  "week": {
+    "title": "Portfolio Showcase & Technical Leadership",
+    "objectives": [
+      "Finalize and polish 3-4 key portfolio projects for FAANG interviews",
+      "Develop compelling narratives and presentations for each project",
+      "Demonstrate technical leadership and deep system understanding",
+      "Master technical communication for diverse audiences (engineers, PMs, leadership)",
+      "Practice advanced problem-solving connecting theory to production systems"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Project Narrative & Architecture Review",
+          "activities": [
+            "Select primary portfolio project for deep-dive presentation",
+            "Use AI to draft a compelling story: problem, solution, impact",
+            "Create high-level architecture diagrams with AI assistance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "System Design in Code",
+          "problems": [
+            {
+              "name": "Design File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-file-system/",
+              "description": "System design with efficient path management"
+            },
+            {
+              "name": "Design In-Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "description": "Complex system design with hierarchical structure"
+            },
+            {
+              "name": "Single Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/single-number/",
+              "neetcode_url": "https://neetcode.io/problems/single-number",
+              "description": "Find single number using XOR",
+              "ai_prompt": "How does XOR relate to error correction in distributed ML systems?"
+            },
+            {
+              "name": "Missing Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/missing-number/",
+              "neetcode_url": "https://neetcode.io/problems/missing-number",
+              "description": "Find missing number using bit manipulation",
+              "ai_prompt": "How does missing data detection relate to data quality in ML?"
+            },
+            {
+              "name": "Counting Bits",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/counting-bits/",
+              "neetcode_url": "https://neetcode.io/problems/counting-bits",
+              "description": "Count 1 bits using dynamic programming",
+              "ai_prompt": "How does bit counting relate to sparse representation in ML?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Code Refinement & Documentation",
+          "activities": [
+            "Refactor project code for clarity and production-readiness",
+            "Write comprehensive README using AI for structure and grammar",
+            "Plan technical blog post outline for the project"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Technical Presentation Crafting",
+          "activities": [
+            "Create a slide deck for your primary project presentation",
+            "Use AI to generate visuals and talking points for each slide",
+            "Practice delivering the first half of the presentation with AI feedback"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Complex Algorithms & Data Structures",
+          "problems": [
+            {
+              "name": "The Skyline Problem",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/the-skyline-problem/",
+              "description": "Complex geometric problem with sweep-line algorithm"
+            },
+            {
+              "name": "Smallest Range Covering Elements from K Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+              "description": "Multi-source optimization with sliding window"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Presentation Polish & Peer Review Prep",
+          "activities": [
+            "Record a full run-through of your project presentation",
+            "Use AI tools to analyze your speech for clarity, pacing, and filler words",
+            "Prepare questions for a mock peer review session"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Communicating Innovation & Trade-offs",
+          "activities": [
+            "Refine project presentation to highlight innovative aspects",
+            "Practice explaining complex technical trade-offs in simple terms",
+            "Use AI to role-play a Q&A session with a non-technical stakeholder"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Expression Parsing & Constraint Problems",
+          "problems": [
+            {
+              "name": "Basic Calculator III",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/basic-calculator-iii/",
+              "description": "Expression parsing with operator precedence"
+            },
+            {
+              "name": "Remove Invalid Parentheses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/remove-invalid-parentheses/",
+              "description": "BFS with state pruning and optimization"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Peer Review",
+          "activities": [
+            "Present your project to a peer or use an AI persona for feedback",
+            "Focus on defending design choices and explaining the 'why'",
+            "Incorporate feedback into your presentation and README"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Demonstrating Technical Depth",
+          "activities": [
+            "Prepare 3 deep-dive topics related to your project (e.g., why a specific DB, algorithm choice, performance tuning)",
+            "Use AI to generate challenging questions about your deep-dive topics",
+            "Practice answering deep-dive questions concisely and accurately"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced String & Transformation Problems",
+          "problems": [
+            {
+              "name": "Word Ladder II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
+              "description": "Find all shortest transformation sequences"
+            },
+            {
+              "name": "Design Browser History",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-browser-history/",
+              "description": "Stack-based navigation system design"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Final Project Polish",
+          "activities": [
+            "Create a short video demo of your main portfolio project",
+            "Ensure all project links (GitHub, live demo) are working",
+            "Write a concise, impactful summary for each project on your resume"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Company-Specific Research",
+          "activities": [
+            "Research the tech stacks of 2-3 target FAANG companies",
+            "Use AI to find recent engineering blogs or publications from those companies",
+            "Tailor your project narratives to align with their work and values"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Targeted Problem Solving",
+          "problems": [
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "description": "Commonly asked, relates to data persistence and tree traversal"
+            },
+            {
+              "name": "Design SQL",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-sql/",
+              "description": "Database query engine design, crucial for data-driven product features"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Week 17 Prep & Final Review",
+          "activities": [
+            "Review all portfolio materials one last time",
+            "Prepare for mock interviews in Week 17",
+            "Use AI to generate a checklist for interview readiness"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Geometric ML Algorithms Library",
+          "duration": 280,
+          "description": "Build a comprehensive library of geometric algorithms optimized for ML applications including computational geometry for computer vision, spatial indexing for recommendation systems, and mathematical optimization for neural networks.",
+          "focus_areas": [
+            "Computational Geometry for CV",
+            "Spatial Data Structures",
+            "Mathematical Optimization",
+            "Geometric Deep Learning"
+          ],
+          "problems": [
+            {
+              "name": "Erect the Fence",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/erect-the-fence/",
+              "neetcode_url": "https://neetcode.io/problems/erect-the-fence",
+              "description": "Convex hull algorithm for geometric optimization"
+            },
+            {
+              "name": "Largest Triangle Area",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/largest-triangle-area/",
+              "neetcode_url": "https://neetcode.io/problems/largest-triangle-area",
+              "description": "Geometric area calculation and optimization"
+            },
+            {
+              "name": "Rectangle Area",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/rectangle-area/",
+              "neetcode_url": "https://neetcode.io/problems/rectangle-area",
+              "description": "Geometric intersection and union calculations"
+            }
+          ],
+          "tasks": [
+            "Implement computational geometry algorithms for computer vision applications (convex hull, polygon triangulation).",
+            "Create spatial indexing systems using R-trees and KD-trees for efficient nearest neighbor search in recommendation systems.",
+            "Build mathematical optimization algorithms using geometric methods for neural network training optimization.",
+            "Design geometric deep learning framework for processing non-Euclidean data like graphs and manifolds."
+          ],
+          "deliverable": "A production-ready geometric algorithms library with computer vision integration, spatial search capabilities, and comprehensive benchmarking."
+        },
+        "sunday": {
+          "title": "ML System Study: Waymo's Autonomous Driving Perception Pipeline",
+          "duration": 180,
+          "description": "Analyze Waymo's autonomous driving perception and planning systems, focusing on how geometric algorithms enable 3D object detection, path planning, and real-time spatial reasoning for self-driving vehicles.",
+          "focus_areas": [
+            "3D Object Detection",
+            "Geometric Path Planning",
+            "Spatial Reasoning Systems",
+            "Real-Time Perception Pipeline"
+          ],
+          "problems": [
+            {
+              "name": "K Closest Points to Origin",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+              "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin",
+              "description": "Geometric distance optimization and selection"
+            },
+            {
+              "name": "Minimum Area Rectangle",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-area-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-area-rectangle",
+              "description": "Geometric optimization for shape detection"
+            }
+          ],
+          "tasks": [
+            "Study Waymo's 3D perception pipeline and how geometric algorithms process LiDAR and camera data.",
+            "Analyze path planning algorithms and how geometric optimization enables safe trajectory generation.",
+            "Research real-time spatial reasoning systems and how they handle dynamic object tracking.",
+            "Implement a mini autonomous driving perception system using geometric algorithms from your library."
+          ],
+          "deliverable": "Technical analysis of Waymo's perception systems with working prototype of geometric-based object detection and path planning."
+        }
+      }
+    }
+  }
+}

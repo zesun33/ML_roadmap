@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 7
+  },
+  "week": {
+    "title": "Dynamic Programming Mastery + Apple ML Infrastructure",
+    "objectives": [
+      "Master DP patterns with 30+ problems",
+      "Implement memoization/tabulation with performance analysis",
+      "Study Apple Core ML & on-device inference",
+      "AI-guided capstone: Algorithm Portfolio Optimizer"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "title": "DP Foundations & Optimization Theory",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "NeetCode DP video + AI notes",
+            "DP \u2194 back-propagation analogy",
+            "State-transition visualization"
+          ]
+        },
+        "coding_session": {
+          "title": "Intro DP Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Fibonacci Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+              "neetcode_url": "https://neetcode.io/problems/fibonacci-sequence"
+            },
+            {
+              "name": "Min Cost Climbing Stairs",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+              "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs"
+            },
+            {
+              "name": "Unique Paths",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/unique-paths/",
+              "neetcode_url": "https://neetcode.io/problems/count-paths"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Core ML Study",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Implement DP templates",
+            "Study Apple Core ML on-device optimizations",
+            "Plan advanced DP topics"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "title": "Knapsack & Resource Allocation",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Knapsack variations overview",
+            "AI link: resource allocation in training",
+            "Space-optimization proofs"
+          ]
+        },
+        "coding_session": {
+          "title": "Knapsack-Style Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Partition Equal Subset Sum",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/partition-equal-subset-sum/",
+              "neetcode_url": "https://neetcode.io/problems/partition-equal-subset-sum"
+            },
+            {
+              "name": "Target Sum",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/target-sum/",
+              "neetcode_url": "https://neetcode.io/problems/target-sum"
+            },
+            {
+              "name": "Ones and Zeroes",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+              "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes"
+            },
+            {
+              "name": "Lowest Common Ancestor of a Binary Search Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+              "description": "LCA in BST using properties",
+              "ai_prompt": "How does LCA relate to hierarchical clustering in ML?"
+            },
+            {
+              "name": "Binary Tree Level Order Traversal",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-level-order-traversal",
+              "description": "BFS traversal of binary tree",
+              "ai_prompt": "How does level-order traversal relate to layer-wise processing in neural networks?"
+            },
+            {
+              "name": "Binary Tree Right Side View",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+              "description": "Get rightmost nodes at each level",
+              "ai_prompt": "How does selective node viewing relate to attention mechanisms?"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Federated ML & DP",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Mock interview: complex DP",
+            "Study federated learning techniques",
+            "SQL optimization drills"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "title": "String DP & Apple Culture",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Edit-distance theory",
+            "Sequence alignment algorithms",
+            "AI visualization of string DP"
+          ]
+        },
+        "coding_session": {
+          "title": "String DP Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Longest Common Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence"
+            },
+            {
+              "name": "Edit Distance",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+              "neetcode_url": "https://neetcode.io/problems/edit-distance"
+            },
+            {
+              "name": "Distinct Subsequences",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+              "neetcode_url": "https://neetcode.io/problems/distinct-subsequences"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Siri NLP Infra",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Implement string DP optimizations",
+            "Study Apple NLP stack",
+            "Plan Thursday\u2019s DP topics"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "title": "Advanced DP + Apple Prep",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Apple engineering principles",
+            "AI analysis of hard DP",
+            "Space-optimized techniques"
+          ]
+        },
+        "coding_session": {
+          "title": "Hard DP Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Maximum Product Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray"
+            },
+            {
+              "name": "Decode Ways",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+              "neetcode_url": "https://neetcode.io/problems/decode-ways"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Apple Mock Interview",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Apple-style DP interview",
+            "Core ML optimization study",
+            "Finalize Friday contest prep"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "title": "Pattern Integration & Contest Prep",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Comprehensive pattern review",
+            "Speed drills",
+            "Contest strategy"
+          ]
+        },
+        "coding_session": {
+          "title": "Weekly Contest",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "LeetCode Weekly Contest",
+              "difficulty": "Mixed",
+              "leetcode_url": "https://leetcode.com/contest/"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Performance Review",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Analyze contest performance",
+            "Plan capstone tasks"
+          ]
+        }
+      },
+      "weekend_sessions": {
+      "saturday": {
+          "title": "Portfolio Project: ML Training Optimization Engine",
+          "duration": 300,
+          "description": "Build an intelligent training optimization system using dynamic programming algorithms for hyperparameter scheduling, learning rate optimization, and resource allocation. The system will minimize training time while maximizing model performance.",
+        "focus_areas": [
+            "Learning Rate Scheduling",
+            "Hyperparameter Optimization",
+            "Resource Allocation",
+            "Training Pipeline Optimization"
+        ],
+        "problems": [
+          {
+              "name": "Palindromic Substrings",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/palindromic-substrings/",
+              "neetcode_url": "https://neetcode.io/problems/palindromic-substrings",
+              "description": "Dynamic programming for substring pattern counting"
+            },
+            {
+              "name": "Interleaving String",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/interleaving-string/",
+              "neetcode_url": "https://neetcode.io/problems/interleaving-string",
+              "description": "2D DP for string combination validation"
+          },
+          {
+              "name": "Best Time to Buy and Sell Stock with Cooldown",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+              "neetcode_url": "https://neetcode.io/problems/best-time-to-buy-and-sell-stock-with-cooldown",
+              "description": "State machine DP for optimization with constraints"
+          }
+        ],
+        "tasks": [
+            "Implement dynamic learning rate scheduling using DP to optimize convergence curves.",
+            "Create a resource allocation algorithm that optimizes GPU memory usage across multiple training jobs.",
+            "Build a hyperparameter optimization system using DP for efficient search space exploration.",
+            "Design an early stopping mechanism using DP to predict optimal training termination points."
+        ],
+          "deliverable": "A training optimization platform with MLflow integration, automated hyperparameter tuning, and real-time training monitoring dashboard."
+      },
+      "sunday": {
+          "title": "ML System Study: Apple's On-Device ML Optimization",
+          "duration": 170,
+          "description": "Deep dive into Apple's Core ML and on-device optimization strategies, focusing on how dynamic programming techniques enable efficient model inference on resource-constrained devices like iPhones and Apple Watch.",
+        "focus_areas": [
+            "On-Device Model Optimization",
+            "Memory-Efficient Inference",
+            "Dynamic Model Adaptation",
+            "Privacy-Preserving ML"
+        ],
+        "problems": [
+          {
+              "name": "Unique Paths II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/unique-paths-ii/",
+              "neetcode_url": "https://neetcode.io/problems/unique-paths-ii",
+              "description": "DP with obstacles for path counting"
+            },
+            {
+              "name": "Word Break",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/word-break/",
+              "neetcode_url": "https://neetcode.io/problems/word-break",
+              "description": "DP for sequence decomposition validation"
+          }
+        ],
+        "tasks": [
+            "Study Apple's neural engine architecture and how DP optimizes model execution paths.",
+            "Analyze Core ML's quantization strategies and how DP minimizes precision loss.",
+            "Research federated learning approaches and how DP enables privacy-preserving model updates.",
+            "Implement a model compression system using DP-based pruning algorithms."
+        ],
+          "deliverable": "Technical analysis of Apple's on-device ML with implementation of DP-based model optimization techniques and performance benchmarks."
+        }
+      }
+    }
+  }
+}

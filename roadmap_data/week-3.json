@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 3
+  },
+  "week": {
+    "title": "Stack & Queue Patterns + Production ML Systems",
+    "objectives": [
+      "Master Stack, Queue, and Monotonic Stack patterns with 28+ problems",
+      "Connect stack operations to computational graphs and expression parsing",
+      "Build an AI-powered Expression Evaluator and Computational Graph Parser project",
+      "Study Amazon and Microsoft ML infrastructure (SageMaker, Azure ML)"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Stack Fundamentals & Graph Theory",
+          "activities": [
+            "Watch NeetCode Stack videos with AI-enhanced note synthesis",
+            "AI explanation of stack applications in computational graphs and autodiff",
+            "LIFO principles connecting to function call stacks in deep learning"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Core Stack Problems",
+          "problems": [
+            {
+              "name": "Valid Parentheses",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/valid-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+              "description": "AI coaching on balanced structures",
+              "ai_prompt": "How does this relate to parsing nested structures in compilers or JSON objects?"
+            },
+            {
+              "name": "Min Stack",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/min-stack/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-stack",
+              "description": "AI optimization for O(1) operations",
+              "ai_prompt": "Compare the two-stack approach to storing pairs. What are the space-time trade-offs, and how does this relate to caching strategies?"
+            },
+            {
+              "name": "Evaluate Reverse Polish Notation",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+              "neetcode_url": "https://neetcode.io/problems/evaluate-reverse-polish-notation",
+              "description": "Connect to expression trees",
+              "ai_prompt": "How is RPN evaluation related to post-order traversal of an expression tree? How does this apply to computational graphs in ML?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & ML Study",
+          "activities": [
+            "AI Mock Interview: Stack problem with optimization and ML connections",
+            "ML Study: PyTorch autograd and computational graph construction",
+            "Plan Day 16 with AI curriculum adaptation and problem selection"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Stack Applications & Parsing",
+          "activities": [
+            "Stack applications in expression parsing and evaluation",
+            "AI explanation connecting to computational graph construction in ML frameworks",
+            "Recursive vs iterative implementations with AI complexity guidance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Expression Parsing Problems",
+          "problems": [
+            {
+              "name": "Generate Parentheses",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/generate-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/generate-parentheses",
+              "description": "AI coaching on backtracking with stacks",
+              "ai_prompt": "Explain the backtracking approach. How is the stack implicitly used in the recursion? Relate this to exploring different neural network architectures."
+            },
+            {
+              "name": "Simplify Path",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/simplify-path/",
+              "neetcode_url": "https://neetcode.io/problems/simplify-path",
+              "description": "Connect to file system operations",
+              "ai_prompt": "How does this stack-based path normalization relate to state management in distributed file systems?"
+            },
+            {
+              "name": "Basic Calculator",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/basic-calculator/",
+              "neetcode_url": "https://neetcode.io/problems/basic-calculator",
+              "description": "Advanced expression parsing",
+              "ai_prompt": "Explain the two-stack approach for handling parentheses and operator precedence. How does this relate to parsing complex model configuration files?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Implementation & TensorFlow Study",
+          "activities": [
+            "Implement expression evaluator with AI assistance and optimization",
+            "AI generates computational graph parsing problems",
+            "Study TensorFlow's expression compilation with AI insights"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Monotonic Stack & Amazon ML",
+          "activities": [
+            "Monotonic stack patterns with AI visualization and theory",
+            "AI explanation of monotonic properties in algorithm optimization",
+            "Amazon's interview format and ML infrastructure study"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Monotonic Stack Problems",
+          "problems": [
+            {
+              "name": "Daily Temperatures",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/daily-temperatures/",
+              "neetcode_url": "https://neetcode.io/problems/daily-temperatures",
+              "description": "AI coaching on monotonic stack technique",
+              "ai_prompt": "Explain how the monotonic stack efficiently finds the next greater element. How can this pattern be used in time series forecasting to find future peaks?"
+            },
+            {
+              "name": "Car Fleet",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/car-fleet/",
+              "neetcode_url": "https://neetcode.io/problems/car-fleet",
+              "description": "Connect to scheduling and optimization algorithms",
+              "ai_prompt": "How does sorting by position and calculating arrival times create a structure solvable by a stack? Relate this to job scheduling problems in distributed computing."
+            },
+            {
+              "name": "Largest Rectangle in Histogram",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+              "neetcode_url": "https://neetcode.io/problems/largest-rectangle-in-histogram",
+              "description": "AI step-by-step guidance",
+              "ai_prompt": "Walk through the monotonic stack approach. How does finding the previous and next smaller element for each bar help solve the problem? Relate this to finding optimal bounding boxes in computer vision."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Queue System Mock & AWS Study",
+          "activities": [
+            "AI Mock Interview: Amazon format with leadership principles integration",
+            "ML System Study: Amazon SageMaker architecture and ML pipelines",
+            "Review monotonic stack optimization techniques with AI"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Queue Operations & System Design",
+          "activities": [
+            "Queue vs stack trade-offs with AI performance analysis",
+            "Queue applications in BFS, level-order traversal, and scheduling",
+            "AI-generated complexity comparison and use case analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Queue & System Design Problems",
+          "problems": [
+            {
+              "name": "Implement Queue using Stacks",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/implement-queue-using-stacks/",
+              "neetcode_url": "https://neetcode.io/problems/implement-queue-using-stacks",
+              "description": "Design patterns with AI",
+              "ai_prompt": "Explain the amortized O(1) complexity of the enqueue and dequeue operations. How does this relate to amortized analysis in other algorithms?"
+            },
+            {
+              "name": "Longest Valid Parentheses",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-valid-parentheses/",
+              "neetcode_url": "https://neetcode.io/problems/longest-valid-parentheses",
+              "description": "Stack-based optimization with AI guidance",
+              "ai_prompt": "Explain the stack-based approach to track valid parentheses. How do you handle the dynamic programming aspect?"
+            },
+            {
+              "name": "Design Hit Counter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Queue-based system design",
+              "ai_prompt": "Compare a queue-based solution to a solution using a fixed-size array or hash map. What are the trade-offs in a high-throughput system?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Distributed Systems",
+          "activities": [
+            "AI Mock Interview: Hard stack/queue problem + mini system design",
+            "Study queue applications in distributed systems and ML pipelines",
+            "Plan Friday's contest with AI strategy optimization"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Patterns & Contest Prep",
+          "activities": [
+            "AI comprehensive review of all stack/queue patterns and optimizations",
+            "Contest problem identification techniques with AI pattern matching",
+            "Advanced time management strategies for complex algorithmic problems"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest & Analysis",
+          "activities": [
+            "CodeForces Round participation with AI real-time coaching",
+            "AI analysis of contest performance, pattern recognition, and strategy",
+            "Review and optimize week's solutions with AI complexity verification"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mastery Assessment & Planning",
+          "activities": [
+            "AI comprehensive assessment of stack/queue mastery and readiness",
+            "Prepare weekend portfolio project with AI planning and scope definition",
+            "Week 3 progress analysis with AI insights and improvement recommendations"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Distributed Task Queue System",
+          "duration": 300,
+          "description": "Build a production-grade distributed task queue system similar to Celery or RQ, using advanced queue and stack algorithms. The system will handle job scheduling, priority management, and worker coordination for ML training pipelines.",
+          "focus_areas": [
+            "Priority Queue Implementation",
+            "Distributed System Design",
+            "Job Scheduling Algorithms",
+            "Fault Tolerance & Recovery"
+          ],
+          "problems": [
+            {
+              "name": "Task Scheduler",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/task-scheduler/",
+              "neetcode_url": "https://neetcode.io/problems/task-scheduling",
+              "description": "Optimal task scheduling with cooldown constraints"
+            },
+            {
+              "name": "Design Log Storage System",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-log-storage-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-log-storage-system",
+              "description": "Time-based storage for log aggregation"
+            },
+            {
+              "name": "Remove K Digits",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/remove-k-digits/",
+              "neetcode_url": "https://neetcode.io/problems/remove-k-digits",
+              "description": "Monotonic stack for optimal digit removal"
+            }
+          ],
+          "tasks": [
+            "Implement a priority queue using binary heap for job scheduling with different priority levels.",
+            "Create a circular buffer-based queue for handling high-throughput job submissions.",
+            "Build a stack-based algorithm for dependency resolution in complex ML training workflows.",
+            "Design a distributed coordination system using queue-based message passing between workers."
+          ],
+          "deliverable": "A deployable task queue system with web dashboard, worker monitoring, job retry mechanisms, and comprehensive API documentation."
+        },
+        "sunday": {
+          "title": "ML System Study: Amazon SageMaker Pipeline Architecture",
+          "duration": 180,
+          "description": "Analyze Amazon SageMaker's ML pipeline orchestration system, focusing on how queues and stacks manage job execution, resource allocation, and workflow coordination at enterprise scale.",
+          "focus_areas": [
+            "ML Pipeline Orchestration",
+            "Resource Queue Management",
+            "Workflow State Management",
+            "Auto-Scaling & Load Balancing"
+          ],
+          "problems": [
+            {
+              "name": "Number of Recent Calls",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/number-of-recent-calls/",
+              "neetcode_url": "https://neetcode.io/problems/number-of-recent-calls",
+              "description": "Queue-based sliding window for request counting"
+            },
+            {
+              "name": "Decode String",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/decode-string/",
+              "neetcode_url": "https://neetcode.io/problems/decode-string",
+              "description": "Stack-based string parsing and reconstruction"
+            }
+          ],
+          "tasks": [
+            "Study how SageMaker uses queues for managing training job submissions and resource allocation.",
+            "Analyze the workflow orchestration system and how it handles dependencies between pipeline steps.",
+            "Research auto-scaling mechanisms and how queue depth metrics trigger resource provisioning.",
+            "Design a simplified ML pipeline using your task queue system from Saturday's project."
+          ],
+          "deliverable": "Detailed architecture analysis with diagrams of SageMaker's queue-based systems and a working mini ML pipeline implementation."
+        }
+      }
+    }
+  }
+}

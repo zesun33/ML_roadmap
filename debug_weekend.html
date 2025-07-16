@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Sessions Debug</title>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .debug-section { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; }
+        .error { color: red; }
+        .success { color: green; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Weekend Sessions Debug Page</h1>
+    
+    <div x-data="weekendDebug()" x-init="init()">
+        <div class="debug-section">
+            <h2>Loading Status</h2>
+            <p x-show="loading" class="info">Loading...</p>
+            <p x-show="error" class="error" x-text="errorMessage"></p>
+            <p x-show="!loading && !error" class="success">Data loaded successfully!</p>
+        </div>
+
+        <div class="debug-section" x-show="roadmapData">
+            <h2>Data Structure Debug</h2>
+            <p><strong>Week Number:</strong> <span x-text="roadmapData?.week?.week_number"></span></p>
+            <p><strong>Week Title:</strong> <span x-text="roadmapData?.week?.title"></span></p>
+            <p><strong>Has daily_schedule:</strong> <span x-text="!!roadmapData?.week?.daily_schedule"></span></p>
+            <p><strong>Has weekend_sessions:</strong> <span x-text="!!roadmapData?.week?.daily_schedule?.weekend_sessions"></span></p>
+            <p><strong>Has Saturday:</strong> <span x-text="!!roadmapData?.week?.daily_schedule?.weekend_sessions?.saturday"></span></p>
+            <p><strong>Has Sunday:</strong> <span x-text="!!roadmapData?.week?.daily_schedule?.weekend_sessions?.sunday"></span></p>
+        </div>
+
+        <div class="debug-section" x-show="roadmapData?.week?.daily_schedule?.weekend_sessions">
+            <h2>Weekend Sessions Display Test</h2>
+            
+            <!-- Test Alpine.js condition -->
+            <div x-show="roadmapData.week.daily_schedule.weekend_sessions && (roadmapData.week.daily_schedule.weekend_sessions.saturday || roadmapData.week.daily_schedule.weekend_sessions.sunday)">
+                <h3>✅ Weekend Sessions Section Should Be Visible</h3>
+                
+                <!-- Saturday Test -->
+                <template x-if="roadmapData.week.daily_schedule.weekend_sessions && roadmapData.week.daily_schedule.weekend_sessions.saturday">
+                    <div>
+                        <h4>Saturday Session</h4>
+                        <div x-data="{ saturday: roadmapData.week.daily_schedule.weekend_sessions.saturday }">
+                            <p><strong>Title:</strong> <span x-text="saturday.title"></span></p>
+                            <p><strong>Duration:</strong> <span x-text="saturday.duration"></span> minutes</p>
+                            <p><strong>Description:</strong> <span x-text="saturday.description"></span></p>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Sunday Test -->
+                <template x-if="roadmapData.week.daily_schedule.weekend_sessions && roadmapData.week.daily_schedule.weekend_sessions.sunday">
+                    <div>
+                        <h4>Sunday Session</h4>
+                        <div x-data="{ sunday: roadmapData.week.daily_schedule.weekend_sessions.sunday }">
+                            <p><strong>Title:</strong> <span x-text="sunday.title"></span></p>
+                            <p><strong>Duration:</strong> <span x-text="sunday.duration"></span> minutes</p>
+                            <p><strong>Description:</strong> <span x-text="sunday.description"></span></p>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <div x-show="!(roadmapData.week.daily_schedule.weekend_sessions && (roadmapData.week.daily_schedule.weekend_sessions.saturday || roadmapData.week.daily_schedule.weekend_sessions.sunday))">
+                <h3 class="error">❌ Weekend Sessions Section Not Visible (Condition Failed)</h3>
+            </div>
+        </div>
+
+        <div class="debug-section">
+            <h2>Week Selection</h2>
+            <label for="weekSelect">Test Different Weeks:</label>
+            <select id="weekSelect" x-model="currentWeek" @change="loadWeekData(currentWeek)">
+                <template x-for="i in 20" :key="i">
+                    <option :value="i" x-text="`Week ${i}`"></option>
+                </template>
+            </select>
+        </div>
+
+        <div class="debug-section" x-show="roadmapData">
+            <h2>Raw Data Preview</h2>
+            <details>
+                <summary>Click to view raw weekend_sessions data</summary>
+                <pre x-text="JSON.stringify(roadmapData?.week?.daily_schedule?.weekend_sessions, null, 2)"></pre>
+            </details>
+        </div>
+    </div>
+
+    <script>
+        function weekendDebug() {
+            return {
+                loading: true,
+                error: false,
+                errorMessage: '',
+                roadmapData: null,
+                currentWeek: 1,
+
+                async init() {
+                    await this.loadWeekData(this.currentWeek);
+                },
+
+                async loadWeekData(weekNumber) {
+                    try {
+                        this.loading = true;
+                        this.error = false;
+                        console.log(`Loading week ${weekNumber}...`);
+
+                        const response = await fetch(`./roadmap_data/week-${weekNumber}.json`);
+                        if (!response.ok) {
+                            throw new Error(`Failed to load week ${weekNumber}: ${response.status}`);
+                        }
+
+                        this.roadmapData = await response.json();
+                        console.log('Loaded data:', this.roadmapData);
+
+                    } catch (error) {
+                        console.error('Load error:', error);
+                        this.error = true;
+                        this.errorMessage = error.message;
+                    } finally {
+                        this.loading = false;
+                    }
+                }
+            };
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 20
+  },
+  "week": {
+    "title": "Interview Execution & Career Launch",
+    "objectives": [
+      "Execute live interviews with calm confidence and peak performance",
+      "Effectively manage multi-stage interview loops and communication",
+      "Master the art of offer evaluation and negotiation",
+      "Develop a strategic 30-60-90 day plan for a new role",
+      "Celebrate the successful completion of the mastery plan and career transition"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Interview Day Warm-up",
+          "activities": [
+            "Execute your pre-interview warm-up routine.",
+            "Solve one 'Easy' LeetCode problem (e.g., Two Sum) to get in the zone.",
+            "Use AI for a 5-minute confidence-building visualization exercise."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Live Interview Execution",
+          "problems": [
+            {
+              "name": "Live Interview Slot 1",
+              "difficulty": "Varies",
+              "description": "Focus on clear communication, thinking out loud, and asking clarifying questions. The goal is a strong, positive interaction."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Post-Interview Debrief",
+          "activities": [
+            "Write down notes from the interview: questions asked, your performance, things you learned.",
+            "Send a concise, professional thank-you note to your interviewers.",
+            "Use AI to analyze your performance and identify any patterns."
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "System Design Review",
+          "activities": [
+            "Quickly review 3 common system design patterns (e.g., Caching, Load Balancing, Sharding).",
+            "Whiteboard a high-level design for a service like Instagram.",
+            "Practice explaining the trade-offs of your design choices."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Live Interview Execution",
+          "problems": [
+            {
+              "name": "Live Interview Slot 2",
+              "difficulty": "Varies",
+              "description": "If it's a system design round, focus on structure: requirements, estimation, API, data model, high-level design, deep dive."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Post-Interview Debrief & Rest",
+          "activities": [
+            "Debrief today's interview, noting any new or interesting questions.",
+            "Follow up with recruiters as needed.",
+            "Take the rest of the evening off to decompress."
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Behavioral Story Polish",
+          "activities": [
+            "Review your top 5 STAR stories.",
+            "Use an AI partner to practice delivering one story, asking for feedback on tone and impact.",
+            "Prepare thoughtful questions to ask about company culture and team dynamics."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Live Interview Execution",
+          "problems": [
+            {
+              "name": "Live Interview Slot 3",
+              "difficulty": "Varies",
+              "description": "For behavioral rounds, be authentic, structured (STAR), and connect your experiences to the company's values or leadership principles."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Managing Interview Fatigue",
+          "activities": [
+            "Reflect on your energy levels throughout the process.",
+            "Develop a quick 'reset' routine to use between back-to-back interviews.",
+            "Plan a non-technical activity to recharge."
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Negotiation Strategy",
+          "activities": [
+            "Research average salaries for your target role, level, and location.",
+            "Use AI to learn about the components of a tech offer (base, equity, bonus).",
+            "Prepare your 'BATNA' (Best Alternative to a Negotiated Agreement)."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Offer Evaluation",
+          "problems": [
+            {
+              "name": "Offer Evaluation & Negotiation Practice",
+              "difficulty": "Life",
+              "description": "Use an AI to simulate an offer call from a recruiter. Practice expressing gratitude, asking clarifying questions, and presenting a well-reasoned counter-offer."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Decision Making",
+          "activities": [
+            "Create a scorecard to compare potential offers across multiple factors (comp, team, growth, WLB).",
+            "Discuss your options with a mentor or trusted peer.",
+            "Trust your gut and make a decision you're excited about."
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Roadmap Retrospective",
+          "activities": [
+            "Look back at your Week 1 goals and notes.",
+            "Write down the three most valuable skills you learned.",
+            "Acknowledge how much you've grown throughout this intensive process."
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Giving Back",
+          "problems": [
+            {
+              "name": "Contribute Back to the Community",
+              "difficulty": "Easy",
+              "description": "Write a post on LinkedIn or a blog sharing one key insight from your interview prep journey. Help those who are just getting started."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Celebrate Your Success!",
+          "activities": [
+            "You've completed the ML-FAANG Mastery Plan!",
+            "Celebrate this incredible achievement with friends, family, or a well-deserved personal reward.",
+            "Get ready for your new career adventure!"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Design Your 30-60-90 Day Plan",
+          "duration": 120,
+          "description": "Strategically plan your first three months in your new role to ensure a fast start and long-term success. This plan will be your personal roadmap for making an impact, building relationships, and learning effectively.",
+          "focus_areas": [
+            "Onboarding & Learning",
+            "Building Relationships",
+            "Early Wins",
+            "Long-term Impact"
+          ],
+          "tasks": [
+            "**First 30 Days (Learn):** Define goals for understanding the team's codebase, tools, and processes. Schedule 1-on-1s with every team member.",
+            "**First 60 Days (Contribute):** Identify goals for completing your first project, making meaningful code contributions, and understanding the team's architecture.",
+            "**First 90 Days (Own):** Set goals for taking ownership of a small feature or component, providing value in team meetings, and establishing your reputation as a reliable engineer.",
+            "Use AI to refine your plan and add specific, measurable metrics for each goal."
+          ],
+          "deliverable": "A one-page document outlining your 30-60-90 day plan for your new role."
+        },
+        "sunday": {
+          "title": "Prepare for Day 1",
+          "duration": 60,
+          "description": "Final preparations for a successful start to your new job. This is about logistics and mindset, ensuring you walk in on your first day feeling prepared, confident, and excited.",
+          "focus_areas": [
+            "Logistics",
+            "Mindset",
+            "Professionalism",
+            "Excitement"
+          ],
+          "tasks": [
+            "Confirm all HR paperwork is complete.",
+            "Prepare your home office or commute plan.",
+            "Pick out your first-day outfit.",
+            "Relax and get a great night's sleep, ready to start the next chapter of your career."
+          ],
+          "deliverable": "A state of complete readiness and excitement for your new role."
+        }
+      }
+    }
+  }
+}

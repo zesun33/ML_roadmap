@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 6
+  },
+  "week": {
+    "title": "Trees & Graph Foundations + Tesla ML Systems",
+    "objectives": [
+      "Master binary-tree and graph algorithms with AI visualization",
+      "Understand Tesla\u2019s Autopilot ML pipeline and real-time vision systems",
+      "Connect tree/graph structures to decision-tree and GNN models",
+      "Complete 25+ problems and an AI-enhanced capstone project"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "title": "BST Properties & Self-Balancing Trees",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "BST operations with AI proofs",
+            "Self-balancing trees vs. gradient balancing",
+            "Tree rotations \u2013 visual demo"
+          ]
+        },
+        "coding_session": {
+          "title": "BST Coding",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Kth Smallest Element in a BST",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+              "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-bst",
+              "description": "In-order traversal with AI optimization"
+            },
+            {
+              "name": "Construct Binary Tree from Preorder & Inorder",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/construct-binary-tree-from-preorder-and-inorder-traversal",
+              "description": "Step-by-step reconstruction"
+            },
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+              "description": "Relates to model serialization"
+            },
+            {
+              "name": "Invert Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree",
+              "description": "Tree structure manipulation",
+              "ai_prompt": "How does tree inversion relate to tree transformations in decision trees?"
+            },
+            {
+              "name": "Maximum Depth of Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree",
+              "description": "Basic tree traversal and depth calculation",
+              "ai_prompt": "How does tree depth relate to model depth in neural networks?"
+            },
+            {
+              "name": "Same Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/same-tree/",
+              "neetcode_url": "https://neetcode.io/problems/same-binary-tree",
+              "description": "Tree comparison and structure validation",
+              "ai_prompt": "How does tree comparison relate to model comparison in ML?"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "AI Mock Interview + SQL Trees",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Mock interview (complex tree problem)",
+            "Tree use-cases in ML feature engineering",
+            "Recursive CTEs for hierarchical data"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "title": "Graph Theory Fundamentals",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Adjacency vs. edge-list representations",
+            "Graphs \u2194 neural-net connectivity",
+            "DFS / BFS complexity analysis"
+          ]
+        },
+        "coding_session": {
+          "title": "Graph Coding",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Number of Islands",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+              "neetcode_url": "https://neetcode.io/problems/islands-and-treasure",
+              "description": "DFS vs BFS trade-offs"
+            },
+            {
+              "name": "Clone Graph",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/clone-graph/",
+              "neetcode_url": "https://neetcode.io/problems/clone-graph",
+              "description": "Graph copying & GNN analogy"
+            },
+            {
+              "name": "Course Schedule",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/course-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/course-schedule",
+              "description": "Topological sort & cycle detection"
+            },
+            {
+              "name": "Diameter of Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-diameter",
+              "description": "Calculate longest path in tree",
+              "ai_prompt": "How does tree diameter relate to network analysis in graph ML?"
+            },
+            {
+              "name": "Balanced Binary Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/balanced-binary-tree",
+              "description": "Check if tree is height-balanced",
+              "ai_prompt": "How does tree balance relate to model stability in ML?"
+            },
+            {
+              "name": "Subtree of Another Tree",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/subtree-of-another-tree/",
+              "neetcode_url": "https://neetcode.io/problems/subtree-of-a-binary-tree",
+              "description": "Check if one tree is subtree of another",
+              "ai_prompt": "How does subtree detection relate to pattern matching in data structures?"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Graphs in Tesla Vision",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Optimizing graph code",
+            "Sensor-fusion architecture at Tesla",
+            "Plan advanced graph study path"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "title": "Tesla Engineering & Advanced Graphs",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Tesla interview expectations",
+            "AI analysis of hard graph problems",
+            "Proofs for advanced algorithms"
+          ]
+        },
+        "coding_session": {
+          "title": "Hard Graph Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Word Ladder",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder",
+              "description": "Shortest path with BFS optimization"
+            },
+            {
+              "name": "Alien Dictionary",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/alien-dictionary/",
+              "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+              "description": "Topological sort in unknown order alphabet"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Tesla Mock Interview & ML Infra",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Innovation-focused mock interview",
+            "Deep dive: Tesla ML training stack",
+            "Set Friday goal checklist"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "title": "Dynamic Programming Fundamentals",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Optimal substructure & overlapping sub-problems",
+            "Memoization vs. tabulation demos",
+            "DP \u2194 gradient accumulation analogy"
+          ]
+        },
+        "coding_session": {
+          "title": "DP Starter Problems",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "Climbing Stairs",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/climbing-stairs/",
+              "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+              "description": "Classic Fibonacci DP"
+            },
+            {
+              "name": "House Robber",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/house-robber/",
+              "neetcode_url": "https://neetcode.io/problems/house-robber",
+              "description": "1-D DP with constraints"
+            },
+            {
+              "name": "Coin Change",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/coin-change/",
+              "neetcode_url": "https://neetcode.io/problems/coin-change",
+              "description": "Unbounded knapsack"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Kick Start & Weekend Prep",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Google Kick Start practice",
+            "AI analysis of speed & accuracy",
+            "Finalize weekend project scope"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "title": "Pattern Review & Speed Training",
+          "time": "6:00-7:00 AM",
+          "activities": [
+            "Rapid review of tree/graph/DP patterns",
+            "Speed drills with AI timers",
+            "Contest strategy briefing"
+          ]
+        },
+        "coding_session": {
+          "title": "Weekly Contest",
+          "time": "7:00-8:30 AM",
+          "problems": [
+            {
+              "name": "LeetCode Weekly Contest",
+              "difficulty": "Mixed",
+              "leetcode_url": "https://leetcode.com/contest/",
+              "description": "Live contest with AI coaching"
+            }
+          ]
+        },
+        "evening_session": {
+          "title": "Performance Analysis",
+          "time": "8:00-9:00 PM",
+          "activities": [
+            "Review contest solutions",
+            "Identify weak patterns",
+            "Finalize weekend project checklist"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: ML Decision Tree Framework with Optimization",
+          "duration": 330,
+          "description": "Build a high-performance decision tree framework optimized for large-scale ML applications. The system will include advanced tree algorithms, pruning techniques, and parallel processing capabilities for ensemble methods.",
+          "focus_areas": [
+            "Decision Tree Optimization",
+            "Tree Pruning Algorithms",
+            "Parallel Tree Construction",
+            "Ensemble Method Integration"
+          ],
+          "problems": [
+            {
+              "name": "Recover Binary Search Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/recover-binary-search-tree/",
+              "neetcode_url": "https://neetcode.io/problems/recover-binary-search-tree",
+              "description": "Fix corrupted BST with two swapped nodes"
+            },
+            {
+              "name": "Binary Tree Right Side View",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-right-side-view/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-right-side-view",
+              "description": "Level-order traversal for tree visualization"
+            },
+            {
+              "name": "Count Good Nodes in Binary Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+              "description": "Path-based tree traversal with constraints"
+            }
+          ],
+          "tasks": [
+            "Implement optimized binary search tree with AVL or Red-Black balancing for feature indexing.",
+            "Create a decision tree algorithm with information gain and Gini impurity calculations.",
+            "Build tree pruning mechanisms (pre-pruning and post-pruning) to prevent overfitting.",
+            "Design parallel tree construction using multi-threading for Random Forest implementation."
+          ],
+          "deliverable": "A production-ready decision tree library with scikit-learn compatibility, performance benchmarks, and comprehensive documentation."
+        },
+        "sunday": {
+          "title": "ML System Study: Tesla's Autonomous Driving Decision Pipeline",
+          "duration": 200,
+          "description": "Analyze Tesla's hierarchical decision-making system for autonomous driving, focusing on how tree structures organize sensor fusion, path planning, and real-time decision making in their Full Self-Driving (FSD) stack.",
+          "focus_areas": [
+            "Hierarchical Decision Making",
+            "Sensor Fusion Tree Structures",
+            "Real-Time Path Planning",
+            "Multi-Level Decision Trees"
+          ],
+          "problems": [
+            {
+              "name": "Path Sum II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/path-sum-ii/",
+              "neetcode_url": "https://neetcode.io/problems/path-sum-ii",
+              "description": "Find all root-to-leaf paths with target sum"
+            },
+            {
+              "name": "Binary Tree Zigzag Level Order Traversal",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/binary-tree-zigzag-level-order-traversal",
+              "description": "Complex tree traversal pattern"
+            }
+          ],
+          "tasks": [
+            "Study Tesla's neural network architecture and how decision trees organize multi-sensor inputs.",
+            "Analyze the hierarchical planning system from high-level route planning to low-level control decisions.",
+            "Research how tree structures handle real-time constraint satisfaction in autonomous driving.",
+            "Implement a simplified autonomous decision system using tree-based planning algorithms."
+          ],
+          "deliverable": "Detailed technical analysis of Tesla's FSD architecture with working prototype of tree-based decision system for autonomous navigation."
+        }
+      }
+    }
+  }
+}

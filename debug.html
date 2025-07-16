@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ML Roadmap Debug</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="bg-gray-50 min-h-screen">
+        <div class="p-8">
+            <h1 class="text-2xl font-bold mb-4">Debug Page</h1>
+            <div id="debug-info" class="bg-white p-4 rounded shadow mb-4">
+                <h2 class="font-bold">Debug Information:</h2>
+                <div id="logs"></div>
+            </div>
+
+            <!-- Simple Alpine.js test -->
+            <div x-data="{ count: 0 }" class="bg-blue-100 p-4 rounded mb-4">
+                <h3 class="font-bold">Alpine.js Test:</h3>
+                <p>Count: <span x-text="count"></span></p>
+                <button @click="count++" class="bg-blue-500 text-white px-4 py-2 rounded">Increment</button>
+            </div>
+
+            <!-- Test roadmapApp function -->
+            <div id="roadmap-test" class="bg-green-100 p-4 rounded mb-4">
+                <h3 class="font-bold">RoadmapApp Test:</h3>
+                <div id="roadmap-result">Testing...</div>
+            </div>
+
+            <!-- Test data loading -->
+            <div id="data-test" class="bg-yellow-100 p-4 rounded">
+                <h3 class="font-bold">Data Loading Test:</h3>
+                <div id="data-result">Testing...</div>
+            </div>
+        </div>
+
+        <script>
+            function log(message) {
+                console.log(message);
+                const logs = document.getElementById('logs');
+                logs.innerHTML += '<div>' + new Date().toLocaleTimeString() + ': ' + message + '</div>';
+            }
+
+            log('Debug script started');
+
+            // Test if our script.js loads
+            const script = document.createElement('script');
+            script.src = 'script.js';
+            script.onload = function () {
+                log('script.js loaded successfully');
+
+                // Test roadmapApp function
+                try {
+                    if (typeof roadmapApp === 'function') {
+                        log('roadmapApp function exists');
+                        const app = roadmapApp();
+                        log('roadmapApp instantiated successfully');
+                        document.getElementById('roadmap-result').textContent = 'roadmapApp works!';
+                    } else {
+                        log('ERROR: roadmapApp function not found');
+                        document.getElementById('roadmap-result').textContent = 'roadmapApp function not found';
+                    }
+                } catch (error) {
+                    log('ERROR creating roadmapApp: ' + error.message);
+                    document.getElementById('roadmap-result').textContent = 'Error: ' + error.message;
+                }
+            };
+            script.onerror = function () {
+                log('ERROR: Failed to load script.js');
+                document.getElementById('roadmap-result').textContent = 'Failed to load script.js';
+            };
+            document.head.appendChild(script);
+
+            // Test data loading
+            fetch('roadmap_data.json')
+                .then(response => {
+                    log('roadmap_data.json response status: ' + response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    log('roadmap_data.json loaded successfully');
+                    log('Data has ' + Object.keys(data.weeks || {}).length + ' weeks');
+                    document.getElementById('data-result').textContent = 'Data loaded: ' + Object.keys(data.weeks || {}).length + ' weeks';
+                })
+                .catch(error => {
+                    log('ERROR loading roadmap_data.json: ' + error.message);
+                    document.getElementById('data-result').textContent = 'Error loading data: ' + error.message;
+                });
+
+            log('Debug script setup complete');
+        </script>
+    </body>
+
+</html>

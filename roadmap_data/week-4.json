@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 4
+  },
+  "week": {
+    "title": "Binary Search Mastery + AI Problem Generation + Microsoft ML Systems",
+    "objectives": [
+      "Achieve mastery of Binary Search variants with 25+ problems",
+      "Utilize AI for customized binary search problem generation",
+      "Connect binary search to hyperparameter optimization and Microsoft ML systems",
+      "Complete a capstone project building a comprehensive algorithm library"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Binary Search Foundation & Math",
+          "activities": [
+            "Binary search theory with AI mathematical proof explanations",
+            "AI connecting binary search to optimization algorithms in ML",
+            "Template methodology with AI-generated variations and edge case analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Core Binary Search Problems",
+          "problems": [
+            {
+              "name": "Binary Search",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/binary-search/",
+              "neetcode_url": "https://neetcode.io/problems/binary-search",
+              "description": "AI coaching on boundary conditions and invariants",
+              "ai_prompt": "Explain the loop invariant for your binary search implementation. How does this formal correctness relate to model validation in ML?"
+            },
+            {
+              "name": "Search in Rotated Sorted Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+              "neetcode_url": "https://neetcode.io/problems/find-target-in-rotated-sorted-array",
+              "description": "AI pattern recognition coaching",
+              "ai_prompt": "How do you determine which half of the array is sorted? Relate this conditional logic to branching in decision trees."
+            },
+            {
+              "name": "Find First and Last Position of Element in Sorted Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+              "neetcode_url": "https://neetcode.io/problems/find-first-and-last-position-of-element-in-sorted-array",
+              "description": "AI boundary analysis",
+              "ai_prompt": "Explain why two separate binary searches are needed. How does this relate to finding confidence intervals in statistical modeling?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & ML Connection",
+          "activities": [
+            "AI Mock Interview: Binary search with mathematical follow-ups and optimization",
+            "ML Connection: Binary search in hyperparameter optimization and neural architecture search",
+            "Template implementation with AI optimization suggestions and complexity verification"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Rotated Arrays & Advanced Patterns",
+          "activities": [
+            "Rotated array patterns with AI visual explanations and mathematical intuition",
+            "Edge case identification with AI systematic approach and testing strategies",
+            "AI connecting rotation concepts to circular convolutions and data augmentation"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Rotated Array Problems",
+          "problems": [
+            {
+              "name": "Find Minimum in Rotated Sorted Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+              "neetcode_url": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array",
+              "description": "AI complexity optimization",
+              "ai_prompt": "Explain the logic for updating the pointers based on the comparison with the rightmost element. How does finding this inflection point relate to finding local minima in optimization?"
+            },
+            {
+              "name": "Search in Rotated Sorted Array II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+              "neetcode_url": "https://neetcode.io/problems/search-in-rotated-sorted-array-ii",
+              "description": "AI duplicate handling strategies",
+              "ai_prompt": "How do duplicates affect the time complexity? Explain the worst-case scenario and how the logic is adapted to handle it."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mastery Assessment & ML Study",
+          "activities": [
+            "AI assessment of rotated array pattern mastery and edge case handling",
+            "ML Study: Rotation invariance in computer vision and data augmentation techniques",
+            "Prepare for advanced binary search applications with AI guidance"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Binary Search & Microsoft ML",
+          "activities": [
+            "Binary search in 2D matrices with AI spatial reasoning and optimization",
+            "Time-based problems connecting to temporal data structures and real-time systems",
+            "AI explanation of binary search in distributed systems and Microsoft's architecture"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "2D & Time-Based Search",
+          "problems": [
+            {
+              "name": "Time Based Key-Value Store",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/time-based-key-value-store/",
+              "neetcode_url": "https://neetcode.io/problems/time-based-key-value-store",
+              "description": "AI coaching on design patterns",
+              "ai_prompt": "Explain the data structure design. Why is a hash map combined with a sorted list (or array) and binary search an effective solution?"
+            },
+            {
+              "name": "Search a 2D Matrix",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/search-a-2d-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/search-2d-matrix",
+              "description": "Connect to tensor indexing and multi-dimensional optimization",
+              "ai_prompt": "Compare treating the 2D matrix as a 1D array vs. a two-step binary search. What are the implementation trade-offs?"
+            },
+            {
+              "name": "Kth Smallest Element in a Sorted Matrix",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/kth-smallest-element-in-a-sorted-matrix",
+              "description": "AI heap vs binary search comparison",
+              "ai_prompt": "Explain the binary search on the *answer* approach. Why does this work, and how does it compare to a heap-based solution in terms of complexity?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Azure ML Study",
+          "activities": [
+            "AI Mock Interview: Advanced binary search + system design component",
+            "ML Study: Microsoft's ML infrastructure, Azure ML, and search optimization",
+            "Plan hardest binary search problems with AI difficulty progression"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Hard Binary Search & Math",
+          "activities": [
+            "Mathematical binary search problems (Google/Microsoft style)",
+            "AI explanation of binary search on answers technique and optimization theory",
+            "Optimization problem reduction with AI guidance and mathematical intuition"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Mathematical Optimization",
+          "problems": [
+            {
+              "name": "Median of Two Sorted Arrays",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+              "description": "AI mathematical approach and complexity analysis",
+              "ai_prompt": "Explain the partitioning logic to find the median in O(log(min(m,n))). How does this relate to quantile calculations in statistics?"
+            },
+            {
+              "name": "Koko Eating Bananas",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/koko-eating-bananas/",
+              "neetcode_url": "https://neetcode.io/problems/eating-bananas",
+              "description": "AI coaching on search space definition",
+              "ai_prompt": "Define the search space for 'k'. Why is the problem monotonic with respect to 'k', allowing binary search?"
+            },
+            {
+              "name": "Split Array Largest Sum",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/",
+              "neetcode_url": "https://neetcode.io/problems/split-array-largest-sum",
+              "description": "AI optimization and dynamic programming connections",
+              "ai_prompt": "Explain the binary search on the answer approach. How does the greedy checking function work? Compare this to a dynamic programming solution."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Microsoft Mock & Review",
+          "activities": [
+            "AI Mock Interview: Microsoft format (mathematical focus + system design)",
+            "Review mathematical optimization techniques with AI insights and ML connections",
+            "Plan Phase 1 completion assessment and comprehensive review"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Speed Training & Phase 1 Review",
+          "activities": [
+            "AI comprehensive review of all Phase 1 patterns, optimizations, and connections",
+            "Speed training techniques with AI timing analysis and performance optimization",
+            "Contest preparation with AI strategic planning and problem prioritization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest & Speed Challenge",
+          "activities": [
+            "LeetCode Weekly Contest (live participation with AI coaching)",
+            "AI-Supervised Speed Challenge: Binary search problems (10 in 30 minutes)",
+            "AI comprehensive performance analysis across all Phase 1 patterns"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Phase 1 Assessment & Planning",
+          "activities": [
+            "AI assessment of overall Phase 1 mastery across all domains",
+            "Identify weak areas and create Phase 2 optimization plan with AI guidance",
+            "Plan Phase 1 capstone project with AI scope and timeline definition"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: ML Hyperparameter Optimization Engine",
+          "duration": 360,
+          "description": "Build an intelligent hyperparameter optimization system using binary search techniques and Bayesian optimization. The system will efficiently search high-dimensional parameter spaces for optimal ML model configurations.",
+          "focus_areas": [
+            "Binary Search on Continuous Spaces",
+            "Bayesian Optimization",
+            "Multi-Dimensional Search",
+            "ML Model Performance Optimization"
+          ],
+          "problems": [
+            {
+              "name": "Find Peak Element",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-peak-element/",
+              "neetcode_url": "https://neetcode.io/problems/find-peak-element",
+              "description": "Binary search for local maximum in unsorted array"
+            },
+            {
+              "name": "Search Insert Position",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/search-insert-position/",
+              "neetcode_url": "https://neetcode.io/problems/search-insert-position",
+              "description": "Binary search for insertion point"
+            },
+            {
+              "name": "Valid Perfect Square",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/valid-perfect-square/",
+              "neetcode_url": "https://neetcode.io/problems/valid-perfect-square",
+              "description": "Binary search for mathematical validation"
+            }
+          ],
+          "tasks": [
+            "Implement binary search for continuous parameter optimization (learning rate, regularization).",
+            "Create a grid search algorithm with binary search optimization for efficient parameter space exploration.",
+            "Build a Bayesian optimization system using Gaussian processes with binary search for acquisition function maximization.",
+            "Design a distributed hyperparameter search system that coordinates multiple binary search processes."
+          ],
+          "deliverable": "A deployable hyperparameter optimization service with web interface, experiment tracking, and integration with popular ML frameworks (scikit-learn, PyTorch)."
+        },
+        "sunday": {
+          "title": "ML System Study: Microsoft Azure AutoML Architecture", 
+          "duration": 200,
+          "description": "Deep dive into Microsoft's AutoML system architecture, focusing on how binary search and optimization algorithms are used for automated model selection, feature engineering, and hyperparameter tuning at enterprise scale.",
+          "focus_areas": [
+            "Automated Model Selection",
+            "Search Space Optimization", 
+            "Enterprise ML Automation",
+            "Multi-Objective Optimization"
+          ],
+          "problems": [
+            {
+              "name": "Sqrt(x)",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/sqrtx/",
+              "neetcode_url": "https://neetcode.io/problems/sqrtx",
+              "description": "Binary search for mathematical computation"
+            },
+            {
+              "name": "First Bad Version",
+              "difficulty": "Easy", 
+              "leetcode_url": "https://leetcode.com/problems/first-bad-version/",
+              "neetcode_url": "https://neetcode.io/problems/first-bad-version",
+              "description": "Binary search for boundary detection"
+            }
+          ],
+          "tasks": [
+            "Study how Azure AutoML uses search algorithms for automated feature selection and engineering.",
+            "Analyze the model selection process and how binary search optimizes architecture choices.",
+            "Research the multi-objective optimization approach for balancing accuracy, speed, and interpretability.",
+            "Implement a mini AutoML system using your hyperparameter optimization engine from Saturday."
+          ],
+          "deliverable": "Comprehensive analysis of Azure AutoML with implementation comparison showing performance differences between search strategies."
+        }
+      }
+    }
+  }
+}

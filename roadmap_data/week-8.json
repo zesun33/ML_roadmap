@@ -1,0 +1,423 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 8
+  },
+  "week": {
+    "title": "Advanced Algorithms + Comprehensive Pattern Mastery",
+    "objectives": [
+      "Achieve mastery of contest-level algorithms with 35+ problems",
+      "Integrate DSA skills with system design principles for production-level thinking",
+      "Optimize solutions for production constraints (memory, CPU, hardware)",
+      "Build a FAANG-ready algorithm interview simulator project"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced Algorithm Design",
+          "activities": [
+            "Advanced algorithm design principles with AI guidance on optimization strategies",
+            "AI explanation connecting algorithm optimization to ML model efficiency and inference speed",
+            "Complexity analysis beyond Big-O with AI insights into practical performance"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Algorithm Problems",
+          "problems": [
+            {
+              "name": "Meeting Rooms II",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/meeting-rooms-ii/",
+              "neetcode_url": "https://neetcode.io/problems/meeting-schedule-ii",
+              "description": "AI coaching on interval scheduling optimization",
+              "ai_prompt": "Compare the priority queue (min-heap) solution with the sorting-based approach. What are the trade-offs in a real-time scheduling system?"
+            },
+            {
+              "name": "Maximum Frequency Stack",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximum-frequency-stack/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-frequency-stack",
+              "description": "Connect to data structure design in ML pipelines",
+              "ai_prompt": "Explain the dual hash map design. How does the 'stack of stacks' concept ensure O(1) push and pop operations? Relate this to managing model versions or experiment results."
+            },
+            {
+              "name": "Design Twitter",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-twitter/",
+              "neetcode_url": "https://neetcode.io/problems/design-twitter-feed",
+              "description": "AI guidance on system design through coding",
+              "ai_prompt": "How would you scale the `getNewsFeed` operation? Discuss the trade-offs of merging k-sorted lists from user's followees. Compare a heap-based merge with a simpler iterative merge."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Optimized Data Structures & Prod ML",
+          "activities": [
+            "Implement AI-optimized data structures with production-level performance analysis",
+            "ML System Study: Cross-company analysis of algorithm choices in production",
+            "Plan advanced optimization techniques with AI strategic guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Contest-Level Problems",
+          "activities": [
+            "Contest strategy and time management with AI optimization for problem selection",
+            "AI analysis of competitive programming patterns and advanced optimization techniques",
+            "Mathematical problem-solving approaches with AI-guided proof techniques"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Hard Contest-Style Problems",
+          "problems": [
+            {
+              "name": "Shortest Path in Binary Matrix",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/shortest-path-in-binary-matrix",
+              "description": "A* algorithm with AI optimization",
+              "ai_prompt": "While BFS works, how could you apply the A* algorithm here? What would be a suitable heuristic? Discuss the benefits in a larger grid."
+            },
+            {
+              "name": "Word Search II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-search-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-search-ii",
+              "description": "Trie + DFS optimization with AI complexity analysis",
+              "ai_prompt": "Explain how using a Trie and backtracking on the board prunes the search space significantly compared to iterating through each word."
+            },
+            {
+              "name": "Regular Expression Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+              "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+              "description": "AI step-by-step DP approach",
+              "ai_prompt": "Define the 2D DP state `dp[i][j]`. Explain the logic for the base cases and the transitions, especially for the '*' character."
+            },
+            {
+              "name": "Count Good Nodes in Binary Tree",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/count-good-nodes-in-binary-tree",
+              "description": "Count nodes with no larger ancestors",
+              "ai_prompt": "How does path-dependent counting relate to sequential decision making?"
+            },
+            {
+              "name": "Construct Binary Tree from Preorder and Inorder Traversal",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+              "neetcode_url": "https://neetcode.io/problems/build-binary-tree-from-preorder-and-inorder-traversal",
+              "description": "Reconstruct tree from traversals",
+              "ai_prompt": "How does tree reconstruction relate to model architecture search?"
+            },
+            {
+              "name": "Implement Trie (Prefix Tree)",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+              "neetcode_url": "https://neetcode.io/problems/implement-prefix-tree",
+              "description": "Implement prefix tree data structure",
+              "ai_prompt": "How does trie implementation relate to tokenization in NLP?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Live Contest & Analysis",
+          "activities": [
+            "Codeforces Round participation with AI real-time strategy coaching",
+            "AI analysis of contest performance and advanced problem-solving patterns",
+            "Advanced SQL: Complex optimization queries and performance tuning"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "System Design via Algorithms",
+          "activities": [
+            "Algorithm choices in large-scale system design with AI trade-off analysis",
+            "AI explanation of algorithm scalability and distributed system considerations",
+            "Performance optimization in multi-threaded and distributed environments"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "System Design Coding Problems",
+          "problems": [
+            {
+              "name": "LRU Cache",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/lru-cache/",
+              "neetcode_url": "https://neetcode.io/problems/lru-cache",
+              "description": "AI coaching on production-level implementation",
+              "ai_prompt": "Explain the combination of a doubly linked list and a hash map to achieve O(1) for get and put operations. How would you make this thread-safe?"
+            },
+            {
+              "name": "Design Hit Counter",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-hit-counter/",
+              "neetcode_url": "https://neetcode.io/problems/design-hit-counter",
+              "description": "Connect to real-time analytics in ML systems",
+              "ai_prompt": "Compare the solution using a queue with one using a fixed-size array and timestamps. Discuss the trade-offs for memory and accuracy in a high-throughput system."
+            },
+            {
+              "name": "Insert Delete GetRandom O(1)",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/insert-delete-getrandom-o1/",
+              "neetcode_url": "https://neetcode.io/problems/randomized-set",
+              "description": "AI optimization for constant time operations",
+              "ai_prompt": "Explain how using a hash map and a dynamic array (list) together allows for O(1) average time complexity for all three operations. Why is the swap-with-last-element trick crucial for deletion?"
+            },
+            {
+              "name": "Merge k Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+              "description": "Merge multiple sorted linked lists efficiently",
+              "ai_prompt": "How does k-way merging relate to distributed data processing in ML?"
+            },
+            {
+              "name": "Design Add and Search Words Data Structure",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+              "neetcode_url": "https://neetcode.io/problems/design-word-search-data-structure",
+              "description": "Trie with wildcard search functionality",
+              "ai_prompt": "How does wildcard search relate to fuzzy matching in ML applications?"
+            },
+            {
+              "name": "Kth Largest Element in a Stream",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+              "neetcode_url": "https://neetcode.io/problems/kth-largest-integer-in-a-stream",
+              "description": "Maintain kth largest in streaming data",
+              "ai_prompt": "How does streaming kth largest relate to online learning algorithms?"
+            },
+            {
+              "name": "Last Stone Weight",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/last-stone-weight/",
+              "neetcode_url": "https://neetcode.io/problems/last-stone-weight",
+              "description": "Heap-based simulation problem",
+              "ai_prompt": "How does priority-based processing relate to task scheduling in ML pipelines?"
+            },
+            {
+              "name": "K Closest Points to Origin",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/k-closest-points-to-origin/",
+              "neetcode_url": "https://neetcode.io/problems/k-closest-points-to-origin",
+              "description": "Find k closest points using heap",
+              "ai_prompt": "How does k-nearest selection relate to KNN algorithms in ML?"
+            },
+            {
+              "name": "Kth Largest Element in an Array",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+              "neetcode_url": "https://neetcode.io/problems/kth-largest-element-in-an-array",
+              "description": "Find kth largest using quickselect or heap",
+              "ai_prompt": "How does selection algorithms relate to feature selection in ML?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "FAANG Algo Design & Study",
+          "activities": [
+            "Design algorithms for specific FAANG ML use cases with AI guidance",
+            "ML Study: Algorithm choices in TensorFlow, PyTorch production deployments",
+            "Plan comprehensive pattern review with AI assessment methodology"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Production Optimization",
+          "activities": [
+            "Production algorithm optimization with AI analysis of memory and CPU constraints",
+            "AI explanation of algorithm adaptation for different hardware (GPU, TPU, mobile)",
+            "Profiling and benchmarking techniques with AI-guided performance analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Hard Optimization Problems",
+          "problems": [
+            {
+              "name": "Median of Two Sorted Arrays",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-of-two-sorted-arrays",
+              "description": "AI coaching on logarithmic optimization",
+              "ai_prompt": "Revisit this problem. Explain the binary search approach on the partitions of the smaller array. What is the invariant you are trying to maintain?"
+            },
+            {
+              "name": "Longest Substring with At Most K Distinct Characters",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+              "neetcode_url": "https://neetcode.io/problems/longest-substring-with-k-distinct-characters",
+              "description": "Advanced sliding window with AI complexity proof",
+              "ai_prompt": "Explain the sliding window approach with hash map to track character frequencies. How do you efficiently maintain at most k distinct characters?"
+            },
+            {
+              "name": "Burst Balloons",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/burst-balloons/",
+              "neetcode_url": "https://neetcode.io/problems/burst-balloons",
+              "description": "AI step-by-step interval DP optimization",
+              "ai_prompt": "This is a classic interval DP problem. Explain why you need to decide which balloon to burst *last* in a given interval. Define the DP state and recurrence."
+            },
+            {
+              "name": "Task Scheduler",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/task-scheduler/",
+              "neetcode_url": "https://neetcode.io/problems/task-scheduling",
+              "description": "Schedule tasks with cooldown constraints",
+              "ai_prompt": "How does task scheduling relate to resource allocation in distributed ML training?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "FAANG Mock & Open Source Study",
+          "activities": [
+            "AI Mock Interview: FAANG-level hard problems with optimization requirements",
+            "Study algorithm implementation in open-source ML frameworks",
+            "Plan comprehensive Phase 2 assessment with AI evaluation criteria"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Pattern Mastery Validation",
+          "activities": [
+            "AI comprehensive review of all advanced patterns and optimization techniques",
+            "Contest-level problem identification and solution strategy with AI guidance",
+            "Final optimization techniques and code quality standards with AI assessment"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest & Excellence Challenge",
+          "activities": [
+            "Google Kick Start or AtCoder Contest with AI real-time coaching",
+            "AI-Supervised Excellence Challenge: Contest-hard problems (5 in 30 minutes)",
+            "AI comprehensive performance analysis and pattern mastery verification"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Final Assessment & Planning",
+          "activities": [
+            "AI assessment of overall algorithmic maturity and interview readiness",
+            "Plan Phase 3 transition with focus on ML system design and advanced topics",
+            "Comprehensive review of achievements and areas for continued optimization"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: FAANG-Level Algorithm Interview Simulator",
+          "duration": 360,
+          "description": "Build a comprehensive interview preparation platform that simulates real FAANG coding interviews with company-specific problem sets, AI-powered feedback, and adaptive difficulty scaling. The system will prepare candidates for the highest level technical interviews.",
+          "focus_areas": [
+            "Company-Specific Problem Curation",
+            "AI-Powered Code Review",
+            "Real-Time Performance Analysis",
+            "Adaptive Interview Simulation"
+          ],
+          "problems": [
+            {
+              "name": "Text Justification",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/text-justification/",
+              "neetcode_url": "https://neetcode.io/problems/text-justification",
+              "description": "Complex string formatting with greedy algorithms"
+            },
+            {
+              "name": "Wildcard Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/wildcard-matching/",
+              "neetcode_url": "https://neetcode.io/problems/wildcard-matching",
+              "description": "Advanced DP for pattern matching"
+            },
+            {
+              "name": "Word Ladder II",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder-ii/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder-ii",
+              "description": "BFS with path reconstruction"
+            }
+          ],
+          "tasks": [
+            "Create company-specific problem sets with Google, Meta, Amazon, Apple, and Microsoft patterns.",
+            "Implement AI-powered code analysis for time/space complexity and optimization suggestions.",
+            "Build adaptive difficulty system that adjusts based on candidate performance and target company.",
+            "Design real-time interview simulation with behavioral questions and system design integration."
+          ],
+          "deliverable": "A deployed interview platform with comprehensive problem sets, AI feedback system, and performance analytics dashboard."
+        },
+        "sunday": {
+          "title": "Phase 2 Assessment & Advanced ML System Architecture Study",
+          "duration": 300,
+          "description": "Complete comprehensive Phase 2 evaluation through multi-hour FAANG simulation interviews, followed by deep dive into advanced ML system architectures across major tech companies to prepare for Phase 3.",
+          "focus_areas": [
+            "Multi-Pattern Algorithm Mastery",
+            "Advanced System Design",
+            "ML Infrastructure Architecture",
+            "Interview Performance Analysis"
+          ],
+          "problems": [
+            {
+              "name": "Critical Connections in a Network",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/critical-connections-in-a-network/",
+              "neetcode_url": "https://neetcode.io/problems/critical-connections-in-a-network",
+              "description": "Tarjan's algorithm for finding bridges in graphs"
+            },
+            {
+              "name": "Regular Expression Matching",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/regular-expression-matching/",
+              "neetcode_url": "https://neetcode.io/problems/regular-expression-matching",
+              "description": "Advanced dynamic programming with string matching"
+            }
+          ],
+          "tasks": [
+            "Complete 3-hour FAANG simulation covering hard algorithm problems and system design.",
+            "Receive comprehensive AI performance analysis across all Phase 2 patterns and skills.",
+            "Study advanced ML architectures: Google's TPU systems, Meta's PyTorch infrastructure, Amazon's SageMaker.",
+            "Design strategic learning plan for Phase 3 ML system design focus with personalized recommendations."
+          ],
+          "deliverable": "Complete Phase 2 assessment report with performance analysis and strategic Phase 3 preparation plan."
+        }
+      }
+    }
+  }
+}

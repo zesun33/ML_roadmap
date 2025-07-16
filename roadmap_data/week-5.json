@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 5
+  },
+  "week": {
+    "title": "Dynamic Programming + AI Problem Generation + Google ML Systems",
+    "objectives": [
+      "Master Dynamic Programming with 25+ problems",
+      "Utilize AI for customized DP problem generation",
+      "Connect DP to reinforcement learning and Google ML systems",
+      "Complete a capstone project building a comprehensive algorithm library"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DP Foundation & Math",
+          "activities": [
+            "DP theory with AI mathematical proof explanations",
+            "AI connecting DP to optimization algorithms in ML",
+            "Template methodology with AI-generated variations and edge case analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Core DP Problems",
+          "problems": [
+            {
+              "name": "Fibonacci Number",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/fibonacci-number/",
+              "neetcode_url": "https://neetcode.io/problems/fibonacci-number",
+              "description": "AI coaching on recursion and memoization",
+              "ai_prompt": "Explain the recursive and iterative approaches. How does memoization improve the time complexity?"
+            },
+            {
+              "name": "Min Cost Climbing Stairs",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+              "neetcode_url": "https://neetcode.io/problems/min-cost-climbing-stairs",
+              "description": "AI coaching on bottom-up DP",
+              "ai_prompt": "Explain the bottom-up DP approach. How does this relate to dynamic programming in reinforcement learning?"
+            },
+            {
+              "name": "House Robber",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/house-robber/",
+              "neetcode_url": "https://neetcode.io/problems/house-robber",
+              "description": "AI coaching on state transition and optimization",
+              "ai_prompt": "Explain the state transition function. How does this relate to the Bellman equation in reinforcement learning?"
+            },
+            {
+              "name": "Reverse Linked List",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/",
+              "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list",
+              "description": "Fundamental linked list reversal",
+              "ai_prompt": "How does linked list reversal relate to sequence processing in ML pipelines?"
+            },
+            {
+              "name": "Merge Two Sorted Lists",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-two-sorted-linked-lists",
+              "description": "Essential merge operation for sorted data",
+              "ai_prompt": "Compare this merge to merging sorted datasets in ML preprocessing"
+            },
+            {
+              "name": "Linked List Cycle",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/",
+              "neetcode_url": "https://neetcode.io/problems/linked-list-cycle",
+              "description": "Cycle detection using Floyd's algorithm",
+              "ai_prompt": "How does cycle detection relate to dependency resolution in ML pipelines?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & ML Connection",
+          "activities": [
+            "AI Mock Interview: DP with mathematical follow-ups and optimization",
+            "ML Connection: DP in reinforcement learning and neural architecture search",
+            "Template implementation with AI optimization suggestions and complexity verification"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DP Patterns & Advanced Techniques",
+          "activities": [
+            "DP patterns with AI visual explanations and mathematical intuition",
+            "Edge case identification with AI systematic approach and testing strategies",
+            "AI connecting DP concepts to graph algorithms and shortest paths"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "DP Pattern Problems",
+          "problems": [
+            {
+              "name": "Coin Change",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/coin-change/",
+              "neetcode_url": "https://neetcode.io/problems/coin-change",
+              "description": "AI coaching on state transition and optimization",
+              "ai_prompt": "Explain the state transition function. How does this relate to the Bellman equation in reinforcement learning?"
+            },
+            {
+              "name": "Longest Increasing Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+              "description": "AI coaching on patience sorting and binary search",
+              "ai_prompt": "Explain the patience sorting approach. How does binary search optimize the solution?"
+            },
+            {
+              "name": "Unique Paths",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/ones-and-zeroes/",
+              "neetcode_url": "https://neetcode.io/problems/ones-and-zeroes",
+              "description": "AI guidance on multi-dimensional DP",
+              "ai_prompt": "This is a multi-dimensional knapsack problem. Define the 2D DP state. How does this extend to problems with more than two constraints?"
+            },
+            {
+              "name": "Reorder List",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/reorder-list/",
+              "neetcode_url": "https://neetcode.io/problems/reorder-linked-list",
+              "description": "Complex linked list manipulation",
+              "ai_prompt": "How does list reordering relate to data shuffling in ML training?"
+            },
+            {
+              "name": "Remove Nth Node From End of List",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+              "neetcode_url": "https://neetcode.io/problems/remove-node-from-end-of-linked-list",
+              "description": "Two-pointer technique for linked lists",
+              "ai_prompt": "How does two-pointer removal relate to sliding window operations?"
+            },
+            {
+              "name": "Add Two Numbers",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/add-two-numbers/",
+              "neetcode_url": "https://neetcode.io/problems/add-two-numbers",
+              "description": "Arithmetic on linked list representation",
+              "ai_prompt": "How does digit-wise addition relate to vectorized operations in ML?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Mock Interview & Federated Learning",
+          "activities": [
+            "AI Mock Interview: Complex DP problem with optimization and space trade-offs",
+            "Study privacy-preserving ML techniques and federated learning approaches",
+            "SQL Practice: Complex aggregation and optimization queries"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "String DP & Apple Culture",
+          "activities": [
+            "String DP patterns with AI visualization and edit distance theory",
+            "AI explanation connecting string algorithms to NLP and text generation",
+            "Sequence alignment algorithms with AI mathematical foundations"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "String DP Problems",
+          "problems": [
+            {
+              "name": "Longest Common Subsequence",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/longest-common-subsequence/",
+              "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+              "description": "AI coaching on 2D DP optimization",
+              "ai_prompt": "Explain the 2D DP state and the three possible transitions. How can space be optimized to O(min(m,n))?"
+            },
+            {
+              "name": "Edit Distance",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/edit-distance/",
+              "neetcode_url": "https://neetcode.io/problems/edit-distance",
+              "description": "Connect to text preprocessing and data cleaning in ML",
+              "ai_prompt": "How do the three operations (insert, delete, replace) translate to the DP state transitions? How is this algorithm used in spell checkers and DNA sequencing?"
+            },
+            {
+              "name": "Distinct Subsequences",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/distinct-subsequences/",
+              "neetcode_url": "https://neetcode.io/problems/distinct-subsequences",
+              "description": "AI step-by-step approach for complex state transitions",
+              "ai_prompt": "Explain the recurrence relation. Why do we add the results from two subproblems when characters match? How does this relate to counting paths in a DAG?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "String Algos & Siri Infra",
+          "activities": [
+            "Implement advanced string DP algorithms with AI optimization techniques",
+            "ML Study: Apple's NLP infrastructure and Siri's language understanding",
+            "Plan Apple-specific interview preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced DP & Apple Prep",
+          "activities": [
+            "Apple's design-focused engineering culture and privacy-first principles",
+            "AI analysis of Apple-tagged DP and optimization problems",
+            "Advanced DP techniques with AI mathematical proofs and optimization strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced DP Problems",
+          "problems": [
+            {
+              "name": "Maximum Product Subarray",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/maximum-product-subarray/",
+              "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+              "description": "AI coaching on handling negative numbers",
+              "ai_prompt": "Why do you need to track both the maximum and minimum product ending at the current position? Explain the logic for handling negative numbers."
+            },
+            {
+              "name": "Decode Ways",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/decode-ways/",
+              "neetcode_url": "https://neetcode.io/problems/decode-ways",
+              "description": "Connect to encoding/decoding in neural network architectures",
+              "ai_prompt": "Define the DP state and the one-step and two-step transitions. How does this problem relate to tokenization in NLP models?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Apple Mock & Core ML Study",
+          "activities": [
+            "AI Mock Interview: Apple format (design thinking + privacy considerations)",
+            "Study Apple's ML infrastructure and Core ML optimization techniques",
+            "Plan Phase 2 completion assessment with AI comprehensive evaluation"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Pattern Integration & Phase 2 Review",
+          "activities": [
+            "AI comprehensive review of all Phase 2 patterns and optimizations",
+            "Pattern recognition speed training with AI timing analysis",
+            "Contest preparation with AI strategic planning and problem prioritization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest & Speed Challenge",
+          "activities": [
+            "LeetCode Weekly Contest (live participation with AI coaching)",
+            "AI-Supervised Speed Challenge: Mixed patterns (15 problems in 30 minutes)",
+            "AI comprehensive performance analysis across all Phase 2 patterns"
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Phase 2 Assessment & Planning",
+          "activities": [
+            "AI assessment of overall Phase 2 mastery across all domains",
+            "Identify optimization opportunities and create Phase 3 enhancement plan",
+            "Plan Phase 2 capstone project with AI scope and timeline definition"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Real-Time ML Model Serving Infrastructure",
+          "duration": 300,
+          "description": "Build a high-performance model serving system using heaps for request prioritization and linked lists for efficient memory management. The system will handle concurrent inference requests with dynamic scaling and intelligent resource allocation.",
+          "focus_areas": [
+            "Request Priority Management",
+            "Memory Pool Optimization",
+            "Dynamic Resource Allocation", 
+            "Low-Latency Inference Serving"
+          ],
+          "problems": [
+            {
+              "name": "Merge k Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-lists",
+              "description": "Heap-based merging of multiple sorted linked lists"
+            },
+            {
+              "name": "Find K Pairs with Smallest Sums",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/", 
+              "neetcode_url": "https://neetcode.io/problems/find-k-pairs-with-smallest-sums",
+              "description": "Min-heap for finding optimal pairs"
+            },
+            {
+              "name": "Copy List with Random Pointer",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+              "neetcode_url": "https://neetcode.io/problems/copy-list-with-random-pointer",
+              "description": "Deep copying complex linked list structures"
+            }
+          ],
+          "tasks": [
+            "Implement a priority queue using binary heap for managing inference requests by SLA requirements.",
+            "Create a memory pool using linked lists for efficient GPU memory allocation and deallocation.",
+            "Build an auto-scaling system that uses heap-based metrics for triggering resource adjustments.",
+            "Design a load balancer that maintains worker queues using priority heaps for optimal request distribution."
+          ],
+          "deliverable": "A deployable model serving platform with real-time monitoring dashboard, auto-scaling capabilities, and comprehensive performance metrics."
+        },
+        "sunday": {
+          "title": "ML System Study: Netflix Recommendation Engine Architecture",
+          "duration": 180,
+          "description": "Analyze Netflix's recommendation system, focusing on how heaps manage candidate ranking and linked lists handle user session data and viewing history in their real-time personalization pipeline.",
+          "focus_areas": [
+            "Real-Time Recommendation Ranking",
+            "Session Data Management",
+            "Candidate Generation Pipeline",
+            "Scalable Data Structure Design"
+          ],
+          "problems": [
+            {
+              "name": "Sort List",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/sort-list/",
+              "neetcode_url": "https://neetcode.io/problems/sort-list",
+              "description": "Merge sort on linked list with O(1) space"
+            },
+            {
+              "name": "Kth Largest Element in a Stream",
+              "difficulty": "Easy",
+              "leetcode_url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+              "neetcode_url": "https://neetcode.io/problems/kth-largest-element-in-a-stream", 
+              "description": "Min-heap for maintaining top-K elements in stream"
+            }
+          ],
+          "tasks": [
+            "Study how Netflix uses heaps for real-time ranking of content recommendations for each user.",
+            "Analyze how viewing history is managed using linked list structures for efficient insertion and retrieval.",
+            "Research the candidate generation process and how heaps filter millions of titles to top recommendations.", 
+            "Implement a mini recommendation system using heap-based ranking and linked list session management."
+          ],
+          "deliverable": "Technical deep-dive report with Netflix architecture analysis and a working prototype recommendation system with performance comparisons."
+        }
+      }
+    }
+  }
+}

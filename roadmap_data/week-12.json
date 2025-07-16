@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 12
+  },
+  "week": {
+    "title": "Advanced ML System Design + Production Deployment",
+    "objectives": [
+      "Master advanced ML system design patterns for production environments",
+      "Compare ML architectures across multiple FAANG companies",
+      "Address production concerns like security, privacy, and enterprise integration",
+      "Complete a capstone project building a comprehensive ML system architecture portfolio"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Advanced System Patterns & Multi-Modal",
+          "activities": [
+            "Advanced ML system patterns with AI-enhanced production optimization",
+            "AI explanation of multi-modal ML systems and cross-platform integration",
+            "Performance optimization patterns with AI trade-off analysis and benchmarking"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "ML Platform Component Design",
+          "problems": [
+            {
+              "name": "Design a Feature Store",
+              "difficulty": "Hard",
+              "description": "Production feature management with AI",
+              "ai_prompt": "Design an ML Feature Store. Discuss how to handle feature versioning, online/offline access, and preventing data leakage between training and serving."
+            },
+            {
+              "name": "Design an A/B Testing Framework",
+              "difficulty": "Hard",
+              "description": "Statistical significance with AI analysis",
+              "ai_prompt": "Design a framework for A/B testing ML models. How do you ensure statistical significance? Discuss metrics, experiment rollout, and result analysis."
+            },
+            {
+              "name": "Design an ML Model Registry",
+              "difficulty": "Hard",
+              "description": "Version control and deployment automation",
+              "ai_prompt": "Design a system for storing, versioning, and managing ML models. How does it integrate with CI/CD pipelines for automated deployment?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Multi-Modal Search Design",
+          "activities": [
+            "System Design: Multi-Modal Search System (text + image + video) with AI",
+            "ML System Study: Cross-company comparison of ML infrastructure patterns",
+            "Plan advanced production optimization with AI strategic guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "System Performance & Optimization",
+          "activities": [
+            "ML system performance optimization with AI-guided profiling and tuning",
+            "AI explanation of hardware optimization for ML workloads (GPU, TPU, edge)",
+            "Real-time ML system constraints with AI latency and throughput optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Real-time & Monitoring System Design",
+          "problems": [
+            {
+              "name": "Design a Real-time ML Pipeline",
+              "difficulty": "Hard",
+              "description": "Stream processing with AI optimization",
+              "ai_prompt": "Design a pipeline for real-time inference on streaming data. Compare technologies like Kafka, Flink, and Spark Streaming. Discuss state management."
+            },
+            {
+              "name": "Design an ML Monitoring System",
+              "difficulty": "Hard",
+              "description": "Drift detection with AI analytics",
+              "ai_prompt": "Design a system to monitor deployed ML models. What key metrics would you track? How would you detect concept drift and data drift?"
+            },
+            {
+              "name": "Design an Auto-scaling ML Service",
+              "difficulty": "Hard",
+              "description": "Dynamic resource management",
+              "ai_prompt": "Design a system that automatically scales ML inference services based on load. What metrics would trigger scaling events (e.g., QPS, CPU/GPU utilization, latency)?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Real-time RecSys Design",
+          "activities": [
+            "System Design: Real-time Recommendation Engine with AI latency optimization",
+            "Study hardware acceleration and edge deployment optimization techniques",
+            "Advanced SQL: Complex analytics for ML system performance monitoring"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "System Security & Privacy",
+          "activities": [
+            "ML system security with AI-guided threat modeling and protection strategies",
+            "AI explanation of privacy-preserving ML techniques and federated learning",
+            "Compliance and governance in ML systems with AI policy optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Secure & Private System Design",
+          "problems": [
+            {
+              "name": "Design a Secure ML API",
+              "difficulty": "Hard",
+              "description": "Authentication and authorization with AI",
+              "ai_prompt": "How would you secure the API for an ML inference service? Discuss authentication, authorization, input validation, and preventing model inversion attacks."
+            },
+            {
+              "name": "Design a Privacy-Preserving System",
+              "difficulty": "Hard",
+              "description": "Differential privacy implementation",
+              "ai_prompt": "Design a system that collects user data for ML training while preserving privacy. Explain how you would apply differential privacy."
+            },
+            {
+              "name": "Design a Federated Learning System",
+              "difficulty": "Hard",
+              "description": "Distributed training coordination",
+              "ai_prompt": "Design a system for federated learning on mobile devices. How does the central server aggregate model updates? Discuss challenges like communication efficiency and handling non-IID data."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Healthcare ML System Design",
+          "activities": [
+            "System Design: Healthcare ML System with privacy and compliance requirements",
+            "ML Study: Regulatory compliance in ML systems across different industries",
+            "Plan comprehensive system architecture with AI security optimization"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Enterprise ML Integration",
+          "activities": [
+            "Enterprise ML system integration with AI-guided architecture patterns",
+            "AI explanation of ML system interoperability and API design",
+            "Legacy system integration with AI migration and modernization strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Enterprise-Scale System Design",
+          "problems": [
+            {
+              "name": "Design an Enterprise ML Platform",
+              "difficulty": "Hard",
+              "description": "Multi-tenant architecture with AI",
+              "ai_prompt": "Design a multi-tenant ML platform for a large enterprise. How do you handle resource isolation, security, and shared infrastructure (like feature stores)?"
+            },
+            {
+              "name": "Design an ML Data Lake",
+              "difficulty": "Hard",
+              "description": "Scalable data management with AI optimization",
+              "ai_prompt": "Design a data lake for ML. Discuss data ingestion, storage formats (e.g., Parquet, Avro), data cataloging, and governance."
+            },
+            {
+              "name": "Design an ML Governance System",
+              "difficulty": "Hard",
+              "description": "Compliance and audit trails",
+              "ai_prompt": "Design a system for ML governance. How would you track model lineage, manage access control, and generate audit trails for regulatory compliance?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Enterprise Mock & Final Prep",
+          "activities": [
+            "AI Mock Interview: Enterprise ML system design with multiple stakeholders",
+            "Study enterprise ML adoption patterns and organizational change management",
+            "Plan Phase 3 completion assessment with AI comprehensive evaluation"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "System Mastery & Advanced Patterns",
+          "activities": [
+            "Advanced ML architecture patterns with AI optimization for different domains",
+            "AI explanation of ML system evolution and future architecture trends",
+            "Competition-level system design with AI strategic optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Comprehensive System Design",
+          "problems": [
+            {
+              "name": "Design a Global ML Platform",
+              "difficulty": "Hard",
+              "description": "Multi-region deployment with AI",
+              "ai_prompt": "Design an ML platform deployed across multiple geographic regions. Discuss data locality, multi-region model serving, and disaster recovery."
+            },
+            {
+              "name": "Design an AutoML System",
+              "difficulty": "Hard",
+              "description": "Automated machine learning pipeline",
+              "ai_prompt": "Design an AutoML system that automates feature engineering, model selection, and hyperparameter tuning. Discuss the search algorithms you might use."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Design Contest & Analysis",
+          "activities": [
+            "Advanced System Design Competition with AI coaching",
+            "AI analysis of advanced system design capabilities and optimization",
+            "Phase 3 comprehensive assessment preparation with AI evaluation"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Multi-Modal AI System Architecture",
+          "duration": 360,
+          "description": "Design and implement a sophisticated multi-modal AI system that processes text, images, and audio simultaneously using advanced algorithms. The system will demonstrate integration of multiple AI techniques with efficient data structure management.",
+          "focus_areas": [
+            "Multi-Modal Data Processing",
+            "Cross-Modal Feature Fusion",
+            "Scalable Architecture Design",
+            "Real-Time Multi-Stream Processing"
+          ],
+          "problems": [
+            {
+              "name": "Cherry Pickup",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/cherry-pickup/",
+              "neetcode_url": "https://neetcode.io/problems/cherry-pickup",
+              "description": "3D DP for optimal path finding with constraints"
+            },
+            {
+              "name": "Minimum Difficulty of a Job Schedule", 
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-difficulty-of-a-job-schedule",
+              "description": "DP with scheduling optimization"
+            },
+            {
+              "name": "Count Different Palindromic Subsequences",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/count-different-palindromic-subsequences/",
+              "neetcode_url": "https://neetcode.io/problems/count-different-palindromic-subsequences",
+              "description": "Advanced DP for combinatorial counting"
+            }
+          ],
+          "tasks": [
+            "Design multi-modal data ingestion pipelines using efficient data structures for text, image, and audio.",
+            "Implement cross-modal attention mechanisms using advanced tree and graph algorithms.",
+            "Create real-time feature fusion system using heaps and priority queues for latency optimization.",
+            "Build scalable inference serving architecture using advanced caching and load balancing algorithms."
+          ],
+          "deliverable": "A deployed multi-modal AI system with web interface, real-time processing capabilities, and comprehensive performance analysis."
+        },
+        "sunday": {
+          "title": "Comprehensive AI System Study & Phase 3 Preparation",
+          "duration": 240,
+          "description": "Conduct comprehensive analysis of cutting-edge AI systems across major tech companies, synthesizing learnings from all previous weeks to prepare for advanced system design challenges in Phase 3.",
+          "focus_areas": [
+            "Cross-Company AI Architecture Analysis",
+            "System Design Pattern Synthesis",
+            "Advanced ML Infrastructure",
+            "Phase 3 Strategic Planning"
+          ],
+          "problems": [
+            {
+              "name": "Strange Printer",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/strange-printer/",
+              "neetcode_url": "https://neetcode.io/problems/strange-printer",
+              "description": "Interval DP for optimal sequence planning"
+            },
+            {
+              "name": "Freedom Trail",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/freedom-trail/", 
+              "neetcode_url": "https://neetcode.io/problems/freedom-trail",
+              "description": "Circular DP with state optimization"
+            }
+          ],
+          "tasks": [
+            "Analyze and compare AI system architectures across Google, Meta, OpenAI, Tesla, and Microsoft.",
+            "Synthesize common design patterns and trade-offs in large-scale ML infrastructure.",
+            "Create comprehensive mapping of algorithms to real-world ML system components.",
+            "Develop strategic learning plan for Phase 3 focusing on system design mastery and ML infrastructure."
+          ],
+          "deliverable": "Comprehensive AI systems analysis report with Phase 3 preparation strategy and personalized learning roadmap."
+        }
+      }
+    }
+  }
+}

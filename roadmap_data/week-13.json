@@ -1,0 +1,345 @@
+{
+  "metadata": {
+    "title": "AI-Enhanced ML-FAANG Mastery Plan",
+    "description": "20-week comprehensive roadmap for ML researchers transitioning to FAANG software engineering roles with AI-powered learning assistance",
+    "total_weeks": 20,
+    "total_phases": 5,
+    "ai_enhanced": true,
+    "last_updated": "2024-12-28",
+    "current_week": 13
+  },
+  "week": {
+    "title": "Company-Specific ML Systems + Google & DeepMind",
+    "objectives": [
+      "Master Google's ML system architecture with a focus on search and distributed systems",
+      "Connect advanced algorithms to Google's core products and infrastructure",
+      "Study DeepMind's research and its impact on production ML systems",
+      "Complete Google-style interviews with a focus on scalability and innovation"
+    ],
+    "daily_schedule": {
+      "monday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google Search & Distributed ML",
+          "activities": [
+            "Google's search architecture with AI-enhanced system design principles",
+            "AI explanation of distributed ML training with TensorFlow and TPUs",
+            "PageRank and its modern variants with AI mathematical optimization"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Google-tagged Problems",
+          "problems": [
+            {
+              "name": "Number of Islands",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/number-of-islands/",
+              "neetcode_url": "https://neetcode.io/problems/number-of-islands",
+              "description": "Connect to image processing and computer vision",
+              "ai_prompt": "Revisit this problem. How can this be solved with both DFS and BFS? Discuss the trade-offs. How does this relate to identifying connected components in image segmentation?"
+            },
+            {
+              "name": "Word Ladder",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/word-ladder/",
+              "neetcode_url": "https://neetcode.io/problems/word-ladder",
+              "description": "Graph traversal with AI optimization",
+              "ai_prompt": "This is a shortest path problem on an unweighted graph. Explain how to build the graph implicitly and use BFS. How does bidirectional BFS optimize the search?"
+            },
+            {
+              "name": "Design Tic-Tac-Toe",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/design-tic-tac-toe/",
+              "neetcode_url": "https://neetcode.io/problems/design-tic-tac-toe",
+              "description": "Scalable game state design",
+              "ai_prompt": "Design a solution that is efficient for a very large board and multiple players. How would you detect a win condition in O(1) time per move?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Knowledge Graph Design",
+          "activities": [
+            "System Design: Google's Knowledge Graph with AI-guided architecture",
+            "ML System Study: Google's recommendation systems and ad targeting",
+            "Plan advanced Google-specific preparation with AI strategic guidance"
+          ]
+        }
+      },
+      "tuesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "DeepMind Research & Production",
+          "activities": [
+            "DeepMind's research breakthroughs with AI analysis of production impact",
+            "AI explanation of AlphaGo and reinforcement learning innovations",
+            "Scaling research models to production with AI optimization strategies"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Graph & DP",
+          "problems": [
+            {
+              "name": "Shortest Path in a Grid with Obstacles Elimination",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+              "description": "Advanced BFS with state representation",
+              "ai_prompt": "Explain the state needed for the BFS queue. Why is a simple (row, col) tuple not enough? How do you avoid cycles and redundant computations?"
+            },
+            {
+              "name": "Longest Increasing Path in a Matrix",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+              "neetcode_url": "https://neetcode.io/problems/longest-increasing-path-in-a-matrix",
+              "description": "Graph DP with memoization",
+              "ai_prompt": "This can be viewed as finding the longest path in a DAG. Explain how to use DFS with memoization to solve this efficiently. What is the time complexity?"
+            },
+            {
+              "name": "Design In-Memory File System",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/design-in-memory-file-system/",
+              "neetcode_url": "https://neetcode.io/problems/design-in-memory-file-system",
+              "description": "Hierarchical data structures",
+              "ai_prompt": "Design the data structures (e.g., using Tries or nested HashMaps) to represent the file system hierarchy and store file content."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Reinforcement Learning Design",
+          "activities": [
+            "System Design: Reinforcement Learning Platform for game AI",
+            "Study Google's TensorFlow ecosystem and TFX for production ML",
+            "SQL Practice: Advanced analytics for large-scale experiment tracking"
+          ]
+        }
+      },
+      "wednesday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google's Culture & Innovation",
+          "activities": [
+            "Google's culture of innovation and 10x thinking with AI analysis",
+            "AI explanation of Google's interview process and hiring criteria",
+            "Preparing for Google's behavioral interviews with AI coaching"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Google Scalability Problems",
+          "problems": [
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+              "description": "Tree traversal and string manipulation",
+              "ai_prompt": "Compare different serialization formats (e.g., preorder, level order). Discuss how you handle null nodes. Write the code for both serialization and deserialization."
+            },
+            {
+              "name": "Find Median from Data Stream",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/find-median-from-data-stream/",
+              "neetcode_url": "https://neetcode.io/problems/find-median-from-data-stream",
+              "description": "Two heaps for real-time stats",
+              "ai_prompt": "Explain the two-heap approach. Why does this allow for O(log n) insertion and O(1) median retrieval? How do you keep the heaps balanced?"
+            },
+            {
+              "name": "Design a Distributed Key-Value Store",
+              "difficulty": "Hard",
+              "description": "System design with consistency trade-offs",
+              "ai_prompt": "Design a system like Google's Bigtable or DynamoDB. Discuss data partitioning (sharding), replication, and consistency models (strong vs. eventual)."
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Cloud ML Design",
+          "activities": [
+            "System Design: ML Platform on Google Cloud with AI architecture",
+            "ML Study: Google's AI Platform and AutoML capabilities",
+            "Plan Google-specific interview strategy with AI optimization"
+          ]
+        }
+      },
+      "thursday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Google-Specific Interview Prep",
+          "activities": [
+            "Google's focus on data structures, algorithms, and scalability",
+            "AI analysis of Google-tagged interview questions and patterns",
+            "Advanced algorithm optimization with AI performance analysis"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Advanced Google Problems",
+          "problems": [
+            {
+              "name": "Container With Most Water",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/container-with-most-water/",
+              "neetcode_url": "https://neetcode.io/problems/container-with-most-water",
+              "description": "Two pointers with greedy optimization",
+              "ai_prompt": "Explain the greedy two-pointer approach. How does this relate to optimization strategies in distributed systems and load balancing?"
+            },
+            {
+              "name": "Merge K Sorted Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/merge-k-sorted-lists/",
+              "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-lists",
+              "description": "Heap-based merging with AI complexity analysis",
+              "ai_prompt": "Explain how using a min-heap reduces the time complexity compared to other approaches. What is the complexity of this solution?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Mock & System Study",
+          "activities": [
+            "AI Mock Interview: Google format (scalability, innovation, algorithms)",
+            "Study Google's File System (GFS) and MapReduce architecture",
+            "Plan comprehensive system design study with AI strategic guidance"
+          ]
+        }
+      },
+      "friday": {
+        "morning_session": {
+          "time": "6:00-7:00 AM",
+          "duration": 60,
+          "title": "Final Google Prep & Contest",
+          "activities": [
+            "Advanced Google problem patterns with AI performance optimization",
+            "AI explanation of Google's technical standards and expectations",
+            "Google Kick Start contest simulation with AI coaching"
+          ]
+        },
+        "coding_session": {
+          "time": "7:00-8:30 AM",
+          "duration": 90,
+          "title": "Contest-Level Problems",
+          "problems": [
+            {
+              "name": "Text Justification",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/text-justification/",
+              "neetcode_url": "https://neetcode.io/problems/text-justification",
+              "description": "String processing with greedy algorithms",
+              "ai_prompt": "Explain the greedy approach for word wrapping and spacing distribution. How does this relate to search result formatting algorithms?"
+            },
+            {
+              "name": "Maximum Rectangle",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/maximal-rectangle/",
+              "neetcode_url": "https://neetcode.io/problems/maximal-rectangle",
+              "description": "Stack-based optimization for matrix problems",
+              "ai_prompt": "Explain how this problem relates to the largest rectangle in histogram. How does this stack-based approach apply to Google's image processing algorithms?"
+            }
+          ]
+        },
+        "evening_session": {
+          "time": "8:00-9:00 PM",
+          "duration": 60,
+          "title": "Google Kick Start & Analysis",
+          "activities": [
+            "Google Kick Start practice contest with AI real-time coaching",
+            "AI analysis of contest performance and Google-specific problem-solving",
+            "Weekend project planning with Google Cloud ML integration"
+          ]
+        }
+      },
+      "weekend_sessions": {
+        "saturday": {
+          "title": "Portfolio Project: Resource Optimization Engine for ML Training",
+          "duration": 280,
+          "description": "Build an intelligent resource optimization engine that uses greedy algorithms and mathematical optimization to efficiently allocate compute resources for large-scale ML training workloads across distributed clusters.",
+          "focus_areas": [
+            "Greedy Resource Allocation",
+            "Multi-Objective Optimization",
+            "Distributed Compute Scheduling",
+            "Cost-Performance Trade-offs"
+          ],
+          "problems": [
+            {
+              "name": "Gas Station",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/gas-station/",
+              "neetcode_url": "https://neetcode.io/problems/gas-station",
+              "description": "Greedy algorithm for circular optimization"
+            },
+            {
+              "name": "Candy",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/candy/",
+              "neetcode_url": "https://neetcode.io/problems/candy",
+              "description": "Greedy approach for constraint satisfaction"
+            },
+            {
+              "name": "Minimum Number of Arrows to Burst Balloons",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+              "neetcode_url": "https://neetcode.io/problems/minimum-number-of-arrows-to-burst-balloons",
+              "description": "Interval scheduling with greedy optimization"
+            }
+          ],
+          "tasks": [
+            "Implement greedy algorithms for optimal GPU cluster allocation based on job priorities and resource requirements.",
+            "Create cost optimization system using greedy heuristics for balancing training speed vs infrastructure costs.",
+            "Build dynamic resource scheduling that greedily reallocates resources based on real-time performance metrics.",
+            "Design multi-objective optimization using greedy approaches for minimizing training time, cost, and energy consumption."
+          ],
+          "deliverable": "A production-ready resource optimization platform with real-time scheduling, cost analysis, and performance monitoring dashboard."
+        },
+        "sunday": {
+          "title": "ML System Study: Spotify's Music Recommendation Infrastructure",
+          "duration": 190,
+          "description": "Analyze Spotify's music recommendation and personalization infrastructure, focusing on how greedy algorithms optimize playlist generation, music discovery, and real-time personalization at 400+ million users scale.",
+          "focus_areas": [
+            "Personalized Playlist Generation",
+            "Real-Time Music Discovery",
+            "Collaborative Filtering Optimization",
+            "Large-Scale Content Recommendation"
+          ],
+          "problems": [
+            {
+              "name": "Queue Reconstruction by Height",
+              "difficulty": "Medium",
+              "leetcode_url": "https://leetcode.com/problems/queue-reconstruction-by-height/",
+              "neetcode_url": "https://neetcode.io/problems/queue-reconstruction-by-height",
+              "description": "Greedy reconstruction with ordering constraints"
+            },
+            {
+              "name": "Smallest Range Covering Elements from K Lists",
+              "difficulty": "Hard",
+              "leetcode_url": "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/",
+              "neetcode_url": "https://neetcode.io/problems/smallest-range-covering-elements-from-k-lists",
+              "description": "Multi-source optimization with greedy selection"
+            }
+          ],
+          "tasks": [
+            "Study how Spotify uses greedy algorithms for automated playlist generation and music sequencing.",
+            "Analyze real-time recommendation systems and how greedy heuristics balance exploration vs exploitation.",
+            "Research collaborative filtering optimization and how greedy approaches scale to hundreds of millions of users.",
+            "Implement a mini music recommendation system using greedy algorithms from your resource optimization engine."
+          ],
+          "deliverable": "Technical analysis of Spotify's recommendation architecture with working prototype of greedy-based music recommendation system."
+        }
+      }
+    }
+  }
+}
